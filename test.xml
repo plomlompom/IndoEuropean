@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl" ?>
+<grammar_tables>
+    <grammar_table id="communis_opinio" title="original ending particles (communis opinio)">
+        <description>Tentative portrayal of the communis opinio about original particles that combined to PIE endings proper, not yet transformed by specific sound environments, not yet displaced by pronoun endings. Theories about earlier stages, more precise definitions, and a few outliers not integrated into the table are given in footnotes.</description>
+        <categories>
+            <case_def id="nominative+vocative+accusative" title="direct cases" short_title="N+V+A">
+                <case_def id="nominative+vocative" title="nominative and vocative" short_title="N+V">
+                    <case_def id="nominative" title="nominative" short_title="N" />
+                    <case_def id="vocative" title="vocative" short_title="V" />
+                </case_def>
+                <case_def id="accusative" title="accusative" short_title="A"/>
+            </case_def>
+            <case_def id="locative" title="locative" short_title="L" />
+            <case_def id="dative+ablative" title="dative and ablative" short_title="D+Ab"/>
+            <case_def id="dative" title="dative" short_title="D"/>
+            <case_def id="genitive" title="genitive" short_title="G"/>
+            <case_def id="genitive+ablative" title="genitive and ablative" short_title="G+Ab"/>
+            <case_def id="instrumental" title="instrumental" short_title="I"/>
+            <declension_def id="singular" title="singular" short_title="sg.">
+                <declension_def id="singular-animate" title="singular animate" short_title="mf" />
+                <declension_def id="singular-inanimate" title="singular inanimate" short_title="n" />
+            </declension_def>
+            <declension_def id="dual" title="dual" short_title="du.">
+                <declension_def id="dual-animate" title="dual animate" short_title="mf" />
+                <declension_def id="dual-inanimate" title="dual inanimate" short_title="n" />
+            </declension_def>
+            <declension_def id="plural" title="plural" short_title="pl.">
+                <declension_def id="plural-animate" title="plural animate" short_title="mf" />
+                <declension_def id="plural-inanimate" title="plural inanimate" short_title="n" />
+            </declension_def>
+        </categories>
+        <paradigm declension="singular-animate" case="nominative">
+            <form>-?(s)</form>
+            <footnote>commonly assumed to be one original -s dissolved in some sound environments by Szemerényi's Law, but Beekes' explanation differs radically; <source book="Ringe2006" /> p.41,42; <source book="MeierBrugger2010" /> p.330,331; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.115,116; <source book="Beekes2011" /> p.186,214-216 assumes an earlier ergative-absolutive case system, with the absolutive endingless, and the ergative in -s, related to the later genitive form; <source book="Szemerenyi1990" /> p.121,122,169</footnote>
+        </paradigm>
+        <paradigm declension="singular-animate" case="vocative">
+            <form>-Ø</form>
+            <footnote><source book="Ringe2006" /> p.41,42; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.116; <source book="Beekes2011" /> p.186; <source book="Szemerenyi1990" /> p.169</footnote>
+        </paradigm>
+        <paradigm declension="singular-animate" case="accusative">
+            <form>-m</form>
+            <footnote><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330,331; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.115; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169</footnote>
+        </paradigm>
+        <paradigm declension="singular-inanimate" case="nominative+vocative+accusative">
+            <form>-Ø</form>
+            <footnote><source book="Ringe2006" /> p.41,42; <source book="MeierBrugger2010" /> p.335; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.115; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169</footnote>
+        </paradigm>
+        <paradigm declension="singular" case="locative">
+            <form>-?(i)</form>
+            <footnote>probably two separate endings, one with an -i that may have been a zero-grade of a common form with the dative, one a specific "endingless locative"; <source book="Ringe2006" /> p.41,42 assumes -Ø to which the "hic et nunc" particle -i- was added (no mention of common form with dative); <source book="MeierBrugger2010" /> p.330,331 hints at a possible common form with dative at an extremely early stage; <source book="Sihler1995" /> p.248,253 also hints at a possible early common form with the dative; <source book="Fortson2010" /> p.115,116; <source book="Beekes2011" /> p.186,187 verbalizes the idea of a common form with the dative most radically; <source book="Szemerenyi1990" /> p.169 only has -i</footnote>
+        </paradigm>
+        <paradigm declension="singular" case="dative">
+            <form>-ei</form>
+            <footnote>possibly a common form with the singular locative's -i at an extremely early stage, see its discussion for more; <source book="Ringe2006" /> p.41,43; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,251 has -(e|o|a)i, <source book="Sihler1995" /> p.253 hints at this dative originally being unmarked for number; <source book="Fortson2010" /> p.115,116; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169</footnote>
+        </paradigm>
+        <paradigm declension="singular" case="genitive+ablative">
+            <form>-(e|o)s</form>
+            <footnote><source book="Ringe2006" /> p.41-43 has -?(e|o)s and "extensive ablaut alternations"; <source book="MeierBrugger2010" /> p.330,331 counts -os variant as un-accented; <source book="Sihler1995" /> p.248,250,251 also has -s "rarely"; <source book="Fortson2010" /> p.115,116 has only -es; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169 has -?(e|o)s</footnote>
+        </paradigm>
+        <paradigm declension="singular" case="instrumental">
+            <form>-?(e)h₁</form>
+            <footnote><source book="Ringe2006" /> p.41,43; <source book="MeierBrugger2010" /> p.330,331; <source book="Sihler1995" /> p.248,252 also has -bʰis; F115,116; <source book="Beekes2011" /> p.186,187 has -eh₁ except for i- and u-stems, there -h₁; <source book="Szemerenyi1990" /> p.169 has -(e|o) (commonly keeping his laryngeals scarce) and -(bʰ|m)i</footnote>
+        </paradigm>
+        <paradigm declension="dual-animate" case="nominative+vocative+accusative">
+            <form>-h₁?(e)</form>
+            <footnote><source book="Ringe2006" /> p.41 has -h₁e; <source book="MeierBrugger2010" /> p.330 indicates -h₁ for the nominative only; <source book="Sihler1995" /> p.255,256 derives -e, -h₁ or -h₁e, favoring the last two; F117; <source book="Beekes2011" /> p.216,217 derives -h₁e; <source book="Szemerenyi1990" /> p.169 (skeptical against laryngeals) has -e, -i or -ī</footnote>
+        </paradigm>
+        <paradigm declension="dual-inanimate" case="nominative+vocative+accusative">
+            <form>-ih₁</form>
+            <footnote><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" />: no indication; <source book="Sihler1995" />: no indication; <source book="Fortson2010" /> p.117; <source book="Beekes2011" /> p.216,217; <source book="Szemerenyi1990" /> p.169 has -i or -ī</footnote>
+        </paradigm>
+        <paradigm declension="plural-animate" case="nominative+vocative">
+            <form>-es</form>
+            <footnote><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,254; <source book="Fortson2010" /> p.117; <source book="Beekes2011" /> p.186,188; <source book="Szemerenyi1990" /> p.168,169</footnote>
+        </paradigm>
+        <paradigm declension="plural-animate" case="accusative">
+            <form>-ns</form>
+            <footnote>agreed to be result of an accusative marker -m plus a plural marker -s; <source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,254 has PIE -ms becoming -ns "in attested languages"; <source book="Fortson2010" /> p.117; <source book="Beekes2011" /> p.186,188; <source book="Szemerenyi1990" /> p.169</footnote>
+        </paradigm>
+        <paradigm declension="plural-inanimate" case="nominative+vocative+accusative">
+            <form>-?(h₂)</form>
+            <footnote><source book="Ringe2006" /> p.41,42,44; <source book="MeierBrugger2010" /> p.335,336 sees -h₂- as suffix for collectives as the proper form for pluralities of non-agents (in contrast to distributive plurals for potential agents), to which the singular neuter's (non-)ending -Ø might have been (non-)added; <source book="Sihler1995" /> p.248,254 has -h₂; <source book="Fortson2010" /> p.118,131,132 also has the ending as derived from the collective suffix; <source book="Beekes2011" /> p.186,188 has -h₂ with the collective explanation, in parallel with an ending -Ø; <source book="Szemerenyi1990" /> p.169 (with some skepticism against laryngeals) has -ā or -ə</footnote>
+        </paradigm>
+        <paradigm declension="plural" case="locative">
+            <form>-su</form>
+            <footnote><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,253; <source book="Fortson2010" /> p.117,118; <source book="Beekes2011" /> p.186,189; <source book="Szemerenyi1990" /> p.169</footnote>
+        </paradigm>
+        <paradigm declension="plural" case="dative+ablative">
+            <form>-(bʰ?(i̯)|m)os</form>
+            <footnote><source book="Ringe2006" /> p.41 has -mos; <source book="MeierBrugger2010" /> p.330,332 has -mos; <source book="Sihler1995" /> p.248 has -(m|bʰ)os; <source book="Fortson2010" /> p.117-119 has -bʰ?(i̯)os and a PIE-late development of -(bʰ|m)-endings from adpositions or adverbs related to English "by" and German "mit"; <source book="Beekes2011" /> p.186,188,189 has -mus for the dative plural and speculates about -ios for the ablative plural, which may have merged with the instrumental's -bʰ- to a common -(bʰ?(i̯)|m)os; <source book="Szemerenyi1990" /> p.169 has -(bʰ?(i)|m)os</footnote>
+        </paradigm>
+        <paradigm declension="plural" case="genitive">
+            <form>-?(?(o)H)om</form>
+            <footnote><source book="Ringe2006" /> p.41 has -oHom; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248 indicates -?(o|ō)m; <source book="Fortson2010" /> p.117,118,129; <source book="Beekes2011" /> p.186,188 derives -om; <source book="Szemerenyi1990" /> p.169 has -om</footnote>
+        </paradigm>
+        <paradigm declension="plural" case="instrumental">
+            <form>-(bʰ|m)i?(s)</form>
+            <footnote><source book="Ringe2006" /> p.41 has -bʰi; <source book="MeierBrugger2010" /> p.330,332 has -bʰi; <source book="Sihler1995" /> p.248 has -(bʰ|m)is; <source book="Fortson2010" /> p.117-119 has -bʰi- and a PIE-late development of -(bʰ|m)-endings from adpositions or adverbs related to English "by" and German "mit"; <source book="Beekes2011" /> p.186,187,189 has -bʰi and a relation to a particle related to English "by"; <source book="Szemerenyi1990" /> p.169 has -(bʰ|m)is and (thematic?) -ōis</footnote>
+        </paradigm>
+    </grammar_table>
+    <grammar_table id="inflection_types" title="accent and ablaut classes (Beekes)">
+        <description>Accent and ablaut classes as calculated in <source book="Beekes2011" />. Note that this is the second edition of the often-quoted <source book="Beekes1995" /> p.175, in which the numbering of the hysterodynamic types is different: <source book="Beekes1995" /> type 1 is <source book="Beekes2011" /> type 4, and vice versa.</description>
+        <categories>
+            <declension_def id="st" title="static" short_title="S" />
+            <declension_def id="pd" title="proterodynamic" short_title="PD" />
+            <declension_def id="hd1+2+3" title="hysterodynamic (types 1, 2, 4)" short_title="HD 1+2+4">
+                <declension_def id="hd1" title="hysterodynamic (type 1)" short_title="1" />
+                <declension_def id="hd2" title="hysterodynamic (type 2)" short_title="2" />
+                <declension_def id="hd4" title="hysterodynamic (type 4)" short_title="4" />
+            </declension_def>
+            <declension_def id="hd3" title="hysterodynamic (type 3)" short_title="HD 3" />
+            <case_def id="nominative" title="nominative" short_title="N" />
+            <case_def id="accusative" title="accusative" short_title="A" />
+            <case_def id="genitive" title="genitive" short_title="G" />
+        </categories>
+        <paradigm declension="st" case="nominative">
+            <form>CéC-R-Ø</form>
+            <footnote><source book="Beekes2011" /> p.191</footnote>
+        </paradigm>
+        <paradigm declension="st" case="accusative">
+            <form>CéC-R-?(m)</form>
+            <footnote><source book="Beekes2011" /> p.191</footnote>
+        </paradigm>
+        <paradigm declension="st" case="genitive">
+            <form>CéC-R-s</form>
+            <footnote><source book="Beekes2011" /> p.191</footnote>
+        </paradigm>
+        <paradigm declension="pd" case="nominative">
+            <form>CéC-R-?(s)</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="pd" case="accusative">
+            <form>CéC-R-?(m)</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="pd" case="genitive">
+            <form>CC-(é|ó)R-s</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd1" case="nominative">
+            <form>CéC-R-Ø</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd2" case="nominative">
+            <form>CéC-ōR-Ø</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd4" case="nominative">
+            <form>CC-é̄R-Ø</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd1+2+3" case="accusative">
+            <form>CC-éR-m</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd1+2+3" case="genitive">
+            <form>CC-R-ós</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd3" case="nominative">
+            <form>C?(e|é)C-(ō̂|ō)R-Ø</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd3" case="accusative">
+            <form>C?(e|é)C-(ó|o)R-m</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd3" case="genitive">
+            <form>C?(e)C-R-ós</form>
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+    </grammar_table>
+    <grammar_table id="beekes" title="original ending particles (Beekes)">
+        <description>Early-PIE ending particles as read into <source book="Beekes2011" />.</description>
+        <categories>
+            <declension_def id="singular" title="singular" short_title="sg." />
+            <declension_def id="plural" title="plural" short_title="pl." />
+            <case_def id="ergative+genitive" title="ergative and genitive" short_title="E+G" />
+            <case_def id="absolutive+locative" title="absolute and locative" short_title="Abs+L" />
+            <case_def id="dative+locative" title="dative and locative " short_title="D+L" />
+            <case_def id="dative" title="dative" short_title="D" />
+            <case_def id="ablative" title="ablative" short_title="Abl" />
+            <case_def id="instrumental" title="instrumental" short_title="I" />
+        </categories>
+        <paradigm declension="singular" case="ergative+genitive">
+            <form>-os</form>
+            <footnote><source book="Beekes2011" /> p.186,187,214-216</footnote>
+        </paradigm>
+        <paradigm declension="singular" case="absolutive+locative">
+            <form>-Ø</form>
+            <footnote><source book="Beekes2011" /> p.186,187,214-216</footnote>
+        </paradigm>
+        <paradigm declension="singular" case="dative+locative">
+            <form>-ei</form>
+            <footnote><source book="Beekes2011" /> p.186,187</footnote>
+        </paradigm>
+        <paradigm declension="plural" case="dative">
+            <form>-mus</form>
+            <footnote><source book="Beekes2011" /> p.186,188</footnote>
+        </paradigm>
+        <paradigm declension="plural" case="ablative">
+            <form>-ios</form>
+            <footnote><source book="Beekes2011" /> p.186,189</footnote>
+        </paradigm>
+        <paradigm declension="plural" case="instrumental">
+            <form>-bʰi</form>
+            <footnote><source book="Beekes2011" /> p.186,187,189</footnote>
+        </paradigm>
+    </grammar_table>
+    <bibliography>
+        <book id="Beekes1995" title="Beekes 1995">Beekes, Robert S. P.: Comparative Indo-European Linguistics: an Introduction. John Benjamins 1995.</book>
+        <book id="Beekes2011" title="Beekes 2011">Beekes, Robert S. P.: Comparative Indo-European Linguistics: an Introduction. Second Edition. John Benjamins 2011.</book>
+        <book id="Fortson2010" title="Fortson 2010">Fortson, Benjamin W.: Indo-European Language and Culture: an Introduction. Second Edition. Blackwell 2010.</book>
+        <book id="MeierBrugger2010" title="Meier-Brügger 2010">Meier-Brügger, Michael: Indogermanische Sprachwissenschaft. 9. durchgesehene und ergänzte Auflage. De Gruyter 2010.</book>
+        <book id="Ringe2006" title="Ringe 2006">Ringe, Don: From Proto-Indo-European to Proto-Germanic. Oxford University Press 2006.</book>
+        <book id="Sihler1995" title="Sihler 1995">Sihler, Andrew L.: New Comparative Grammar of Greek and Latin. Oxford University Press 1995.</book>
+        <book id="Szemerenyi1990" title="Szemerényi 1990">Szemerényi, Oswald: Einführung in die vergleichende Sprachwissenschaft. 4., durchgesehene Auflage. Wissenschaftliche Buchgesellschaft 1990.</book>
+    </bibliography>
+</grammar_tables>
