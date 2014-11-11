@@ -163,6 +163,43 @@
             <footnote><source book="Beekes2011" /> p.190</footnote>
         </paradigm>
     </grammar_table>
+    <grammar_table id="inflection_types_Kloekhorst" title="original accent and ablaut classes (Kloekhorst)">
+        <description>Original accent and ablaut classes as reconstructed by <source book="Kloekhorst2013" /> p.125.</description>
+        <categories>
+            <declension_def id="static" title="static" short_title="static" />
+            <declension_def id="mobile" title="mobile" short_title="mobile">
+                <declension_def id="neuter" title="neuter" short_title="neuter" />
+                <declension_def id="non-neuter" title="non-neuter" short_title="non-neuter" />
+            </declension_def>
+            <case_def id="all" title="all cases" short_title="all">
+                <case_def id="nominative" title="nominative singular" short_title="N" />
+                <case_def id="accusative" title="accusative singular" short_title="A" />
+                <case_def id="locative" title="locative singular" short_title="L" />
+                <case_def id="genitive" title="genitive singular" short_title="G" />
+            </case_def>
+        </categories>
+        <paradigm declension="static" case="all">
+            <form>é-Ø-Ø</form>
+        </paradigm>
+        <paradigm declension="mobile" case="nominative">
+            <form>é-Ø-Ø</form>
+        </paradigm>
+        <paradigm declension="neuter" case="accusative">
+            <form>é-Ø-Ø</form>
+        </paradigm>
+        <paradigm declension="non-neuter" case="accusative">
+            <form>Ø-é-Ø</form>
+        </paradigm>
+        <paradigm declension="mobile" case="locative">
+            <form>Ø-é-Ø</form>
+        </paradigm>
+        <paradigm declension="neuter" case="genitive">
+            <form>Ø-é-Ø</form>
+        </paradigm>
+        <paradigm declension="non-neuter" case="genitive">
+            <form>Ø-Ø-é</form>
+        </paradigm>
+    </grammar_table>
     <grammar_table id="beekes" title="original ending particles (Beekes)">
         <description>Early-PIE ending particles as read into <source book="Beekes2011" />.</description>
         <categories>
@@ -204,6 +241,7 @@
         <book id="Beekes1995" title="Beekes 1995">Beekes, Robert S. P.: Comparative Indo-European Linguistics: an Introduction. John Benjamins 1995.</book>
         <book id="Beekes2011" title="Beekes 2011">Beekes, Robert S. P.: Comparative Indo-European Linguistics: an Introduction. Second Edition. John Benjamins 2011.</book>
         <book id="Fortson2010" title="Fortson 2010">Fortson, Benjamin W.: Indo-European Language and Culture: an Introduction. Second Edition. Blackwell 2010.</book>
+        <book id="Kloekhorst2013" title="Kloekhorst 2013">Kloekhorst, Alwin: Indo-European nominal ablaut patterns: The Anatolian Evidence. In: Götz Keydana, Paul Widmer, Thomas Olander (editors): Indo-European Accent and Ablaut. Copenhagen Studies in Indo-European, Vol. 5. Museum Tusculanum 2013.</book>
         <book id="MeierBrugger2010" title="Meier-Brügger 2010">Meier-Brügger, Michael: Indogermanische Sprachwissenschaft. 9. durchgesehene und ergänzte Auflage. De Gruyter 2010.</book>
         <book id="Ringe2006" title="Ringe 2006">Ringe, Don: From Proto-Indo-European to Proto-Germanic. Oxford University Press 2006.</book>
         <book id="Sihler1995" title="Sihler 1995">Sihler, Andrew L.: New Comparative Grammar of Greek and Latin. Oxford University Press 1995.</book>
