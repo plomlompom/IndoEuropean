@@ -20,6 +20,8 @@
             .form_family12 { background-color: #c6c6c6}
             .form_family13 { background-color: #e3c467}
             .form_family14 { background-color: #ff4800}
+            td:target { background-color: green; border: 3px solid red; }
+            td:target ~ td { background-color: green; border: 3px solid red; }
             </style>
             <xsl:apply-templates select="grammar_table"/>
             <h1>Bibliography</h1>
@@ -42,40 +44,40 @@
     <!-- grammar_table: rows of declension headers, then case-paradigm rows -->
     <xsl:template match="/grammar_tables/grammar_table" mode="table">
         <xsl:variable name="case_defs_depth">
-            <xsl:apply-templates select="categories" mode="defs_depth">
+            <xsl:apply-templates select="." mode="defs_depth">
                 <xsl:with-param name="name" select="'case_def'" />
             </xsl:apply-templates>
         </xsl:variable>
         <xsl:variable name="declension_defs_depth">
-            <xsl:apply-templates select="categories" mode="defs_depth">
+            <xsl:apply-templates select="." mode="defs_depth">
                 <xsl:with-param name="name" select="'declension_def'" />
             </xsl:apply-templates>
         </xsl:variable>
         <table border="1" style="empty-cells: hide;">
-            <xsl:apply-templates select="categories" mode="declension_headers">
+            <xsl:apply-templates select="." mode="declension_headers">
                 <xsl:with-param name="depth" select="0" />
                 <xsl:with-param name="max_depth" select="$declension_defs_depth" />
                 <xsl:with-param name="indent_depth" select="$case_defs_depth" />
             </xsl:apply-templates>
-            <xsl:apply-templates select="categories//case_def[not(parent::case_def) or position() > 1]">
+            <xsl:apply-templates select=".//case_def[not(parent::case_def) or position() > 1]">
                 <xsl:with-param name="case_defs_depth" select="$case_defs_depth" />
             </xsl:apply-templates>
         </table>
     </xsl:template>
 
-    <!-- depth of tree of def elements of $name below categories/ -->
-    <xsl:template match="/grammar_tables/grammar_table/categories" mode="defs_depth">
+    <!-- depth of tree of def elements of $name below grammar_table/ -->
+    <xsl:template match="/grammar_tables/grammar_table" mode="defs_depth">
         <xsl:param name="name" />
         <xsl:for-each select=".//*[name()=$name]">
             <xsl:sort select="count(ancestor::*)" order="descending"/>
             <xsl:if test="position()=1">
-                <xsl:value-of select="count(ancestor::*) - count(ancestor::categories/ancestor::*)" />
+                <xsl:value-of select="count(ancestor::*) - count(ancestor::grammar_table/ancestor::*)" />
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
 
     <!-- grammar_table's declension header row (recursively calls itself growing $depth towards $max_depth) -->
-    <xsl:template match="/grammar_tables/grammar_table/categories" mode="declension_headers">
+    <xsl:template match="/grammar_tables/grammar_table" mode="declension_headers">
         <xsl:param name="depth" />
         <xsl:param name="max_depth" />
         <xsl:param name="indent_depth" />
@@ -101,7 +103,7 @@
     </xsl:template>
 
     <!-- grammar_table's declension header row's individual declension_def cell (rowspan of $depth if no children else 1, colspan of descendant end nodes) -->
-    <xsl:template match="/grammar_tables/grammar_table/categories//declension_def">
+    <xsl:template match="/grammar_tables/grammar_table//declension_def">
         <xsl:param name="depth" />
         <th style="overflow:hidden;">
             <xsl:attribute name="colspan">
@@ -120,7 +122,7 @@
     </xsl:template>
 
     <!-- grammar_table's case-paradigms row: case_def cells, followed by paradigms sorted by declension -->
-    <xsl:template match="/grammar_tables/grammar_table/categories//case_def">
+    <xsl:template match="/grammar_tables/grammar_table//case_def">
         <xsl:param name="case_defs_depth" />
         <xsl:variable name="case" select="@id" />
         <tr>
@@ -132,7 +134,7 @@
     </xsl:template>
 
     <!-- grammar_table's case-paradigms row's case_def cell, followed by its first-position child (colspan of 1 if parent, else of $max_depth minus number of case_def ancestors) -->
-    <xsl:template match="/grammar_tables/grammar_table/categories//case_def" mode="row_case_headers">
+    <xsl:template match="/grammar_tables/grammar_table//case_def" mode="row_case_headers">
         <xsl:param name="max_depth" />
         <th style="overflow:hidden;">
             <xsl:attribute name="rowspan">
@@ -161,9 +163,9 @@
     </xsl:template>
 
     <!-- grammar_table's case-paradigms row's paradigms -->
-    <xsl:template match="/grammar_tables/grammar_table/categories//case_def" mode="paradigms_for_case">
+    <xsl:template match="/grammar_tables/grammar_table//case_def" mode="paradigms_for_case">
         <xsl:variable name="case" select="@id" />
-        <xsl:for-each select="ancestor::categories/declension_def">
+        <xsl:for-each select="ancestor::grammar_table/declension_def">
             <xsl:apply-templates select="ancestor::grammar_table" mode="try_cell_building">
                 <xsl:with-param name="case" select="$case" />
                 <xsl:with-param name="declension" select="@id" />
@@ -176,7 +178,7 @@
         <xsl:param name="case" />
         <xsl:param name="declension" />
         <xsl:variable name="case_select">
-            <xsl:apply-templates select="categories//case_def[@id=$case]" mode="select_case">
+            <xsl:apply-templates select=".//case_def[@id=$case]" mode="select_case">
                 <xsl:with-param name="declension" select="$declension" />
             </xsl:apply-templates>
         </xsl:variable>
@@ -197,7 +199,7 @@
     </xsl:template>
 
     <!-- grammar_table's case_def matched by grammar_table's paradigm of $declension either directly or via a case_def in its 1st-children line -->
-    <xsl:template match="/grammar_tables/grammar_table/categories//case_def" mode="select_case">
+    <xsl:template match="/grammar_tables/grammar_table//case_def" mode="select_case">
         <xsl:param name="declension" />
         <xsl:variable name="case" select="@id" />
         <xsl:choose>
@@ -217,7 +219,7 @@
         <xsl:param name="case" />
         <xsl:param name="declension" />
         <xsl:variable name="cell_prefilled">
-            <xsl:for-each select="categories//case_def[@id=$case]/ancestor::case_def">
+            <xsl:for-each select=".//case_def[@id=$case]/ancestor::case_def">
                 <xsl:variable name="test_case" select="@id" />
                 <xsl:if test="ancestor::grammar_table/paradigm[@declension=$declension and @case=$test_case]">
                     1
@@ -226,8 +228,8 @@
         </xsl:variable>
         <xsl:choose>
             <xsl:when test="contains($cell_prefilled, '1')" />
-            <xsl:when test="categories//declension_def[@id=$declension]//declension_def">
-                <xsl:for-each select="categories//declension_def[@id=$declension]/declension_def">
+            <xsl:when test=".//declension_def[@id=$declension]//declension_def">
+                <xsl:for-each select=".//declension_def[@id=$declension]/declension_def">
                     <xsl:apply-templates select="ancestor::grammar_table" mode="try_cell_building">
                         <xsl:with-param name="case" select="$case" />
                         <xsl:with-param name="declension" select="@id" />
@@ -235,7 +237,7 @@
                 </xsl:for-each>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:apply-templates select="categories" mode="empty_cell">
+                <xsl:apply-templates select="." mode="empty_cell">
                     <xsl:with-param name="declension_def" mode="$declension" />
                 </xsl:apply-templates>
             </xsl:otherwise>
@@ -259,10 +261,10 @@
                 <xsl:value-of select="count(form[$form_id=@id]/preceding-sibling::form)" />
             </xsl:attribute>
             <xsl:attribute name="rowspan">
-                <xsl:value-of select="count(categories//case_def[@id=$case]/descendant-or-self::case_def[not(case_def)])"/>
+                <xsl:value-of select="count(.//case_def[@id=$case]/descendant-or-self::case_def[not(case_def)])"/>
             </xsl:attribute>
             <xsl:attribute name="colspan">
-                <xsl:value-of select="count(categories//declension_def[@id=$declension]//descendant-or-self::declension_def[not(declension_def)])"/>
+                <xsl:value-of select="count(.//declension_def[@id=$declension]//descendant-or-self::declension_def[not(declension_def)])"/>
             </xsl:attribute>
             <xsl:attribute name="id">
                 <xsl:value-of select="$linkname" />
@@ -277,14 +279,14 @@
         </td>
     </xsl:template>
 
-    <!-- empty cell of colspan of end nodes below $declension_def in categories/ if non-empty, else 1 -->
-    <xsl:template match="/grammar_tables/grammar_table/categories" mode="empty_cell">
+    <!-- empty cell of colspan of end nodes below $declension_def in grammar_table/ if non-empty, else 1 -->
+    <xsl:template match="/grammar_tables/grammar_table" mode="empty_cell">
         <xsl:param name="declension_def" />
         <td>
             <xsl:attribute name="colspan">
                 <xsl:choose>
                     <xsl:when test="$declension_def">
-                        <xsl:value-of select="count(categories//declension_def[@id=$declension_def]/descendant-or-self::declension_def[not(declension_def)])"/>
+                        <xsl:value-of select="count(.//declension_def[@id=$declension_def]/descendant-or-self::declension_def[not(declension_def)])"/>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:text>1</xsl:text>
@@ -330,9 +332,9 @@
         <xsl:variable name="declension" select="@declension" />
         <xsl:variable name="case" select="@case" />
         <strong>
-            <xsl:value-of select="ancestor::grammar_table/categories//declension_def[$declension=@id]/@title" />
+            <xsl:value-of select="ancestor::grammar_table//declension_def[$declension=@id]/@title" />
             <xsl:text> </xsl:text>
-            <xsl:value-of select="ancestor::grammar_table/categories//case_def[$case=@id]/@title" />
+            <xsl:value-of select="ancestor::grammar_table//case_def[$case=@id]/@title" />
         </strong>
     </xsl:template>
 

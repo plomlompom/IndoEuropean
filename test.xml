@@ -3,32 +3,30 @@
 <grammar_tables>
     <grammar_table id="communis_opinio" title="original ending particles (communis opinio)">
         <description>Tentative portrayal of the communis opinio about original particles that combined to PIE endings proper, not yet transformed by specific sound environments, not yet displaced by pronoun endings. Theories about earlier stages, more precise definitions, and a few outliers not integrated into the table are given in footnotes.</description>
-        <categories>
-            <case_def id="nominative+vocative+accusative" title="direct cases" short_title="N+V+A">
-                <case_def id="nominative+vocative" title="nominative and vocative" short_title="N+V">
-                    <case_def id="nominative" title="nominative" short_title="N" />
-                    <case_def id="vocative" title="vocative" short_title="V" />
-                </case_def>
-                <case_def id="accusative" title="accusative" short_title="A"/>
+        <case_def id="nominative+vocative+accusative" title="direct cases" short_title="N+V+A">
+            <case_def id="nominative+vocative" title="nominative and vocative" short_title="N+V">
+                <case_def id="nominative" title="nominative" short_title="N" />
+                <case_def id="vocative" title="vocative" short_title="V" />
             </case_def>
-            <case_def id="locative" title="locative" short_title="L" />
-            <case_def id="dative" title="dative" short_title="D"/>
-            <case_def id="ablative" title="ablative" short_title="Ab"/>
-            <case_def id="genitive" title="genitive" short_title="G"/>
-            <case_def id="instrumental" title="instrumental" short_title="I"/>
-            <declension_def id="singular" title="singular" short_title="sg.">
-                <declension_def id="singular-animate" title="singular animate" short_title="mf" />
-                <declension_def id="singular-inanimate" title="singular inanimate" short_title="n" />
-            </declension_def>
-            <declension_def id="dual" title="dual" short_title="du.">
-                <declension_def id="dual-animate" title="dual animate" short_title="mf" />
-                <declension_def id="dual-inanimate" title="dual inanimate" short_title="n" />
-            </declension_def>
-            <declension_def id="plural" title="plural" short_title="pl.">
-                <declension_def id="plural-animate" title="plural animate" short_title="mf" />
-                <declension_def id="plural-inanimate" title="plural inanimate" short_title="n" />
-            </declension_def>
-        </categories>
+            <case_def id="accusative" title="accusative" short_title="A"/>
+        </case_def>
+        <case_def id="locative" title="locative" short_title="L" />
+        <case_def id="dative" title="dative" short_title="D"/>
+        <case_def id="ablative" title="ablative" short_title="Ab"/>
+        <case_def id="genitive" title="genitive" short_title="G"/>
+        <case_def id="instrumental" title="instrumental" short_title="I"/>
+        <declension_def id="singular" title="singular" short_title="sg.">
+            <declension_def id="singular-animate" title="singular animate" short_title="mf" />
+            <declension_def id="singular-inanimate" title="singular inanimate" short_title="n" />
+        </declension_def>
+        <declension_def id="dual" title="dual" short_title="du.">
+            <declension_def id="dual-animate" title="dual animate" short_title="mf" />
+            <declension_def id="dual-inanimate" title="dual inanimate" short_title="n" />
+        </declension_def>
+        <declension_def id="plural" title="plural" short_title="pl.">
+            <declension_def id="plural-animate" title="plural animate" short_title="mf" />
+            <declension_def id="plural-inanimate" title="plural inanimate" short_title="n" />
+        </declension_def>
         <form id="-?(s)">-?(s)</form>
         <form id="-Ø">-Ø</form>
         <form id="-m">-m</form>
@@ -105,23 +103,21 @@
     </grammar_table>
     <grammar_table id="inflection_types_Beekes" title="accent and ablaut classes (Beekes)">
         <description>Accent and ablaut classes as calculated in <source book="Beekes2011" />. Note that this is the second edition of the often-quoted <source book="Beekes1995" /> p.175, in which the numbering of the hysterodynamic types is different: <source book="Beekes1995" /> type 1 is <source book="Beekes2011" /> type 4, and vice versa.</description>
-        <categories>
-            <declension_def id="st" title="static" short_title="S" />
-            <declension_def id="pd" title="proterodynamic" short_title="PD" />
-            <declension_def id="hd1+2+3" title="hysterodynamic (types 1, 2, 4)" short_title="HD 1+2+4">
-                <declension_def id="hd1" title="hysterodynamic (type 1)" short_title="1" />
-                <declension_def id="hd2" title="hysterodynamic (type 2)" short_title="2" />
-                <declension_def id="hd4" title="hysterodynamic (type 4)" short_title="4" />
-            </declension_def>
-            <declension_def id="hd3" title="hysterodynamic (type 3)" short_title="HD 3" />
-            <case_def id="all" title="all cases" short_title="N+A+G">
-                <case_def id="direct" title="direct cases" short_title="N+A">
-                    <case_def id="nominative" title="nominative" short_title="N" />
-                    <case_def id="accusative" title="accusative" short_title="A" />
-                </case_def>
-            <case_def id="genitive" title="genitive" short_title="G" />
+        <declension_def id="st" title="static" short_title="S" />
+        <declension_def id="pd" title="proterodynamic" short_title="PD" />
+        <declension_def id="hd1+2+3" title="hysterodynamic (types 1, 2, 4)" short_title="HD 1+2+4">
+            <declension_def id="hd1" title="hysterodynamic (type 1)" short_title="1" />
+            <declension_def id="hd2" title="hysterodynamic (type 2)" short_title="2" />
+            <declension_def id="hd4" title="hysterodynamic (type 4)" short_title="4" />
+        </declension_def>
+        <declension_def id="hd3" title="hysterodynamic (type 3)" short_title="HD 3" />
+        <case_def id="all" title="all cases" short_title="N+A+G">
+            <case_def id="direct" title="direct cases" short_title="N+A">
+                <case_def id="nominative" title="nominative" short_title="N" />
+                <case_def id="accusative" title="accusative" short_title="A" />
             </case_def>
-        </categories>
+        <case_def id="genitive" title="genitive" short_title="G" />
+        </case_def>
         <form id="e00">é-Ø-Ø</form>
         <form id="0eo0">Ø-(é|ó)-Ø</form>
         <form id="eo:0">é-ō-Ø</form>
@@ -167,19 +163,17 @@
     </grammar_table>
     <grammar_table id="inflection_types_Kloekhorst" title="original accent and ablaut classes (Kloekhorst)">
         <description>Original accent and ablaut classes as reconstructed by <source book="Kloekhorst2013" /> p.125.</description>
-        <categories>
-            <declension_def id="static" title="static" short_title="static" />
-            <declension_def id="mobile" title="mobile" short_title="mobile">
-                <declension_def id="neuter" title="neuter" short_title="neuter" />
-                <declension_def id="non-neuter" title="non-neuter" short_title="non-neuter" />
-            </declension_def>
-            <case_def id="all" title="all cases" short_title="all">
-                <case_def id="nominative" title="nominative singular" short_title="N" />
-                <case_def id="accusative" title="accusative singular" short_title="A" />
-                <case_def id="locative" title="locative singular" short_title="L" />
-                <case_def id="genitive" title="genitive singular" short_title="G" />
-            </case_def>
-        </categories>
+        <declension_def id="static" title="static" short_title="static" />
+        <declension_def id="mobile" title="mobile" short_title="mobile">
+            <declension_def id="neuter" title="neuter" short_title="neuter" />
+            <declension_def id="non-neuter" title="non-neuter" short_title="non-neuter" />
+        </declension_def>
+        <case_def id="all" title="all cases" short_title="all">
+            <case_def id="nominative" title="nominative singular" short_title="N" />
+            <case_def id="accusative" title="accusative singular" short_title="A" />
+            <case_def id="locative" title="locative singular" short_title="L" />
+            <case_def id="genitive" title="genitive singular" short_title="G" />
+        </case_def>
         <form id="e00">é-Ø-Ø</form>
         <form id="0e0">Ø-é-Ø</form>
         <form id="00e">Ø-Ø-é</form>
@@ -207,16 +201,14 @@
     </grammar_table>
     <grammar_table id="beekes" title="original ending particles (Beekes)">
         <description>Early-PIE ending particles as read into <source book="Beekes2011" />.</description>
-        <categories>
-            <declension_def id="singular" title="singular" short_title="sg." />
-            <declension_def id="plural" title="plural" short_title="pl." />
-            <case_def id="ergative+genitive" title="ergative and genitive" short_title="E+G" />
-            <case_def id="absolutive+locative" title="absolute and locative" short_title="Abs+L" />
-            <case_def id="dative+locative" title="dative and locative " short_title="D+L" />
-            <case_def id="dative" title="dative" short_title="D" />
-            <case_def id="ablative" title="ablative" short_title="Abl" />
-            <case_def id="instrumental" title="instrumental" short_title="I" />
-        </categories>
+        <declension_def id="singular" title="singular" short_title="sg." />
+        <declension_def id="plural" title="plural" short_title="pl." />
+        <case_def id="ergative+genitive" title="ergative and genitive" short_title="E+G" />
+        <case_def id="absolutive+locative" title="absolute and locative" short_title="Abs+L" />
+        <case_def id="dative+locative" title="dative and locative " short_title="D+L" />
+        <case_def id="dative" title="dative" short_title="D" />
+        <case_def id="ablative" title="ablative" short_title="Abl" />
+        <case_def id="instrumental" title="instrumental" short_title="I" />
         <form id="os">-os</form>
         <form id="0">-Ø</form>
         <form id="ei">-ei</form>
