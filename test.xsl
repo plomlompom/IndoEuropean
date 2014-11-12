@@ -4,6 +4,23 @@
     <!-- all grammar_tables, and bibliography -->
     <xsl:template match="/grammar_tables">
         <html>
+            <style type="text/css">
+            .form_family0 { background-color: #ff4c71}
+            .form_family1 { background-color: #99b0ff}
+            .form_family2 { background-color: #00efc4}
+            .form_family3 { background-color: #94db00}
+            .form_family4 { background-color: #ff9b00}
+            .form_family5 { background-color: #ff61ff}
+            .form_family6 { background-color: #7acbff}
+            .form_family7 { background-color: #00ed61}
+            .form_family8 { background-color: #fffb00}
+            .form_family9 { background-color: #ff9d6b}
+            .form_family10 { background-color: #f4a7ff}
+            .form_family11 { background-color: #00f8ff}
+            .form_family12 { background-color: #c6c6c6}
+            .form_family13 { background-color: #e3c467}
+            .form_family14 { background-color: #ff4800}
+            </style>
             <xsl:apply-templates select="grammar_table"/>
             <h1>Bibliography</h1>
             <ul>
@@ -235,7 +252,12 @@
                 <xsl:with-param name="declension" select="$declension"/>
             </xsl:apply-templates>
         </xsl:variable>
-        <td style="overflow:hidden;">
+        <xsl:variable name="form_id" select="paradigm[@declension=$declension and @case=$case]/@form" />
+        <td style="overflow:hidden; ">
+            <xsl:attribute name="class">
+                <xsl:text>form_family</xsl:text>
+                <xsl:value-of select="count(form[$form_id=@id]/preceding-sibling::form)" />
+            </xsl:attribute>
             <xsl:attribute name="rowspan">
                 <xsl:value-of select="count(categories//case_def[@id=$case]/descendant-or-self::case_def[not(case_def)])"/>
             </xsl:attribute>
@@ -250,7 +272,7 @@
                     <xsl:text>#fn_</xsl:text>
                     <xsl:value-of select="$linkname"/>
                 </xsl:attribute>
-                <xsl:value-of select="paradigm[@declension=$declension and @case=$case]/form" />
+                <xsl:value-of select="form[$form_id=@id]" />
             </a>
         </td>
     </xsl:template>
@@ -293,7 +315,8 @@
             </a>
             <xsl:text>: </xsl:text>
             <strong>
-                <xsl:value-of select="form" />
+                <xsl:variable name="form_id" select="@form" />
+                <xsl:value-of select="../form[@id=$form_id]" />
             </strong>
             <xsl:if test="footnote">
                 <xsl:text> · </xsl:text>
