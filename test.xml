@@ -12,10 +12,9 @@
                 <case_def id="accusative" title="accusative" short_title="A"/>
             </case_def>
             <case_def id="locative" title="locative" short_title="L" />
-            <case_def id="dative+ablative" title="dative and ablative" short_title="D+Ab"/>
             <case_def id="dative" title="dative" short_title="D"/>
+            <case_def id="ablative" title="ablative" short_title="Ab"/>
             <case_def id="genitive" title="genitive" short_title="G"/>
-            <case_def id="genitive+ablative" title="genitive and ablative" short_title="G+Ab"/>
             <case_def id="instrumental" title="instrumental" short_title="I"/>
             <declension_def id="singular" title="singular" short_title="sg.">
                 <declension_def id="singular-animate" title="singular animate" short_title="mf" />
@@ -64,8 +63,11 @@
         <paradigm declension="singular" case="dative" form="-ei">
             <footnote>possibly a common form with the singular locative's -i at an extremely early stage, see its discussion for more; <source book="Ringe2006" /> p.41,43; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,251 has -(e|o|a)i, <source book="Sihler1995" /> p.253 hints at this dative originally being unmarked for number; <source book="Fortson2010" /> p.115,116; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169</footnote>
         </paradigm>
-        <paradigm declension="singular" case="genitive+ablative" form="-(e|o)s">
-            <footnote><source book="Ringe2006" /> p.41-43 has -?(e|o)s and "extensive ablaut alternations"; <source book="MeierBrugger2010" /> p.330,331 counts -os variant as un-accented; <source book="Sihler1995" /> p.248,250,251 also has -s "rarely"; <source book="Fortson2010" /> p.115,116 has only -es; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169 has -?(e|o)s</footnote>
+        <paradigm declension="singular" case="genitive" form="-(e|o)s">
+            <footnote>combined with singular ablative; <source book="Ringe2006" /> p.41-43 has -?(e|o)s and "extensive ablaut alternations"; <source book="MeierBrugger2010" /> p.330,331 counts -os variant as un-accented; <source book="Sihler1995" /> p.248,250,251 also has -s "rarely"; <source book="Fortson2010" /> p.115,116 has only -es; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169 has -?(e|o)s</footnote>
+        </paradigm>
+        <paradigm declension="singular" case="ablative" form="-(e|o)s">
+            <footnote>combined with singular genetive, see there</footnote>
         </paradigm>
         <paradigm declension="singular" case="instrumental" form="-?(e)h₁">
             <footnote><source book="Ringe2006" /> p.41,43; <source book="MeierBrugger2010" /> p.330,331; <source book="Sihler1995" /> p.248,252 also has -bʰis; F115,116; <source book="Beekes2011" /> p.186,187 has -eh₁ except for i- and u-stems, there -h₁; <source book="Szemerenyi1990" /> p.169 has -(e|o) (commonly keeping his laryngeals scarce) and -(bʰ|m)i</footnote>
@@ -88,8 +90,11 @@
         <paradigm declension="plural" case="locative" form="-su">
             <footnote><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,253; <source book="Fortson2010" /> p.117,118; <source book="Beekes2011" /> p.186,189; <source book="Szemerenyi1990" /> p.169</footnote>
         </paradigm>
-        <paradigm declension="plural" case="dative+ablative" form="-(bʰ?(i̯)|m)os">
-            <footnote><source book="Ringe2006" /> p.41 has -mos; <source book="MeierBrugger2010" /> p.330,332 has -mos; <source book="Sihler1995" /> p.248 has -(m|bʰ)os; <source book="Fortson2010" /> p.117-119 has -bʰ?(i̯)os and a PIE-late development of -(bʰ|m)-endings from adpositions or adverbs related to English "by" and German "mit"; <source book="Beekes2011" /> p.186,188,189 has -mus for the dative plural and speculates about -ios for the ablative plural, which may have merged with the instrumental's -bʰ- to a common -(bʰ?(i̯)|m)os; <source book="Szemerenyi1990" /> p.169 has -(bʰ?(i)|m)os</footnote>
+        <paradigm declension="plural" case="ablative" form="-(bʰ?(i̯)|m)os">
+            <footnote>combined with plural dative, see there</footnote>
+        </paradigm>
+        <paradigm declension="plural" case="dative" form="-(bʰ?(i̯)|m)os">
+            <footnote>combined with plural ablative; <source book="Ringe2006" /> p.41 has -mos; <source book="MeierBrugger2010" /> p.330,332 has -mos; <source book="Sihler1995" /> p.248 has -(m|bʰ)os; <source book="Fortson2010" /> p.117-119 has -bʰ?(i̯)os and a PIE-late development of -(bʰ|m)-endings from adpositions or adverbs related to English "by" and German "mit"; <source book="Beekes2011" /> p.186,188,189 has -mus for the dative plural and speculates about -ios for the ablative plural, which may have merged with the instrumental's -bʰ- to a common -(bʰ?(i̯)|m)os; <source book="Szemerenyi1990" /> p.169 has -(bʰ?(i)|m)os</footnote>
         </paradigm>
         <paradigm declension="plural" case="genitive" form="-?(?(o)H)om">
             <footnote><source book="Ringe2006" /> p.41 has -oHom; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248 indicates -?(o|ō)m; <source book="Fortson2010" /> p.117,118,129; <source book="Beekes2011" /> p.186,188 derives -om; <source book="Szemerenyi1990" /> p.169 has -om</footnote>
