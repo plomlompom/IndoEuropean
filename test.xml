@@ -177,27 +177,13 @@
         <form id="e00">é-Ø-Ø</form>
         <form id="0e0">Ø-é-Ø</form>
         <form id="00e">Ø-Ø-é</form>
-        <paradigm declension="static" case="all" form="e00">
-            <form>é-Ø-Ø</form>
-        </paradigm>
-        <paradigm declension="mobile" case="nominative" form="e00">
-            <form>é-Ø-Ø</form>
-        </paradigm>
-        <paradigm declension="neuter" case="accusative" form="e00">
-            <form>é-Ø-Ø</form>
-        </paradigm>
-        <paradigm declension="non-neuter" case="accusative" form="0e0">
-            <form>Ø-é-Ø</form>
-        </paradigm>
-        <paradigm declension="mobile" case="locative" form="0e0">
-            <form>Ø-é-Ø</form>
-        </paradigm>
-        <paradigm declension="neuter" case="genitive" form="0e0">
-            <form>Ø-é-Ø</form>
-        </paradigm>
-        <paradigm declension="non-neuter" case="genitive" form="00e">
-            <form>Ø-Ø-é</form>
-        </paradigm>
+        <paradigm declension="static" case="all" form="e00" />
+        <paradigm declension="mobile" case="nominative" form="e00" />
+        <paradigm declension="neuter" case="accusative" form="e00" />
+        <paradigm declension="non-neuter" case="accusative" form="0e0" />
+        <paradigm declension="mobile" case="locative" form="0e0" />
+        <paradigm declension="neuter" case="genitive" form="0e0" />
+        <paradigm declension="non-neuter" case="genitive" form="00e" />
     </grammar_table>
     <grammar_table id="beekes" title="original ending particles (Beekes)">
         <description>Early-PIE ending particles as read into <source book="Beekes2011" />.</description>
