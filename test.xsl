@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <!-- all grammar_tables, and bibliography -->
+    <!-- all grammar_tables, and bibliography; furthermore some colorization CSS and JavaScript -->
     <xsl:template match="/grammar_tables">
         <html>
             <style type="text/css">
@@ -20,14 +20,44 @@
             .form_family12 { background-color: #c6c6c6}
             .form_family13 { background-color: #e3c467}
             .form_family14 { background-color: #ff4800}
-            td:target { background-color: green; border: 3px solid red; }
-            td:target ~ td { background-color: green; border: 3px solid red; }
             </style>
             <xsl:apply-templates select="grammar_table"/>
             <h1>Bibliography</h1>
             <ul>
                 <xsl:apply-templates select="bibliography/book" />
             </ul>
+            <script>
+            <xsl:text disable-output-escaping="yes">
+            var highlight = function () {
+                var table = this.parentNode.parentNode.parentNode.parentNode;
+                var td_tags = table.getElementsByTagName("TD");
+                for (var i=0; i &lt; td_tags.length; i++) {
+                    if (td_tags[i] == this.parentNode) {
+                        td_tags[i].style.background = "#ddffff";
+                    } else if (td_tags[i].className == this.parentNode.className) {
+                        td_tags[i].style.background = "#aaeeee";
+                    } else {
+                        td_tags[i].style.background = "#00aaaa";
+                    }
+                }
+            }
+            unhighlight = function() {
+                var cleanlist = document.getElementsByTagName("TD");
+                for(var i=0; i &lt; cleanlist.length; i++) {
+                    cleanlist[i].style.background = "";
+                }
+            }
+            var a_tags = document.getElementsByTagName("A");
+            for (var i=0; i &lt; a_tags.length; i++) {
+                if (a_tags[i].parentNode.tagName == "TD") {
+                    a_tags[i].onfocus = highlight;
+                    a_tags[i].onblur = unhighlight;
+                    a_tags[i].onmouseover = highlight;
+                    a_tags[i].onmouseout = unhighlight;
+                }
+            }
+            </xsl:text>
+            </script>
         </html>
     </xsl:template>
 
