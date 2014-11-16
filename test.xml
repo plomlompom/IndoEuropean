@@ -105,12 +105,12 @@
         <description>Accent and ablaut classes as calculated in <source book="Beekes2011" />. Note that this is the second edition of the often-quoted <source book="Beekes1995" /> p.175, in which the numbering of the hysterodynamic types is different: <source book="Beekes1995" /> type 1 is <source book="Beekes2011" /> type 4, and vice versa.</description>
         <declension_def id="st" title="static" short_title="S" />
         <declension_def id="pd" title="proterodynamic" short_title="PD" />
-        <declension_def id="hd1+2+3" title="hysterodynamic (types 1, 2, 4)" short_title="HD 1+2+4">
+        <declension_def id="hd" title="hysterodynamic" short_title="HD">
             <declension_def id="hd1" title="hysterodynamic (type 1)" short_title="1" />
             <declension_def id="hd2" title="hysterodynamic (type 2)" short_title="2" />
+            <declension_def id="hd3" title="hysterodynamic (type 3)" short_title="3" />
             <declension_def id="hd4" title="hysterodynamic (type 4)" short_title="4" />
         </declension_def>
-        <declension_def id="hd3" title="hysterodynamic (type 3)" short_title="HD 3" />
         <case_def id="all" title="all cases" short_title="N+A+G">
             <case_def id="direct" title="direct cases" short_title="N+A">
                 <case_def id="nominative" title="nominative" short_title="N" />
@@ -145,10 +145,22 @@
         <paradigm declension="hd4" case="nominative" form="0e:0">
             <footnote><source book="Beekes2011" /> p.190</footnote>
         </paradigm>
-        <paradigm declension="hd1+2+3" case="accusative" form="0e0">
+        <paradigm declension="hd1" case="accusative" form="0e0">
             <footnote><source book="Beekes2011" /> p.190</footnote>
         </paradigm>
-        <paradigm declension="hd1+2+3" case="genitive" form="00o">
+        <paradigm declension="hd2" case="accusative" form="0e0">
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd4" case="accusative" form="0e0">
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd1" case="genitive" form="00o">
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd2" case="genitive" form="00o">
+            <footnote><source book="Beekes2011" /> p.190</footnote>
+        </paradigm>
+        <paradigm declension="hd4" case="genitive" form="00o">
             <footnote><source book="Beekes2011" /> p.190</footnote>
         </paradigm>
         <paradigm declension="hd3" case="nominative" form="?(e|é)-(ō̂|ō)-Ø">
