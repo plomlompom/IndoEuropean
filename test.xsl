@@ -304,15 +304,17 @@
         <xsl:param name="nth" />
         <xsl:variable name="form_id" select="@id" />
         <xsl:variable name="new_nth" select="$nth + (count(../paradigm[@form=$form_id]) &gt; 1)" />
-         <xsl:if test="$stop_at=@id">
-            <xsl:value-of select="$new_nth" />
-        </xsl:if>
-        <xsl:if test="not($stop_at=@id)">
-            <xsl:apply-templates select="following-sibling::form[1]" mode="nth_multiparadigm_form">
-                <xsl:with-param name="stop_at" select="$stop_at" />
-                <xsl:with-param name="nth" select="$new_nth" />
-            </xsl:apply-templates>
-        </xsl:if>
+        <xsl:choose>
+            <xsl:when test="$stop_at=@id">
+                <xsl:value-of select="$new_nth" />
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates select="following-sibling::form[1]" mode="nth_multiparadigm_form">
+                    <xsl:with-param name="stop_at" select="$stop_at" />
+                    <xsl:with-param name="nth" select="$new_nth" />
+                </xsl:apply-templates>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <!-- empty cell of colspan of end nodes below $declension_def in grammar_table/ if non-empty, else 1 -->
