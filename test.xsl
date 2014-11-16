@@ -5,59 +5,26 @@
     <xsl:template match="/grammar_tables">
         <html>
             <style type="text/css">
-            .form_family0 { background-color: #ff4c71}
-            .form_family1 { background-color: #99b0ff}
-            .form_family2 { background-color: #00efc4}
-            .form_family3 { background-color: #94db00}
-            .form_family4 { background-color: #ff9b00}
-            .form_family5 { background-color: #ff61ff}
-            .form_family6 { background-color: #7acbff}
-            .form_family7 { background-color: #00ed61}
-            .form_family8 { background-color: #fffb00}
-            .form_family9 { background-color: #ff9d6b}
-            .form_family10 { background-color: #f4a7ff}
-            .form_family11 { background-color: #00f8ff}
-            .form_family12 { background-color: #c6c6c6}
-            .form_family13 { background-color: #e3c467}
-            .form_family14 { background-color: #ff4800}
+            .form_family_1 { background-color: #ff96a4 }
+            .form_family_2 { background-color: #dee7ff }
+            .form_family_3 { background-color: #00ff97 }
+            .form_family_4 { background-color: #ffd41a }
+            .form_family_5 { background-color: #ffb1ff }
+            .form_family_6 { background-color: #00ffff }
+            .form_family_7 { background-color: #00ff00 }
+            .form_family_8 { background-color: #d1ff00 }
+            .form_family_9 { background-color: #ffd6a0 }
+            .form_family_10 { background-color: #ffdfff }
+            .form_family_11 { background-color: #b9ffff }
+            .form_family_12 { background-color: #b8ff99 }
+            .form_family_13 { background-color: #fffc9c }
+            .form_family_14 { background-color: #ff9332 }
             </style>
             <xsl:apply-templates select="grammar_table"/>
             <h1>Bibliography</h1>
             <ul>
                 <xsl:apply-templates select="bibliography/book" />
             </ul>
-            <script>
-            <xsl:text disable-output-escaping="yes">
-            var highlight = function () {
-                var table = this.parentNode.parentNode.parentNode.parentNode;
-                var td_tags = table.getElementsByTagName("TD");
-                for (var i=0; i &lt; td_tags.length; i++) {
-                    if (td_tags[i] == this.parentNode) {
-                        td_tags[i].style.background = "#ddffff";
-                    } else if (td_tags[i].className == this.parentNode.className) {
-                        td_tags[i].style.background = "#aaeeee";
-                    } else {
-                        td_tags[i].style.background = "#00aaaa";
-                    }
-                }
-            }
-            unhighlight = function() {
-                var cleanlist = document.getElementsByTagName("TD");
-                for(var i=0; i &lt; cleanlist.length; i++) {
-                    cleanlist[i].style.background = "";
-                }
-            }
-            var a_tags = document.getElementsByTagName("A");
-            for (var i=0; i &lt; a_tags.length; i++) {
-                if (a_tags[i].parentNode.tagName == "TD") {
-                    a_tags[i].onfocus = highlight;
-                    a_tags[i].onblur = unhighlight;
-                    a_tags[i].onmouseover = highlight;
-                    a_tags[i].onmouseout = unhighlight;
-                }
-            }
-            </xsl:text>
-            </script>
         </html>
     </xsl:template>
 
@@ -286,19 +253,12 @@
         </xsl:variable>
         <xsl:variable name="form_id" select="paradigm[@declension=$declension and @case=$case]/@form" />
         <td style="overflow:hidden; ">
-            <xsl:attribute name="class">
-                <xsl:text>form_family</xsl:text>
-                <xsl:value-of select="count(form[$form_id=@id]/preceding-sibling::form)" />
-            </xsl:attribute>
-            <xsl:attribute name="rowspan">
-                <xsl:value-of select="count(.//case_def[@id=$case]/descendant-or-self::case_def[not(case_def)])"/>
-            </xsl:attribute>
-            <xsl:attribute name="colspan">
-                <xsl:value-of select="count(.//declension_def[@id=$declension]//descendant-or-self::declension_def[not(declension_def)])"/>
-            </xsl:attribute>
-            <xsl:attribute name="id">
-                <xsl:value-of select="$linkname" />
-            </xsl:attribute>
+            <xsl:apply-templates select="." mode="end_node_cell_attributes">
+                <xsl:with-param name="form_id" select="$form_id" />
+                <xsl:with-param name="case" select="$case" />
+                <xsl:with-param name="declension" select="$declension" />
+                <xsl:with-param name="linkname" select="$linkname" />
+            </xsl:apply-templates>
             <a style="display:block; padding:100em; margin:-100em; ">
                 <xsl:attribute name="href">
                     <xsl:text>#fn_</xsl:text>
@@ -307,6 +267,52 @@
                 <xsl:value-of select="form[$form_id=@id]" />
             </a>
         </td>
+    </xsl:template>
+
+    <!-- grammar table's paradigm end node cell's attributes -->
+    <xsl:template match="/grammar_tables/grammar_table" mode="end_node_cell_attributes">
+        <xsl:param name="form_id" />
+        <xsl:param name="case" />
+        <xsl:param name="declension" />
+        <xsl:param name="linkname" />
+        <xsl:if test="count(paradigm[@form=$form_id]) &gt; 1">
+            <xsl:attribute name="class">
+                <xsl:text>form_family_</xsl:text>
+                <xsl:variable name="form_family">
+                    <xsl:apply-templates select="form[1]" mode="nth_multiparadigm_form">
+                        <xsl:with-param name="stop_at" select="$form_id" />
+                        <xsl:with-param name="nth" select="0" />
+                    </xsl:apply-templates>
+                </xsl:variable>
+                <xsl:value-of select="$form_family" />
+            </xsl:attribute>
+        </xsl:if>
+        <xsl:attribute name="rowspan">
+            <xsl:value-of select="count(.//case_def[@id=$case]/descendant-or-self::case_def[not(case_def)])"/>
+        </xsl:attribute>
+        <xsl:attribute name="colspan">
+                <xsl:value-of select="count(.//declension_def[@id=$declension]//descendant-or-self::declension_def[not(declension_def)])"/>
+            </xsl:attribute>
+            <xsl:attribute name="id">
+                <xsl:value-of select="$linkname" />
+            </xsl:attribute>
+    </xsl:template>
+
+    <!-- position of "stop_at" in multi-paradigm forms (i.e. don't count single-paradigm ones) -->
+    <xsl:template match="/grammar_tables/grammar_table/form" mode="nth_multiparadigm_form">
+        <xsl:param name="stop_at" />
+        <xsl:param name="nth" />
+        <xsl:variable name="form_id" select="@id" />
+        <xsl:variable name="new_nth" select="$nth + (count(../paradigm[@form=$form_id]) &gt; 1)" />
+         <xsl:if test="$stop_at=@id">
+            <xsl:value-of select="$new_nth" />
+        </xsl:if>
+        <xsl:if test="not($stop_at=@id)">
+            <xsl:apply-templates select="following-sibling::form[1]" mode="nth_multiparadigm_form">
+                <xsl:with-param name="stop_at" select="$stop_at" />
+                <xsl:with-param name="nth" select="$new_nth" />
+            </xsl:apply-templates>
+        </xsl:if>
     </xsl:template>
 
     <!-- empty cell of colspan of end nodes below $declension_def in grammar_table/ if non-empty, else 1 -->
