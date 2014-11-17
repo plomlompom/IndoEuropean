@@ -66,9 +66,9 @@
     <xsl:template match="/grammar_tables/grammar_table" mode="defs_depth">
         <xsl:param name="name" />
         <xsl:for-each select=".//*[name()=$name]">
-            <xsl:sort select="count(ancestor::*)" order="descending"/>
+            <xsl:sort select="count(ancestor::*[not(name()=$name) or @short_title])" order="descending"/>
             <xsl:if test="position()=1">
-                <xsl:value-of select="count(ancestor::*) - count(ancestor::grammar_table/ancestor::*)" />
+                <xsl:value-of select="count(ancestor::*[not(name()=$name) or @short_title]) - count(ancestor::grammar_table/ancestor::*)" />
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
@@ -78,14 +78,14 @@
         <xsl:param name="depth" />
         <xsl:param name="max_depth" />
         <xsl:param name="indent_depth" />
-        <xsl:if test="descendant-or-self::declension_def[count(ancestor::declension_def)=$depth]">
+        <xsl:if test=".//declension_def[count(ancestor::declension_def[@short_title])=$depth]">
             <tr>
                 <th>
                     <xsl:attribute name="colspan">
                         <xsl:value-of select="$indent_depth" />
                     </xsl:attribute>
                 </th>
-                <xsl:apply-templates select=".//declension_def[count(ancestor::declension_def)=$depth]">
+                <xsl:apply-templates select=".//declension_def[count(ancestor::declension_def[@short_title])=$depth and @short_title]">
                     <xsl:with-param name="depth" select="$max_depth - $depth" />
                 </xsl:apply-templates>
             </tr>
@@ -133,27 +133,29 @@
     <!-- grammar_table's case-paradigms row's case_def cell, followed by its first-position child (colspan of 1 if parent, else of $max_depth minus number of case_def ancestors) -->
     <xsl:template match="/grammar_tables/grammar_table//case_def" mode="row_case_headers">
         <xsl:param name="max_depth" />
-        <th style="overflow:hidden;">
-            <xsl:attribute name="rowspan">
-                <xsl:value-of select="count(descendant-or-self::case_def[not(case_def)])" />
-            </xsl:attribute>
-            <xsl:attribute name="colspan">
-                <xsl:choose>
-                    <xsl:when test="case_def">
-                        <xsl:text>1</xsl:text>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="$max_depth - count(ancestor::case_def)" />
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:attribute>
-            <abbr style="padding:100em; margin:-100em;">
-                <xsl:attribute name="title">
-                    <xsl:value-of select="@title" />
+        <xsl:if test="@short_title">
+            <th style="overflow:hidden;">
+                <xsl:attribute name="rowspan">
+                    <xsl:value-of select="count(descendant-or-self::case_def[not(case_def)])" />
                 </xsl:attribute>
-                <xsl:value-of select="@short_title" />
-            </abbr>
-        </th>
+                <xsl:attribute name="colspan">
+                    <xsl:choose>
+                        <xsl:when test="case_def">
+                            <xsl:text>1</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="$max_depth - count(ancestor::case_def[@short_title])" />
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:attribute>
+                <abbr style="padding:100em; margin:-100em;">
+                    <xsl:attribute name="title">
+                        <xsl:value-of select="@title" />
+                    </xsl:attribute>
+                    <xsl:value-of select="@short_title" />
+                </abbr>
+            </th>
+        </xsl:if>
         <xsl:apply-templates select="case_def[position()=1]" mode="row_case_headers">
             <xsl:with-param name="max_depth" select="$max_depth" />
         </xsl:apply-templates>

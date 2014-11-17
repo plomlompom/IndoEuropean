@@ -3,8 +3,8 @@
 <grammar_tables>
     <grammar_table id="communis_opinio" title="original ending particles (communis opinio)">
         <description>Tentative portrayal of the communis opinio about original particles that combined to PIE endings proper, not yet transformed by specific sound environments, not yet displaced by pronoun endings. Theories about earlier stages, more precise definitions, and a few outliers not integrated into the table are given in footnotes.</description>
-        <case_def id="nominative+vocative+accusative" title="direct cases" short_title="N+V+A">
-            <case_def id="nominative+vocative" title="nominative and vocative" short_title="N+V">
+        <case_def id="nominative+vocative+accusative" title="direct cases">
+            <case_def id="nominative+vocative" title="nominative and vocative">
                 <case_def id="nominative" title="nominative" short_title="N" />
                 <case_def id="vocative" title="vocative" short_title="V" />
             </case_def>
@@ -92,8 +92,8 @@
             <declension_def id="hd3" title="hysterodynamic (type 3)" short_title="3" />
             <declension_def id="hd4" title="hysterodynamic (type 4)" short_title="4" />
         </declension_def>
-        <case_def id="all" title="all cases" short_title="N+A+G">
-            <case_def id="direct" title="direct cases" short_title="N+A">
+        <case_def id="all" title="all cases">
+            <case_def id="direct" title="direct cases">
                 <case_def id="nominative" title="nominative" short_title="N" />
                 <case_def id="accusative" title="accusative" short_title="A" />
             </case_def>
@@ -133,7 +133,7 @@
             <declension_def id="neuter" title="neuter" short_title="neuter" />
             <declension_def id="non-neuter" title="non-neuter" short_title="non-neuter" />
         </declension_def>
-        <case_def id="all" title="all cases" short_title="all">
+        <case_def id="all" title="all cases">
             <case_def id="nominative" title="nominative singular" short_title="N" />
             <case_def id="accusative" title="accusative singular" short_title="A" />
             <case_def id="locative" title="locative singular" short_title="L" />
