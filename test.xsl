@@ -368,9 +368,10 @@
                 <xsl:variable name="form_id" select="@form" />
                 <xsl:value-of select="../form[@id=$form_id]" />
             </strong>
-            <xsl:if test="footnote">
+            <xsl:if test="@footnote">
+                <xsl:variable name="footnote_id" select="@footnote" />
                 <xsl:text> · </xsl:text>
-                <xsl:apply-templates select="footnote" mode="source" />
+                <xsl:apply-templates select="../footnote[@id=$footnote_id]" mode="source" />
             </xsl:if>
         </li>
     </xsl:template>
