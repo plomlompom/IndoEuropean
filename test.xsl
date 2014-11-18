@@ -21,6 +21,7 @@
             .form_family_14 { background-color: #ff9332 }
             table, td, th, tr { border: 1px solid; }
             </style>
+            <title>Test.</title>
             <xsl:apply-templates select="grammar_table"/>
             <h1>Bibliography</h1>
             <ul style="list-style-type: disc; ">
