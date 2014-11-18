@@ -22,7 +22,7 @@
             </style>
             <xsl:apply-templates select="grammar_table"/>
             <h1>Bibliography</h1>
-            <ul>
+            <ul style="list-style-type: disc; ">
                 <xsl:apply-templates select="bibliography/book" />
             </ul>
         </html>
@@ -33,9 +33,39 @@
         <h1><xsl:value-of select="@title"/></h1>
         <p><xsl:apply-templates select="description" mode="source" /></p>
         <xsl:apply-templates select="." mode="table" />
-        <ul>
-            <xsl:apply-templates select="paradigm" />
+        <ul style="list-style-type: none; ">
+            <xsl:apply-templates select="footnote" />
+            <li>
+                <ul style="padding-left: 0em; list-style-type: disc;" >
+                    <xsl:apply-templates select="paradigm[not(@footnote)]" />
+                </ul>
+            </li>
         </ul>
+    </xsl:template>
+
+    <!-- all paradigm footnotes referencing one footnote element -->
+    <xsl:template match="/grammar_tables/grammar_table/footnote">
+        <xsl:variable name="footnote_id" select="@id" />
+        <xsl:choose>
+            <xsl:when test="count(../paradigm[@footnote=$footnote_id]) &gt; 1">
+                <li style="margin: 0em; padding: 0em;">
+                    <ul style="padding-left: 0em; padding-right: 0.5em; margin-right: 0.5em; border-right: 1px solid black; border-radius: 0.5em; float:left;">
+                        <xsl:apply-templates select="../paradigm[@footnote=$footnote_id]">
+                            <xsl:with-param name="with_source" select="0" />
+                        </xsl:apply-templates>
+                    </ul>
+                    <p style="margin-top: 0; margin-bottom: 0; padding-top: 0.5em; ">
+                        (<xsl:apply-templates select="." mode="source" />)
+                    </p>
+                    <div style="clear:both;" />
+                </li>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates select="../paradigm[@footnote=$footnote_id]">
+                    <xsl:with-param name="with_source" select="1" />
+                </xsl:apply-templates>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <!-- grammar_table: rows of declension headers, then case-paradigm rows -->
@@ -348,13 +378,14 @@
 
     <!-- grammar_table's paradigm's footnote -->
     <xsl:template match="/grammar_tables/grammar_table/paradigm">
+        <xsl:param name="with_source" />
         <xsl:variable name="linkname">
             <xsl:apply-templates select="ancestor::grammar_table" mode="linkname">
                 <xsl:with-param name="case" select="@case" />
                 <xsl:with-param name="declension" select="@declension" />
             </xsl:apply-templates>
         </xsl:variable>
-        <li>
+        <li style="list-style-type: disc; padding:0; margin:0;">
             <xsl:attribute name="id">
                 <xsl:text>fn_</xsl:text>
                 <xsl:value-of select="$linkname" />
@@ -370,10 +401,10 @@
                 <xsl:variable name="form_id" select="@form" />
                 <xsl:value-of select="../form[@id=$form_id]" />
             </strong>
-            <xsl:if test="@footnote">
+            <xsl:if test="@footnote and 1=$with_source">
                 <xsl:variable name="footnote_id" select="@footnote" />
-                <xsl:text> · </xsl:text>
-                <xsl:apply-templates select="../footnote[@id=$footnote_id]" mode="source" />
+                <xsl:text> (</xsl:text>
+                <xsl:apply-templates select="../footnote[@id=$footnote_id]" mode="source" />)
             </xsl:if>
         </li>
     </xsl:template>
