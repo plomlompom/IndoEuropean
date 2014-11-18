@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+    <xsl:output method="html"  doctype-system="about:legacy-compat"/>
+
     <!-- all grammar_tables, and bibliography; furthermore some colorization CSS and JavaScript -->
     <xsl:template match="/grammar_tables">
         <html>
