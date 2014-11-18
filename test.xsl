@@ -19,6 +19,7 @@
             .form_family_12 { background-color: #b8ff99 }
             .form_family_13 { background-color: #fffc9c }
             .form_family_14 { background-color: #ff9332 }
+            table, td, th, tr { border: 1px solid; }
             </style>
             <xsl:apply-templates select="grammar_table"/>
             <h1>Bibliography</h1>
@@ -80,7 +81,7 @@
                 <xsl:with-param name="name" select="'declension_def'" />
             </xsl:apply-templates>
         </xsl:variable>
-        <table border="1" style="empty-cells: hide;">
+        <table style="empty-cells: hide;">
             <xsl:apply-templates select="." mode="declension_headers">
                 <xsl:with-param name="depth" select="0" />
                 <xsl:with-param name="max_depth" select="$declension_defs_depth" />
