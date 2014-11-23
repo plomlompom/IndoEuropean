@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="test.xsl" ?>
 <grammar_tables>
-    <form id="-?(s)">-?(s)</form>
-    <form id="-0">-Ø</form>
-    <form id="-m">-m</form>
-    <form id="-?(i)">-?(i)</form>
-    <form id="ei">-ei</form>
-    <form id="-(e|o)s">-(e|o)s</form>
-    <form id="-?(e)h₁">-?(e)h₁</form>
-    <form id="-h₁?(e)">-h₁?(e)</form>
-    <form id="-ih₁">-ih₁</form>
-    <form id="-es">-es</form>
-    <form id="-ns">-ns</form>
-    <form id="-?(h₂)">-?(h₂)</form>
-    <form id="-(bʰ?(i̯)|m)os">-(bʰ?(i̯)|m)os</form>
-    <form id="-?(?(o)H)om">-?(?(o)H)om</form>
-    <form id="-(bʰ|m)i?(s)">-(bʰ|m)i?(s)</form>
-    <form id="-su">-su</form>
-    <form id="e00">é-Ø-Ø</form>
-    <form id="0eo0">Ø-(é|ó)-Ø</form>
-    <form id="eo:0">é-ō-Ø</form>
-    <form id="0e:0">Ø-é̄-Ø</form>
-    <form id="00o">Ø-Ø-ó</form>
-    <form id="0e0">Ø-é-Ø</form>
-    <form id="?(e|é)-(ō̂|ō)-Ø">?(e|é)-(ō̂|ō)-Ø</form>
-    <form id="(e|é)-(ó|o)-Ø">(e|é)-(ó|o)-Ø</form>
-    <form id="?(e)-Ø-ó">?(e)-Ø-ó</form>
-    <form id="00e">Ø-Ø-é</form>
-    <form id="os">-os</form>
-    <form id="mus">-mus</form>
-    <form id="ios">-ios</form>
-    <form id="bʰi">-bʰi</form>
     <grammar_table id="communis_opinio" title="original ending particles (communis opinio)">
         <description>Tentative portrayal of the communis opinio about original particles that combined to PIE endings proper, not yet transformed by specific sound environments, not yet displaced by pronoun endings. Theories about earlier stages, more precise definitions, and a few outliers not integrated into the table are given in footnotes.</description>
         <case_def id="nominative+vocative+accusative" title="direct cases">
@@ -148,30 +118,64 @@
         <paradigm declension="plural" case="ablative" form="ios" footnote="25" />
         <paradigm declension="plural" case="instrumental" form="bʰi" footnote="26" />
     </grammar_table>
-    <footnote id="1">commonly assumed to be one original -s dissolved in some sound environments by Szemerényi's Law, but Beekes' explanation differs radically; <source book="Ringe2006" /> p.41,42; <source book="MeierBrugger2010" /> p.330,331; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.115,116; <source book="Beekes2011" /> p.186,214-216 assumes an earlier ergative-absolutive case system, with the absolutive endingless, and the ergative in -s, related to the later genitive form; <source book="Szemerenyi1990" /> p.121,122,169</footnote>
-    <footnote id="2"><source book="Ringe2006" /> p.41,42; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.116; <source book="Beekes2011" /> p.186; <source book="Szemerenyi1990" /> p.169</footnote>
-    <footnote id="3"><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330,331; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.115; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169</footnote>
-    <footnote id="4"><source book="Ringe2006" /> p.41,42; <source book="MeierBrugger2010" /> p.335; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.115; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169</footnote>
-    <footnote id="5">probably two separate endings, one with an -i that may have been a zero-grade of a common form with the dative, one a specific "endingless locative"; <source book="Ringe2006" /> p.41,42 assumes -Ø to which the "hic et nunc" particle -i- was added (no mention of common form with dative); <source book="MeierBrugger2010" /> p.330,331 hints at a possible common form with dative at an extremely early stage; <source book="Sihler1995" /> p.248,253 also hints at a possible early common form with the dative; <source book="Fortson2010" /> p.115,116; <source book="Beekes2011" /> p.186,187 verbalizes the idea of a common form with the dative most radically; <source book="Szemerenyi1990" /> p.169 only has -i</footnote>
-    <footnote id="6">possibly a common form with the singular locative's -i at an extremely early stage, see its discussion for more; <source book="Ringe2006" /> p.41,43; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,251 has -(e|o|a)i, <source book="Sihler1995" /> p.253 hints at this dative originally being unmarked for number; <source book="Fortson2010" /> p.115,116; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169</footnote>
-    <footnote id="8">both cases combined; <source book="Ringe2006" /> p.41-43 has -?(e|o)s and "extensive ablaut alternations"; <source book="MeierBrugger2010" /> p.330,331 counts -os variant as un-accented; <source book="Sihler1995" /> p.248,250,251 also has -s "rarely"; <source book="Fortson2010" /> p.115,116 has only -es; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169 has -?(e|o)s</footnote>
-    <footnote id="9"><source book="Ringe2006" /> p.41,43; <source book="MeierBrugger2010" /> p.330,331; <source book="Sihler1995" /> p.248,252 also has -bʰis; F115,116; <source book="Beekes2011" /> p.186,187 has -eh₁ except for i- and u-stems, there -h₁; <source book="Szemerenyi1990" /> p.169 has -(e|o) (commonly keeping his laryngeals scarce) and -(bʰ|m)i</footnote>
-    <footnote id="10"><source book="Ringe2006" /> p.41 has -h₁e; <source book="MeierBrugger2010" /> p.330 indicates -h₁ for the nominative only; <source book="Sihler1995" /> p.255,256 derives -e, -h₁ or -h₁e, favoring the last two; F117; <source book="Beekes2011" /> p.216,217 derives -h₁e; <source book="Szemerenyi1990" /> p.169 (skeptical against laryngeals) has -e, -i or -ī</footnote>
-    <footnote id="11"><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" />: no indication; <source book="Sihler1995" />: no indication; <source book="Fortson2010" /> p.117; <source book="Beekes2011" /> p.216,217; <source book="Szemerenyi1990" /> p.169 has -i or -ī</footnote>
-    <footnote id="12"><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,254; <source book="Fortson2010" /> p.117; <source book="Beekes2011" /> p.186,188; <source book="Szemerenyi1990" /> p.168,169</footnote>
-    <footnote id="13">assumed to be result of an accusative marker -m plus a plural marker -s; <source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,254 has PIE -ms becoming -ns "in attested languages"; <source book="Fortson2010" /> p.117; <source book="Beekes2011" /> p.186,188; <source book="Szemerenyi1990" /> p.169</footnote>
-    <footnote id="14"><source book="Ringe2006" /> p.41,42,44; <source book="MeierBrugger2010" /> p.335,336 sees -h₂- as suffix for collectives as the proper form for pluralities of non-agents (in contrast to distributive plurals for potential agents), to which the singular neuter's (non-)ending -Ø might have been (non-)added; <source book="Sihler1995" /> p.248,254 has -h₂; <source book="Fortson2010" /> p.118,131,132 also has the ending as derived from the collective suffix; <source book="Beekes2011" /> p.186,188 has -h₂ with the collective explanation, in parallel with an ending -Ø; <source book="Szemerenyi1990" /> p.169 (with some skepticism against laryngeals) has -ā or -ə</footnote>
-    <footnote id="15"><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,253; <source book="Fortson2010" /> p.117,118; <source book="Beekes2011" /> p.186,189; <source book="Szemerenyi1990" /> p.169</footnote>
-    <footnote id="16">both cases combined; <source book="Ringe2006" /> p.41 has -mos; <source book="MeierBrugger2010" /> p.330,332 has -mos; <source book="Sihler1995" /> p.248 has -(m|bʰ)os; <source book="Fortson2010" /> p.117-119 has -bʰ?(i̯)os and a PIE-late development of -(bʰ|m)-endings from adpositions or adverbs related to English "by" and German "mit"; <source book="Beekes2011" /> p.186,188,189 has -mus for the dative plural and speculates about -ios for the ablative plural, which may have merged with the instrumental's -bʰ- to a common -(bʰ?(i̯)|m)os; <source book="Szemerenyi1990" /> p.169 has -(bʰ?(i)|m)os</footnote>
-    <footnote id="18"><source book="Ringe2006" /> p.41 has -oHom; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248 indicates -?(o|ō)m; <source book="Fortson2010" /> p.117,118,129; <source book="Beekes2011" /> p.186,188 derives -om; <source book="Szemerenyi1990" /> p.169 has -om</footnote>
-    <footnote id="19"><source book="Ringe2006" /> p.41 has -bʰi; <source book="MeierBrugger2010" /> p.330,332 has -bʰi; <source book="Sihler1995" /> p.248 has -(bʰ|m)is; <source book="Fortson2010" /> p.117-119 has -bʰi- and a PIE-late development of -(bʰ|m)-endings from adpositions or adverbs related to English "by" and German "mit"; <source book="Beekes2011" /> p.186,187,189 has -bʰi and a relation to a particle related to English "by"; <source book="Szemerenyi1990" /> p.169 has -(bʰ|m)is and (thematic?) -ōis</footnote>
-    <footnote id="20"><source book="Beekes2011" /> p.191</footnote>
-    <footnote id="21"><source book="Beekes2011" /> p.190</footnote>
-    <footnote id="22"><source book="Beekes2011" /> p.186,187,214-216</footnote>
-    <footnote id="23"><source book="Beekes2011" /> p.186,187</footnote>
-    <footnote id="24"><source book="Beekes2011" /> p.186,188</footnote>
-    <footnote id="25"><source book="Beekes2011" /> p.186,189</footnote>
-    <footnote id="26"><source book="Beekes2011" /> p.186,187,189</footnote>
+    <forms>
+        <form id="-?(s)">-?(s)</form>
+        <form id="-0">-Ø</form>
+        <form id="-m">-m</form>
+        <form id="-?(i)">-?(i)</form>
+        <form id="ei">-ei</form>
+        <form id="-(e|o)s">-(e|o)s</form>
+        <form id="-?(e)h₁">-?(e)h₁</form>
+        <form id="-h₁?(e)">-h₁?(e)</form>
+        <form id="-ih₁">-ih₁</form>
+        <form id="-es">-es</form>
+        <form id="-ns">-ns</form>
+        <form id="-?(h₂)">-?(h₂)</form>
+        <form id="-(bʰ?(i̯)|m)os">-(bʰ?(i̯)|m)os</form>
+        <form id="-?(?(o)H)om">-?(?(o)H)om</form>
+        <form id="-(bʰ|m)i?(s)">-(bʰ|m)i?(s)</form>
+        <form id="-su">-su</form>
+        <form id="e00">é-Ø-Ø</form>
+        <form id="0eo0">Ø-(é|ó)-Ø</form>
+        <form id="eo:0">é-ō-Ø</form>
+        <form id="0e:0">Ø-é̄-Ø</form>
+        <form id="00o">Ø-Ø-ó</form>
+        <form id="0e0">Ø-é-Ø</form>
+        <form id="?(e|é)-(ō̂|ō)-Ø">?(e|é)-(ō̂|ō)-Ø</form>
+        <form id="(e|é)-(ó|o)-Ø">(e|é)-(ó|o)-Ø</form>
+        <form id="?(e)-Ø-ó">?(e)-Ø-ó</form>
+        <form id="00e">Ø-Ø-é</form>
+        <form id="os">-os</form>
+        <form id="mus">-mus</form>
+        <form id="ios">-ios</form>
+        <form id="bʰi">-bʰi</form>
+    </forms>
+    <footnotes>
+        <footnote id="1">commonly assumed to be one original -s dissolved in some sound environments by Szemerényi's Law, but Beekes' explanation differs radically; <source book="Ringe2006" /> p.41,42; <source book="MeierBrugger2010" /> p.330,331; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.115,116; <source book="Beekes2011" /> p.186,214-216 assumes an earlier ergative-absolutive case system, with the absolutive endingless, and the ergative in -s, related to the later genitive form; <source book="Szemerenyi1990" /> p.121,122,169</footnote>
+        <footnote id="2"><source book="Ringe2006" /> p.41,42; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.116; <source book="Beekes2011" /> p.186; <source book="Szemerenyi1990" /> p.169</footnote>
+        <footnote id="3"><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330,331; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.115; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169</footnote>
+        <footnote id="4"><source book="Ringe2006" /> p.41,42; <source book="MeierBrugger2010" /> p.335; <source book="Sihler1995" /> p.248,250; <source book="Fortson2010" /> p.115; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169</footnote>
+        <footnote id="5">probably two separate endings, one with an -i that may have been a zero-grade of a common form with the dative, one a specific "endingless locative"; <source book="Ringe2006" /> p.41,42 assumes -Ø to which the "hic et nunc" particle -i- was added (no mention of common form with dative); <source book="MeierBrugger2010" /> p.330,331 hints at a possible common form with dative at an extremely early stage; <source book="Sihler1995" /> p.248,253 also hints at a possible early common form with the dative; <source book="Fortson2010" /> p.115,116; <source book="Beekes2011" /> p.186,187 verbalizes the idea of a common form with the dative most radically; <source book="Szemerenyi1990" /> p.169 only has -i</footnote>
+        <footnote id="6">possibly a common form with the singular locative's -i at an extremely early stage, see its discussion for more; <source book="Ringe2006" /> p.41,43; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,251 has -(e|o|a)i, <source book="Sihler1995" /> p.253 hints at this dative originally being unmarked for number; <source book="Fortson2010" /> p.115,116; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169</footnote>
+        <footnote id="8">both cases combined; <source book="Ringe2006" /> p.41-43 has -?(e|o)s and "extensive ablaut alternations"; <source book="MeierBrugger2010" /> p.330,331 counts -os variant as un-accented; <source book="Sihler1995" /> p.248,250,251 also has -s "rarely"; <source book="Fortson2010" /> p.115,116 has only -es; <source book="Beekes2011" /> p.186,187; <source book="Szemerenyi1990" /> p.169 has -?(e|o)s</footnote>
+        <footnote id="9"><source book="Ringe2006" /> p.41,43; <source book="MeierBrugger2010" /> p.330,331; <source book="Sihler1995" /> p.248,252 also has -bʰis; F115,116; <source book="Beekes2011" /> p.186,187 has -eh₁ except for i- and u-stems, there -h₁; <source book="Szemerenyi1990" /> p.169 has -(e|o) (commonly keeping his laryngeals scarce) and -(bʰ|m)i</footnote>
+        <footnote id="10"><source book="Ringe2006" /> p.41 has -h₁e; <source book="MeierBrugger2010" /> p.330 indicates -h₁ for the nominative only; <source book="Sihler1995" /> p.255,256 derives -e, -h₁ or -h₁e, favoring the last two; F117; <source book="Beekes2011" /> p.216,217 derives -h₁e; <source book="Szemerenyi1990" /> p.169 (skeptical against laryngeals) has -e, -i or -ī</footnote>
+        <footnote id="11"><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" />: no indication; <source book="Sihler1995" />: no indication; <source book="Fortson2010" /> p.117; <source book="Beekes2011" /> p.216,217; <source book="Szemerenyi1990" /> p.169 has -i or -ī</footnote>
+        <footnote id="12"><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,254; <source book="Fortson2010" /> p.117; <source book="Beekes2011" /> p.186,188; <source book="Szemerenyi1990" /> p.168,169</footnote>
+        <footnote id="13">assumed to be result of an accusative marker -m plus a plural marker -s; <source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,254 has PIE -ms becoming -ns "in attested languages"; <source book="Fortson2010" /> p.117; <source book="Beekes2011" /> p.186,188; <source book="Szemerenyi1990" /> p.169</footnote>
+        <footnote id="14"><source book="Ringe2006" /> p.41,42,44; <source book="MeierBrugger2010" /> p.335,336 sees -h₂- as suffix for collectives as the proper form for pluralities of non-agents (in contrast to distributive plurals for potential agents), to which the singular neuter's (non-)ending -Ø might have been (non-)added; <source book="Sihler1995" /> p.248,254 has -h₂; <source book="Fortson2010" /> p.118,131,132 also has the ending as derived from the collective suffix; <source book="Beekes2011" /> p.186,188 has -h₂ with the collective explanation, in parallel with an ending -Ø; <source book="Szemerenyi1990" /> p.169 (with some skepticism against laryngeals) has -ā or -ə</footnote>
+        <footnote id="15"><source book="Ringe2006" /> p.41; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248,253; <source book="Fortson2010" /> p.117,118; <source book="Beekes2011" /> p.186,189; <source book="Szemerenyi1990" /> p.169</footnote>
+        <footnote id="16">both cases combined; <source book="Ringe2006" /> p.41 has -mos; <source book="MeierBrugger2010" /> p.330,332 has -mos; <source book="Sihler1995" /> p.248 has -(m|bʰ)os; <source book="Fortson2010" /> p.117-119 has -bʰ?(i̯)os and a PIE-late development of -(bʰ|m)-endings from adpositions or adverbs related to English "by" and German "mit"; <source book="Beekes2011" /> p.186,188,189 has -mus for the dative plural and speculates about -ios for the ablative plural, which may have merged with the instrumental's -bʰ- to a common -(bʰ?(i̯)|m)os; <source book="Szemerenyi1990" /> p.169 has -(bʰ?(i)|m)os</footnote>
+        <footnote id="18"><source book="Ringe2006" /> p.41 has -oHom; <source book="MeierBrugger2010" /> p.330; <source book="Sihler1995" /> p.248 indicates -?(o|ō)m; <source book="Fortson2010" /> p.117,118,129; <source book="Beekes2011" /> p.186,188 derives -om; <source book="Szemerenyi1990" /> p.169 has -om</footnote>
+        <footnote id="19"><source book="Ringe2006" /> p.41 has -bʰi; <source book="MeierBrugger2010" /> p.330,332 has -bʰi; <source book="Sihler1995" /> p.248 has -(bʰ|m)is; <source book="Fortson2010" /> p.117-119 has -bʰi- and a PIE-late development of -(bʰ|m)-endings from adpositions or adverbs related to English "by" and German "mit"; <source book="Beekes2011" /> p.186,187,189 has -bʰi and a relation to a particle related to English "by"; <source book="Szemerenyi1990" /> p.169 has -(bʰ|m)is and (thematic?) -ōis</footnote>
+        <footnote id="20"><source book="Beekes2011" /> p.191</footnote>
+        <footnote id="21"><source book="Beekes2011" /> p.190</footnote>
+        <footnote id="22"><source book="Beekes2011" /> p.186,187,214-216</footnote>
+        <footnote id="23"><source book="Beekes2011" /> p.186,187</footnote>
+        <footnote id="24"><source book="Beekes2011" /> p.186,188</footnote>
+        <footnote id="25"><source book="Beekes2011" /> p.186,189</footnote>
+        <footnote id="26"><source book="Beekes2011" /> p.186,187,189</footnote>
+    </footnotes>
     <bibliography>
         <book id="Beekes1995" title="Beekes 1995">Beekes, Robert S. P.: Comparative Indo-European Linguistics: an Introduction. John Benjamins 1995.</book>
         <book id="Beekes2011" title="Beekes 2011">Beekes, Robert S. P.: Comparative Indo-European Linguistics: an Introduction. Second Edition. John Benjamins 2011.</book>
