@@ -38,7 +38,9 @@
         <p><xsl:apply-templates select="description" mode="source" /></p>
         <xsl:apply-templates select="." mode="table" />
         <ul style="list-style-type: none; ">
-            <xsl:apply-templates select="footnote" />
+            <xsl:apply-templates select="/grammar_tables/footnote">
+                <xsl:with-param name="grammar_table" select="@id" />
+            </xsl:apply-templates>
             <li>
                 <ul style="padding-left: 0em; list-style-type: disc;" >
                     <xsl:apply-templates select="paradigm[not(@footnote)]" />
@@ -48,13 +50,14 @@
     </xsl:template>
 
     <!-- all paradigm footnotes referencing one footnote element -->
-    <xsl:template match="/grammar_tables/grammar_table/footnote">
+    <xsl:template match="/grammar_tables/footnote">
+        <xsl:param name="grammar_table" />
         <xsl:variable name="footnote_id" select="@id" />
         <xsl:choose>
-            <xsl:when test="count(../paradigm[@footnote=$footnote_id]) &gt; 1">
+            <xsl:when test="count(../grammar_table[@id=$grammar_table]/paradigm[@footnote=$footnote_id]) &gt; 1">
                 <li style="margin: 0em; padding: 0em;">
                     <ul style="padding-left: 0em; padding-right: 0.5em; margin-right: 0.5em; border-right: 1px solid black; border-radius: 0.5em; float:left;">
-                        <xsl:apply-templates select="../paradigm[@footnote=$footnote_id]">
+                        <xsl:apply-templates select="../grammar_table[@id=$grammar_table]/paradigm[@footnote=$footnote_id]">
                             <xsl:with-param name="with_source" select="0" />
                         </xsl:apply-templates>
                     </ul>
@@ -65,7 +68,7 @@
                 </li>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:apply-templates select="../paradigm[@footnote=$footnote_id]">
+                <xsl:apply-templates select="../grammar_table[@id=$grammar_table]/paradigm[@footnote=$footnote_id]">
                     <xsl:with-param name="with_source" select="1" />
                 </xsl:apply-templates>
             </xsl:otherwise>
@@ -408,7 +411,7 @@
             <xsl:if test="@footnote and 1=$with_source">
                 <xsl:variable name="footnote_id" select="@footnote" />
                 <xsl:text> (</xsl:text>
-                <xsl:apply-templates select="../footnote[@id=$footnote_id]" mode="source" />)
+                <xsl:apply-templates select="/grammar_tables/footnote[@id=$footnote_id]" mode="source" />)
             </xsl:if>
         </li>
     </xsl:template>
