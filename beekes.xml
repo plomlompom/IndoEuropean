@@ -39,8 +39,8 @@
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic/neuter" short_title="PD (n)" />
             <declension_def id="HD" title="hysterodynamic/animate" short_title="HD (mf)">
-                <declension_def id="HD_A" title="hysterodynamic/animate (stem classes A)" short_title="a" />
-                <declension_def id="HD_B" title="hysterodynamic/animate (stem classes B)" short_title="b" />
+                <declension_def id="HD_A" title="hysterodynamic/animate (stem classes A)"/>
+                <declension_def id="HD_B" title="hysterodynamic/animate (stem classes B)"/>
             </declension_def>
         </declension_def>
         <case_def id="all" title="all">
@@ -61,8 +61,8 @@
         <paradigm declension="PD" case="Da+I" form="0e0" footnote="I_mobile_others" />
         <paradigm declension="PD" case="G+Abl" form="0e0" footnote="III/IV_pd_genitive-ablative" />
         <paradigm declension="HD" case="Da" form="00e" footnote="III/IV_hd_dative" />
-        <paradigm declension="HD_B" case="I" form="00e" footnote="III/IV_hd_instrumental" />
         <paradigm declension="HD_A" case="I" form="0e0" footnote="III/IV_hd_instrumental" />
+        <paradigm declension="HD_B" case="I" form="00e" footnote="III/IV_hd_instrumental" />
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
     <grammar_table id="IVa" title="Stage IV (a): un-accented proterodynamic instrumental">
@@ -71,8 +71,8 @@
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic/neuter" short_title="PD (n)" />
             <declension_def id="HD" title="hysterodynamic/animate" short_title="HD (mf)">
-                <declension_def id="HD_A" title="hysterodynamic/animate (stem classes A)" short_title="a" />
-                <declension_def id="HD_B" title="hysterodynamic/animate (stem classes B)" short_title="b" />
+                <declension_def id="HD_A" title="hysterodynamic/animate (stem classes A)"/>
+                <declension_def id="HD_B" title="hysterodynamic/animate (stem classes B)"/>
             </declension_def>
         </declension_def>
         <case_def id="all" title="all">
@@ -92,8 +92,8 @@
         <paradigm declension="PD" case="I" form="000" footnote="IVa_pd_instrumental" />
         <paradigm declension="PD" case="G+Abl" form="0e0" footnote="III/IV_pd_genitive-ablative" />
         <paradigm declension="HD" case="Da" form="00e" footnote="III/IV_hd_dative" />
-        <paradigm declension="HD_B" case="I" form="00e" footnote="III/IV_hd_instrumental" />
         <paradigm declension="HD_A" case="I" form="0e0" footnote="III/IV_hd_instrumental" />
+        <paradigm declension="HD_B" case="I" form="00e" footnote="III/IV_hd_instrumental" />
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
     <grammar_table id="IVb" title="Stage IV (b): proterodynamic animates">
@@ -105,8 +105,8 @@
                 <declension_def id="PD_n" title="proterodynamic/neuter" short_title="n" />
             </declension_def>
             <declension_def id="HD" title="hysterodynamic" short_title="HD">
-                <declension_def id="HD_A" title="hysterodynamic (stem classes A)" short_title="a" />
-                <declension_def id="HD_B" title="hysterodynamic (stem classes B)" short_title="b" />
+                <declension_def id="HD_A" title="hysterodynamic (stem classes A)"/>
+                <declension_def id="HD_B" title="hysterodynamic (stem classes B)"/>
             </declension_def>
         </declension_def>
         <case_def id="all" title="all">
@@ -130,8 +130,8 @@
         <paradigm declension="PD" case="I" form="000" footnote="IVa_pd_instrumental" />
         <paradigm declension="PD_n" case="G+Abl" form="0e0" footnote="III/IV_pd_genitive-ablative" />
         <paradigm declension="HD" case="Da" form="00e" footnote="III/IV_hd_dative" />
-        <paradigm declension="HD_B" case="I" form="00e" footnote="III/IV_hd_instrumental" />
         <paradigm declension="HD_A" case="I" form="0e0" footnote="III/IV_hd_instrumental" />
+        <paradigm declension="HD_B" case="I" form="00e" footnote="III/IV_hd_instrumental" />
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
     <forms>
