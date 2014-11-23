@@ -307,17 +307,7 @@
                     <xsl:text>#fn_</xsl:text>
                     <xsl:value-of select="$linkname"/>
                 </xsl:attribute>
-                <xsl:choose>
-                    <xsl:when test="count(paradigm[@form=$form_id]) &gt; 1">
-                        <xsl:if test="paradigm[@form=$form_id][1]/@case = $case and paradigm[@form=$form_id][1]/@declension = $declension">
-                            <xsl:value-of select="/grammar_tables/forms/form[$form_id=@id]" />
-                        </xsl:if>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="/grammar_tables/forms/form[$form_id=@id]" />
-                    </xsl:otherwise>
-                </xsl:choose>
-                
+                <xsl:value-of select="/grammar_tables/forms/form[$form_id=@id]" />
             </a>
         </td>
     </xsl:template>
