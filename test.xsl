@@ -23,9 +23,13 @@
             .form_family_14 { background-color: #ff9332 }
             table, td, th, tr { border: 1px solid; }
             </style>
-            <title>Test.</title>
+            <title><xsl:value-of select="@title" /></title>
+            <h1><xsl:value-of select="@title" /></h1>
+            <p>
+                <xsl:apply-templates select="description" mode="source" />
+            </p>
             <xsl:apply-templates select="grammar_table"/>
-            <h1>Bibliography</h1>
+            <h2>Bibliography</h2>
             <ul style="list-style-type: disc; ">
                 <xsl:apply-templates select="bibliography/book" />
             </ul>
@@ -34,7 +38,7 @@
 
     <!-- individual grammar_table: header, table proper, footnotes -->
     <xsl:template match="/grammar_tables/grammar_table">
-        <h1><xsl:value-of select="@title"/></h1>
+        <h2><xsl:value-of select="@title"/></h2>
         <p><xsl:apply-templates select="description" mode="source" /></p>
         <xsl:apply-templates select="." mode="table" />
         <ul style="list-style-type: none; ">
