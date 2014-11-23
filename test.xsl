@@ -403,7 +403,7 @@
             <xsl:text>: </xsl:text>
             <strong>
                 <xsl:variable name="form_id" select="@form" />
-                <xsl:value-of select="../form[@id=$form_id]" />
+                <xsl:value-of select="../../form[@id=$form_id]" />
             </strong>
             <xsl:if test="@footnote and 1=$with_source">
                 <xsl:variable name="footnote_id" select="@footnote" />
