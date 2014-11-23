@@ -72,7 +72,7 @@
         <case_def id="all" title="all">
             <case_def id="Abs" title="absolutive" short_title="absolutive" />
             <case_def id="Di+L+G+Abl+Da" title="directive, locative, genitive-ablative">
-                <case_def id="Di+L" title="directive, locative" short_title="directive, locative">
+                <case_def id="Di+L" title="directive, locative">
                     <case_def id="Di" title="directive" short_title="directive"/>
                     <case_def id="L" title="locative" short_title="locative"/>
                 </case_def>
