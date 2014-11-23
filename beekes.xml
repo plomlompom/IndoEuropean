@@ -39,8 +39,8 @@
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic/neuter" short_title="PD (n)" />
             <declension_def id="HD" title="hysterodynamic/animate" short_title="HD (mf)">
-                <declension_def id="HD_A" title="hysterodynamic/animate (stem classes A)"/>
-                <declension_def id="HD_B" title="hysterodynamic/animate (stem classes B)"/>
+                <declension_def id="HD_A" title="hysterodynamic/animate (stem classes A)" short_title="A"/>
+                <declension_def id="HD_B" title="hysterodynamic/animate (stem classes B)" short_title="B"/>
             </declension_def>
         </declension_def>
         <case_def id="all" title="all">
@@ -71,8 +71,8 @@
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic/neuter" short_title="PD (n)" />
             <declension_def id="HD" title="hysterodynamic/animate" short_title="HD (mf)">
-                <declension_def id="HD_A" title="hysterodynamic/animate (stem classes A)"/>
-                <declension_def id="HD_B" title="hysterodynamic/animate (stem classes B)"/>
+                <declension_def id="HD_A" title="hysterodynamic/animate (stem classes A)" short_title="A"/>
+                <declension_def id="HD_B" title="hysterodynamic/animate (stem classes B)" short_title="B"/>
             </declension_def>
         </declension_def>
         <case_def id="all" title="all">
@@ -105,8 +105,8 @@
                 <declension_def id="PD_n" title="proterodynamic/neuter" short_title="n" />
             </declension_def>
             <declension_def id="HD" title="hysterodynamic" short_title="HD">
-                <declension_def id="HD_A" title="hysterodynamic (stem classes A)"/>
-                <declension_def id="HD_B" title="hysterodynamic (stem classes B)"/>
+                <declension_def id="HD_A" title="hysterodynamic (stem classes A)" short_title="A"/>
+                <declension_def id="HD_B" title="hysterodynamic (stem classes B)" short_title="B"/>
             </declension_def>
         </declension_def>
         <case_def id="all" title="all">
