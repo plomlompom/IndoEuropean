@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl" ?>
+<grammar_tables>
+    <grammar_table id="I" title="I">
+        <description>The fundamental difference between inflections is static-mobile.</description>
+        <declension_def id="static" title="static" short_title="static" />
+        <declension_def id="mobile" title="mobile" short_title="mobile" />
+        <case_def id="all" title="all cases">
+            <case_def id="absolutive" title="absolutive" short_title="absolutive" />
+            <case_def id="locative" title="locative" short_title="locative" />
+        </case_def>
+        <paradigm declension="static" case="all" form="e0" footnote="2" />
+        <paradigm declension="mobile" case="absolutive" form="e0" footnote="1" />
+        <paradigm declension="mobile" case="locative" form="0e" footnote="1" />
+    </grammar_table>
+    <grammar_table id="II+III" title="II, III">
+        <description>Various case markers append to the locative inflection. The ergative genitive-ablative gets not only a case marker, but also its own inflection, with accent on the case marker.</description>
+        <declension_def id="static" title="static" short_title="static" />
+        <declension_def id="mobile" title="mobile" short_title="mobile" />
+        <case_def id="all" title="all cases">
+            <case_def id="absolutive" title="absolutive" short_title="absolutive" />
+            <case_def id="locative+dative+directive+instrumental" title="locative, dative, directive, instrumental" short_title="locative, dative, directive, instrumental" />
+            <case_def id="genitive+ablative" title="genitive-ablative" short_title="genitive-ablative" />
+        </case_def>
+        <paradigm declension="static" case="all" form="e00" footnote="1" />
+        <paradigm declension="mobile" case="absolutive" form="e00" footnote="2" />
+        <paradigm declension="mobile" case="locative+dative+directive+instrumental" form="0e0" footnote="1" />
+        <paradigm declension="mobile" case="genitive+ablative" form="00o" footnote="1" />
+    </grammar_table>
+    <grammar_table id="IVa" title="IVa">
+        <description>Ergativity splits the mobile inflection: In animate nouns, the case marker accent of the ergative genitive-ablative grows into other cases. In inanimate nouns, the ergative is rarely used, and loses its case marker accent to other cases' suffix accent.</description>
+        <declension_def id="static" title="static" short_title="static" />
+        <declension_def id="mobile" title="mobile" short_title="mobile">
+            <declension_def id="proterodynamic-neuter" title="proterodynamic neuter" short_title="PD-n" />
+            <declension_def id="hysterodynamic" title="hysterodynamic" short_title="HD" />
+        </declension_def>
+        <case_def id="all" title="all">
+            <case_def id="absolutive" title="absolutive" short_title="absolutive" />
+            <case_def id="directive+locative+genitive+ablative" title="directive, locative, genitive-ablative">
+                <case_def id="directive+locative" title="directive, locative" short_title="directive, locative" />
+                <case_def id="genitive+ablative" title="genitive-ablative" short_title="genitive-ablative-ergative" />
+            </case_def>
+            <case_def id="dative+instrumental" title="dative+instrumental">
+                <case_def id="dative" title="dative" short_title="dative" />
+                <case_def id="instrumental" title="instrumental" short_title="instrumental" />
+            </case_def>
+        </case_def>
+        <paradigm declension="static" case="all" form="e00" footnote="1" />
+        <paradigm declension="mobile" case="absolutive" form="e00" footnote="2" />
+        <paradigm declension="proterodynamic-neuter" case="directive+locative+genitive+ablative" form="0e0" footnote="1" />
+        <paradigm declension="proterodynamic-neuter" case="dative" form="0e0" footnote="1" />
+        <paradigm declension="proterodynamic-neuter" case="instrumental" form="000" footnote="3" />
+        <paradigm declension="hysterodynamic" case="directive+locative" form="0e0" footnote="1" />
+        <paradigm declension="hysterodynamic" case="dative+instrumental" form="00e" footnote="4" />
+        <paradigm declension="hysterodynamic" case="genitive+ablative" form="00o" footnote="2" />
+    </grammar_table>
+    <grammar_table id="IVB" title="IVb">
+        <description>The animate proterodynamic inflection is due to influence from the static inflection.</description>
+        <declension_def id="static" title="static" short_title="static" />
+        <declension_def id="mobile" title="mobile" short_title="mobile">
+            <declension_def id="proterodynamic" title="proterodynamic" short_title="PD">
+                <declension_def id="proterodynamic-animate" title="proterodynamic animate" short_title="mf" />
+                <declension_def id="proterodynamic-neuter" title="proterodynamic neuter" short_title="n" />
+            </declension_def>
+            <declension_def id="hysterodynamic" title="hysterodynamic" short_title="HD" />
+        </declension_def>
+        <case_def id="all" title="all">
+            <case_def id="absolutive" title="absolutive" short_title="absolutive" />
+            <case_def id="directive+locative+genitive+ablative" title="directive, locative, genitive-ablative">
+                <case_def id="directive+locative" title="directive, locative">
+                    <case_def id="directive" title="directive" short_title="directive" />
+                    <case_def id="locative" title="locative" short_title="locative" />
+                </case_def>
+                <case_def id="genitive+ablative" title="genitive-ablative" short_title="genitive-ablative-ergative" />
+            </case_def>
+            <case_def id="dative+instrumental" title="dative+instrumental">
+                <case_def id="dative" title="dative" short_title="dative" />
+                <case_def id="instrumental" title="instrumental" short_title="instrumental" />
+            </case_def>
+        </case_def>
+        <paradigm declension="static" case="all" form="e00" footnote="1" />
+        <paradigm declension="mobile" case="absolutive" form="e00" footnote="2" />
+        <paradigm declension="proterodynamic-neuter" case="directive+locative+genitive+ablative" form="0e0" footnote="1" />
+        <paradigm declension="proterodynamic" case="dative" form="0e0" footnote="1" />
+        <paradigm declension="proterodynamic" case="instrumental" form="000" footnote="4" />
+        <paradigm declension="hysterodynamic" case="directive+locative" form="0e0" footnote="1" />
+        <paradigm declension="proterodynamic-animate" case="directive" form="e00" footnote="3" />
+        <paradigm declension="proterodynamic-animate" case="locative" form="0e0" footnote="1" />
+        <paradigm declension="hysterodynamic" case="dative+instrumental" form="00e" footnote="5" />
+        <paradigm declension="proterodynamic-animate" case="genitive+ablative" form="e00" footnote="3" />
+        <paradigm declension="hysterodynamic" case="genitive+ablative" form="00o" footnote="2" />
+    </grammar_table>
+    <forms>
+        <form id="e0">é-Ø</form>
+        <form id="0e">Ø-é</form>
+        <form id="e00">é-Ø-Ø</form>
+        <form id="0e0">Ø-é-Ø</form>
+        <form id="00o">Ø-Ø-ó</form>
+        <form id="00e">Ø-Ø-é</form>
+        <form id="000">Ø-Ø-Ø</form>
+        <form id="eo0">e-o-Ø</form>
+    </forms>
+    <footnotes>
+        <footnote id="1"><source book="Beekes1985" /> p. 202,207</footnote>
+        <footnote id="2"><source book="Beekes1985" /> p. 202,203,207</footnote>
+        <footnote id="3"><source book="Beekes1985" /> p. 203,207</footnote>
+        <footnote id="4"><source book="Beekes1985" /> p. 207 – this highly unusual form is given in Beekes' table, but not explained</footnote>
+        <footnote id="5"><source book="Beekes1985" /> p. 203,207 – the instrumental "perhaps not in all cases" (the table gives Ø-é-Ø)</footnote>
+    </footnotes>
+    <bibliography>
+        <book id="Beekes1985" title="Beekes 1985">Beekes, Robert S. P.: The origins of the Indo-European nominal inflection. Institut für Sprachwissenschaft der Universität Innsbruck 1985.</book>
+    </bibliography>
+</grammar_tables>
