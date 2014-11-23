@@ -6,93 +6,96 @@
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile" short_title="mobile" />
         <case_def id="all" title="all cases">
-            <case_def id="absolutive" title="absolutive" short_title="absolutive" />
-            <case_def id="locative" title="locative" short_title="locative" />
+            <case_def id="A" title="absolutive" short_title="absolutive" />
+            <case_def id="L" title="locative" short_title="locative" />
         </case_def>
-        <paradigm declension="static" case="all" form="e0" footnote="1" />
-        <paradigm declension="mobile" case="absolutive" form="e0" footnote="1" />
-        <paradigm declension="mobile" case="locative" form="0e" footnote="1" />
+        <paradigm declension="static" case="all" form="e00" footnote="1" />
+        <paradigm declension="mobile" case="A" form="e00" footnote="1" />
+        <paradigm declension="mobile" case="L" form="0e0" footnote="1" />
     </grammar_table>
     <grammar_table id="II+III" title="II, III">
         <description>Various case markers append to the locative inflection. The ergative genitive-ablative gets not only a case marker, but also its own inflection, with accent on the case marker.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile" short_title="mobile" />
         <case_def id="all" title="all cases">
-            <case_def id="absolutive" title="absolutive" short_title="absolutive" />
-            <case_def id="locative+dative+directive+instrumental" title="locative, dative, directive, instrumental" short_title="locative, dative, directive, instrumental" />
-            <case_def id="genitive+ablative" title="genitive-ablative" short_title="genitive-ablative" />
+            <case_def id="Abs" title="absolutive" short_title="absolutive" />
+            <case_def id="L+Da+Di+I" title="locative, dative, directive, instrumental" short_title="locative, dative, directive, instrumental" />
+            <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
         </case_def>
         <paradigm declension="static" case="all" form="e00" footnote="1" />
-        <paradigm declension="mobile" case="absolutive" form="e00" footnote="2" />
-        <paradigm declension="mobile" case="locative+dative+directive+instrumental" form="0e0" footnote="1" />
-        <paradigm declension="mobile" case="genitive+ablative" form="00o" footnote="2" />
+        <paradigm declension="mobile" case="Abs" form="e00" footnote="2" />
+        <paradigm declension="mobile" case="L+Da+Di+I" form="0e0" footnote="1" />
+        <paradigm declension="mobile" case="G+Abl" form="00o" footnote="2" />
     </grammar_table>
     <grammar_table id="IVa" title="IVa">
         <description>Ergativity splits the mobile inflection: In animate nouns, the case marker accent of the ergative genitive-ablative grows into other cases. In inanimate nouns, the ergative is rarely used, and loses its case marker accent to other cases' suffix accent.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile" short_title="mobile">
-            <declension_def id="proterodynamic-neuter" title="proterodynamic neuter" short_title="PD-n" />
-            <declension_def id="hysterodynamic" title="hysterodynamic" short_title="HD" />
+            <declension_def id="PD" title="proterodynamic/neuter" short_title="PD/n" />
+            <declension_def id="HD" title="hysterodynamic/animate" short_title="HD/mf">
+                <declension_def id="HD_A" title="hysterodynamic/animate (stem classes A)" short_title="a" />
+                <declension_def id="HD_B" title="hysterodynamic/animate (stem classes B)" short_title="b" />
+            </declension_def>
         </declension_def>
         <case_def id="all" title="all">
-            <case_def id="absolutive" title="absolutive" short_title="absolutive" />
-            <case_def id="directive+locative+genitive+ablative" title="directive, locative, genitive-ablative">
-                <case_def id="directive+locative" title="directive, locative" short_title="directive, locative" />
-                <case_def id="genitive+ablative" title="genitive-ablative" short_title="genitive-ablative-ergative" />
+            <case_def id="Abs" title="absolutive" short_title="absolutive" />
+            <case_def id="Di+L+G+Abl+Da" title="directive, locative, genitive-ablative">
+                <case_def id="Di+L" title="directive, locative" short_title="directive, locative" />
+                <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative-ergative" />
+                <case_def id="Da" title="dative" short_title="dative" />
             </case_def>
-            <case_def id="dative+instrumental" title="dative+instrumental">
-                <case_def id="dative" title="dative" short_title="dative" />
-                <case_def id="instrumental" title="instrumental" short_title="instrumental" />
-            </case_def>
+            <case_def id="I" title="instrumental" short_title="instrumental" />
         </case_def>
         <paradigm declension="static" case="all" form="e00" footnote="1" />
-        <paradigm declension="mobile" case="absolutive" form="e00" footnote="2" />
-        <paradigm declension="proterodynamic-neuter" case="directive+locative+genitive+ablative" form="0e0" footnote="1" />
-        <paradigm declension="proterodynamic-neuter" case="dative" form="0e0" footnote="1" />
-        <paradigm declension="proterodynamic-neuter" case="instrumental" form="000" footnote="4" />
-        <paradigm declension="hysterodynamic" case="directive+locative" form="0e0" footnote="1" />
-        <paradigm declension="hysterodynamic" case="dative+instrumental" form="00e" footnote="5" />
-        <paradigm declension="hysterodynamic" case="genitive+ablative" form="00o" footnote="2" />
+        <paradigm declension="mobile" case="Abs" form="e00" footnote="2" />
+        <paradigm declension="PD" case="Di+L+G+Abl+Da" form="0e0" footnote="1" />
+        <paradigm declension="PD" case="I" form="000" footnote="4" />
+        <paradigm declension="HD" case="Di+L" form="0e0" footnote="1" />
+        <paradigm declension="HD" case="Da" form="00e" footnote="3" />
+        <paradigm declension="HD_B" case="I" form="00e" footnote="3" />
+        <paradigm declension="HD_A" case="I" form="0e0" footnote="3" />
+        <paradigm declension="HD" case="G+Abl" form="00o" footnote="2" />
     </grammar_table>
-    <grammar_table id="IVB" title="IVb">
+    <grammar_table id="IVb" title="IVb">
         <description>The animate proterodynamic inflection is due to influence from the static inflection.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile" short_title="mobile">
-            <declension_def id="proterodynamic" title="proterodynamic" short_title="PD">
-                <declension_def id="proterodynamic-animate" title="proterodynamic animate" short_title="mf" />
-                <declension_def id="proterodynamic-neuter" title="proterodynamic neuter" short_title="n" />
+            <declension_def id="PD" title="proterodynamic" short_title="PD">
+                <declension_def id="PD-mf" title="proterodynamic animate" short_title="mf" />
+                <declension_def id="PD-n" title="proterodynamic neuter" short_title="n" />
             </declension_def>
-            <declension_def id="hysterodynamic" title="hysterodynamic" short_title="HD" />
+            <declension_def id="HD" title="hysterodynamic/animate" short_title="HD/mf">
+                <declension_def id="HD_A" title="hysterodynamic/animate (stem classes A)" short_title="a" />
+                <declension_def id="HD_B" title="hysterodynamic/animate (stem classes B)" short_title="b" />
+            </declension_def>
         </declension_def>
         <case_def id="all" title="all">
-            <case_def id="absolutive" title="absolutive" short_title="absolutive" />
-            <case_def id="directive+locative+genitive+ablative" title="directive, locative, genitive-ablative">
-                <case_def id="directive+locative" title="directive, locative">
-                    <case_def id="directive" title="directive" short_title="directive" />
-                    <case_def id="locative" title="locative" short_title="locative" />
+            <case_def id="Abs" title="absolutive" short_title="absolutive" />
+            <case_def id="Di+L+G+Abl+Da" title="directive, locative, genitive-ablative">
+                <case_def id="Di+L" title="directive, locative" short_title="directive, locative">
+                    <case_def id="Di" title="directive" short_title="directive"/>
+                    <case_def id="L" title="locative" short_title="locative"/>
                 </case_def>
-                <case_def id="genitive+ablative" title="genitive-ablative" short_title="genitive-ablative-ergative" />
+                <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative-ergative" />
+                <case_def id="Da" title="dative" short_title="dative" />
             </case_def>
-            <case_def id="dative+instrumental" title="dative+instrumental">
-                <case_def id="dative" title="dative" short_title="dative" />
-                <case_def id="instrumental" title="instrumental" short_title="instrumental" />
-            </case_def>
+            <case_def id="I" title="instrumental" short_title="instrumental" />
         </case_def>
         <paradigm declension="static" case="all" form="e00" footnote="1" />
-        <paradigm declension="mobile" case="absolutive" form="e00" footnote="2" />
-        <paradigm declension="proterodynamic-neuter" case="directive+locative+genitive+ablative" form="0e0" footnote="1" />
-        <paradigm declension="proterodynamic" case="dative" form="0e0" footnote="1" />
-        <paradigm declension="proterodynamic" case="instrumental" form="000" footnote="4" />
-        <paradigm declension="hysterodynamic" case="directive+locative" form="0e0" footnote="1" />
-        <paradigm declension="proterodynamic-animate" case="locative" form="0e0" footnote="1" />
-        <paradigm declension="hysterodynamic" case="dative+instrumental" form="00e" footnote="5" />
-        <paradigm declension="proterodynamic-animate" case="directive" form="e00" footnote="6" />
-        <paradigm declension="proterodynamic-animate" case="genitive+ablative" form="e00" footnote="6" />
-        <paradigm declension="hysterodynamic" case="genitive+ablative" form="00o" footnote="2" />
+        <paradigm declension="mobile" case="Abs" form="e00" footnote="2" />
+        <paradigm declension="PD-n" case="Di+L+G+Abl+Da" form="0e0" footnote="1" />
+        <paradigm declension="PD" case="I" form="000" footnote="4" />
+        <paradigm declension="PD-mf" case="L" form="0e0" footnote="1" />
+        <paradigm declension="PD-mf" case="Di" form="e00" footnote="6" />
+        <paradigm declension="PD-mf" case="G+Abl" form="e00" footnote="6" />
+        <paradigm declension="PD-mf" case="Da" form="0e0" footnote="1" />
+        <paradigm declension="HD" case="Di+L" form="0e0" footnote="1" />
+        <paradigm declension="HD" case="Da" form="00e" footnote="3" />
+        <paradigm declension="HD_B" case="I" form="00e" footnote="3" />
+        <paradigm declension="HD_A" case="I" form="0e0" footnote="3" />
+        <paradigm declension="HD" case="G+Abl" form="00o" footnote="2" />
     </grammar_table>
     <forms>
-        <form id="e0">é-Ø</form>
-        <form id="0e">Ø-é</form>
         <form id="e00">é-Ø-Ø</form>
         <form id="0e0">Ø-é-Ø</form>
         <form id="00o">Ø-Ø-ó</form>
