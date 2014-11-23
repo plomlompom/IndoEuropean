@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="test.xsl" ?>
 <grammar_tables>
+    <form id="-?(s)">-?(s)</form>
+    <form id="-0">-Ø</form>
+    <form id="-m">-m</form>
+    <form id="-?(i)">-?(i)</form>
+    <form id="ei">-ei</form>
+    <form id="-(e|o)s">-(e|o)s</form>
+    <form id="-?(e)h₁">-?(e)h₁</form>
+    <form id="-h₁?(e)">-h₁?(e)</form>
+    <form id="-ih₁">-ih₁</form>
+    <form id="-es">-es</form>
+    <form id="-ns">-ns</form>
+    <form id="-?(h₂)">-?(h₂)</form>
+    <form id="-(bʰ?(i̯)|m)os">-(bʰ?(i̯)|m)os</form>
+    <form id="-?(?(o)H)om">-?(?(o)H)om</form>
+    <form id="-(bʰ|m)i?(s)">-(bʰ|m)i?(s)</form>
+    <form id="-su">-su</form>
+    <form id="e00">é-Ø-Ø</form>
+    <form id="0eo0">Ø-(é|ó)-Ø</form>
+    <form id="eo:0">é-ō-Ø</form>
+    <form id="0e:0">Ø-é̄-Ø</form>
+    <form id="00o">Ø-Ø-ó</form>
+    <form id="0e0">Ø-é-Ø</form>
+    <form id="?(e|é)-(ō̂|ō)-Ø">?(e|é)-(ō̂|ō)-Ø</form>
+    <form id="(e|é)-(ó|o)-Ø">(e|é)-(ó|o)-Ø</form>
+    <form id="?(e)-Ø-ó">?(e)-Ø-ó</form>
+    <form id="00e">Ø-Ø-é</form>
+    <form id="os">-os</form>
+    <form id="mus">-mus</form>
+    <form id="ios">-ios</form>
+    <form id="bʰi">-bʰi</form>
     <grammar_table id="communis_opinio" title="original ending particles (communis opinio)">
         <description>Tentative portrayal of the communis opinio about original particles that combined to PIE endings proper, not yet transformed by specific sound environments, not yet displaced by pronoun endings. Theories about earlier stages, more precise definitions, and a few outliers not integrated into the table are given in footnotes.</description>
         <case_def id="nominative+vocative+accusative" title="direct cases">
@@ -27,28 +57,12 @@
             <declension_def id="plural-animate" title="plural animate" short_title="mf" />
             <declension_def id="plural-inanimate" title="plural inanimate" short_title="n" />
         </declension_def>
-        <form id="-?(s)">-?(s)</form>
-        <form id="-Ø">-Ø</form>
-        <form id="-m">-m</form>
-        <form id="-?(i)">-?(i)</form>
-        <form id="-ei">-ei</form>
-        <form id="-(e|o)s">-(e|o)s</form>
-        <form id="-?(e)h₁">-?(e)h₁</form>
-        <form id="-h₁?(e)">-h₁?(e)</form>
-        <form id="-ih₁">-ih₁</form>
-        <form id="-es">-es</form>
-        <form id="-ns">-ns</form>
-        <form id="-?(h₂)">-?(h₂)</form>
-        <form id="-(bʰ?(i̯)|m)os">-(bʰ?(i̯)|m)os</form>
-        <form id="-?(?(o)H)om">-?(?(o)H)om</form>
-        <form id="-(bʰ|m)i?(s)">-(bʰ|m)i?(s)</form>
-        <form id="-su">-su</form>
         <paradigm declension="singular-animate" case="nominative" form="-?(s)" footnote="1" />
-        <paradigm declension="singular-animate" case="vocative" form="-Ø" footnote="2" />
+        <paradigm declension="singular-animate" case="vocative" form="-0" footnote="2" />
         <paradigm declension="singular-animate" case="accusative" form="-m" footnote="3" />
-        <paradigm declension="singular-inanimate" case="nominative+vocative+accusative" form="-Ø" footnote="4" />
+        <paradigm declension="singular-inanimate" case="nominative+vocative+accusative" form="-0" footnote="4" />
         <paradigm declension="singular" case="locative" form="-?(i)" footnote="5" />
-        <paradigm declension="singular" case="dative" form="-ei" footnote="6" />
+        <paradigm declension="singular" case="dative" form="ei" footnote="6" />
         <paradigm declension="singular" case="ablative" form="-(e|o)s" footnote="8" />
         <paradigm declension="singular" case="genitive" form="-(e|o)s" footnote="8"/>
         <paradigm declension="singular" case="instrumental" form="-?(e)h₁" footnote="9" />
@@ -97,15 +111,6 @@
             </case_def>
         <case_def id="genitive" title="genitive" short_title="G" />
         </case_def>
-        <form id="e00">é-Ø-Ø</form>
-        <form id="0eo0">Ø-(é|ó)-Ø</form>
-        <form id="eo:0">é-ō-Ø</form>
-        <form id="0e:0">Ø-é̄-Ø</form>
-        <form id="00o">Ø-Ø-ó</form>
-        <form id="0e0">Ø-é-Ø</form>
-        <form id="?(e|é)-(ō̂|ō)-Ø">?(e|é)-(ō̂|ō)-Ø</form>
-        <form id="(e|é)-(ó|o)-Ø">(e|é)-(ó|o)-Ø</form>
-        <form id="?(e)-Ø-ó">?(e)-Ø-ó</form>
         <paradigm declension="st" case="all" form="e00" footnote="1" />
         <paradigm declension="pd" case="direct" form="e00" footnote="2" />
         <paradigm declension="pd" case="genitive" form ="0eo0" footnote="2" />
@@ -137,9 +142,6 @@
             <case_def id="locative" title="locative singular" short_title="L" />
             <case_def id="genitive" title="genitive singular" short_title="G" />
         </case_def>
-        <form id="e00">é-Ø-Ø</form>
-        <form id="0e0">Ø-é-Ø</form>
-        <form id="00e">Ø-Ø-é</form>
         <paradigm declension="static" case="all" form="e00" />
         <paradigm declension="mobile" case="nominative" form="e00" />
         <paradigm declension="neuter" case="accusative" form="e00" />
@@ -158,12 +160,6 @@
         <case_def id="dative" title="dative" short_title="D" />
         <case_def id="ablative" title="ablative" short_title="Abl" />
         <case_def id="instrumental" title="instrumental" short_title="I" />
-        <form id="os">-os</form>
-        <form id="0">-Ø</form>
-        <form id="ei">-ei</form>
-        <form id="mus">-mus</form>
-        <form id="ios">-ios</form>
-        <form id="bʰi">-bʰi</form>
         <paradigm declension="singular" case="ergative+genitive" form="os" footnote="1" />
         <paradigm declension="singular" case="absolutive+locative" form="0" footnote="1" />
         <paradigm declension="singular" case="dative+locative" form="ei" footnote="2" />

@@ -303,11 +303,11 @@
                 <xsl:choose>
                     <xsl:when test="count(paradigm[@form=$form_id]) &gt; 1">
                         <xsl:if test="paradigm[@form=$form_id][1]/@case = $case and paradigm[@form=$form_id][1]/@declension = $declension">
-                            <xsl:value-of select="form[$form_id=@id]" />
+                            <xsl:value-of select="../form[$form_id=@id]" />
                         </xsl:if>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="form[$form_id=@id]" />
+                        <xsl:value-of select="../form[$form_id=@id]" />
                     </xsl:otherwise>
                 </xsl:choose>
                 
@@ -321,11 +321,11 @@
         <xsl:param name="case" />
         <xsl:param name="declension" />
         <xsl:param name="linkname" />
-        <xsl:if test="count(paradigm[@form=$form_id]) &gt; 1">
+        <xsl:if test="count(../grammar_table/paradigm[@form=$form_id]) &gt; 1">
             <xsl:attribute name="class">
                 <xsl:text>form_family_</xsl:text>
                 <xsl:variable name="form_family">
-                    <xsl:apply-templates select="form[1]" mode="nth_multiparadigm_form">
+                    <xsl:apply-templates select="../form[1]" mode="nth_multiparadigm_form">
                         <xsl:with-param name="stop_at" select="$form_id" />
                         <xsl:with-param name="nth" select="0" />
                     </xsl:apply-templates>
@@ -345,11 +345,11 @@
     </xsl:template>
 
     <!-- position of "stop_at" in multi-paradigm forms (i.e. don't count single-paradigm ones) -->
-    <xsl:template match="/grammar_tables/grammar_table/form" mode="nth_multiparadigm_form">
+    <xsl:template match="/grammar_tables/form" mode="nth_multiparadigm_form">
         <xsl:param name="stop_at" />
         <xsl:param name="nth" />
         <xsl:variable name="form_id" select="@id" />
-        <xsl:variable name="new_nth" select="$nth + (count(../paradigm[@form=$form_id]) &gt; 1)" />
+        <xsl:variable name="new_nth" select="$nth + (count(../grammar_table/paradigm[@form=$form_id]) &gt; 1)" />
         <xsl:choose>
             <xsl:when test="$stop_at=@id">
                 <xsl:value-of select="$new_nth" />
