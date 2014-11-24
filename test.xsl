@@ -66,7 +66,11 @@
                         </xsl:apply-templates>
                     </ul>
                     <p style="margin-top: 0; margin-bottom: 0; padding-top: 0.5em; ">
-                        (<xsl:apply-templates select="." mode="source" />)
+                        <xsl:text>(</xsl:text>
+                        <xsl:apply-templates select="." mode="footnote_search">
+                            <xsl:with-param name="grammar_table" select="$grammar_table" />
+                        </xsl:apply-templates>
+                        <xsl:text>)</xsl:text>
                     </p>
                     <div style="clear:both;" />
                 </li>
@@ -75,6 +79,31 @@
                 <xsl:apply-templates select="/grammar_tables/grammar_table[@id=$grammar_table]/paradigm[@footnote=$footnote_id]">
                     <xsl:with-param name="with_source" select="1" />
                 </xsl:apply-templates>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <!-- footnote if $grammar_table is first to refer to it, else link to its first appearance -->
+    <xsl:template match="footnote" mode="footnote_search">
+        <xsl:param name="grammar_table" />
+        <xsl:variable name="footnote" select="@id" />
+        <xsl:variable name="target_table" select="/grammar_tables/grammar_table[paradigm[@footnote=$footnote]][1]" />
+        <xsl:choose>
+            <xsl:when test="$target_table/@id = $grammar_table">
+                <xsl:apply-templates select="." mode="source" />
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:variable name="target_paradigm" select="$target_table/paradigm[@footnote=$footnote]" />
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:text>#fn_</xsl:text>
+                        <xsl:apply-templates select="$target_table" mode="linkname">
+                            <xsl:with-param name="case" select="$target_paradigm/@case"/>
+                            <xsl:with-param name="declension" select="$target_paradigm/@declension"/>
+                        </xsl:apply-templates>
+                    </xsl:attribute>
+                    <xsl:text>see </xsl:text><xsl:value-of select="$target_table/@short_title" />
+                </a>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -405,7 +434,10 @@
             <xsl:if test="@footnote and 1=$with_source">
                 <xsl:variable name="footnote_id" select="@footnote" />
                 <xsl:text> (</xsl:text>
-                <xsl:apply-templates select="/grammar_tables/footnotes/footnote[@id=$footnote_id]" mode="source" />)
+                <xsl:apply-templates select="/grammar_tables/footnotes/footnote[@id=$footnote_id]" mode="footnote_search">
+                    <xsl:with-param name="grammar_table" select="ancestor::grammar_table/@id" />
+                </xsl:apply-templates>
+                <xsl:text>)</xsl:text>
             </xsl:if>
         </li>
     </xsl:template>

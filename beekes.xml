@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="test.xsl" ?>
 <grammar_tables title="Early accent/ablaut classes (Beekes)">
     <description>The early development of the PIE accent/ablaut classes as read into <source book="Beekes1985" /> (incomplete). Classes are written out in the form "[root ablaut]-[suffix ablaut]-[case marker ablaut]", with an accent put on top of the stressed ablaut. The order of tables is not strictly chronological, but rather analytical: Beekes often specifies the order of steps only vaguely, or as happening roughly at the same developmental stage, without going into detail about their relative order. For reasons of clarity, I decided to introduce such steps in separate tables of a certain order, even if they may have happened in parallel, or in a slightly different order.</description>
-    <grammar_table id="I" title="Stage I: static/mobile">
+    <grammar_table id="I" title="Stage I: static/mobile" short_title="stage I">
         <description>The fundamental difference between inflections is static/mobile. This stage is equal to stage I in the p. 207 table.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile" short_title="mobile" />
@@ -14,7 +14,7 @@
         <paradigm declension="mobile" case="A" form="e00" footnote="I_mobile_absolutive" />
         <paradigm declension="mobile" case="L" form="0e0" footnote="I_mobile_others" />
     </grammar_table>
-    <grammar_table id="II" title="Stage II: mobile ergative">
+    <grammar_table id="II" title="Stage II: mobile ergative" short_title="stage II">
         <description>Various case markers append to the locative inflection – as per p. 202, 207: directive -m, dative -i, instrumental -h₁, genitive-ablative -s (unaccented) and -ós (accented). The (ergative) genitive-ablative gets its own paradigm in the mobile inflection. This stage is equal to stage II in the p. 207 table.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile" short_title="mobile" />
@@ -33,7 +33,7 @@
         <paradigm declension="mobile" case="L+Da+Di+I" form="0e0" footnote="I_mobile_others" />
         <paradigm declension="mobile" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
-    <grammar_table id="III/IV" title="Stage III/IV: proterodynamic/hysterodynamic">
+    <grammar_table id="III/IV" title="Stage III/IV: proterodynamic/hysterodynamic" short_title="stage III/IV">
         <description>Ergativity and gender split the mobile inflection (p. 171, 203): In animate (hysterodynamic) nouns, the case marker accent of the ergative genitive-ablative grows into other cases. In non-ergative inanimate (proterodynamic) nouns, the genitive-ablative loses its case marker accent to other cases' suffix accent. This stage lies somewhere between stages III and IV in the p. 207 table.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -65,7 +65,7 @@
         <paradigm declension="HD_B" case="I" form="00e" footnote="III/IV_hd_instrumental" />
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
-    <grammar_table id="IVa" title="Stage IV (a): un-accented proterodynamic instrumental">
+    <grammar_table id="IVa" title="Stage IV (a): un-accented proterodynamic instrumental"  short_title="stage IV a">
         <description>A remarkable proterodynamic instrumental with zero ablaut grades throughout and sans accent is introduced in Beekes' tables (p. 197, 207) without much explanation. This stage is equal to parts of stage IV in the p. 207 table.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -96,7 +96,7 @@
         <paradigm declension="HD_B" case="I" form="00e" footnote="III/IV_hd_instrumental" />
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
-    <grammar_table id="IVb" title="Stage IV (b): proterodynamic animates">
+    <grammar_table id="IVb" title="Stage IV (b): proterodynamic animates" short_title="stage IV b">
         <description>The animate proterodynamic inflection is due to influence from the static inflection. This stage is equal to parts of stage IV in the p. 207 table.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
