@@ -242,9 +242,9 @@
         <form id="0e0">Ø-é-Ø</form>
         <form id="00o">Ø-Ø-ó</form>
         <form id="00e">Ø-Ø-é</form>
-        <form id="?e00">?(é)-Ø-Ø</form>
+        <form id="?e00">(é|Ø)-Ø-Ø</form>
         <form id="eo0">é-o-Ø</form>
-        <form id="?eo0">?(e)-o-Ø</form>
+        <form id="?eo0">(e|Ø)-o-Ø</form>
         <form id="o0o">o-Ø-ó</form>
         <form id="0e00e">Ø-(é-Ø|Ø-é)</form>
     </forms>
