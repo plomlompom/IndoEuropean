@@ -22,6 +22,8 @@
             .form_family_13 { background-color: #fffc9c }
             .form_family_14 { background-color: #ff9332 }
             table, td, th, tr { border: 1px solid; }
+            ul li:target { border: 1px dotted black; }
+            td:target span { border: 1px dotted black; }
             </style>
             <title><xsl:value-of select="@title" /></title>
             <h1><xsl:value-of select="@title" /></h1>
@@ -336,7 +338,9 @@
                     <xsl:text>#fn_</xsl:text>
                     <xsl:value-of select="$linkname"/>
                 </xsl:attribute>
-                <xsl:value-of select="/grammar_tables/forms/form[$form_id=@id]" />
+                <span>
+                    <xsl:value-of select="/grammar_tables/forms/form[$form_id=@id]" />
+                </span>
             </a>
         </td>
     </xsl:template>
@@ -415,7 +419,7 @@
                 <xsl:with-param name="declension" select="@declension" />
             </xsl:apply-templates>
         </xsl:variable>
-        <li style="list-style-type: disc; padding:0; margin:0;">
+        <li style="list-style-type: disc; padding:0; margin:0; float: left;">
             <xsl:attribute name="id">
                 <xsl:text>fn_</xsl:text>
                 <xsl:value-of select="$linkname" />
@@ -440,6 +444,7 @@
                 <xsl:text>)</xsl:text>
             </xsl:if>
         </li>
+        <div style="clear:both;" />
     </xsl:template>
 
     <!-- grammar_table table's footnote's paradigm title (built from paradigm's @case, and @declension)-->
