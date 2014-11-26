@@ -21,9 +21,19 @@
             .form_family_12 { background-color: #b8ff99 }
             .form_family_13 { background-color: #fffc9c }
             .form_family_14 { background-color: #ff9332 }
-            table, td, th, tr { border: 1px solid; }
-            ul li:target { border: 1px dotted black; }
-            td:target span { border: 1px dotted black; }
+            table, td, th, tr { border: 1px solid black; }
+            table { empty-cells: hide; }
+            th, td.endnode { overflow:hidden; }
+            th abbr, td.endnode a { padding:100em; margin:-100em; }
+            td.endnode a { display:block; }
+            li, p.footnote_grouping, ul.footnote_grouping, ul.nongrouped_footnotes { padding:0; margin:0; }
+            ul.footnote_grouping { padding-right: 0.5em; margin-right: 0.5em; border-right: 1px solid black; border-radius: 0.5em; }
+            p.footnote_grouping { padding-top: 0.5em; }
+            ul.paradigms { list-style-type: none; }
+            ul.bibliography, ul.nongrouped_footnotes, li.single_paradigm { list-style-type: disc; }
+            li.single_paradigm, ul.footnote_grouping { float: left; }
+            .clearboth { clear:both; }
+            td:target span, ul li:target { border: 1px dotted black; }
             </style>
             <title><xsl:value-of select="@title" /></title>
             <h1><xsl:value-of select="@title" /></h1>
@@ -32,7 +42,7 @@
             </p>
             <xsl:apply-templates select="grammar_table"/>
             <h2>Bibliography</h2>
-            <ul style="list-style-type: disc; ">
+            <ul class="bibliography">
                 <xsl:apply-templates select="bibliography/book" />
             </ul>
         </html>
@@ -43,12 +53,12 @@
         <h2><xsl:value-of select="@title"/></h2>
         <p><xsl:apply-templates select="description" mode="source" /></p>
         <xsl:apply-templates select="." mode="table" />
-        <ul style="list-style-type: none; ">
+        <ul class="paradigms">
             <xsl:apply-templates select="/grammar_tables/footnotes/footnote">
                 <xsl:with-param name="grammar_table" select="@id" />
             </xsl:apply-templates>
             <li>
-                <ul style="padding-left: 0em; list-style-type: disc;" >
+                <ul class="nongrouped_footnotes" >
                     <xsl:apply-templates select="paradigm[not(@footnote)]" />
                 </ul>
             </li>
@@ -61,20 +71,20 @@
         <xsl:variable name="footnote_id" select="@id" />
         <xsl:choose>
             <xsl:when test="count(/grammar_tables/grammar_table[@id=$grammar_table]/paradigm[@footnote=$footnote_id]) &gt; 1">
-                <li style="margin: 0em; padding: 0em;">
-                    <ul style="padding-left: 0em; padding-right: 0.5em; margin-right: 0.5em; border-right: 1px solid black; border-radius: 0.5em; float:left;">
+                <li>
+                    <ul class="footnote_grouping">
                         <xsl:apply-templates select="/grammar_tables/grammar_table[@id=$grammar_table]/paradigm[@footnote=$footnote_id]">
                             <xsl:with-param name="with_source" select="0" />
                         </xsl:apply-templates>
                     </ul>
-                    <p style="margin-top: 0; margin-bottom: 0; padding-top: 0.5em; ">
+                    <p class="footnote_grouping">
                         <xsl:text>(</xsl:text>
                         <xsl:apply-templates select="." mode="footnote_search">
                             <xsl:with-param name="grammar_table" select="$grammar_table" />
                         </xsl:apply-templates>
                         <xsl:text>)</xsl:text>
                     </p>
-                    <div style="clear:both;" />
+                    <div class="clearboth" />
                 </li>
             </xsl:when>
             <xsl:otherwise>
@@ -122,7 +132,7 @@
                 <xsl:with-param name="name" select="'declension_def'" />
             </xsl:apply-templates>
         </xsl:variable>
-        <table style="empty-cells: hide;">
+        <table>
             <xsl:apply-templates select="." mode="declension_headers">
                 <xsl:with-param name="depth" select="0" />
                 <xsl:with-param name="max_depth" select="$declension_defs_depth" />
@@ -174,14 +184,14 @@
     <!-- grammar_table's declension header row's individual declension_def cell (rowspan of $depth if no children else 1, colspan of descendant end nodes) -->
     <xsl:template match="/grammar_tables/grammar_table//declension_def">
         <xsl:param name="depth" />
-        <th style="overflow:hidden;">
+        <th>
             <xsl:attribute name="colspan">
                 <xsl:value-of select="count(descendant-or-self::declension_def[not(declension_def)])" />
             </xsl:attribute>
             <xsl:attribute name="rowspan">
                 <xsl:value-of select="(count(declension_def) &gt; 0) + ((count(declension_def)=0) * $depth)" />
             </xsl:attribute>
-            <abbr style="padding:100em; margin:-100em;">
+            <abbr>
                 <xsl:attribute name="title">
                     <xsl:value-of select="@title" />
                 </xsl:attribute>
@@ -206,7 +216,7 @@
     <xsl:template match="/grammar_tables/grammar_table//case_def" mode="row_case_headers">
         <xsl:param name="max_depth" />
         <xsl:if test="@short_title">
-            <th style="overflow:hidden;">
+            <th>
                 <xsl:attribute name="rowspan">
                     <xsl:value-of select="count(descendant-or-self::case_def[not(case_def)])" />
                 </xsl:attribute>
@@ -220,7 +230,7 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:attribute>
-                <abbr style="padding:100em; margin:-100em;">
+                <abbr>
                     <xsl:attribute name="title">
                         <xsl:value-of select="@title" />
                     </xsl:attribute>
@@ -326,14 +336,14 @@
             </xsl:apply-templates>
         </xsl:variable>
         <xsl:variable name="form_id" select="paradigm[@declension=$declension and @case=$case]/@form" />
-        <td style="overflow:hidden; ">
+        <td>
             <xsl:apply-templates select="." mode="end_node_cell_attributes">
                 <xsl:with-param name="form_id" select="$form_id" />
                 <xsl:with-param name="case" select="$case" />
                 <xsl:with-param name="declension" select="$declension" />
                 <xsl:with-param name="linkname" select="$linkname" />
             </xsl:apply-templates>
-            <a style="display:block; padding:100em; margin:-100em; ">
+            <a>
                 <xsl:attribute name="href">
                     <xsl:text>#fn_</xsl:text>
                     <xsl:value-of select="$linkname"/>
@@ -351,8 +361,9 @@
         <xsl:param name="case" />
         <xsl:param name="declension" />
         <xsl:param name="linkname" />
-        <xsl:if test="count(/grammar_tables/grammar_table/paradigm[@form=$form_id]) &gt; 1">
-            <xsl:attribute name="class">
+        <xsl:attribute name="class">
+            <xsl:text>endnode </xsl:text>
+            <xsl:if test="count(/grammar_tables/grammar_table/paradigm[@form=$form_id]) &gt; 1">
                 <xsl:text>form_family_</xsl:text>
                 <xsl:variable name="form_family">
                     <xsl:apply-templates select="/grammar_tables/forms/form[1]" mode="nth_multiparadigm_form">
@@ -361,8 +372,8 @@
                     </xsl:apply-templates>
                 </xsl:variable>
                 <xsl:value-of select="$form_family" />
-            </xsl:attribute>
-        </xsl:if>
+            </xsl:if>
+        </xsl:attribute>
         <xsl:attribute name="rowspan">
             <xsl:value-of select="count(.//case_def[@id=$case]/descendant-or-self::case_def[not(case_def)])"/>
         </xsl:attribute>
@@ -419,7 +430,7 @@
                 <xsl:with-param name="declension" select="@declension" />
             </xsl:apply-templates>
         </xsl:variable>
-        <li style="list-style-type: disc; padding:0; margin:0; float: left;">
+        <li class="single_paradigm">
             <xsl:attribute name="id">
                 <xsl:text>fn_</xsl:text>
                 <xsl:value-of select="$linkname" />
@@ -444,7 +455,7 @@
                 <xsl:text>)</xsl:text>
             </xsl:if>
         </li>
-        <div style="clear:both;" />
+        <div class="clearboth" />
     </xsl:template>
 
     <!-- grammar_table table's footnote's paradigm title (built from paradigm's @case, and @declension)-->
