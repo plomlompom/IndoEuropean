@@ -213,10 +213,50 @@
         <paradigm declension="mobile" case="N" form="e00" footnote="IV_mobile_nominative" />
         <paradigm declension="PD" case="Ac" form="e00" footnote="IV_pd_accusative" />
         <paradigm declension="HD" case="Ac" form="0e0" footnote="IV_hd_accusative" />
-        <paradigm declension="HD" case="L" form="0e0" footnote="I_mobile_others" />
+        <paradigm declension="mobile" case="L" form="0e0" footnote="I_mobile_others" />
         <paradigm declension="HD_A" case="I" form="0e00e" footnote="Va_hd_instrumental" />
         <paradigm declension="HD_B" case="I" form="00e" footnote="Va_hd_instrumental" />
-        <paradigm declension="PD" case="L" form="0e0" footnote="I_mobile_others" />
+        <paradigm declension="PD" case="I" form="?e00" footnote="IV/Vc_pd_instrumental" />
+        <paradigm declension="PD" case="Da" form="0e0" footnote="I_mobile_others" />
+        <paradigm declension="PD_mf" case="G+Abl" form="?eo0" footnote="IV/Vc_pd_mf_genitive" />
+        <paradigm declension="PD_n" case="G+Abl" form="0e0" footnote="III/IV_pd_genitive-ablative" />
+        <paradigm declension="HD" case="Da" form="00e" footnote="III/IV_hd_dative" />
+        <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
+        <paradigm declension="O" case="all" form="o0o" footnote="IV/Vb_o" />
+    </grammar_table>
+    <grammar_table id="Vb" title="Stage V (b): new nominative" short_title="stage Vb">
+        <description>The accusative's ablauts influence the nominative – but only in the hysterodynamic inflection, where their ablaut classes actually differ. The nominative keeps its root accent, but gains a full grade in the suffix. As this happens in the o-phase of ablauts, the non-accented full grade is an "o". This stage is equal to parts of stage V in the p. 207 table.</description>
+        <declension_def id="static" title="static" short_title="static" />
+        <declension_def id="mobile" title="mobile">
+            <declension_def id="PD" title="proterodynamic" short_title="PD">
+                <declension_def id="PD_mf" title="proterodynamic/animate" short_title="mf" />
+                <declension_def id="PD_n" title="proterodynamic/neuter" short_title="n" />
+            </declension_def>
+            <declension_def id="HD" title="hysterodynamic" short_title="HD">
+                <declension_def id="HD_A" title="hysterodynamic (some stem classes)" short_title="some" />
+                <declension_def id="HD_B" title="hysterodynamic (other stem classes)" short_title="others" />
+            </declension_def>
+        </declension_def>
+        <declension_def id="O" title="o-stems" short_title="O" />
+        <case_def id="all" title="all">
+            <case_def id="all-but-G" title="all but genitive/ablative">
+                <case_def id="N" title="nominative" short_title="nominative" />
+                <case_def id="Ac" title="accusative" short_title="accusative" />
+                <case_def id="L" title="locative" short_title="locative" />
+                <case_def id="I" title="instrumental" short_title="instrumental" />
+                <case_def id="Da" title="dative" short_title="dative" />
+            </case_def>
+        <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
+        </case_def>
+        <paradigm declension="static" case="all-but-G" form="e00" footnote="I_static" />
+        <paradigm declension="static" case="G+Abl" form="eo0" footnote="IV/Vb_static_genitive" />
+        <paradigm declension="PD" case="N" form="e00" footnote="IV_mobile_nominative" />
+        <paradigm declension="HD" case="N" form="eo0" footnote="Vb_hd_nominative" />
+        <paradigm declension="PD" case="Ac" form="e00" footnote="IV_pd_accusative" />
+        <paradigm declension="HD" case="Ac" form="0e0" footnote="IV_hd_accusative" />
+        <paradigm declension="mobile" case="L" form="0e0" footnote="I_mobile_others" />
+        <paradigm declension="HD_A" case="I" form="0e00e" footnote="Va_hd_instrumental" />
+        <paradigm declension="HD_B" case="I" form="00e" footnote="Va_hd_instrumental" />
         <paradigm declension="PD" case="I" form="?e00" footnote="IV/Vc_pd_instrumental" />
         <paradigm declension="PD" case="Da" form="0e0" footnote="I_mobile_others" />
         <paradigm declension="PD_mf" case="G+Abl" form="?eo0" footnote="IV/Vc_pd_mf_genitive" />
@@ -252,6 +292,7 @@
         <footnote id="IV/Vc_pd_instrumental">p. 150, 175, 197, 207</footnote>
         <footnote id="IV/Vc_pd_mf_genitive">p. 197, 199, 207</footnote>
         <footnote id="Va_hd_instrumental">p. 193, 197, 203, 207</footnote>
+        <footnote id="Vb_hd_nominative">p. 9, 154, 155, 207</footnote>
     </footnotes>
     <bibliography>
         <book id="Beekes1985" title="Beekes 1985">Beekes, Robert S. P.: The origins of the Indo-European nominal inflection. Institut für Sprachwissenschaft der Universität Innsbruck 1985.</book>
