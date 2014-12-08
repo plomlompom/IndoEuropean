@@ -414,7 +414,7 @@
                 <case_def id="N" title="nominative" short_title="nominative" />
                 <case_def id="V" title="vocative" short_title="vocative" />
                 <case_def id="Ac" title="accusative" short_title="accusative" />
-                <case_def id="L+I+Da" title="dative_instrumental_locative">
+                <case_def id="L+I+Da" title="dative, instrumental, locative">
                     <case_def id="L" title="locative" short_title="locative" />
                     <case_def id="I" title="instrumental" short_title="instrumental" />
                     <case_def id="Da" title="dative" short_title="dative" />
