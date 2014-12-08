@@ -427,7 +427,7 @@
         </case_def>
         <paradigm declension="PD-s" case="N" form="e00" footnote="IV_mobile_nominative" />
         <paradigm declension="HD-s" case="N" form="lesscrazy" footnote="V+b_pd_genitive-ablative_hd-nominative" />
-        <paradigm declension="singular" case="V" form="ee0" footnote="V+a_mobile_vocative" />
+        <paradigm declension="singular" case="V" form="0e0" footnote="V+b_vocative" />
         <paradigm declension="PD-s" case="Ac" form="e00" footnote="IV_pd_accusative" />
         <paradigm declension="HD-s" case="Ac" form="0e0" footnote="IV_hd_accusative" />
         <paradigm declension="HD-s" case="L" form="0e0" footnote="I_mobile_others" />
@@ -496,6 +496,7 @@
         <footnote id="V+b_plural_pd_genitive">p. 148-150</footnote>
         <footnote id="plural_ablative_hd_genitive">147, 149, 150</footnote>
         <footnote id="V+b_plural_locative_instrumental_dative">p. 147-149, 150</footnote>
+        <footnote id="V+b_vocative">p. 150</footnote>
     </footnotes>
     <bibliography>
         <book id="Beekes1985" title="Beekes 1985">Beekes, Robert S. P.: The origins of the Indo-European nominal inflection. Institut für Sprachwissenschaft der Universität Innsbruck 1985.</book>
