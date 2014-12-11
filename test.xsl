@@ -76,7 +76,7 @@
             ul.bibliography, ul.nongrouped_footnotes, li.single_paradigm { list-style-type: disc; }
             li.single_paradigm, ul.footnote_grouping { float: left; }
             .clearboth { clear:both; }
-            td:target span, ul li:target { border: 1px dotted black; }
+            td:target span, ul li:target { border: 2px dotted black; }
             </style>
             <title><xsl:value-of select="@title" /></title>
             <h1><xsl:value-of select="@title" /></h1>
