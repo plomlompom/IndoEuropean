@@ -7,7 +7,7 @@
     <xsl:template match="/grammar_tables">
         <html>
             <style type="text/css">
-            .form_family_0 { background-color: #ffa365; }
+            .form_family_0 { background-color: <!--#ffa365;-->#ffaf6f; }
             .form_family_1 { background-color: #efef9f; }
             .form_family_2 { background-color: #ffff00; }
             .form_family_3 { background-color: #00ff00; }
@@ -15,53 +15,53 @@
             .form_family_5 { background-color: #00bbff; }
             .form_family_6 { background-color: #aaddff; }
             .form_family_7 { background-color: #ffb1ff; }
-            .form_family_8 { background-color: #ffa0b0; }
+            .form_family_8 { background-color: <!--#ffa0b0;-->#ff80b0; }
             .form_family_9 { background-color: #bbbbbb; }
-            .form_family_10 { background: repeating-linear-gradient( 45deg, #ffa365, #ffa365 5px, #efef9f 5px, #efef9f 10px ); }
-            .form_family_11 { background: repeating-linear-gradient( 45deg, #ffa365, #ffa365 5px, #ffff00 5px, #ffff00 10px ); }
-            .form_family_12 { background: repeating-linear-gradient( 45deg, #ffa365, #ffa365 5px, #00ff00 5px, #00ff00 10px ); }
-            .form_family_13 { background: repeating-linear-gradient( 45deg, #ffa365, #ffa365 5px, #00ffc7 5px, #00ffc7 10px ); }
-            .form_family_14 { background: repeating-linear-gradient( 45deg, #ffa365, #ffa365 5px, #00bbff 5px, #00bbff 10px ); }
-            .form_family_15 { background: repeating-linear-gradient( 45deg, #ffa365, #ffa365 5px, #aaddff 5px, #aaddff 10px ); }
-            .form_family_16 { background: repeating-linear-gradient( 45deg, #ffa365, #ffa365 5px, #ffb1ff 5px, #ffb1ff 10px ); }
-            .form_family_17 { background: repeating-linear-gradient( 45deg, #ffa365, #ffa365 5px, #ffa0b0 5px, #ffa0b0 10px ); }
-            .form_family_18 { background: repeating-linear-gradient( 45deg, #ffa365, #ffa365 5px, #bbbbbb 5px, #bbbbbb 10px ); }
-            .form_family_19 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 5px, #ffff00 5px, #ffff00 10px ); }
-            .form_family_20 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 5px, #00ff00 5px, #00ff00 10px ); }
-            .form_family_21 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 5px, #00ffc7 5px, #00ffc7 10px ); }
-            .form_family_22 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 5px, #00bbff 5px, #00bbff 10px ); }
-            .form_family_23 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 5px, #aaddff 5px, #aaddff 10px ); }
-            .form_family_24 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 5px, #ffb1ff 5px, #ffb1ff 10px ); }
-            .form_family_25 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 5px, #ffa0b0 5px, #ffa0b0 10px ); }
-            .form_family_26 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 5px, #bbbbbb 5px, #bbbbbb 10px ); }
-            .form_family_27 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 5px, #00ff00 5px, #00ff00 10px ); }
-            .form_family_28 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 5px, #00ffc7 5px, #00ffc7 10px ); }
-            .form_family_29 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 5px, #00bbff 5px, #00bbff 10px ); }
-            .form_family_30 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 5px, #aaddff 5px, #aaddff 10px ); }
-            .form_family_31 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 5px, #ffb1ff 5px, #ffb1ff 10px ); }
-            .form_family_32 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 5px, #ffa0b0 5px, #ffa0b0 10px ); }
-            .form_family_33 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 5px, #bbbbbb 5px, #bbbbbb 10px ); }
-            .form_family_34 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 5px, #00ffc7 5px, #00ffc7 10px ); }
-            .form_family_35 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 5px, #00bbff 5px, #00bbff 10px ); }
-            .form_family_36 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 5px, #aaddff 5px, #aaddff 10px ); }
-            .form_family_37 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 5px, #ffb1ff 5px, #ffb1ff 10px ); }
-            .form_family_38 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 5px, #ffa0b0 5px, #ffa0b0 10px ); }
-            .form_family_39 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 5px, #bbbbbb 5px, #bbbbbb 10px ); }
-            .form_family_40 { background: repeating-linear-gradient( 45deg, #00ffc7, #00ffc7 5px, #00bbff 5px, #00bbff 10px ); }
-            .form_family_41 { background: repeating-linear-gradient( 45deg, #00ffc7, #00ffc7 5px, #aaddff 5px, #aaddff 10px ); }
-            .form_family_42 { background: repeating-linear-gradient( 45deg, #00ffc7, #00ffc7 5px, #ffb1ff 5px, #ffb1ff 10px ); }
-            .form_family_43 { background: repeating-linear-gradient( 45deg, #00ffc7, #00ffc7 5px, #ffa0b0 5px, #ffa0b0 10px ); }
-            .form_family_44 { background: repeating-linear-gradient( 45deg, #00ffc7, #00ffc7 5px, #bbbbbb 5px, #bbbbbb 10px ); }
-            .form_family_45 { background: repeating-linear-gradient( 45deg, #00bbff, #00bbff 5px, #aaddff 5px, #aaddff 10px ); }
-            .form_family_46 { background: repeating-linear-gradient( 45deg, #00bbff, #00bbff 5px, #ffb1ff 5px, #ffb1ff 10px ); }
-            .form_family_47 { background: repeating-linear-gradient( 45deg, #00bbff, #00bbff 5px, #ffa0b0 5px, #ffa0b0 10px ); }
-            .form_family_48 { background: repeating-linear-gradient( 45deg, #00bbff, #00bbff 5px, #bbbbbb 5px, #bbbbbb 10px ); }
-            .form_family_49 { background: repeating-linear-gradient( 45deg, #aaddff, #aaddff 5px, #ffb1ff 5px, #ffb1ff 10px ); }
-            .form_family_50 { background: repeating-linear-gradient( 45deg, #aaddff, #aaddff 5px, #ffa0b0 5px, #ffa0b0 10px ); }
-            .form_family_51 { background: repeating-linear-gradient( 45deg, #aaddff, #aaddff 5px, #bbbbbb 5px, #bbbbbb 10px ); }
-            .form_family_52 { background: repeating-linear-gradient( 45deg, #ffb1ff, #ffb1ff 5px, #ffa0b0 5px, #ffa0b0 10px ); }
-            .form_family_53 { background: repeating-linear-gradient( 45deg, #ffb1ff, #ffb1ff 5px, #bbbbbb 5px, #bbbbbb 10px ); }
-            .form_family_54 { background: repeating-linear-gradient( 45deg, #ffa0b0, #ffa0b0 5px, #bbbbbb 5px, #bbbbbb 10px ); }
+            .form_family_10 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #efef9f 10px, #efef9f 20px ); }
+            .form_family_11 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #ffff00 10px, #ffff00 20px ); }
+            .form_family_12 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #00ff00 10px, #00ff00 20px ); }
+            .form_family_13 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #00ffc7 10px, #00ffc7 20px ); }
+            .form_family_14 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #00bbff 10px, #00bbff 20px ); }
+            .form_family_15 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #aaddff 10px, #aaddff 20px ); }
+            .form_family_16 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #ffb1ff 10px, #ffb1ff 20px ); }
+            .form_family_17 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #ff80b0 10px, #ff80b0 20px ); }
+            .form_family_18 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #bbbbbb 10px, #bbbbbb 20px ); }
+            .form_family_19 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 10px, #ffff00 10px, #ffff00 20px ); }
+            .form_family_20 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 10px, #00ff00 10px, #00ff00 20px ); }
+            .form_family_21 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 10px, #00ffc7 10px, #00ffc7 20px ); }
+            .form_family_22 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 10px, #00bbff 10px, #00bbff 20px ); }
+            .form_family_23 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 10px, #aaddff 10px, #aaddff 20px ); }
+            .form_family_24 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 10px, #ffb1ff 10px, #ffb1ff 20px ); }
+            .form_family_25 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 10px, #ff80b0 10px, #ff80b0 20px ); }
+            .form_family_26 { background: repeating-linear-gradient( 45deg, #efef9f, #efef9f 10px, #bbbbbb 10px, #bbbbbb 20px ); }
+            .form_family_27 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 10px, #00ff00 10px, #00ff00 20px ); }
+            .form_family_28 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 10px, #00ffc7 10px, #00ffc7 20px ); }
+            .form_family_29 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 10px, #00bbff 10px, #00bbff 20px ); }
+            .form_family_30 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 10px, #aaddff 10px, #aaddff 20px ); }
+            .form_family_31 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 10px, #ffb1ff 10px, #ffb1ff 20px ); }
+            .form_family_32 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 10px, #ff80b0 10px, #ff80b0 20px ); }
+            .form_family_33 { background: repeating-linear-gradient( 45deg, #ffff00, #ffff00 10px, #bbbbbb 10px, #bbbbbb 20px ); }
+            .form_family_34 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 10px, #00ffc7 10px, #00ffc7 20px ); }
+            .form_family_35 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 10px, #00bbff 10px, #00bbff 20px ); }
+            .form_family_36 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 10px, #aaddff 10px, #aaddff 20px ); }
+            .form_family_37 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 10px, #ffb1ff 10px, #ffb1ff 20px ); }
+            .form_family_38 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 10px, #ff80b0 10px, #ff80b0 20px ); }
+            .form_family_39 { background: repeating-linear-gradient( 45deg, #00ff00, #00ff00 10px, #bbbbbb 10px, #bbbbbb 20px ); }
+            .form_family_40 { background: repeating-linear-gradient( 45deg, #00ffc7, #00ffc7 10px, #00bbff 10px, #00bbff 20px ); }
+            .form_family_41 { background: repeating-linear-gradient( 45deg, #00ffc7, #00ffc7 10px, #aaddff 10px, #aaddff 20px ); }
+            .form_family_42 { background: repeating-linear-gradient( 45deg, #00ffc7, #00ffc7 10px, #ffb1ff 10px, #ffb1ff 20px ); }
+            .form_family_43 { background: repeating-linear-gradient( 45deg, #00ffc7, #00ffc7 10px, #ff80b0 10px, #ff80b0 20px ); }
+            .form_family_44 { background: repeating-linear-gradient( 45deg, #00ffc7, #00ffc7 10px, #bbbbbb 10px, #bbbbbb 20px ); }
+            .form_family_45 { background: repeating-linear-gradient( 45deg, #00bbff, #00bbff 10px, #aaddff 10px, #aaddff 20px ); }
+            .form_family_46 { background: repeating-linear-gradient( 45deg, #00bbff, #00bbff 10px, #ffb1ff 10px, #ffb1ff 20px ); }
+            .form_family_47 { background: repeating-linear-gradient( 45deg, #00bbff, #00bbff 10px, #ff80b0 10px, #ff80b0 20px ); }
+            .form_family_48 { background: repeating-linear-gradient( 45deg, #00bbff, #00bbff 10px, #bbbbbb 10px, #bbbbbb 20px ); }
+            .form_family_49 { background: repeating-linear-gradient( 45deg, #aaddff, #aaddff 10px, #ffb1ff 10px, #ffb1ff 20px ); }
+            .form_family_50 { background: repeating-linear-gradient( 45deg, #aaddff, #aaddff 10px, #ff80b0 10px, #ff80b0 20px ); }
+            .form_family_51 { background: repeating-linear-gradient( 45deg, #aaddff, #aaddff 10px, #bbbbbb 10px, #bbbbbb 20px ); }
+            .form_family_52 { background: repeating-linear-gradient( 45deg, #ffb1ff, #ffb1ff 10px, #ff80b0 10px, #ff80b0 20px ); }
+            .form_family_53 { background: repeating-linear-gradient( 45deg, #ffb1ff, #ffb1ff 10px, #bbbbbb 10px, #bbbbbb 20px ); }
+            .form_family_54 { background: repeating-linear-gradient( 45deg, #ff80b0, #ff80b0 10px, #bbbbbb 10px, #bbbbbb 20px ); }
             table, td, th, tr { border: 1px solid black; }
             table { empty-cells: hide; }
             th, td.endnode { overflow:hidden; }
