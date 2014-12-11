@@ -7,7 +7,7 @@
     <xsl:template match="/grammar_tables">
         <html>
             <style type="text/css">
-            .form_family_0 { background-color: <!--#ffa365;-->#ffaf6f; }
+            .form_family_0 { background-color: #ffaf6f; }
             .form_family_1 { background-color: #efef9f; }
             .form_family_2 { background-color: #ffff00; }
             .form_family_3 { background-color: #00ff00; }
@@ -15,7 +15,7 @@
             .form_family_5 { background-color: #00bbff; }
             .form_family_6 { background-color: #aaddff; }
             .form_family_7 { background-color: #ffb1ff; }
-            .form_family_8 { background-color: <!--#ffa0b0;-->#ff80b0; }
+            .form_family_8 { background-color: #ff80b0; }
             .form_family_9 { background-color: #bbbbbb; }
             .form_family_10 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #efef9f 10px, #efef9f 20px ); }
             .form_family_11 { background: repeating-linear-gradient( 45deg, #ffaf6f, #ffaf6f 10px, #ffff00 10px, #ffff00 20px ); }
