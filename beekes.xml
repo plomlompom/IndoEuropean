@@ -449,7 +449,6 @@
     <forms>
         <form id="e00">é-Ø-Ø</form>
         <form id="0e0">Ø-é-Ø</form>
-        <form id="0e:0">Ø-é̄-Ø</form>
         <form id="00o">Ø-Ø-ó</form>
         <form id="00e">Ø-Ø-é</form>
         <form id="?e00">(é|Ø)-Ø-Ø</form>
@@ -462,6 +461,7 @@
         <form id="o0o">(o|Ø)-Ø-ó</form>
         <form id="0o0">Ø-ó-Ø</form>
         <form id="0ee">Ø-é-e</form>
+        <form id="0e:0">Ø-é̄-Ø</form>
         <form id="0e00e">Ø-(é-Ø|Ø-é)</form>
         <form id="eo0o">(e|o|Ø)-Ø-ó</form>
         <form id="crazy">((é|ó)-(ē|ō|Ø)|Ø-(é̄|ó̄))-Ø</form>
