@@ -354,7 +354,7 @@
         <paradigm declension="O" case="all" form="o0o" footnote="IV/Vc_o" />
     </grammar_table>
     <grammar_table id="V+a" title="Stage V+ (a): e-stage of ablauts" short_title="stage V+a">
-        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø-Ø was added an e-suffix – which might have happened at this stage (later the root ablaut seems to have zeroed, as per p. 150). The hysterodynamic nominative catches a great variety of possible ablaut variations (p. 158-164), though the majority would have been Ø-é̄-Ø, é-ō-Ø, é-ē-Ø. This stage should lie beyond the stages of the p. 207 table.</description>
+        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with loss of the final resonant and zero ending) was added an e-particle – which might have happened at this stage (later the root ablaut seems to have zeroed, as per p. 150). The hysterodynamic nominative catches a great variety of possible ablaut variations (p. 158-164), though the majority would have been Ø-é̄-Ø, é-ō-Ø, é-ē-Ø. This stage should lie beyond the stages of the p. 207 table.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic" short_title="PD">
@@ -477,7 +477,7 @@
         <footnote id="III/IV_hd_dative">p. 150, 193, 197-198, 203, 207</footnote>
         <footnote id="IV_mobile_nominative">p. 172-173, 196-197</footnote>
         <footnote id="IV_pd_accusative">p. 150, 172, 207</footnote>
-        <footnote id="IV_hd_accusative">p. 150, 197-198, 207</footnote>
+        <footnote id="IV_hd_accusative">p. 150, 172, 197-198, 207</footnote>
         <footnote id="IV/Va_o">p. 158, 195, 207</footnote>
         <footnote id="IV/Vc_static_genitive">p. 199, 201, 207</footnote>
         <footnote id="IV/Vc_o">p. 158, 195</footnote>
