@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl" ?>
+<grammar_tables title="Early endings (Beekes)">
+    <description>The early development of the PIE nominal endings as read into <source book="Beekes1985" />.</description>
+    <grammar_table id="II" title="Stage II: original endings" short_title="stage II">
+        <description>These particles appended to the accented or un-accented ending ablauts of the various forms. This stage is equal to parts of stage II in the p. 207 table. The order of tables is not strictly chronological, but rather analytical
+: Beekes often specifies the relative order of steps only vaguely. For reasons of clarity, I decided to introduce such steps in separate tables of a certain order, even
+if they may have happened in parallel, or in a slightly different order.</description>
+        <declension_def id="all" title="all" short_title="all" />
+        <case_def id="Abs+L" title="absolutive+locative" short_title="absolutive+locative" />
+        <case_def id="Di" title="directive" short_title="directive" />
+        <case_def id="I" title="instrumental" short_title="instrumental" />
+        <case_def id="Da" title="dative" short_title="dative" />
+        <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
+        <paradigm declension="all" case="Abs+L" form="0" footnote="II" />
+        <paradigm declension="all" case="Di" form="m" footnote="II" />
+        <paradigm declension="all" case="Da" form="i" footnote="II" />
+        <paradigm declension="all" case="I" form="h1" footnote="II" />
+        <paradigm declension="all" case="G+Abl" form="s" footnote="II" />
+    </grammar_table>
+    <grammar_table id="IV" title="Stage IV: nominative/accusative" short_title="stage IV">
+        <description>The ergative system is replaced by a nominative system. In mobile inflections, the absolutive becomes the nominative. The ergative's function of highlighting the subject of an action against its object is taken over by the accusative highlighting the object against the (nominative) subject. This differentiation only happens in the formerly ergative hysterodynamic inflection, where the directive becomes the accusative. In the proterodynamic inflection, the former absolutive also becomes the accusative. The static inflection seems to transform the ergative into the nominative (p. 176, 201). This stage is equal to parts of stage IV in the p. 207 table.</description>
+	<declension_def id="all" title="all">
+            <declension_def id="static" title="static" short_title="static" />
+            <declension_def id="mobile" title="mobile">
+                <declension_def id="PD" title="proterodynamic" short_title="PD" />
+                <declension_def id="HD" title="hysterodynamic" short_title="HD" />
+            </declension_def>
+        </declension_def>
+        <case_def id="N" title="nominative" short_title="nominative" />
+        <case_def id="L" title="locative" short_title="locative" />
+        <case_def id="Ac" title="accusative" short_title="accusative" />
+        <case_def id="I" title="instrumental" short_title="instrumental" />
+        <case_def id="Da" title="dative" short_title="dative" />
+        <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
+        <paradigm declension="static" case="N" form="s" footnote="IV_static"/>
+        <paradigm declension="mobile" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="all" case="L" form="0" footnote="II" />
+        <paradigm declension="static" case="Ac" form="m" footnote="IV_static" />
+        <paradigm declension="PD" case="Ac" form="0" footnote="IV_pd_accusative" />
+        <paradigm declension="HD" case="Ac" form="m" footnote="IV_hd_accusative" />
+        <paradigm declension="all" case="Da" form="i" footnote="II" />
+        <paradigm declension="all" case="I" form="h1" footnote="II" />
+        <paradigm declension="all" case="G+Abl" form="s" footnote="II" />
+    </grammar_table>
+    <grammar_table id="IVc" title="Stage IV (c): static/proterodynamic" short_title="stage IVc">
+        <description>The static inflection partly merges with the proterodynamic. This creates a proterodynamic animate inflection (p. 200, 201), with differentiated case endings for nominative (-s) and accusative (-m). This stage lies somewhere between stages IV and V in the p. 207 table.</description>
+	<declension_def id="all" title="all">
+            <declension_def id="static" title="static" short_title="static" />
+            <declension_def id="mobile" title="mobile">
+                <declension_def id="PD" title="proterodynamic" short_title="PD">
+                    <declension_def id="PD-mf" title="proterodynamic (animate)" short_title="mf" />
+                    <declension_def id="PD-n" title="proterodynamic (neuter)" short_title="n" />
+                </declension_def>
+                <declension_def id="HD" title="hysterodynamic" short_title="HD" />
+            </declension_def>
+        </declension_def>
+        <case_def id="N" title="nominative" short_title="nominative" />
+        <case_def id="L" title="locative" short_title="locative" />
+        <case_def id="Ac" title="accusative" short_title="accusative" />
+        <case_def id="I" title="instrumental" short_title="instrumental" />
+        <case_def id="Da" title="dative" short_title="dative" />
+        <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
+        <paradigm declension="static" case="N" form="s" footnote="IV_static"/>
+        <paradigm declension="PD-mf" case="N" form="s" footnote="IVc_pdmf_nominative" />
+        <paradigm declension="PD-n" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="HD" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="all" case="L" form="0" footnote="II" />
+        <paradigm declension="static" case="Ac" form="m" footnote="IV_static" />
+        <paradigm declension="PD-mf" case="Ac" form="m" footnote="IVc_pdmf_accusative" />
+        <paradigm declension="PD-n" case="Ac" form="0" footnote="IV_pd_accusative" />
+        <paradigm declension="HD" case="Ac" form="m" footnote="IV_hd_accusative" />
+        <paradigm declension="all" case="Da" form="i" footnote="II" />
+        <paradigm declension="all" case="I" form="h1" footnote="II" />
+        <paradigm declension="all" case="G+Abl" form="s" footnote="II" />
+    </grammar_table>
+    <grammar_table id="V" title="Stage V: vocative" short_title="stage V">
+        <description>The vocative emerges as a variant of the nominative, though with loss of the final resonant (at least with mobile inflections; Beekes is unclear about the static one). This stage is equal to parts of stage V in the p. 207 table.</description>
+	<declension_def id="all" title="all">
+            <declension_def id="static" title="static" short_title="static" />
+            <declension_def id="mobile" title="mobile">
+                <declension_def id="PD" title="proterodynamic" short_title="PD">
+                    <declension_def id="PD-mf" title="proterodynamic (animate)" short_title="mf" />
+                    <declension_def id="PD-n" title="proterodynamic (neuter)" short_title="n" />
+                </declension_def>
+                <declension_def id="HD" title="hysterodynamic" short_title="HD" />
+            </declension_def>
+        </declension_def>
+        <case_def id="N" title="nominative" short_title="nominative" />
+        <case_def id="V" title="vocative" short_title="vocative" />
+        <case_def id="L" title="locative" short_title="locative" />
+        <case_def id="Ac" title="accusative" short_title="accusative" />
+        <case_def id="I" title="instrumental" short_title="instrumental" />
+        <case_def id="Da" title="dative" short_title="dative" />
+        <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
+        <paradigm declension="static" case="N" form="s" footnote="IV_static"/>
+        <paradigm declension="PD-mf" case="N" form="s" footnote="IVc_pdmf_nominative" />
+        <paradigm declension="PD-n" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="HD" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="mobile" case="V" form="0+" footnote="V" />
+        <paradigm declension="all" case="L" form="0" footnote="II" />
+        <paradigm declension="static" case="Ac" form="m" footnote="IV_static" />
+        <paradigm declension="PD-mf" case="Ac" form="m" footnote="IVc_pdmf_accusative" />
+        <paradigm declension="PD-n" case="Ac" form="0" footnote="IV_pd_accusative" />
+        <paradigm declension="HD" case="Ac" form="m" footnote="IV_hd_accusative" />
+        <paradigm declension="all" case="Da" form="i" footnote="II" />
+        <paradigm declension="all" case="I" form="h1" footnote="II" />
+        <paradigm declension="all" case="G+Abl" form="s" footnote="II" />
+    </grammar_table>
+    <grammar_table id="III/V" title="Stage III-V: dative/locative" short_title="stage III/V">
+        <description>Somewhere between (inclusively) stage III and stage V of the p. 207 table (but in any case before the vowel lengthening), the dative ending is extending to the locative in the hysterodynamic inflection (p. 197).</description>
+	<declension_def id="all" title="all">
+            <declension_def id="static" title="static" short_title="static" />
+            <declension_def id="mobile" title="mobile">
+                <declension_def id="PD" title="proterodynamic" short_title="PD">
+                    <declension_def id="PD-mf" title="proterodynamic (animate)" short_title="mf" />
+                    <declension_def id="PD-n" title="proterodynamic (neuter)" short_title="n" />
+                </declension_def>
+                <declension_def id="HD" title="hysterodynamic" short_title="HD" />
+            </declension_def>
+        </declension_def>
+        <case_def id="N" title="nominative" short_title="nominative" />
+        <case_def id="V" title="vocative" short_title="vocative" />
+        <case_def id="L" title="locative" short_title="locative" />
+        <case_def id="Ac" title="accusative" short_title="accusative" />
+        <case_def id="I" title="instrumental" short_title="instrumental" />
+        <case_def id="Da" title="dative" short_title="dative" />
+        <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
+        <paradigm declension="static" case="N" form="s" footnote="IV_static"/>
+        <paradigm declension="PD-mf" case="N" form="s" footnote="IVc_pdmf_nominative" />
+        <paradigm declension="PD-n" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="HD" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="mobile" case="V" form="0+" footnote="V" />
+        <paradigm declension="static" case="L" form="0" footnote="II" />
+        <paradigm declension="PD" case="L" form="0" footnote="II" />
+        <paradigm declension="HD" case="L" form="i" footnote="III/V" />
+        <paradigm declension="static" case="Ac" form="m" footnote="IV_static" />
+        <paradigm declension="PD-mf" case="Ac" form="m" footnote="IVc_pdmf_accusative" />
+        <paradigm declension="PD-n" case="Ac" form="0" footnote="IV_pd_accusative" />
+        <paradigm declension="HD" case="Ac" form="m" footnote="IV_hd_accusative" />
+        <paradigm declension="all" case="Da" form="i" footnote="II" />
+        <paradigm declension="all" case="I" form="h1" footnote="II" />
+        <paradigm declension="all" case="G+Abl" form="s" footnote="II" />
+    </grammar_table>
+    <grammar_table id="IV/V" title="Stage IV-V: o-stems" short_title="stage IV/V">
+        <description>Somewhere between (inclusively) stage IV and stage V of the p. 207 table, the o-stem declension emerges (p. 191-195) from the hysterodynamic ergative in -os, which is used as its nominative. Other hysterodynamic endings are appended to that endings's -o- start – including the dative's e-ablauted -i (= -ei, mixed with -o- to -oei, later to become -ōi). The ergative is split into the old -os genitive, and a new ablative ending in -et (mixed with -o- to -oet, later to become -ōt).</description>
+	<declension_def id="all" title="all">
+            <declension_def id="ablauting" title="ablauting">
+                <declension_def id="static" title="static" short_title="static" />
+                <declension_def id="mobile" title="mobile">
+                    <declension_def id="PD" title="proterodynamic" short_title="PD">
+                        <declension_def id="PD-mf" title="proterodynamic (animate)" short_title="mf" />
+                        <declension_def id="PD-n" title="proterodynamic (neuter)" short_title="n" />
+                    </declension_def>
+                    <declension_def id="HD" title="hysterodynamic" short_title="HD" />
+                </declension_def>
+            </declension_def>
+            <declension_def id="O" title="o-stem" short_title="o-stem" />
+        </declension_def>
+        <case_def id="N" title="nominative" short_title="nominative" />
+        <case_def id="V" title="vocative" short_title="vocative" />
+        <case_def id="L" title="locative" short_title="locative" />
+        <case_def id="Ac" title="accusative" short_title="accusative" />
+        <case_def id="I" title="instrumental" short_title="instrumental" />
+        <case_def id="Da" title="dative" short_title="dative" />
+        <case_def id="G+Abl" title="genitive-ablative">
+            <case_def id="G" title="genitive" short_title="genitive" />
+            <case_def id="Abl" title="ablative" short_title="ablative" />
+        </case_def>
+        <paradigm declension="static" case="N" form="s" footnote="IV_static"/>
+        <paradigm declension="PD-mf" case="N" form="s" footnote="IVc_pdmf_nominative" />
+        <paradigm declension="PD-n" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="HD" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="mobile" case="V" form="0+" footnote="V" />
+        <paradigm declension="static" case="L" form="0" footnote="II" />
+        <paradigm declension="PD" case="L" form="0" footnote="II" />
+        <paradigm declension="HD" case="L" form="i" footnote="III/V" />
+        <paradigm declension="static" case="Ac" form="m" footnote="IV_static" />
+        <paradigm declension="PD-mf" case="Ac" form="m" footnote="IVc_pdmf_accusative" />
+        <paradigm declension="PD-n" case="Ac" form="0" footnote="IV_pd_accusative" />
+        <paradigm declension="HD" case="Ac" form="m" footnote="IV_hd_accusative" />
+        <paradigm declension="ablauting" case="Da" form="i" footnote="II" />
+        <paradigm declension="ablauting" case="I" form="h1" footnote="II" />
+        <paradigm declension="all" case="G" form="s" footnote="II" />
+        <paradigm declension="ablauting" case="Abl" form="s" footnote="II" />
+        <paradigm declension="O" case="N" form="s" footnote="IV/V_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="L" form="i" footnote="IV/V_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="Ac" form="m" footnote="IV/V_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="Da" form="ei" footnote="IV/V_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="I" form="h1" footnote="IV/V_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="Abl" form="et" footnote="IV/V_o_nominative_accusative_ablative" />
+    </grammar_table>
+    <grammar_table id="V+" title="Stage V+: locative" short_title="stage V+">
+        <description>The hysterodynamic locative ending is dropped – at least in some cases. (Beekes is unclear about the degree to which the previous ending survived.) This must have happened after vowels before final resonants were lengthened, for the suffix ablaut is not lengthened.</description>
+	<declension_def id="all" title="all">
+            <declension_def id="ablauting" title="ablauting">
+                <declension_def id="static" title="static" short_title="static" />
+                <declension_def id="mobile" title="mobile">
+                    <declension_def id="PD" title="proterodynamic" short_title="PD">
+                        <declension_def id="PD-mf" title="proterodynamic (animate)" short_title="mf" />
+                        <declension_def id="PD-n" title="proterodynamic (neuter)" short_title="n" />
+                    </declension_def>
+                    <declension_def id="HD" title="hysterodynamic" short_title="HD">
+                        <declension_def id="HD_A" title="hysterodynamic (some)" short_title="some" />
+                        <declension_def id="HD_B" title="hysterodynamic (others)" short_title="others" />
+                    </declension_def>
+                </declension_def>
+            </declension_def>
+            <declension_def id="O" title="o-stem" short_title="o-stem" />
+        </declension_def>
+        <case_def id="N" title="nominative" short_title="nominative" />
+        <case_def id="V" title="vocative" short_title="vocative" />
+        <case_def id="L" title="locative" short_title="locative" />
+        <case_def id="Ac" title="accusative" short_title="accusative" />
+        <case_def id="I" title="instrumental" short_title="instrumental" />
+        <case_def id="Da" title="dative" short_title="dative" />
+        <case_def id="G+Abl" title="genitive-ablative">
+            <case_def id="G" title="genitive" short_title="genitive" />
+            <case_def id="Abl" title="ablative" short_title="ablative" />
+        </case_def>
+        <paradigm declension="static" case="N" form="s" footnote="IV_static"/>
+        <paradigm declension="PD-mf" case="N" form="s" footnote="IVc_pdmf_nominative" />
+        <paradigm declension="PD-n" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="HD" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="mobile" case="V" form="0+" footnote="V" />
+        <paradigm declension="static" case="L" form="0" footnote="II" />
+        <paradigm declension="PD" case="L" form="0" footnote="II" />
+        <paradigm declension="HD_A" case="L" form="0" footnote="V+_hd_locative" />
+        <paradigm declension="HD_B" case="L" form="i?" footnote="V+_hd_locative" />
+        <paradigm declension="static" case="Ac" form="m" footnote="IV_static" />
+        <paradigm declension="PD-mf" case="Ac" form="m" footnote="IVc_pdmf_accusative" />
+        <paradigm declension="PD-n" case="Ac" form="0" footnote="IV_pd_accusative" />
+        <paradigm declension="HD" case="Ac" form="m" footnote="IV_hd_accusative" />
+        <paradigm declension="ablauting" case="Da" form="i" footnote="II" />
+        <paradigm declension="ablauting" case="I" form="h1" footnote="II" />
+        <paradigm declension="all" case="G" form="s" footnote="II" />
+        <paradigm declension="ablauting" case="Abl" form="s" footnote="II" />
+        <paradigm declension="O" case="N" form="s" footnote="IV/V_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="L" form="i" footnote="IV/V_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="Ac" form="m" footnote="IV/V_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="Da" form="ei" footnote="IV/V_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="I" form="h1" footnote="IV/V_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="Abl" form="et" footnote="IV/V_o_nominative_accusative_ablative" />
+    </grammar_table>
+    <grammar_table id="V+ (a)" title="Stage V+ (a): e-stage of ablauts" short_title="stage V+a">
+        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with loss of the final resonant and zero ending) was added an e-particle – which might have happened at this stage (later the root ablaut seems to have zeroed, as per p. 150).</description>
+	<declension_def id="all" title="all">
+            <declension_def id="ablauting" title="ablauting">
+                <declension_def id="static" title="static" short_title="static" />
+                <declension_def id="mobile" title="mobile">
+                    <declension_def id="PD" title="proterodynamic" short_title="PD">
+                        <declension_def id="PD-mf" title="proterodynamic (animate)" short_title="mf" />
+                        <declension_def id="PD-n" title="proterodynamic (neuter)" short_title="n" />
+                    </declension_def>
+                    <declension_def id="HD" title="hysterodynamic" short_title="HD">
+                        <declension_def id="HD_A" title="hysterodynamic (some)" short_title="some" />
+                        <declension_def id="HD_B" title="hysterodynamic (others)" short_title="others" />
+                    </declension_def>
+                </declension_def>
+            </declension_def>
+            <declension_def id="O" title="o-stem" short_title="o-stem" />
+        </declension_def>
+        <case_def id="N" title="nominative" short_title="nominative" />
+        <case_def id="V" title="vocative" short_title="vocative" />
+        <case_def id="L" title="locative" short_title="locative" />
+        <case_def id="Ac" title="accusative" short_title="accusative" />
+        <case_def id="I" title="instrumental" short_title="instrumental" />
+        <case_def id="Da" title="dative" short_title="dative" />
+        <case_def id="G+Abl" title="genitive-ablative">
+            <case_def id="G" title="genitive" short_title="genitive" />
+            <case_def id="Abl" title="ablative" short_title="ablative" />
+        </case_def>
+        <paradigm declension="static" case="N" form="s" footnote="IV_static"/>
+        <paradigm declension="PD-mf" case="N" form="s" footnote="IVc_pdmf_nominative" />
+        <paradigm declension="PD-n" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="HD" case="N" form="0" footnote="IV_mobile_nominative" />
+        <paradigm declension="mobile" case="V" form="0" footnote="V+a_mobile_vocative" />
+        <paradigm declension="static" case="L" form="0" footnote="II" />
+        <paradigm declension="PD" case="L" form="0" footnote="II" />
+        <paradigm declension="HD_A" case="L" form="0" footnote="V+_hd_locative" />
+        <paradigm declension="HD_B" case="L" form="i?" footnote="V+_hd_locative" />
+        <paradigm declension="static" case="Ac" form="m" footnote="IV_static" />
+        <paradigm declension="PD-mf" case="Ac" form="m" footnote="IVc_pdmf_accusative" />
+        <paradigm declension="PD-n" case="Ac" form="0" footnote="IV_pd_accusative" />
+        <paradigm declension="HD" case="Ac" form="m" footnote="IV_hd_accusative" />
+        <paradigm declension="ablauting" case="Da" form="i" footnote="II" />
+        <paradigm declension="ablauting" case="I" form="h1" footnote="II" />
+        <paradigm declension="all" case="G" form="s" footnote="II" />
+        <paradigm declension="ablauting" case="Abl" form="s" footnote="II" />
+        <paradigm declension="O" case="N" form="s" footnote="IV/V_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="L" form="i" footnote="IV/V_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="Ac" form="m" footnote="IV/V_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="Da" form="ei" footnote="IV/V_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="I" form="h1" footnote="IV/V_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="Abl" form="et" footnote="IV/V_o_nominative_accusative_ablative" />
+    </grammar_table>
+    <forms>
+        <form id="0">-Ø</form>
+        <form id="0+">-Ø (sans suffix-final resonant)</form>
+        <form id="m">-m</form>
+        <form id="s">-s</form>
+        <form id="i">-i</form>
+        <form id="h1">-h₁</form>
+        <form id="i?">-?(i)</form>
+        <form id="et">-et</form>
+        <form id="ei">-ei</form>
+    </forms>
+    <footnotes>
+        <footnote id="II">p. 202, 207</footnote>
+        <footnote id="IV_static">p. 176, 200-201, 203, 207</footnote>
+        <footnote id="IV_mobile_nominative">p. 150, 172-173, 196-197, 207</footnote>
+        <footnote id="IV_pd_accusative">p. 172, 197, 207</footnote>
+        <footnote id="IV_hd_accusative">p. 150, 172, 197-198, 207</footnote>
+        <footnote id="IVc_pdmf_nominative">p. 176, 200-201, 203, 207</footnote>
+        <footnote id="IVc_pdmf_accusative">p. 200-201, 203, 207</footnote>
+        <footnote id="V">p. 100-101</footnote>
+        <footnote id="III/V">p. 115, 150, 197, 207</footnote>
+        <footnote id="IV/V_o_nominative_accusative_ablative">p. 191-192</footnote>
+        <footnote id="IV/V_o_locative_dative_instrumental">p. 191, 193</footnote>
+        <footnote id="V+_hd_locative">p. 150, 197-198</footnote>
+        <footnote id="V+a_mobile_vocative">p. 100-101</footnote>
+    </footnotes>
+    <bibliography>
+        <book id="Beekes1985" title="Beekes 1985">Beekes, Robert S. P.: The origins of the Indo-European nominal inflection. Institut für Sprachwissenschaft der Universität Innsbruck 1985.</book>
+    </bibliography>
+</grammar_tables>
