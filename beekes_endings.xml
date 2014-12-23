@@ -406,9 +406,9 @@ if they may have happened in parallel, or in a slightly different order.</descri
         <paradigm declension="O" case="Da" form="o:i" footnote="V+c_o_dative" />
         <paradigm declension="O" case="I" form="h1" footnote="IV/V_o_locative_dative_instrumental" />
         <paradigm declension="O" case="G" form="sio" footnote="V+c_o_genitive" />
-        <paradigm declension="O" case="Abl" form="o:t" footnote="V+c_o_ablative" />
+        <paradigm declension="O" case="Abl" form="o:t" footnote="V+c_o_ablative_plural_nominative" />
         <paradigm declension="ablauting-pl" case="N" form="s" footnote="V+b_plural_nominative" />
-        <paradigm declension="O-pl" case="N" form="o:s" footnote="V+c_o_plural_nominative" />
+        <paradigm declension="O-pl" case="N" form="o:s" footnote="V+c_o_ablative_plural_nominative" />
         <paradigm declension="plural" case="Ac" form="ns" footnote="V+b_plural_accusative" />
         <paradigm declension="ablauting-pl" case="I" form="bhi" footnote="V+b_plural_instrumental" />
         <paradigm declension="ablauting-pl" case="Da" form="mus" footnote="V+b_plural_dative" />
@@ -463,8 +463,7 @@ if they may have happened in parallel, or in a slightly different order.</descri
         <footnote id="V+b_plural_locative">p. 149-150</footnote>
         <footnote id="V+b_plural_genitive">p. 140, 149-150</footnote>
         <footnote id="V+c_o_dative">p. 191, 193</footnote>
-        <footnote id="V+c_o_ablative">p. 191</footnote>
-        <footnote id="V+c_o_plural_nominative">p. 191</footnote>
+        <footnote id="V+c_o_ablative_plural_nominative">p. 191</footnote>
         <footnote id="V+c_o_plural_genitive">p. 140</footnote>
         <footnote id="V+c_o_genitive">p. 185</footnote>
     </footnotes>
