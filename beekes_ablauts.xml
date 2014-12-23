@@ -398,7 +398,7 @@
         <paradigm declension="O" case="all" form="eo0o" footnote="V+a_o" />
     </grammar_table>
     <grammar_table id="V+b" title="Stage V+ (b): late PIE, with plurals" short_title="stage V+b">
-        <description>The stages depicted at p. 150, 197 must come after all others. They seem to exclude some special cases – either to simplify the tables, or because these cases had actually disappeared. Included here are the plurals, for which no substantial pre-history is reconstructed before the e-stage of ablauts. The plural vocative is commonly depicted as merged with the plural nominative, but Beekes is not explicit about this. Beekes speculates (p. 147-148) about the endings of the plural dative, locative, and instrumental being accented on vocalized i's and u's, but doesn't include this possibility in his tables.</description>
+        <description>The stages depicted at p. 150, 197 must come after all others. They seem to exclude some special cases – either to simplify the tables, or because these cases had actually disappeared. Included here are the plurals, for which no substantial pre-history is reconstructed before the e-stage of ablauts. The plural vocative is commonly depicted as merged with the plural nominative, but Beekes is not explicit about this. Beekes speculates (p. 147-148) about the endings of the plural dative, locative, and instrumental being accented on vocalized i's and u's, but doesn't include this possibility in his tables. The ablative plural -ios ending may have been a full-grade ablaut (p. 147), but is treated here as non-ablauting atomic to fit this table neatly to the parallel endings table.</description>
         <declension_def id="singular" title="singular" short_title="singular">
             <declension_def id="PD-s" title="singular proterodynamic" short_title="PD" />
             <declension_def id="HD-s" title="singular hysterodynamic" short_title="HD" />
@@ -439,9 +439,9 @@
         <paradigm declension="HD-s" case="Da" form="00e" footnote="III/IV_hd_dative" />
         <paradigm declension="HD-s" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
         <paradigm declension="plural" case="N" form="0ee" footnote="V+b_plural_accusative_nominative" />
-        <paradigm declension="plural" case="Abl" form="e0o00o" footnote="plural_ablative" />
+        <paradigm declension="plural" case="Abl" form="e00" footnote="V+b_plural_ablative_hd_genitive" />
         <paradigm declension="PD-p" case="G" form="0eo" footnote="V+b_plural_pd_genitive" />
-        <paradigm declension="HD-p" case="G" form="e0o00o" footnote="plural_ablative_hd_genitive" />
+        <paradigm declension="HD-p" case="G" form="e0o00o" footnote="V+b_plural_ablative_hd_genitive" />
         <paradigm declension="HD-p" case="Ac" form="0e0" footnote="V+b_plural_accusative_nominative" />
         <paradigm declension="PD-p" case="Ac" form="e00" footnote="V+b_plural_accusative_nominative" />
         <paradigm declension="plural" case="L+I+Da" form="?e00" footnote="V+b_plural_locative_instrumental_dative" />
@@ -494,7 +494,7 @@
         <footnote id="V+b_pd_genitive-ablative_hd-nominative">p. 150, 197</footnote>
         <footnote id="V+b_plural_accusative_nominative">p. 139, 150</footnote>
         <footnote id="V+b_plural_pd_genitive">p. 148-150</footnote>
-        <footnote id="plural_ablative_hd_genitive">147, 149, 150</footnote>
+        <footnote id="V+b_plural_ablative_hd_genitive">147, 149, 150</footnote>
         <footnote id="V+b_plural_locative_instrumental_dative">p. 147-149, 150</footnote>
         <footnote id="V+b_vocative">p. 150</footnote>
     </footnotes>
