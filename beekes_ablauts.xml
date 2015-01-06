@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="test.xsl" ?>
 <grammar_tables title="Early accent/ablaut classes (Beekes)">
     <description>The early development of the PIE accent/ablaut classes as read into <source book="Beekes1985" />. Classes are written out in the form "[root ablaut]-[suffix ablaut]-[case marker ablaut]", with an accent put on top of an ablaut known to be stressed. The order of tables is not strictly chronological, but rather analytical: Beekes often specifies the relative order of steps only vaguely. For reasons of clarity, I decided to introduce such steps in separate tables of a certain order, even if they may have happened in parallel, or in a slightly different order. All tables but the last one only deal with singulars.</description>
-    <grammar_table id="I" title="Stage I: static/mobile, accent ablauts" short_title="stage I">
+    <grammar_table id="I" title="Stage A: static/mobile, accent ablauts" short_title="stage A">
         <description>The fundamental difference between inflections is static/mobile. The initial ablaut stage is the "zero phase" (p. 157): Only the accented vowel is non-zero. (This stage is equal to stage I in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile" short_title="mobile" />
@@ -14,7 +14,7 @@
         <paradigm declension="mobile" case="A" form="e00" footnote="I_mobile_absolutive" />
         <paradigm declension="mobile" case="L" form="0e0" footnote="I_mobile_others" />
     </grammar_table>
-    <grammar_table id="II" title="Stage II: mobile ergative" short_title="stage II">
+    <grammar_table id="II" title="Stage B: mobile ergative" short_title="stage B">
         <description>Various case markers append to the locative inflection – as per p. 202, 207: directive -m, dative -i, instrumental -h₁, genitive-ablative -s (unaccented) and -ós (accented). The (ergative) genitive-ablative gets its own paradigm in the mobile inflection. (This stage is equal to stage II in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile" short_title="mobile" />
@@ -33,7 +33,7 @@
         <paradigm declension="mobile" case="L+Da+Di+I" form="0e0" footnote="I_mobile_others" />
         <paradigm declension="mobile" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
-    <grammar_table id="III/IV" title="Stage III/IV: proterodynamic/hysterodynamic" short_title="stage III/IV">
+    <grammar_table id="III/IV" title="Stage C: proterodynamic/hysterodynamic" short_title="stage C">
         <description>Ergativity and gender split the mobile inflection (p. 171, 203): In non-ergative inanimate (proterodynamic) nouns, the genitive-ablative loses its case marker accent to other cases' suffix accent. (This stage lies somewhere between stages III and IV in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -56,7 +56,7 @@
         <paradigm declension="PD" case="G+Abl" form="0e0" footnote="III/IV_pd_genitive-ablative" />
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
-    <grammar_table id="IV" title="Stage IV: nominative/accusative" short_title="stage IV">
+    <grammar_table id="IV" title="Stage D: nominative/accusative" short_title="stage D">
         <description>The ergative system is replaced by a nominative system. In mobile inflections, the absolutive becomes the nominative. The ergative's function of highlighting the subject of an action against its object is taken over by the accusative highlighting the object against the (nominative) subject. This differentiation only happens in the formerly ergative hysterodynamic inflection, where the directive becomes the accusative. In the proterodynamic inflection, the former absolutive also becomes the accusative. (This stage is equal to parts of stage IV in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -81,7 +81,7 @@
         <paradigm declension="PD" case="G+Abl" form="0e0" footnote="III/IV_pd_genitive-ablative" />
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
-    <grammar_table id="IV/Va" title="Stage IV/V (a): o-stems" short_title="stage IV/Va">
+    <grammar_table id="IV/Va" title="Stage E: o-stems" short_title="stage E">
         <description>A new inflection emerges (p. 192) from the ergative genitive's Ø-Ø-ó class: the o-stems. (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -108,7 +108,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
         <paradigm declension="O" case="all" form="00o" footnote="IV/Va_o" />
     </grammar_table>
-    <grammar_table id="IV/V (b)" title="Stage IV/V (b): o-stage of ablauts" short_title="stage IV/Vc">
+    <grammar_table id="IV/V (b)" title="Stage F: o-stage of ablauts" short_title="stage F">
         <description>The o-phase of ablauts (p. 157) starts: Non-accented syllables can ablaut to an o. Since the static inflection uses the former ergative as both nominative and genitive, an un-accented suffix ablaut is introduced in the second for differentiation. An o-grade root is also introduced in o-stems – though Beekes is unclear about its distribution. (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -138,7 +138,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
         <paradigm declension="O" case="all" form="o0o" footnote="IV/Vc_o" />
     </grammar_table>
-    <grammar_table id="IV/Vd" title="Stage IV/V (c): static/proterodynamic" short_title="stage IV/Vd">
+    <grammar_table id="IV/Vd" title="Stage G: static/proterodynamic" short_title="stage G">
         <description>The static inflection partly merges with the proterodynamic. This creates a proterodynamic animate inflection (p. 200, 201), with differentiated case endings for nominative (-s) and accusative (-m), and (p. 198: only in the i- and u-stems) a genitive-ablative influenced in its accent/ablaut class by the static inflection. The static instrumental's zero suffix seems to zero the whole proterodynamic instrumental. (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -175,7 +175,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
         <paradigm declension="O" case="all" form="o0o" footnote="IV/Vc_o" />
     </grammar_table>
-    <grammar_table id="Vb" title="Stage V (b): vocative" short_title="stage Vb">
+    <grammar_table id="Vb" title="Stage H: vocative" short_title="stage H">
         <description>The vocative emerges as a variant of the nominative, though with loss of the final resonant. (This stage is equal to parts of stage V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -214,7 +214,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
         <paradigm declension="O" case="all" form="o0o" footnote="IV/Vc_o" />
     </grammar_table>
-    <grammar_table id="Vc" title="Stage V (c): new nominative" short_title="stage Vc">
+    <grammar_table id="Vc" title="Stage J: new nominative" short_title="stage J">
         <description>The accusative's ablauts influence the nominative – but only in some parts of the hysterodynamic inflection, where their ablaut classes actually differ: The nominative keeps its root accent, but gains a full grade in the suffix. As this happens in the o-phase of ablauts, the non-accented full grade is an "o". (This stage is equal to parts of stage V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -254,7 +254,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
         <paradigm declension="O" case="all" form="o0o" footnote="IV/Vc_o" />
     </grammar_table>
-    <grammar_table id="Vd" title="Stage V (d): vowel lengthening" short_title="stage Vd">
+    <grammar_table id="Vd" title="Stage K: vowel lengthening" short_title="stage K">
         <description>Vowels before word-final resonants are lengthened.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -294,7 +294,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
         <paradigm declension="O" case="all" form="o0o" footnote="IV/Vc_o" />
     </grammar_table>
-    <grammar_table id="Va" title="Stage V (e): hysterodynamic instrumental and dative" short_title="stage Ve">
+    <grammar_table id="Va" title="Stage L: hysterodynamic instrumental and dative" short_title="stage L">
         <description>The hysterodynamic dative and instrumental follow the genitive in acquiring a case marker accent, though the instrumental "perhaps not in all stem classes" (p. 203). (It's reasonable to the assume that this happened under the ergative-absolutive system, while the case marker accent of the genitive was dropped in the non-ergative proterodynamic inflection. But p. 197 also attests a relatively late stage for this change, after the vowel lengthening. In any case, the dative ending in full-grade ablauting -ei can only have moved to the o-stems after this.) The suffix-accented variant of the instrumental cannot have disappeared before the o-stems appeared and took its -h₁ ending, which would afterwards have completely changed to -eh₁. (This stage lies somewhere between stages III and V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -340,7 +340,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
         <paradigm declension="O" case="all" form="o0o" footnote="IV/Vc_o" />
     </grammar_table>
-    <grammar_table id="V+a" title="Stage V+ (a): e-stage of ablauts" short_title="stage V+a">
+    <grammar_table id="V+a" title="Stage O: e-stage of ablauts" short_title="stage O">
         <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with loss of the final resonant and zero ending) was added an e-particle – which might have happened at this stage (later the root ablaut seems to have zeroed, as per p. 150). The hysterodynamic nominative catches a great variety of possible ablaut variations (p. 158-164), though the majority would have been Ø-é̄-Ø, é-ō-Ø, é-ē-Ø. This stage should lie beyond the stages of the p. 207 table.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
@@ -384,7 +384,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
         <paradigm declension="O" case="all" form="eo0o" footnote="V+a_o" />
     </grammar_table>
-    <grammar_table id="V+b" title="Stage V+ (b): late PIE, with plurals" short_title="stage V+b">
+    <grammar_table id="V+b" title="Stage P: late PIE, with plurals" short_title="stage P">
         <description>The stages depicted at p. 150, 197 must come after all others. They seem to exclude some special cases – either to simplify the tables, or because these cases had actually disappeared. Included here are the plurals, for which no substantial pre-history is reconstructed before the e-stage of ablauts. The plural vocative is commonly depicted as merged with the plural nominative, but Beekes is not explicit about this. Beekes speculates (p. 147-148) about the endings of the plural dative, locative, and instrumental being accented on vocalized i's and u's, but doesn't include this possibility in his tables. The ablative plural -ios ending may have been a full-grade ablaut (p. 147), but is treated here as non-ablauting atomic to fit this table neatly to the parallel endings table.</description>
         <declension_def id="singular" title="singular" short_title="singular">
             <declension_def id="PD-s" title="singular proterodynamic" short_title="PD" />
