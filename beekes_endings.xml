@@ -42,7 +42,7 @@
         <paradigm declension="all" case="G+Abl" form="s" footnote="II" />
     </grammar_table>
     <grammar_table id="IVc" title="Stage G: static/proterodynamic" short_title="stage G">
-        <description>The static inflection partly merges with the proterodynamic. This creates a proterodynamic animate inflection (p. 200, 201), with differentiated case endings for nominative (-s) and accusative (-m). (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
+        <description>The static inflection partly merges with the proterodynamic. This creates a proterodynamic animate inflection (p. 200, 201), with differentiated case endings for nominative (-s) and accusative (-m), probably limited to i- and u-stems (p. 167, 198). (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
 	<declension_def id="all" title="all">
             <declension_def id="static" title="static" short_title="static" />
             <declension_def id="mobile" title="mobile">
@@ -239,7 +239,7 @@
         <paradigm declension="O" case="Abl" form="et" footnote="IV/V_o_nominative_accusative_ablative" />
     </grammar_table>
     <grammar_table id="V+ (a)" title="Stage O: e-stage of ablauts" short_title="stage O">
-        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with zero ending, and loss of the final resonant) was added an e-particle to its suffix (depicted here is only the zero ending) – which might have happened at this stage (later the root ablaut seems to have zeroed, as per p. 150).</description>
+        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with zero ending, and loss of the final resonant) was added an e-particle to its suffix (depicted here is only the zero ending). This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150.)</description>
         <declension_def id="all" title="all">
             <declension_def id="ablauting" title="ablauting">
                 <declension_def id="static" title="static" short_title="static" />
@@ -427,7 +427,7 @@
         <form id="ei">-ei</form>
         <form id="es">-es</form>
         <form id="ns">-ns</form>
-        <form id="bhi">-bhi</form>
+        <form id="bhi">-bʰi</form>
         <form id="mus">-mus</form>
         <form id="ios">-ios</form>
         <form id="su">-su</form>
