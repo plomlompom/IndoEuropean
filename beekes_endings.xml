@@ -306,11 +306,11 @@
             <declension_def id="O" title="o-stem" short_title="o-stem" />
         </declension_def>
         <declension_def id="plural" title="plural" short_title="plural">
-            <declension_def id="ablauting-pl" title="ablauting">
-                <declension_def id="PD-pl" title="proterodynamic" short_title="PD" />
-                <declension_def id="HD-pl" title="hysterodynamic" short_title="HD" />
+            <declension_def id="ablauting-pl" title="ablauting plural">
+                <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD" />
+                <declension_def id="HD-pl" title="hysterodynamic plural" short_title="HD" />
             </declension_def>
-            <declension_def id="O-pl" title="o-stem" short_title="o-stem" />
+            <declension_def id="O-pl" title="o-stem plural" short_title="o-stem" />
         </declension_def>
         <case_def id="N" title="nominative" short_title="nominative" />
         <case_def id="V" title="vocative" short_title="vocative" />
@@ -368,11 +368,11 @@
             <declension_def id="O" title="o-stem" short_title="o-stem" />
         </declension_def>
         <declension_def id="plural" title="plural" short_title="plural">
-            <declension_def id="ablauting-pl" title="ablauting">
-                <declension_def id="PD-pl" title="proterodynamic" short_title="PD" />
-                <declension_def id="HD-pl" title="hysterodynamic" short_title="HD" />
+            <declension_def id="ablauting-pl" title="ablauting plural">
+                <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD" />
+                <declension_def id="HD-pl" title="hysterodynamic plural" short_title="HD" />
             </declension_def>
-            <declension_def id="O-pl" title="o-stem" short_title="o-stem" />
+            <declension_def id="O-pl" title="o-stem plural" short_title="o-stem" />
         </declension_def>
         <case_def id="N" title="nominative" short_title="nominative" />
         <case_def id="V" title="vocative" short_title="vocative" />
@@ -434,7 +434,7 @@
         <form id="om">-om</form>
         <form id="o:t">-ōt (fused with them. vowel)</form>
         <form id="o:i">-ōi (fused with them. vowel)</form>
-        <form id="o:s">-ōi (fused with them. vowel)</form>
+        <form id="o:s">-ōs (fused with them. vowel)</form>
         <form id="o:m">-ōm (fused with them. vowel)</form>
         <form id="sio">-s?(io)</form>
     </forms>
