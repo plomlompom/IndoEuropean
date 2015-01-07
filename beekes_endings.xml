@@ -239,7 +239,7 @@
         <paradigm declension="O" case="Abl" form="et" footnote="IV/V_o_nominative_accusative_ablative" />
     </grammar_table>
     <grammar_table id="V+ (a)" title="Stage O: e-stage of ablauts" short_title="stage O">
-        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with zero ending, and loss of the final resonant) was added an e-particle to its suffix (depicted here is only the zero ending). This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150.)</description>
+        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with zero ending, and loss of the final resonant) was added an e-particle to its suffix, and its final resonant (except for o-stems, which had none) afterwards restored (depicted here is only the zero ending). This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150.)</description>
         <declension_def id="all" title="all">
             <declension_def id="ablauting" title="ablauting">
                 <declension_def id="static" title="static" short_title="static" />
@@ -289,6 +289,7 @@
         <paradigm declension="O" case="Da" form="ei" footnote="IV/V_o_locative_dative_instrumental" />
         <paradigm declension="O" case="I" form="h1" footnote="IV/V_o_locative_dative_instrumental" />
         <paradigm declension="O" case="Abl" form="et" footnote="IV/V_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="V" form="-e" footnote="V+a_o_vocative" />
     </grammar_table>
     <grammar_table id="V+ (b)" title="Stage P: late PIE, with plurals" short_title="stage P">
         <description>The late singular stages depicted at p. 150, 197, plus the plurals of p. 150, 191 (for the proterodynamic plurals probably only the animates). The ablauting or atomicity of the plural endings is dubious: -ios may be an unusual o-ablaut (infix instead of prefix of the ending). Beekes even speculates (p. 147-148) about the -i- and -u- sounds in -bhi, -mus and -su being accented ablauts. The variants in the table fit neatly as additions to any ablauts depicted in the ablaut/accent classes table. Beekes mentions few o-stem plurals explicitely; as with most singulars, their endings are the hysterodynamic ones plus their respective ablaut appended to the thematic vowel. Beekes gives no late stages for the static inflection, or the vocative plurals.</description>
@@ -342,6 +343,7 @@
         <paradigm declension="O" case="Da" form="ei" footnote="IV/V_o_locative_dative_instrumental" />
         <paradigm declension="O" case="I" form="h1" footnote="IV/V_o_locative_dative_instrumental" />
         <paradigm declension="O" case="Abl" form="et" footnote="IV/V_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="V" form="-e" footnote="V+a_o_vocative" />
         <paradigm declension="ablauting-pl" case="N" form="s" footnote="V+b_plural_nominative" />
         <paradigm declension="O-pl" case="N" form="es" footnote="V+b_plural_nominative" />
         <paradigm declension="plural" case="Ac" form="ns" footnote="V+b_plural_accusative" />
@@ -405,6 +407,7 @@
         <paradigm declension="O" case="I" form="h1" footnote="IV/V_o_locative_dative_instrumental" />
         <paradigm declension="O" case="G" form="sio" footnote="V+c_o_genitive" />
         <paradigm declension="O" case="Abl" form="o:t" footnote="V+c_o_ablative_plural_nominative" />
+        <paradigm declension="O" case="V" form="-e" footnote="V+a_o_vocative" />
         <paradigm declension="ablauting-pl" case="N" form="s" footnote="V+b_plural_nominative" />
         <paradigm declension="O-pl" case="N" form="o:s" footnote="V+c_o_ablative_plural_nominative" />
         <paradigm declension="plural" case="Ac" form="ns" footnote="V+b_plural_accusative" />
@@ -432,6 +435,7 @@
         <form id="ios">-ios</form>
         <form id="su">-su</form>
         <form id="om">-om</form>
+        <form id="-e">-e (fused with them. vowel)</form>
         <form id="o:t">-ōt (fused with them. vowel)</form>
         <form id="o:i">-ōi (fused with them. vowel)</form>
         <form id="o:s">-ōs (fused with them. vowel)</form>
@@ -452,6 +456,7 @@
         <footnote id="IV/V_o_locative_dative_instrumental">p. 191, 193</footnote>
         <footnote id="V+_hd_locative">p. 150, 197-198</footnote>
         <footnote id="V+a_mobile_vocative">p. 100-101</footnote>
+        <footnote id="V+a_o_vocative">p. 101, 191</footnote>
         <footnote id="V+b">p. 150</footnote>
         <footnote id="V+b_plural_nominative">p. 139, 150, 191</footnote>
         <footnote id="V+b_plural_accusative">p. 134-139, 150, 191</footnote>

@@ -172,7 +172,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
     <grammar_table id="Vb" title="Stage H: vocative" short_title="stage H">
-        <description>The vocative emerges as a variant of the nominative, though with loss of the final resonant. (This stage is equal to parts of stage V in the p. 207 table.)</description>
+        <description>The vocative emerges as a variant of the nominative, though with loss of the final resonant (or, for o-stems, supposedly the stem vowel). (This stage is equal to parts of stage V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic" short_title="PD">
@@ -329,7 +329,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
     <grammar_table id="V+a" title="Stage O: e-stage of ablauts" short_title="stage O">
-        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with loss of the final resonant and zero ending) was added an e-particle. This mus thave happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150). The hysterodynamic nominative catches a great variety of possible ablaut variations (p. 158-164), though the majority would have been Ø-é̄-Ø, é-ō-Ø, é-ē-Ø. This stage should lie beyond the stages of the p. 207 table.</description>
+        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with loss of the final resonant and zero ending) was added an e-particle, and its final resonant (except for o-stems, which had none) afterwards restored. This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150). The hysterodynamic nominative catches a great variety of possible ablaut variations (p. 158-164), though the majority would have been Ø-é̄-Ø, é-ō-Ø, é-ē-Ø. This stage should lie beyond the stages of the p. 207 table.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic" short_title="PD">
