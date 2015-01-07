@@ -385,16 +385,19 @@
         <paradigm declension="O" case="all" form="eo0o" footnote="V+a_o" />
     </grammar_table>
     <grammar_table id="V+b" title="Stage P: late PIE, with plurals" short_title="stage P">
-        <description>The stages depicted at p. 150, 197 must come after all others. They seem to exclude some special cases – either to simplify the tables, or because these cases had actually disappeared. Included here are the plurals, for which no substantial pre-history is reconstructed before the e-stage of ablauts. The plural vocative is commonly depicted as merged with the plural nominative, but Beekes is not explicit about this. Beekes speculates (p. 147-148) about the endings of the plural dative, locative, and instrumental being accented on vocalized i's and u's, but doesn't include this possibility in his tables. The ablative plural -ios ending may have been a full-grade ablaut (p. 147), but is treated here as non-ablauting atomic to fit this table neatly to the parallel endings table.</description>
+        <description>The stages depicted at p. 150, 197 must come after all others. They seem to exclude some special cases – either to simplify the tables, or because these cases had actually disappeared. Included here are the plurals (probably only the animates for the proterodynamic ones), for which no substantial pre-history is reconstructed before the e-stage of ablauts. The plural vocative is commonly depicted as merged with the plural nominative, but Beekes is not explicit about this. Beekes speculates (p. 147-148) about the endings of the plural dative, locative, and instrumental being accented on vocalized i's and u's, but doesn't include this possibility in his tables. The ablative plural -ios ending may have been a full-grade ablaut (p. 147), but is treated here as non-ablauting atomic to fit this table neatly to the parallel endings table.</description>
         <declension_def id="singular" title="singular" short_title="singular">
             <declension_def id="PD-s" title="singular proterodynamic" short_title="PD">
                 <declension_def id="PD-mf" title="singular proterodynamic/animate" short_title="mf" />
                 <declension_def id="PD-n" title="singular proterodynamic/neuter" short_title="n" />
             </declension_def>
-            <declension_def id="HD-s" title="singular hysterodynamic" short_title="HD" />
+            <declension_def id="HD-s" title="singular hysterodynamic" short_title="HD">
+                <declension_def id="HD_A" title="singular hysterodynamic (some stem classes)" short_title="some" />
+                <declension_def id="HD_B" title="singular hysterodynamic (other stem classes)" short_title="others" />
+            </declension_def>
         </declension_def>
         <declension_def id="plural" title="plural" short_title="plural">
-            <declension_def id="PD-p" title="plural proterodynamic" short_title="PD">
+            <declension_def id="PD-p" title="plural proterodynamic" short_title="PD-mf">
             </declension_def>
             <declension_def id="HD-p" title="plural hysterodynamic" short_title="HD">
             </declension_def>
@@ -422,10 +425,11 @@
         <paradigm declension="HD-s" case="Ac" form="0e0" footnote="IV_hd_accusative" />
         <paradigm declension="HD-s" case="L" form="0e0" footnote="I_mobile_others" />
         <paradigm declension="PD-s" case="L" form="0e:0" footnote="Vd_pd_locative" />
-        <paradigm declension="HD-s" case="I" form="0e00e" footnote="Va_hd_instrumental" />
+        <paradigm declension="HD_A" case="I" form="0e00e" footnote="Va_hd_instrumental" />
+        <paradigm declension="HD_B" case="I" form="00e" footnote="Va_hd_instrumental" />
         <paradigm declension="PD-s" case="I" form="?e00" footnote="IV/Vd_pd_instrumental" />
         <paradigm declension="PD-s" case="Da" form="0e0" footnote="I_mobile_others" />
-        <paradigm declension="PD-mf" case="G+Abl" form="0o0" footnote="V+b_pd_genitive-ablative" />
+        <paradigm declension="PD-mf" case="G+Abl" form="?eo0" footnote="IV/Vd_pd_mf_genitive" />
         <paradigm declension="PD-n" case="G+Abl" form="0e0" footnote="III/IV_pd_genitive-ablative" />
         <paradigm declension="HD-s" case="Da" form="00e" footnote="III/IV_hd_dative" />
         <paradigm declension="HD-s" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
@@ -442,21 +446,20 @@
         <form id="0e0">Ø-é-Ø</form>
         <form id="00o">Ø-Ø-ó</form>
         <form id="00e">Ø-Ø-é</form>
-        <form id="?e00">(é|Ø)-Ø-Ø</form>
         <form id="eo0">é-o-Ø</form>
         <form id="0eo">Ø-é-o</form>
         <form id="ee0">é-e-Ø</form>
+        <form id="0ee">Ø-é-e</form>
+        <form id="0e:0">Ø-é̄-Ø</form>
         <form id="eo00">é-(o|Ø)-Ø</form>
         <form id="eo:00">é-(ō|Ø)-Ø</form>
         <form id="?eo0">(e|Ø)-o-Ø</form>
         <form id="o0o">(o|Ø)-Ø-ó</form>
-        <form id="0o0">Ø-ó-Ø</form>
-        <form id="0ee">Ø-é-e</form>
-        <form id="0e:0">Ø-é̄-Ø</form>
         <form id="0e00e">Ø-(é-Ø|Ø-é)</form>
         <form id="eo0o">(e|o|Ø)-Ø-ó</form>
-        <form id="crazy">((é|ó)-(ē|ō|Ø)|Ø-(é̄|ó̄))-Ø</form>
+        <form id="?e00">(é|Ø)-Ø-Ø</form>
         <form id="lesscrazy">(é-Ø|é-ō|Ø-é̄)-Ø</form>
+        <form id="crazy">((é|ó)-(ē|ō|Ø)|Ø-(é̄|ó̄))-Ø</form>
         <form id="e0o00o">é-Ø-o|Ø-Ø-ó</form>
     </forms>
     <footnotes>

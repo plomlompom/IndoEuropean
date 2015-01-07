@@ -291,7 +291,7 @@
         <paradigm declension="O" case="Abl" form="et" footnote="IV/V_o_nominative_accusative_ablative" />
     </grammar_table>
     <grammar_table id="V+ (b)" title="Stage P: late PIE, with plurals" short_title="stage P">
-        <description>The late singular stages depicted at p. 150, 197, plus the plurals of p. 150, 191. The ablauting or atomicity of the plural endings is dubious: -ios may be an unusual o-ablaut (infix instead of prefix of the ending). Beekes even speculates (p. 147-148) about the -i- and -u- sounds in -bhi, -mus and -su being accented ablauts. The variants in the table fit neatly as additions to any ablauts depicted in the ablaut/accent classes table. Beekes mentions few o-stem plurals explicitely; as with most singulars, their endings are the hysterodynamic ones plus their respective ablaut appended to the thematic vowel. Beekes gives no late stages for the static inflection, or the vocative plurals.</description>
+        <description>The late singular stages depicted at p. 150, 197, plus the plurals of p. 150, 191 (for the proterodynamic plurals probably only the animates). The ablauting or atomicity of the plural endings is dubious: -ios may be an unusual o-ablaut (infix instead of prefix of the ending). Beekes even speculates (p. 147-148) about the -i- and -u- sounds in -bhi, -mus and -su being accented ablauts. The variants in the table fit neatly as additions to any ablauts depicted in the ablaut/accent classes table. Beekes mentions few o-stem plurals explicitely; as with most singulars, their endings are the hysterodynamic ones plus their respective ablaut appended to the thematic vowel. Beekes gives no late stages for the static inflection, or the vocative plurals.</description>
         <declension_def id="singular" title="singular" short_title="singular">
             <declension_def id="ablauting" title="ablauting">
                 <declension_def id="PD" title="proterodynamic" short_title="PD">
@@ -307,7 +307,7 @@
         </declension_def>
         <declension_def id="plural" title="plural" short_title="plural">
             <declension_def id="ablauting-pl" title="ablauting plural">
-                <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD" />
+                <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD-mf" />
                 <declension_def id="HD-pl" title="hysterodynamic plural" short_title="HD" />
             </declension_def>
             <declension_def id="O-pl" title="o-stem plural" short_title="o-stem" />
@@ -369,7 +369,7 @@
         </declension_def>
         <declension_def id="plural" title="plural" short_title="plural">
             <declension_def id="ablauting-pl" title="ablauting plural">
-                <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD" />
+                <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD-mf" />
                 <declension_def id="HD-pl" title="hysterodynamic plural" short_title="HD" />
             </declension_def>
             <declension_def id="O-pl" title="o-stem plural" short_title="o-stem" />
