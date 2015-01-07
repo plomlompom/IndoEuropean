@@ -82,7 +82,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
     <grammar_table id="IV/Va" title="Stage E: o-stems" short_title="stage E">
-        <description>A new inflection emerges (p. 192) from the ergative genitive's ∅-∅-ó class: the o-stems. These will soon grow independent of the accent/ablaut rules that affect the mobile inflections, and therefore not be depicted further. The ending ablaut ó transforms into a "stem vowel" to which hysterodynamic endings will be attached, their respective ablauts included. With the coming o- and e-ablaut phases, the root ablaut will change from a mere ∅ to (∅|o) and then (∅|e|o), but Beekes is somewhat unclear about the details of distribution (p. 158, 195). (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
+        <description>A new inflection emerges (p. 192) from the ergative genitive's Ø-Ø-ó class: the o-stems. These will soon grow independent of the accent/ablaut rules that affect the mobile inflections, and therefore not be depicted further. The ending ablaut ó transforms into a "stem vowel" to which hysterodynamic endings will be attached, their respective ablauts included. With the coming o- and e-ablaut phases, the root ablaut will change from a mere Ø to (Ø|o) and then (Ø|e|o), but Beekes is somewhat unclear about the details of distribution (p. 158, 195). (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic/neuter" short_title="PD (n)" />
