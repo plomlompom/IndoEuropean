@@ -172,7 +172,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
     <grammar_table id="Vb" title="Stage H: vocative" short_title="stage H">
-        <description>The vocative emerges as a variant of the nominative, though with loss of the final resonant (or, for o-stems, supposedly the stem vowel). (This stage is equal to parts of stage V in the p. 207 table.)</description>
+        <description>The vocative emerges as a variant of the nominative, though with loss of the final resonant (or, for o-stems, supposedly the stem vowel; p. 101 may also be interpreted as not only affecting stem-final resonants, but stem-final consonants in general). (This stage is equal to parts of stage V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic" short_title="PD">

@@ -73,7 +73,7 @@
         <paradigm declension="all" case="G+Abl" form="s" footnote="II" />
     </grammar_table>
     <grammar_table id="V" title="Stage H: vocative" short_title="stage H">
-        <description>The vocative emerges as a variant of the nominative, though with loss of the final resonant (at least with mobile inflections; Beekes is unclear about the static one). (This stage is equal to parts of stage V in the p. 207 table.)</description>
+        <description>The vocative emerges as a variant of the nominative, though with loss of the final resonant (at least with mobile inflections; Beekes is unclear about the static one; his p. 101 argument may also be interpreted as affecting stem-final consonants in general, not just resonants). (This stage is equal to parts of stage V in the p. 207 table.)</description>
 	<declension_def id="all" title="all">
             <declension_def id="static" title="static" short_title="static" />
             <declension_def id="mobile" title="mobile">
@@ -239,7 +239,7 @@
         <paradigm declension="O" case="Abl" form="et" footnote="IV/V_o_nominative_accusative_ablative" />
     </grammar_table>
     <grammar_table id="V+ (a)" title="Stage O: e-stage of ablauts" short_title="stage O">
-        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-∅ (with zero ending, and loss of the final resonant) was added an e-particle to its suffix, and its final resonant (except for o-stems, which had none) afterwards restored (depicted here is only the zero ending). This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150.)</description>
+        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-∅ (with zero ending, and loss of the final resonant, or consonant in general) was added an e-particle to its suffix, and its final resonant (or maybe consonant in general; except for o-stems, which had none) afterwards restored (depicted here is only the zero ending). This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150.)</description>
         <declension_def id="all" title="all">
             <declension_def id="ablauting" title="ablauting">
                 <declension_def id="static" title="static" short_title="static" />
