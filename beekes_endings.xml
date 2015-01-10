@@ -239,7 +239,7 @@
         <paradigm declension="O" case="Abl" form="et" footnote="IV/V_o_nominative_accusative_ablative" />
     </grammar_table>
     <grammar_table id="V+ (a)" title="Stage O: e-stage of ablauts" short_title="stage O">
-        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with zero ending, and loss of the final resonant) was added an e-particle to its suffix, and its final resonant (except for o-stems, which had none) afterwards restored (depicted here is only the zero ending). This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150.)</description>
+        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-∅ (with zero ending, and loss of the final resonant) was added an e-particle to its suffix, and its final resonant (except for o-stems, which had none) afterwards restored (depicted here is only the zero ending). This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150.)</description>
         <declension_def id="all" title="all">
             <declension_def id="ablauting" title="ablauting">
                 <declension_def id="static" title="static" short_title="static" />
@@ -419,8 +419,8 @@
         <paradigm declension="O-pl" case="G" form="o:m" footnote="V+c_o_plural_genitive" />
     </grammar_table>
     <forms>
-        <form id="0">-Ø</form>
-        <form id="0+">-Ø (sans suffix-final resonant)</form>
+        <form id="0">-∅</form>
+        <form id="0+">-∅ (sans suffix-final resonant)</form>
         <form id="m">-m</form>
         <form id="s">-s</form>
         <form id="i">-i</form>
@@ -435,7 +435,7 @@
         <form id="ios">-ios</form>
         <form id="su">-su</form>
         <form id="om">-om</form>
-        <form id="-e">-e (fused with them. vowel)</form>
+        <form id="-e">-e (instead of them. vowel)</form>
         <form id="o:t">-ōt (fused with them. vowel)</form>
         <form id="o:i">-ōi (fused with them. vowel)</form>
         <form id="o:s">-ōs (fused with them. vowel)</form>

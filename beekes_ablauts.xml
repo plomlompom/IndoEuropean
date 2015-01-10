@@ -82,7 +82,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
     <grammar_table id="IV/Va" title="Stage E: o-stems" short_title="stage E">
-        <description>A new inflection emerges (p. 192) from the ergative genitive's Ø-Ø-ó class: the o-stems. These will soon grow independent of the accent/ablaut rules that affect the mobile inflections, and therefore not be depicted further. The ending ablaut ó transforms into a "stem vowel" to which hysterodynamic endings will be attached, their respective ablauts included. With the coming o- and e-ablaut phases, the root ablaut will change from a mere Ø to (Ø|o) and then (Ø|e|o), but Beekes is somewhat unclear about the details of distribution (p. 158, 195). (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
+        <description>A new inflection emerges (p. 192) from the ergative genitive's ∅-∅-ó class: the o-stems. These will soon grow independent of the accent/ablaut rules that affect the mobile inflections, and therefore not be depicted further. The ending ablaut ó transforms into a "stem vowel" to which hysterodynamic endings will be attached, their respective ablauts included. With the coming o- and e-ablaut phases, the root ablaut will change from a mere ∅ to (∅|o) and then (∅|e|o), but Beekes is somewhat unclear about the details of distribution (p. 158, 195). (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic/neuter" short_title="PD (n)" />
@@ -329,7 +329,7 @@
         <paradigm declension="HD" case="G+Abl" form="00o" footnote="II_mobile_genitive-ablative" />
     </grammar_table>
     <grammar_table id="V+a" title="Stage O: e-stage of ablauts" short_title="stage O">
-        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-Ø (with loss of the final resonant and zero ending) was added an e-particle, and its final resonant (except for o-stems, which had none) afterwards restored. This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150). The hysterodynamic nominative catches a great variety of possible ablaut variations (p. 158-164), though the majority would have been Ø-é̄-Ø, é-ō-Ø, é-ē-Ø. This stage should lie beyond the stages of the p. 207 table.</description>
+        <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-∅ (with loss of the final resonant and zero ending) was added an e-particle, and its final resonant (except for o-stems, which had none) afterwards restored. This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150). The hysterodynamic nominative catches a great variety of possible ablaut variations (p. 158-164), though the majority would have been ∅-é̄-∅, é-ō-∅, é-ē-∅. This stage should lie beyond the stages of the p. 207 table.</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
             <declension_def id="PD" title="proterodynamic" short_title="PD">
@@ -428,23 +428,23 @@
         <paradigm declension="plural" case="L+I+Da" form="?e00" footnote="V+b_plural_locative_instrumental_dative" />
     </grammar_table>
     <forms>
-        <form id="e00">é-Ø-Ø</form>
-        <form id="0e0">Ø-é-Ø</form>
-        <form id="00o">Ø-Ø-ó</form>
-        <form id="00e">Ø-Ø-é</form>
-        <form id="eo0">é-o-Ø</form>
-        <form id="0eo">Ø-é-o</form>
-        <form id="ee0">é-e-Ø</form>
-        <form id="0ee">Ø-é-e</form>
-        <form id="0e:0">Ø-é̄-Ø</form>
-        <form id="eo00">é-(o|Ø)-Ø</form>
-        <form id="eo:00">é-(ō|Ø)-Ø</form>
-        <form id="?eo0">(e|Ø)-o-Ø</form>
-        <form id="0e00e">Ø-(é-Ø|Ø-é)</form>
-        <form id="?e00">(é|Ø)-Ø-Ø</form>
-        <form id="lesscrazy">(é-Ø|é-ō|Ø-é̄)-Ø</form>
-        <form id="crazy">((é|ó)-(ē|ō|Ø)|Ø-(é̄|ó̄))-Ø</form>
-        <form id="e0o00o">é-Ø-o|Ø-Ø-ó</form>
+        <form id="e00">é-∅-∅</form>
+        <form id="0e0">∅-é-∅</form>
+        <form id="00o">∅-∅-ó</form>
+        <form id="00e">∅-∅-é</form>
+        <form id="eo0">é-o-∅</form>
+        <form id="0eo">∅-é-o</form>
+        <form id="ee0">é-e-∅</form>
+        <form id="0ee">∅-é-e</form>
+        <form id="0e:0">∅-é̄-∅</form>
+        <form id="eo00">é-(o|∅)-∅</form>
+        <form id="eo:00">é-(ō|∅)-∅</form>
+        <form id="?eo0">(e|∅)-o-∅</form>
+        <form id="0e00e">∅-(é-∅|∅-é)</form>
+        <form id="?e00">(é|∅)-∅-∅</form>
+        <form id="lesscrazy">(é-∅|é-ō|∅-é̄)-∅</form>
+        <form id="crazy">((é|ó)-(ē|ō|∅)|∅-(é̄|ó̄))-∅</form>
+        <form id="e0o00o">é-∅-o|∅-∅-ó</form>
     </forms>
     <footnotes>
         <footnote id="I_static">p. 202, 207</footnote>
