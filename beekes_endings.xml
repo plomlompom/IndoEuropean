@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="test.xsl" ?>
 <grammar_tables title="Early endings (Beekes)">
-    <description>The early development of the PIE nominal endings as read into <source book="Beekes1985" />. The order of tables is not strictly chronological, but rather analytical: Beekes often specifies the relative order of steps only vaguely. For reasons of clarity, I decided to introduce such steps in separate tables of a certain order, even if they may have happened in parallel, or in a slightly different order. All tables but the last two only deal with singulars.</description>
+    <description>The early development of the PIE nominal endings as read into <source book="Beekes1985" /> (with some additions from <source book="Beekes2011" /> for late developments not depicted in <source book="Beekes1985" />). The order of tables is not strictly chronological, but rather analytical: Beekes often specifies the relative order of steps only vaguely. For reasons of clarity, I decided to introduce such steps in separate tables of a certain order, even if they may have happened in parallel, or in a slightly different order. All tables but the last two only deal with singulars.</description>
     <grammar_table id="B" title="Stage B: original endings" short_title="stage B">
         <description>These particles appended to the accented or un-accented ending ablauts of the various forms. (This stage is equal to parts of stage II in the p. 207 table.)</description>
         <declension_def id="all" title="all" short_title="all" />
@@ -292,7 +292,7 @@
         <paradigm declension="O" case="V" form="-e" footnote="O_o_vocative" />
     </grammar_table>
     <grammar_table id="P" title="Stage P: late PIE, with plurals" short_title="stage P">
-        <description>The late singular stages depicted at p. 150, 197, plus the plurals of p. 150, 191 (for the proterodynamic plurals probably only the animates). The ablauting or atomicity of the plural endings is dubious: -ios may be an unusual o-ablaut (infix instead of prefix of the ending). Beekes even speculates (p. 147-148) about the -i- and -u- sounds in -bhi, -mus and -su being accented ablauts. The variants in the table fit neatly as additions to any ablauts depicted in the ablaut/accent classes table. Beekes mentions few o-stem plurals explicitely; as with most singulars, their endings are the hysterodynamic ones plus their respective ablaut appended to the thematic vowel. Beekes gives no late stages for the static inflection, or the vocative plurals.</description>
+        <description>The late singular stages depicted at p. 150, 197, plus the plurals of p. 150, 191 (for the proterodynamic plurals probably only the animates). The ablauting or atomicity of the plural endings is dubious: -ios may be an unusual o-ablaut (infix instead of prefix of the ending). Beekes even speculates (p. 147-148) about the -i- and -u- sounds in -bhi, -mus and -su being accented ablauts. The variants in the table fit neatly as additions to any ablauts depicted in the ablaut/accent classes table. Beekes mentions few o-stem plurals explicitely; as with most singulars, their endings are the hysterodynamic ones plus their respective ablaut appended to the thematic vowel (included are logical extensions from <source book="Beekes2011" /> – note that the o-stem plural ablative is depicted there only with a question mark). Beekes gives no late stages for the static inflection, or the vocative plurals.</description>
         <declension_def id="singular" title="singular" short_title="singular">
             <declension_def id="ablauting" title="ablauting">
                 <declension_def id="PD" title="proterodynamic" short_title="PD">
@@ -353,8 +353,81 @@
         <paradigm declension="ablauting-pl" case="L" form="su" footnote="P_plural_locative" />
         <paradigm declension="ablauting-pl" case="G" form="m" footnote="P_plural_genitive" />
         <paradigm declension="O-pl" case="G" form="om" footnote="P_plural_genitive" />
+        <paradigm declension="O-pl" case="Da" form="mus" footnote="P_o_plural_dative" />
+        <paradigm declension="O-pl" case="Abl" form="ios" footnote="P_o_plural_ablative" />
     </grammar_table>
-    <grammar_table id="Q" title="Stage Q: later o-stems" short_title="stage Q">
+    <grammar_table id="Q" title="Stage Q: pronoun influence" short_title="stage Q">
+        <description>Some plural o-stem endings are taken over from pronouns, as per <source book="Beekes2011" /> p. 213.</description>
+        <declension_def id="singular" title="singular" short_title="singular">
+            <declension_def id="ablauting" title="ablauting">
+                <declension_def id="PD" title="proterodynamic" short_title="PD">
+                    <declension_def id="PD-mf" title="proterodynamic (animate)" short_title="mf" />
+                    <declension_def id="PD-n" title="proterodynamic (neuter)" short_title="n" />
+                </declension_def>
+                <declension_def id="HD" title="hysterodynamic" short_title="HD">
+                    <declension_def id="HD_A" title="hysterodynamic (some)" short_title="some" />
+                    <declension_def id="HD_B" title="hysterodynamic (others)" short_title="others" />
+                </declension_def>
+            </declension_def>
+            <declension_def id="O" title="o-stem" short_title="o-stem" />
+        </declension_def>
+        <declension_def id="plural" title="plural" short_title="plural">
+            <declension_def id="ablauting-pl" title="ablauting plural">
+                <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD-mf" />
+                <declension_def id="HD-pl" title="hysterodynamic plural" short_title="HD" />
+            </declension_def>
+            <declension_def id="O-pl" title="o-stem plural" short_title="o-stem">
+                <declension_def id="O-pl-A" title="o-stem plural (some)" short_title="some" />
+                <declension_def id="O-pl-B" title="o-stem plural (others)" short_title="others" />
+            </declension_def>
+        </declension_def>
+        <case_def id="N" title="nominative" short_title="nominative" />
+        <case_def id="V" title="vocative" short_title="vocative" />
+        <case_def id="L" title="locative" short_title="locative" />
+        <case_def id="Ac" title="accusative" short_title="accusative" />
+        <case_def id="I" title="instrumental" short_title="instrumental" />
+        <case_def id="Da" title="dative" short_title="dative" />
+        <case_def id="G+Abl" title="genitive-ablative">
+            <case_def id="G" title="genitive" short_title="genitive" />
+            <case_def id="Abl" title="ablative" short_title="ablative" />
+        </case_def>
+        <paradigm declension="PD-mf" case="N" form="s" footnote="G_pdmf_nominative" />
+        <paradigm declension="PD-n" case="N" form="0" footnote="D_mobile_nominative" />
+        <paradigm declension="HD" case="N" form="0" footnote="D_mobile_nominative" />
+        <paradigm declension="ablauting" case="V" form="0" footnote="O_mobile_vocative" />
+        <paradigm declension="PD" case="L" form="0" footnote="B" />
+        <paradigm declension="HD_A" case="L" form="0" footnote="N_hd_locative" />
+        <paradigm declension="HD_B" case="L" form="i?" footnote="N_hd_locative" />
+        <paradigm declension="PD-mf" case="Ac" form="m" footnote="G_pdmf_accusative" />
+        <paradigm declension="PD-n" case="Ac" form="0" footnote="D_pd_accusative" />
+        <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
+        <paradigm declension="ablauting" case="Da" form="i" footnote="B" />
+        <paradigm declension="ablauting" case="I" form="h1" footnote="B" />
+        <paradigm declension="singular" case="G" form="s" footnote="B" />
+        <paradigm declension="ablauting" case="Abl" form="s" footnote="B" />
+        <paradigm declension="O" case="N" form="s" footnote="M_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="L" form="i" footnote="M_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="Ac" form="m" footnote="M_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="Da" form="ei" footnote="M_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="I" form="h1" footnote="M_o_locative_dative_instrumental" />
+        <paradigm declension="O" case="Abl" form="et" footnote="M_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="V" form="-e" footnote="O_o_vocative" />
+        <paradigm declension="ablauting-pl" case="N" form="s" footnote="P_plural_nominative" />
+        <paradigm declension="O-pl-A" case="N" form="es" footnote="P_plural_nominative" />
+        <paradigm declension="plural" case="Ac" form="ns" footnote="P_plural_accusative" />
+        <paradigm declension="ablauting-pl" case="I" form="bhi" footnote="P_plural_instrumental" />
+        <paradigm declension="ablauting-pl" case="Da" form="mus" footnote="P_plural_dative" />
+        <paradigm declension="ablauting-pl" case="Abl" form="ios" footnote="P_plural_ablative" />
+        <paradigm declension="ablauting-pl" case="L" form="su" footnote="P_plural_locative" />
+        <paradigm declension="ablauting-pl" case="G" form="m" footnote="P_plural_genitive" />
+        <paradigm declension="O-pl" case="G" form="om" footnote="P_plural_genitive" />
+        <paradigm declension="O-pl" case="Da" form="mus" footnote="P_o_plural_dative" />
+        <paradigm declension="O-pl" case="Abl" form="ios" footnote="P_o_plural_ablative" />
+        <paradigm declension="O-pl" case="L" form="isu" footnote="Q_o_plural" />
+        <paradigm declension="O-pl-B" case="N" form="i" footnote="Q_o_plural_nominative" />
+        <paradigm declension="O-pl" case="I" form="eis" footnote="Q_o_plural" />
+    </grammar_table>
+    <grammar_table id="R" title="Stage R: late o-stems" short_title="stage R">
         <description>Later o-stem endings contain fusions of ending vowels with the thematic vowel (which is otherwise not depicted in these tables). A singular genitive ending in -sio (ablauting: -osio) may result from the attachment of an "io" particle often used in conjunction with the genitive.</description>
         <declension_def id="singular" title="singular" short_title="singular">
             <declension_def id="ablauting" title="ablauting">
@@ -374,7 +447,10 @@
                 <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD-mf" />
                 <declension_def id="HD-pl" title="hysterodynamic plural" short_title="HD" />
             </declension_def>
-            <declension_def id="O-pl" title="o-stem plural" short_title="o-stem" />
+            <declension_def id="O-pl" title="o-stem plural" short_title="o-stem">
+                <declension_def id="O-pl-A" title="o-stem plural (some)" short_title="some" />
+                <declension_def id="O-pl-B" title="o-stem plural (others)" short_title="others" />
+            </declension_def>
         </declension_def>
         <case_def id="N" title="nominative" short_title="nominative" />
         <case_def id="V" title="vocative" short_title="vocative" />
@@ -403,20 +479,25 @@
         <paradigm declension="O" case="N" form="s" footnote="M_o_nominative_accusative_ablative" />
         <paradigm declension="O" case="L" form="i" footnote="M_o_locative_dative_instrumental" />
         <paradigm declension="O" case="Ac" form="m" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="Da" form="o:i" footnote="Q_o_dative" />
+        <paradigm declension="O" case="Da" form="o:i" footnote="R_o_dative" />
         <paradigm declension="O" case="I" form="h1" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="G" form="sio" footnote="Q_o_genitive" />
-        <paradigm declension="O" case="Abl" form="o:t" footnote="Q_o_ablative_plural_nominative" />
+        <paradigm declension="O" case="G" form="sio" footnote="R_o_genitive" />
+        <paradigm declension="O" case="Abl" form="o:t" footnote="R_o_ablative_plural_nominative" />
         <paradigm declension="O" case="V" form="-e" footnote="O_o_vocative" />
         <paradigm declension="ablauting-pl" case="N" form="s" footnote="P_plural_nominative" />
-        <paradigm declension="O-pl" case="N" form="o:s" footnote="Q_o_ablative_plural_nominative" />
+        <paradigm declension="O-pl-A" case="N" form="o:s" footnote="R_o_ablative_plural_nominative" />
         <paradigm declension="plural" case="Ac" form="ns" footnote="P_plural_accusative" />
         <paradigm declension="ablauting-pl" case="I" form="bhi" footnote="P_plural_instrumental" />
         <paradigm declension="ablauting-pl" case="Da" form="mus" footnote="P_plural_dative" />
         <paradigm declension="ablauting-pl" case="Abl" form="ios" footnote="P_plural_ablative" />
         <paradigm declension="ablauting-pl" case="L" form="su" footnote="P_plural_locative" />
         <paradigm declension="ablauting-pl" case="G" form="m" footnote="P_plural_genitive" />
-        <paradigm declension="O-pl" case="G" form="o:m" footnote="Q_o_plural_genitive" />
+        <paradigm declension="O-pl" case="G" form="o:m" footnote="R_o_plural_genitive" />
+        <paradigm declension="O-pl" case="Da" form="mus" footnote="P_o_plural_dative" />
+        <paradigm declension="O-pl" case="Abl" form="ios" footnote="P_o_plural_ablative" />
+        <paradigm declension="O-pl" case="L" form="isu" footnote="Q_o_plural" />
+        <paradigm declension="O-pl-B" case="N" form="i" footnote="Q_o_plural" />
+        <paradigm declension="O-pl" case="I" form="o:is" footnote="R_o_plural" />
     </grammar_table>
     <forms>
         <form id="0">-∅</form>
@@ -441,6 +522,9 @@
         <form id="o:s">-ōs (fused with them. vowel)</form>
         <form id="o:m">-ōm (fused with them. vowel)</form>
         <form id="sio">-s?(io)</form>
+        <form id="isu">-isu</form>
+        <form id="eis">-eis</form>
+        <form id="o:is">-ōis (fused with them. vowel)</form>
     </forms>
     <footnotes>
         <footnote id="B">p. 202, 207</footnote>
@@ -465,12 +549,18 @@
         <footnote id="P_plural_ablative">p. 144, 149-150</footnote>
         <footnote id="P_plural_locative">p. 149-150</footnote>
         <footnote id="P_plural_genitive">p. 140, 149-150</footnote>
-        <footnote id="Q_o_dative">p. 191, 193</footnote>
-        <footnote id="Q_o_ablative_plural_nominative">p. 191</footnote>
-        <footnote id="Q_o_plural_genitive">p. 140</footnote>
-        <footnote id="Q_o_genitive">p. 185</footnote>
+        <footnote id="P_o_plural_dative"><source book="Beekes2011" /> p. 212-213</footnote>
+        <footnote id="P_o_plural_ablative"><source book="Beekes2011" /> p. 213</footnote>
+        <footnote id="Q_o_plural"><source book="Beekees2011"/> p. 212-213</footnote>
+        <footnote id="Q_o_plural_nominative"><source book="Beekes2011"/> p. 213</footnote>
+        <footnote id="R_o_dative">p. 191, 193</footnote>
+        <footnote id="R_o_ablative_plural_nominative">p. 191</footnote>
+        <footnote id="R_o_plural_genitive">p. 140</footnote>
+        <footnote id="R_o_genitive">p. 185</footnote>
+        <footnote id="R_o_plural"><source book="Beekes2011"/> p. 212-213</footnote>
     </footnotes>
     <bibliography>
         <book id="Beekes1985" title="Beekes 1985">Beekes, Robert S. P.: The origins of the Indo-European nominal inflection. Institut für Sprachwissenschaft der Universität Innsbruck 1985.</book>
+        <book id="Beekes2011" title="Beekes 2011">Beekes, Robert S. P.: Comparative Indo-European Linguistics: an Introduction. Second Edition. John Benjamins 2011.</book>
     </bibliography>
 </grammar_tables>
