@@ -307,10 +307,7 @@
             <declension_def id="O" title="o-stem" short_title="o-stem" />
         </declension_def>
         <declension_def id="plural" title="plural" short_title="plural">
-            <declension_def id="ablauting-pl" title="ablauting plural">
-                <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD-mf" />
-                <declension_def id="HD-pl" title="hysterodynamic plural" short_title="HD" />
-            </declension_def>
+            <declension_def id="ablauting-pl" title="ablauting plural" short_title="HD/PD mf"/>
             <declension_def id="O-pl" title="o-stem plural" short_title="o-stem" />
         </declension_def>
         <case_def id="N" title="nominative" short_title="nominative" />
@@ -372,10 +369,7 @@
             <declension_def id="O" title="o-stem" short_title="o-stem" />
         </declension_def>
         <declension_def id="plural" title="plural" short_title="plural">
-            <declension_def id="ablauting-pl" title="ablauting plural">
-                <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD-mf" />
-                <declension_def id="HD-pl" title="hysterodynamic plural" short_title="HD" />
-            </declension_def>
+            <declension_def id="ablauting-pl" title="ablauting plural" short_title="HD/PD mf"/>
             <declension_def id="O-pl" title="o-stem plural" short_title="o-stem">
                 <declension_def id="O-pl-A" title="o-stem plural (some)" short_title="some" />
                 <declension_def id="O-pl-B" title="o-stem plural (others)" short_title="others" />
@@ -443,10 +437,7 @@
             <declension_def id="O" title="o-stem" short_title="o-stem" />
         </declension_def>
         <declension_def id="plural" title="plural" short_title="plural">
-            <declension_def id="ablauting-pl" title="ablauting plural">
-                <declension_def id="PD-pl" title="proterodynamic plural" short_title="PD-mf" />
-                <declension_def id="HD-pl" title="hysterodynamic plural" short_title="HD" />
-            </declension_def>
+            <declension_def id="ablauting-pl" title="ablauting plural" short_title="HD/PD mf"/>
             <declension_def id="O-pl" title="o-stem plural" short_title="o-stem">
                 <declension_def id="O-pl-A" title="o-stem plural (some)" short_title="some" />
                 <declension_def id="O-pl-B" title="o-stem plural (others)" short_title="others" />
