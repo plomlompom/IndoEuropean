@@ -3,9 +3,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <title>Early accent/ablaut classes (Beekes)</title>
-<link rel="stylesheet" type="text/css" href="style_nocolors.css" title="no colors">
-<link rel="alternate stylesheet" type="text/css" href="style_coloredforms.css" title="each form one color (pattern)">
-<link rel="alternate stylesheet" type="text/css" href="style_coloredchanges.css" title="colored per-stage changes">
+<link id="styleA" rel="stylesheet" type="text/css" href="style_nocolors.css" title="no colors">
+<link id="styleB" rel="alternate stylesheet" type="text/css" href="style_coloredforms.css" title="each form one color (pattern)">
+<link id="styleC" rel="alternate stylesheet" type="text/css" href="style_coloredchanges.css" title="colored per-stage changes">
 <h1>Early accent/ablaut classes (Beekes)</h1>
 <p>The early development of the PIE accent/ablaut classes as read into <a href="#bibliography_Beekes1985">Beekes 1985</a>. Classes are written out in the form "[root ablaut]-[suffix ablaut]-[case marker ablaut]", with an accent put on top of an ablaut known to be stressed. The order of tables is not strictly chronological, but rather analytical: Beekes often specifies the relative order of steps only vaguely. For reasons of clarity, I decided to introduce such steps in separate tables of a certain order, even if they may have happened in parallel, or in a slightly different order. All tables but the last one only deal with singulars.</p>
 <h2>Stage A: static/mobile, accent ablauts</h2>
@@ -1059,4 +1059,55 @@
 </ul>
 <h2>Bibliography</h2>
 <ul class="bibliography"><li id="bibliography_Beekes1985">Beekes, Robert S. P.: The origins of the Indo-European nominal inflection. Institut für Sprachwissenschaft der Universität Innsbruck 1985.</li></ul>
+<div id="add_style_buttons_if_JavaScript"></div>
+<script type="text/javascript">
+                var div = document.getElementById("add_style_buttons_if_JavaScript");
+                div.appendChild(document.createElement("hr"));
+                div.appendChild(document.createTextNode("table coloring: "));
+
+                var button = document.createElement("span");
+                button.id = "buttonA";
+                button.style.textDecoration = "underline";
+                button.onclick = function() {
+                    document.getElementById("styleA").disabled = false;
+                    document.getElementById("styleB").disabled = true;
+                    document.getElementById("styleC").disabled = true;
+                    document.getElementById("buttonA").style.textDecoration = "underline";
+                    document.getElementById("buttonB").style.textDecoration = "none";
+                    document.getElementById("buttonC").style.textDecoration = "none";
+                };
+                var text = document.createTextNode("no colors")
+                button.appendChild(text);
+                div.appendChild(button);
+                div.appendChild(document.createTextNode(" / "));
+
+                var button = document.createElement("span");
+                button.id = "buttonB";
+                button.onclick = function() {
+                    document.getElementById("styleA").disabled = true;
+                    document.getElementById("styleB").disabled = false;
+                    document.getElementById("styleC").disabled = true;
+                    document.getElementById("buttonA").style.textDecoration = "none";
+                    document.getElementById("buttonB").style.textDecoration = "underline";
+                    document.getElementById("buttonC").style.textDecoration = "none";
+                };
+                var text = document.createTextNode("each form one color (pattern)")
+                button.appendChild(text);
+                div.appendChild(button);
+                div.appendChild(document.createTextNode(" / "));
+
+                var button = document.createElement("span");
+                button.id = "buttonC";
+                button.onclick = function() {
+                    document.getElementById("styleA").disabled = true;
+                    document.getElementById("styleB").disabled = true;
+                    document.getElementById("styleC").disabled = false;
+                    document.getElementById("buttonA").style.textDecoration = "none";
+                    document.getElementById("buttonB").style.textDecoration = "none";
+                    document.getElementById("buttonC").style.textDecoration = "underline";
+                };
+                var text = document.createTextNode("colored per-stage changes")
+                button.appendChild(text);
+                div.appendChild(button);
+            </script>
 </html>

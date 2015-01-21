@@ -8,9 +8,9 @@
         <html>
             <meta charset="utf-8"/>
             <title><xsl:value-of select="@title" /></title>
-            <link rel="stylesheet" type="text/css" href="style_nocolors.css" title="no colors" />
-            <link rel="alternate stylesheet" type="text/css" href="style_coloredforms.css" title="each form one color (pattern)" />
-            <link rel="alternate stylesheet" type="text/css" href="style_coloredchanges.css" title="colored per-stage changes" />
+            <link id="styleA" rel="stylesheet" type="text/css" href="style_nocolors.css" title="no colors" />
+            <link id="styleB" rel="alternate stylesheet" type="text/css" href="style_coloredforms.css" title="each form one color (pattern)" />
+            <link id="styleC" rel="alternate stylesheet" type="text/css" href="style_coloredchanges.css" title="colored per-stage changes" />
             <h1><xsl:value-of select="@title" /></h1>
             <p>
                 <xsl:apply-templates select="description" mode="source" />
@@ -20,6 +20,57 @@
             <ul class="bibliography">
                 <xsl:apply-templates select="bibliography/book" />
             </ul>
+            <div id="add_style_buttons_if_JavaScript"></div>
+            <script type="text/javascript">
+                var div = document.getElementById("add_style_buttons_if_JavaScript");
+                div.appendChild(document.createElement("hr"));
+                div.appendChild(document.createTextNode("table coloring: "));
+
+                var button = document.createElement("span");
+                button.id = "buttonA";
+                button.style.textDecoration = "underline";
+                button.onclick = function() {
+                    document.getElementById("styleA").disabled = false;
+                    document.getElementById("styleB").disabled = true;
+                    document.getElementById("styleC").disabled = true;
+                    document.getElementById("buttonA").style.textDecoration = "underline";
+                    document.getElementById("buttonB").style.textDecoration = "none";
+                    document.getElementById("buttonC").style.textDecoration = "none";
+                };
+                var text = document.createTextNode("no colors")
+                button.appendChild(text);
+                div.appendChild(button);
+                div.appendChild(document.createTextNode(" / "));
+
+                var button = document.createElement("span");
+                button.id = "buttonB";
+                button.onclick = function() {
+                    document.getElementById("styleA").disabled = true;
+                    document.getElementById("styleB").disabled = false;
+                    document.getElementById("styleC").disabled = true;
+                    document.getElementById("buttonA").style.textDecoration = "none";
+                    document.getElementById("buttonB").style.textDecoration = "underline";
+                    document.getElementById("buttonC").style.textDecoration = "none";
+                };
+                var text = document.createTextNode("each form one color (pattern)")
+                button.appendChild(text);
+                div.appendChild(button);
+                div.appendChild(document.createTextNode(" / "));
+
+                var button = document.createElement("span");
+                button.id = "buttonC";
+                button.onclick = function() {
+                    document.getElementById("styleA").disabled = true;
+                    document.getElementById("styleB").disabled = true;
+                    document.getElementById("styleC").disabled = false;
+                    document.getElementById("buttonA").style.textDecoration = "none";
+                    document.getElementById("buttonB").style.textDecoration = "none";
+                    document.getElementById("buttonC").style.textDecoration = "underline";
+                };
+                var text = document.createTextNode("colored per-stage changes")
+                button.appendChild(text);
+                div.appendChild(button);
+            </script>
         </html>
     </xsl:template>
 
