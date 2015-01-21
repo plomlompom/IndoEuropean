@@ -136,7 +136,7 @@
         <paradigm declension="static" case="all-but-G" continues="A static all" />
         <paradigm declension="mobile" case="L+Da+I" continues="A mobile L" />
     </grammar_table>
-    <grammar_table id="G" title="Stage G: static/proterodynamic" short_title="stage G">
+    <grammar_table id="G" title="Stage G: static/proterodynamic mix" short_title="stage G">
         <description>The static inflection partly merges with the proterodynamic. This creates a proterodynamic animate inflection (p. 200, 201), with differentiated case endings for nominative (-s) and accusative (-m), probably limited to i- and u-stems (p. 167, 198), with a genitive-ablative influenced in its accent/ablaut class by the static inflection. The static instrumental's zero suffix seems to zero the whole proterodynamic instrumental. (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
