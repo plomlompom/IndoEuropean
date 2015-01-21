@@ -6,6 +6,7 @@
     <!-- all grammar_tables, and bibliography; furthermore some colorization CSS and JavaScript -->
     <xsl:template match="/grammar_tables">
         <html>
+            <meta charset="utf-8"/>
             <title><xsl:value-of select="@title" /></title>
             <link rel="stylesheet" type="text/css" href="style_nocolors.css" title="no colors" />
             <link rel="alternate stylesheet" type="text/css" href="style_coloredforms.css" title="each form one color (pattern)" />
