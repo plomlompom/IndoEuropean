@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="test.xsl" ?>
 <grammar_tables title="Early endings (Beekes)">
     <description>The early development of the PIE nominal endings as read into <source book="Beekes1985" /> (with some additions from <source book="Beekes2011" /> for late developments not depicted in <source book="Beekes1985" />). The order of tables is not strictly chronological, but rather analytical: Beekes often specifies the relative order of steps only vaguely. For reasons of clarity, I decided to introduce such steps in separate tables of a certain order, even if they may have happened in parallel, or in a slightly different order. All tables but the last two only deal with singulars.</description>
-    <grammar_table id="B" title="Stage B: original endings" short_title="stage B">
+    <grammar_table id="B" title="Stage B: original endings">
         <description>These particles appended to the accented or un-accented ending ablauts of the various forms. (This stage is equal to parts of stage II in the p. 207 table.)</description>
         <declension_def id="all" title="all" short_title="all" />
         <case_def id="Abs+L" title="absolutive-locative" short_title="absolutive-locative" />
@@ -33,13 +33,13 @@
         <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
         <paradigm declension="static" case="N" form="s" footnote="D_static"/>
         <paradigm declension="mobile" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="all" case="L" form="0" footnote="B" />
         <paradigm declension="static" case="Ac" form="m" footnote="D_static" />
         <paradigm declension="PD" case="Ac" form="0" footnote="D_pd_accusative" />
         <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
-        <paradigm declension="all" case="Da" form="i" footnote="B" />
-        <paradigm declension="all" case="I" form="h1" footnote="B" />
-        <paradigm declension="all" case="G+Abl" form="s" footnote="B" />
+        <paradigm declension="all" case="L" continues="B all Abs+L" />
+        <paradigm declension="all" case="Da" continues="B all Da" />
+        <paradigm declension="all" case="I" continues="B all I" />
+        <paradigm declension="all" case="G+Abl" continues="B all G+Abl" />
     </grammar_table>
     <grammar_table id="G" title="Stage G: static/proterodynamic" short_title="stage G">
         <description>The static inflection partly merges with the proterodynamic. This creates a proterodynamic animate inflection (p. 200, 201), with differentiated case endings for nominative (-s) and accusative (-m), probably limited to i- and u-stems (p. 167, 198). (This stage lies somewhere between stages IV and V in the p. 207 table.)</description>
@@ -59,18 +59,18 @@
         <case_def id="I" title="instrumental" short_title="instrumental" />
         <case_def id="Da" title="dative" short_title="dative" />
         <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
-        <paradigm declension="static" case="N" form="s" footnote="D_static"/>
         <paradigm declension="PD-mf" case="N" form="s" footnote="G_pdmf_nominative" />
-        <paradigm declension="PD-n" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="HD" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="all" case="L" form="0" footnote="B" />
-        <paradigm declension="static" case="Ac" form="m" footnote="D_static" />
         <paradigm declension="PD-mf" case="Ac" form="m" footnote="G_pdmf_accusative" />
-        <paradigm declension="PD-n" case="Ac" form="0" footnote="D_pd_accusative" />
-        <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
-        <paradigm declension="all" case="Da" form="i" footnote="B" />
-        <paradigm declension="all" case="I" form="h1" footnote="B" />
-        <paradigm declension="all" case="G+Abl" form="s" footnote="B" />
+        <paradigm declension="static" case="N" continues="D static N" />
+        <paradigm declension="PD-n" case="N" continues="D mobile N" />
+        <paradigm declension="HD" case="N" continues="D mobile N" />
+        <paradigm declension="static" case="Ac" continues="D static Ac" />
+        <paradigm declension="PD-n" case="Ac" continues="D PD Ac" />
+        <paradigm declension="HD" case="Ac" continues="D HD Ac" />
+        <paradigm declension="all" case="L" continues="B all Abs+L" />
+        <paradigm declension="all" case="Da" continues="B all Da" />
+        <paradigm declension="all" case="I" continues="B all I" />
+        <paradigm declension="all" case="G+Abl" continues="B all G+Abl" />
     </grammar_table>
     <grammar_table id="H" title="Stage H: vocative" short_title="stage H">
         <description>The vocative emerges as a variant of the nominative, though with loss of the final resonant (at least with mobile inflections; Beekes is unclear about the static one; his p. 101 argument may also be interpreted as affecting stem-final consonants in general, not just resonants). (This stage is equal to parts of stage V in the p. 207 table.)</description>
@@ -91,19 +91,19 @@
         <case_def id="I" title="instrumental" short_title="instrumental" />
         <case_def id="Da" title="dative" short_title="dative" />
         <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
-        <paradigm declension="static" case="N" form="s" footnote="D_static"/>
-        <paradigm declension="PD-mf" case="N" form="s" footnote="G_pdmf_nominative" />
-        <paradigm declension="PD-n" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="HD" case="N" form="0" footnote="D_mobile_nominative" />
         <paradigm declension="mobile" case="V" form="0+" footnote="H" />
-        <paradigm declension="all" case="L" form="0" footnote="B" />
-        <paradigm declension="static" case="Ac" form="m" footnote="D_static" />
-        <paradigm declension="PD-mf" case="Ac" form="m" footnote="G_pdmf_accusative" />
-        <paradigm declension="PD-n" case="Ac" form="0" footnote="D_pd_accusative" />
-        <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
-        <paradigm declension="all" case="Da" form="i" footnote="B" />
-        <paradigm declension="all" case="I" form="h1" footnote="B" />
-        <paradigm declension="all" case="G+Abl" form="s" footnote="B" />
+        <paradigm declension="PD-mf" case="Ac" continues="G PD-mf Ac" />
+        <paradigm declension="PD-mf" case="N" continues="G PD-mf N" />
+        <paradigm declension="static" case="N" continues="D static N" />
+        <paradigm declension="PD-n" case="N" continues="D mobile N" />
+        <paradigm declension="HD" case="N" continues="D mobile N" />
+        <paradigm declension="static" case="Ac" continues="D static Ac" />
+        <paradigm declension="PD-n" case="Ac" continues="D PD Ac" />
+        <paradigm declension="HD" case="Ac" continues="D HD Ac" />
+        <paradigm declension="all" case="L" continues="B all Abs+L" />
+        <paradigm declension="all" case="Da" continues="B all Da" />
+        <paradigm declension="all" case="I" continues="B all I" />
+        <paradigm declension="all" case="G+Abl" continues="B all G+Abl" />
     </grammar_table>
     <grammar_table id="I" title="Stage I: dative/locative" short_title="stage I">
         <description>Somewhere between (inclusively) stage III and stage V of the p. 207 table (but in any case before the vowel lengthening), the dative ending is extended to the locative in the hysterodynamic inflection (p. 197).</description>
@@ -124,21 +124,21 @@
         <case_def id="I" title="instrumental" short_title="instrumental" />
         <case_def id="Da" title="dative" short_title="dative" />
         <case_def id="G+Abl" title="genitive-ablative" short_title="genitive-ablative" />
-        <paradigm declension="static" case="N" form="s" footnote="D_static"/>
-        <paradigm declension="PD-mf" case="N" form="s" footnote="G_pdmf_nominative" />
-        <paradigm declension="PD-n" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="HD" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="mobile" case="V" form="0+" footnote="H" />
-        <paradigm declension="static" case="L" form="0" footnote="B" />
-        <paradigm declension="PD" case="L" form="0" footnote="B" />
         <paradigm declension="HD" case="L" form="i" footnote="I" />
-        <paradigm declension="static" case="Ac" form="m" footnote="D_static" />
-        <paradigm declension="PD-mf" case="Ac" form="m" footnote="G_pdmf_accusative" />
-        <paradigm declension="PD-n" case="Ac" form="0" footnote="D_pd_accusative" />
-        <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
-        <paradigm declension="all" case="Da" form="i" footnote="B" />
-        <paradigm declension="all" case="I" form="h1" footnote="B" />
-        <paradigm declension="all" case="G+Abl" form="s" footnote="B" />
+        <paradigm declension="mobile" case="V" continues="H mobile V" />
+        <paradigm declension="PD-mf" case="Ac" continues="G PD-mf Ac" />
+        <paradigm declension="PD-mf" case="N" continues="G PD-mf N" />
+        <paradigm declension="static" case="N" continues="D static N" />
+        <paradigm declension="PD-n" case="N" continues="D mobile N" />
+        <paradigm declension="HD" case="N" continues="D mobile N" />
+        <paradigm declension="static" case="Ac" continues="D static Ac" />
+        <paradigm declension="PD-n" case="Ac" continues="D PD Ac" />
+        <paradigm declension="HD" case="Ac" continues="D HD Ac" />
+        <paradigm declension="static" case="L" continues="B all Abs+L" />
+        <paradigm declension="PD" case="L" continues="B all Abs+L" />
+        <paradigm declension="all" case="Da" continues="B all Da" />
+        <paradigm declension="all" case="I" continues="B all I" />
+        <paradigm declension="all" case="G+Abl" continues="B all G+Abl" />
     </grammar_table>
     <grammar_table id="M" title="Stage M: o-stem endings" short_title="stage M">
         <description>Somewhere between (inclusively) stage IV and stage V of the p. 207 table, the o-stem declension emerges (p. 191-195) from the hysterodynamic ergative in -os, which is used as its nominative. Other hysterodynamic endings are appended to that endings's -o- start – including the dative's e-ablauted -i (= -ei, mixed with -o- to -oei, later to become -ōi). The genitive-ablative (or old ergative) is split into the old -os genitive, and a new ablative ending in -et (mixed with -o- to -oet, later to become -ōt).</description>
@@ -163,28 +163,28 @@
         <case_def id="Da" title="dative" short_title="dative" />
         <case_def id="G" title="genitive" short_title="genitive" />
         <case_def id="Abl" title="ablative" short_title="ablative" />
-        <paradigm declension="static" case="N" form="s" footnote="D_static"/>
-        <paradigm declension="PD-mf" case="N" form="s" footnote="G_pdmf_nominative" />
-        <paradigm declension="PD-n" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="HD" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="mobile" case="V" form="0+" footnote="H" />
-        <paradigm declension="static" case="L" form="0" footnote="B" />
-        <paradigm declension="PD" case="L" form="0" footnote="B" />
-        <paradigm declension="HD" case="L" form="i" footnote="I" />
-        <paradigm declension="static" case="Ac" form="m" footnote="D_static" />
-        <paradigm declension="PD-mf" case="Ac" form="m" footnote="G_pdmf_accusative" />
-        <paradigm declension="PD-n" case="Ac" form="0" footnote="D_pd_accusative" />
-        <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
-        <paradigm declension="ablauting" case="Da" form="i" footnote="B" />
-        <paradigm declension="ablauting" case="I" form="h1" footnote="B" />
-        <paradigm declension="all" case="G" form="s" footnote="B" />
-        <paradigm declension="ablauting" case="Abl" form="s" footnote="B" />
         <paradigm declension="O" case="N" form="s" footnote="M_o_nominative_accusative_ablative" />
         <paradigm declension="O" case="L" form="i" footnote="M_o_locative_dative_instrumental" />
         <paradigm declension="O" case="Ac" form="m" footnote="M_o_nominative_accusative_ablative" />
         <paradigm declension="O" case="Da" form="ei" footnote="M_o_locative_dative_instrumental" />
         <paradigm declension="O" case="I" form="h1" footnote="M_o_locative_dative_instrumental" />
         <paradigm declension="O" case="Abl" form="et" footnote="M_o_nominative_accusative_ablative" />
+        <paradigm declension="HD" case="L" continues="I HD L" />
+        <paradigm declension="mobile" case="V" continues="H mobile V" />
+        <paradigm declension="PD-mf" case="Ac" continues="G PD-mf Ac" />
+        <paradigm declension="PD-mf" case="N" continues="G PD-mf N" />
+        <paradigm declension="static" case="N" continues="D static N" />
+        <paradigm declension="PD-n" case="N" continues="D mobile N" />
+        <paradigm declension="HD" case="N" continues="D mobile N" />
+        <paradigm declension="static" case="Ac" continues="D static Ac" />
+        <paradigm declension="PD-n" case="Ac" continues="D PD Ac" />
+        <paradigm declension="HD" case="Ac" continues="D HD Ac" />
+        <paradigm declension="static" case="L" continues="B all Abs+L" />
+        <paradigm declension="PD" case="L" continues="B all Abs+L" />
+        <paradigm declension="all" case="G" continues="B all G+Abl" />
+        <paradigm declension="ablauting" case="Abl" continues="B all G+Abl" />
+        <paradigm declension="ablauting" case="Da" continues="B all Da" />
+        <paradigm declension="ablauting" case="I" continues="B all I" />
     </grammar_table>
     <grammar_table id="N" title="Stage N: locative" short_title="stage N">
         <description>The hysterodynamic locative ending is dropped – at least in some cases. (Beekes is unclear about the degree to which the previous ending survived.) This must have happened after vowels before final resonants were lengthened, for the suffix ablaut is not lengthened.</description>
@@ -214,29 +214,29 @@
             <case_def id="G" title="genitive" short_title="genitive" />
             <case_def id="Abl" title="ablative" short_title="ablative" />
         </case_def>
-        <paradigm declension="static" case="N" form="s" footnote="D_static"/>
-        <paradigm declension="PD-mf" case="N" form="s" footnote="G_pdmf_nominative" />
-        <paradigm declension="PD-n" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="HD" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="mobile" case="V" form="0+" footnote="H" />
-        <paradigm declension="static" case="L" form="0" footnote="B" />
-        <paradigm declension="PD" case="L" form="0" footnote="B" />
         <paradigm declension="HD_A" case="L" form="0" footnote="N_hd_locative" />
         <paradigm declension="HD_B" case="L" form="i?" footnote="N_hd_locative" />
-        <paradigm declension="static" case="Ac" form="m" footnote="D_static" />
-        <paradigm declension="PD-mf" case="Ac" form="m" footnote="G_pdmf_accusative" />
-        <paradigm declension="PD-n" case="Ac" form="0" footnote="D_pd_accusative" />
-        <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
-        <paradigm declension="ablauting" case="Da" form="i" footnote="B" />
-        <paradigm declension="ablauting" case="I" form="h1" footnote="B" />
-        <paradigm declension="all" case="G" form="s" footnote="B" />
-        <paradigm declension="ablauting" case="Abl" form="s" footnote="B" />
-        <paradigm declension="O" case="N" form="s" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="L" form="i" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="Ac" form="m" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="Da" form="ei" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="I" form="h1" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="Abl" form="et" footnote="M_o_nominative_accusative_ablative" />
+        <paradigm declension="O" case="N" continues="M O N" />
+        <paradigm declension="O" case="L" continues="M O L" />
+        <paradigm declension="O" case="Ac" continues="M O Ac" />
+        <paradigm declension="O" case="Da" continues="M O Da" />
+        <paradigm declension="O" case="I" continues="M O I" />
+        <paradigm declension="O" case="Abl" continues="M O Abl" />
+        <paradigm declension="mobile" case="V" continues="H mobile V" />
+        <paradigm declension="PD-mf" case="Ac" continues="G PD-mf Ac" />
+        <paradigm declension="PD-mf" case="N" continues="G PD-mf N" />
+        <paradigm declension="static" case="N" continues="D static N" />
+        <paradigm declension="PD-n" case="N" continues="D mobile N" />
+        <paradigm declension="HD" case="N" continues="D mobile N" />
+        <paradigm declension="static" case="Ac" continues="D static Ac" />
+        <paradigm declension="PD-n" case="Ac" continues="D PD Ac" />
+        <paradigm declension="HD" case="Ac" continues="D HD Ac" />
+        <paradigm declension="static" case="L" continues="B all Abs+L" />
+        <paradigm declension="PD" case="L" continues="B all Abs+L" />
+        <paradigm declension="ablauting" case="Da" continues="B all Da" />
+        <paradigm declension="ablauting" case="I" continues="B all I" />
+        <paradigm declension="all" case="G" continues="B all G+Abl" />
+        <paradigm declension="ablauting" case="Abl" continues="B all G+Abl" />
     </grammar_table>
     <grammar_table id="O" title="Stage O: e-stage of ablauts" short_title="stage O">
         <description>The e-stage of ablauts (p. 157) allows unaccented e-ablauts. According to p. 101, the mobile vocative in é-∅ (with zero ending, and loss of the final resonant, or consonant in general) was added an e-particle to its suffix, and its final resonant (or maybe consonant in general; except for o-stems, which had none) afterwards restored (depicted here is only the zero ending). This must have happened after the vowel lengthening, due to the shortness of the suffix' "e". (Later the root ablaut seems to have zeroed, as per p. 150.)</description>
@@ -266,30 +266,30 @@
             <case_def id="G" title="genitive" short_title="genitive" />
             <case_def id="Abl" title="ablative" short_title="ablative" />
         </case_def>
-        <paradigm declension="static" case="N" form="s" footnote="D_static"/>
-        <paradigm declension="PD-mf" case="N" form="s" footnote="G_pdmf_nominative" />
-        <paradigm declension="PD-n" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="HD" case="N" form="0" footnote="D_mobile_nominative" />
         <paradigm declension="mobile" case="V" form="0" footnote="O_mobile_vocative" />
-        <paradigm declension="static" case="L" form="0" footnote="B" />
-        <paradigm declension="PD" case="L" form="0" footnote="B" />
-        <paradigm declension="HD_A" case="L" form="0" footnote="N_hd_locative" />
-        <paradigm declension="HD_B" case="L" form="i?" footnote="N_hd_locative" />
-        <paradigm declension="static" case="Ac" form="m" footnote="D_static" />
-        <paradigm declension="PD-mf" case="Ac" form="m" footnote="G_pdmf_accusative" />
-        <paradigm declension="PD-n" case="Ac" form="0" footnote="D_pd_accusative" />
-        <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
-        <paradigm declension="ablauting" case="Da" form="i" footnote="B" />
-        <paradigm declension="ablauting" case="I" form="h1" footnote="B" />
-        <paradigm declension="all" case="G" form="s" footnote="B" />
-        <paradigm declension="ablauting" case="Abl" form="s" footnote="B" />
-        <paradigm declension="O" case="N" form="s" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="L" form="i" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="Ac" form="m" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="Da" form="ei" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="I" form="h1" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="Abl" form="et" footnote="M_o_nominative_accusative_ablative" />
         <paradigm declension="O" case="V" form="-e" footnote="O_o_vocative" />
+        <paradigm declension="HD_A" case="L" continues="N HD_A L" />
+        <paradigm declension="HD_B" case="L" continues="N HD_B L" />
+        <paradigm declension="O" case="N" continues="M O N" />
+        <paradigm declension="O" case="L" continues="M O L" />
+        <paradigm declension="O" case="Ac" continues="M O Ac" />
+        <paradigm declension="O" case="Da" continues="M O Da" />
+        <paradigm declension="O" case="I" continues="M O I" />
+        <paradigm declension="O" case="Abl" continues="M O Abl" />
+        <paradigm declension="PD-mf" case="Ac" continues="G PD-mf Ac" />
+        <paradigm declension="PD-mf" case="N" continues="G PD-mf N" />
+        <paradigm declension="static" case="N" continues="D static N" />
+        <paradigm declension="PD-n" case="N" continues="D mobile N" />
+        <paradigm declension="HD" case="N" continues="D mobile N" />
+        <paradigm declension="static" case="Ac" continues="D static Ac" />
+        <paradigm declension="PD-n" case="Ac" continues="D PD Ac" />
+        <paradigm declension="HD" case="Ac" continues="D HD Ac" />
+        <paradigm declension="static" case="L" continues="B all Abs+L" />
+        <paradigm declension="PD" case="L" continues="B all Abs+L" />
+        <paradigm declension="ablauting" case="Da" continues="B all Da" />
+        <paradigm declension="ablauting" case="I" continues="B all I" />
+        <paradigm declension="all" case="G" continues="B all G+Abl" />
+        <paradigm declension="ablauting" case="Abl" continues="B all G+Abl" />
     </grammar_table>
     <grammar_table id="P" title="Stage P: late PIE, with plurals" short_title="stage P">
         <description>The late singular stages depicted at p. 150, 197, plus the plurals of p. 150, 191 (for the proterodynamic plurals probably only the animates). The ablauting or atomicity of the plural endings is dubious: -ios may be an unusual o-ablaut (infix instead of prefix of the ending). Beekes even speculates (p. 147-148) about the -i- and -u- sounds in -bhi, -mus and -su being accented ablauts. The variants in the table fit neatly as additions to any ablauts depicted in the ablaut/accent classes table. Beekes mentions few o-stem plurals explicitely; as with most singulars, their endings are the hysterodynamic ones plus their respective ablaut appended to the thematic vowel (included are logical extensions from <source book="Beekes2011" /> – note that the o-stem plural ablative is depicted there only with a question mark). Beekes gives no late stages for the static inflection, or the vocative plurals.</description>
@@ -320,27 +320,6 @@
             <case_def id="G" title="genitive" short_title="genitive" />
             <case_def id="Abl" title="ablative" short_title="ablative" />
         </case_def>
-        <paradigm declension="PD-mf" case="N" form="s" footnote="G_pdmf_nominative" />
-        <paradigm declension="PD-n" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="HD" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="ablauting" case="V" form="0" footnote="O_mobile_vocative" />
-        <paradigm declension="PD" case="L" form="0" footnote="B" />
-        <paradigm declension="HD_A" case="L" form="0" footnote="N_hd_locative" />
-        <paradigm declension="HD_B" case="L" form="i?" footnote="N_hd_locative" />
-        <paradigm declension="PD-mf" case="Ac" form="m" footnote="G_pdmf_accusative" />
-        <paradigm declension="PD-n" case="Ac" form="0" footnote="D_pd_accusative" />
-        <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
-        <paradigm declension="ablauting" case="Da" form="i" footnote="B" />
-        <paradigm declension="ablauting" case="I" form="h1" footnote="B" />
-        <paradigm declension="singular" case="G" form="s" footnote="B" />
-        <paradigm declension="ablauting" case="Abl" form="s" footnote="B" />
-        <paradigm declension="O" case="N" form="s" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="L" form="i" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="Ac" form="m" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="Da" form="ei" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="I" form="h1" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="Abl" form="et" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="V" form="-e" footnote="O_o_vocative" />
         <paradigm declension="ablauting-pl" case="N" form="s" footnote="P_plural_nominative" />
         <paradigm declension="O-pl" case="N" form="es" footnote="P_plural_nominative" />
         <paradigm declension="plural" case="Ac" form="ns" footnote="P_plural_accusative" />
@@ -352,6 +331,27 @@
         <paradigm declension="O-pl" case="G" form="om" footnote="P_plural_genitive" />
         <paradigm declension="O-pl" case="Da" form="mus" footnote="P_o_plural_dative" />
         <paradigm declension="O-pl" case="Abl" form="ios" footnote="P_o_plural_ablative" />
+        <paradigm declension="ablauting" case="V" continues="O mobile V" />
+        <paradigm declension="O" case="V" continues="O O V" />
+        <paradigm declension="HD_A" case="L" continues="N HD_A L" />
+        <paradigm declension="HD_B" case="L" continues="N HD_B L" />
+        <paradigm declension="O" case="N" continues="M O N" />
+        <paradigm declension="O" case="L" continues="M O L" />
+        <paradigm declension="O" case="Ac" continues="M O Ac" />
+        <paradigm declension="O" case="Da" continues="M O Da" />
+        <paradigm declension="O" case="I" continues="M O I" />
+        <paradigm declension="O" case="Abl" continues="M O Abl" />
+        <paradigm declension="PD-mf" case="Ac" continues="G PD-mf Ac" />
+        <paradigm declension="PD-mf" case="N" continues="G PD-mf N" />
+        <paradigm declension="PD-n" case="N" continues="D mobile N" />
+        <paradigm declension="HD" case="N" continues="D mobile N" />
+        <paradigm declension="PD-n" case="Ac" continues="D PD Ac" />
+        <paradigm declension="HD" case="Ac" continues="D HD Ac" />
+        <paradigm declension="PD" case="L" continues="B all Abs+L" />
+        <paradigm declension="ablauting" case="Da" continues="B all Da" />
+        <paradigm declension="ablauting" case="I" continues="B all I" />
+        <paradigm declension="singular" case="G" continues="B all G+Abl" />
+        <paradigm declension="ablauting" case="Abl" continues="B all G+Abl" />
     </grammar_table>
     <grammar_table id="Q" title="Stage Q: pronoun influence" short_title="stage Q">
         <description>Some plural o-stem endings are taken over from pronouns, as per <source book="Beekes2011" /> p. 213.</description>
@@ -385,41 +385,41 @@
             <case_def id="G" title="genitive" short_title="genitive" />
             <case_def id="Abl" title="ablative" short_title="ablative" />
         </case_def>
-        <paradigm declension="PD-mf" case="N" form="s" footnote="G_pdmf_nominative" />
-        <paradigm declension="PD-n" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="HD" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="ablauting" case="V" form="0" footnote="O_mobile_vocative" />
-        <paradigm declension="PD" case="L" form="0" footnote="B" />
-        <paradigm declension="HD_A" case="L" form="0" footnote="N_hd_locative" />
-        <paradigm declension="HD_B" case="L" form="i?" footnote="N_hd_locative" />
-        <paradigm declension="PD-mf" case="Ac" form="m" footnote="G_pdmf_accusative" />
-        <paradigm declension="PD-n" case="Ac" form="0" footnote="D_pd_accusative" />
-        <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
-        <paradigm declension="ablauting" case="Da" form="i" footnote="B" />
-        <paradigm declension="ablauting" case="I" form="h1" footnote="B" />
-        <paradigm declension="singular" case="G" form="s" footnote="B" />
-        <paradigm declension="ablauting" case="Abl" form="s" footnote="B" />
-        <paradigm declension="O" case="N" form="s" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="L" form="i" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="Ac" form="m" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="Da" form="ei" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="I" form="h1" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="Abl" form="et" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="V" form="-e" footnote="O_o_vocative" />
-        <paradigm declension="ablauting-pl" case="N" form="s" footnote="P_plural_nominative" />
-        <paradigm declension="O-pl-A" case="N" form="es" footnote="P_plural_nominative" />
-        <paradigm declension="plural" case="Ac" form="ns" footnote="P_plural_accusative" />
-        <paradigm declension="ablauting-pl" case="I" form="bhi" footnote="P_plural_instrumental" />
-        <paradigm declension="ablauting-pl" case="Da" form="mus" footnote="P_plural_dative" />
-        <paradigm declension="ablauting-pl" case="Abl" form="ios" footnote="P_plural_ablative" />
-        <paradigm declension="ablauting-pl" case="L" form="su" footnote="P_plural_locative" />
-        <paradigm declension="ablauting-pl" case="G" form="m" footnote="P_plural_genitive" />
-        <paradigm declension="O-pl" case="G" form="om" footnote="P_plural_genitive" />
-        <paradigm declension="O-pl" case="Da" form="mus" footnote="P_o_plural_dative" />
-        <paradigm declension="O-pl" case="Abl" form="ios" footnote="P_o_plural_ablative" />
         <paradigm declension="O-pl" case="L" form="isu" footnote="Q_o_plural" />
         <paradigm declension="O-pl-B" case="N" form="i" footnote="Q_o_plural_nominative" />
         <paradigm declension="O-pl" case="I" form="eis" footnote="Q_o_plural" />
+        <paradigm declension="ablauting-pl" case="N" continues="P ablauting-pl N" />
+        <paradigm declension="O-pl-A" case="N" continues="P O-pl N" />
+        <paradigm declension="plural" case="Ac" continues="P plural Ac" />
+        <paradigm declension="ablauting-pl" case="I" continues="P ablauting-pl I" /> 
+        <paradigm declension="ablauting-pl" case="Da" continues="P ablauting-pl Da" />
+        <paradigm declension="ablauting-pl" case="Abl" continues="P ablauting-pl Abl" />
+        <paradigm declension="ablauting-pl" case="L" continues="P ablauting-pl L" />
+        <paradigm declension="ablauting-pl" case="G" continues="P ablauting-pl G" />
+        <paradigm declension="O-pl" case="G" form="om" continues="P O-pl G" />
+        <paradigm declension="O-pl" case="Da" form="mus" continues="P O-pl Da" />
+        <paradigm declension="O-pl" case="Abl" form="ios" continues="P O-pl Abl" />
+        <paradigm declension="ablauting" case="V" continues="O mobile V" />
+        <paradigm declension="O" case="V" continues="O O V" />
+        <paradigm declension="HD_A" case="L" continues="N HD_A L" />
+        <paradigm declension="HD_B" case="L" continues="N HD_B L" />
+        <paradigm declension="O" case="N" continues="M O N" />
+        <paradigm declension="O" case="L" continues="M O L" />
+        <paradigm declension="O" case="Ac" continues="M O Ac" />
+        <paradigm declension="O" case="Da" continues="M O Da" />
+        <paradigm declension="O" case="I" continues="M O I" />
+        <paradigm declension="O" case="Abl" continues="M O Abl" />
+        <paradigm declension="PD-mf" case="Ac" continues="G PD-mf Ac" />
+        <paradigm declension="PD-mf" case="N" continues="G PD-mf N" />
+        <paradigm declension="PD-n" case="N" continues="D mobile N" />
+        <paradigm declension="HD" case="N" continues="D mobile N" />
+        <paradigm declension="PD-n" case="Ac" continues="D PD Ac" />
+        <paradigm declension="HD" case="Ac" continues="D HD Ac" />
+        <paradigm declension="PD" case="L" continues="B all Abs+L" />
+        <paradigm declension="ablauting" case="Da" continues="B all Da" />
+        <paradigm declension="ablauting" case="I" continues="B all I" />
+        <paradigm declension="singular" case="G" continues="B all G+Abl" />
+        <paradigm declension="ablauting" case="Abl" continues="B all G+Abl" />
     </grammar_table>
     <grammar_table id="R" title="Stage R: late o-stems" short_title="stage R">
         <description>Later o-stem endings contain fusions of ending vowels with the thematic vowel (which is otherwise not depicted in these tables). A singular genitive ending in -sio (ablauting: -osio) may result from the attachment of an "io" particle often used in conjunction with the genitive.</description>
@@ -453,42 +453,42 @@
             <case_def id="G" title="genitive" short_title="genitive" />
             <case_def id="Abl" title="ablative" short_title="ablative" />
         </case_def>
-        <paradigm declension="PD-mf" case="N" form="s" footnote="G_pdmf_nominative" />
-        <paradigm declension="PD-n" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="HD" case="N" form="0" footnote="D_mobile_nominative" />
-        <paradigm declension="ablauting" case="V" form="0" footnote="O_mobile_vocative" />
-        <paradigm declension="PD" case="L" form="0" footnote="B" />
-        <paradigm declension="HD_A" case="L" form="0" footnote="N_hd_locative" />
-        <paradigm declension="HD_B" case="L" form="i?" footnote="N_hd_locative" />
-        <paradigm declension="PD-mf" case="Ac" form="m" footnote="G_pdmf_accusative" />
-        <paradigm declension="PD-n" case="Ac" form="0" footnote="D_pd_accusative" />
-        <paradigm declension="HD" case="Ac" form="m" footnote="D_hd_accusative" />
-        <paradigm declension="ablauting" case="Da" form="i" footnote="B" />
-        <paradigm declension="ablauting" case="I" form="h1" footnote="B" />
-        <paradigm declension="ablauting" case="G" form="s" footnote="B" />
-        <paradigm declension="ablauting" case="Abl" form="s" footnote="B" />
-        <paradigm declension="O" case="N" form="s" footnote="M_o_nominative_accusative_ablative" />
-        <paradigm declension="O" case="L" form="i" footnote="M_o_locative_dative_instrumental" />
-        <paradigm declension="O" case="Ac" form="m" footnote="M_o_nominative_accusative_ablative" />
         <paradigm declension="O" case="Da" form="o:i" footnote="R_o_dative" />
-        <paradigm declension="O" case="I" form="h1" footnote="M_o_locative_dative_instrumental" />
         <paradigm declension="O" case="G" form="sio" footnote="R_o_genitive" />
         <paradigm declension="O" case="Abl" form="o:t" footnote="R_o_ablative_plural_nominative" />
-        <paradigm declension="O" case="V" form="-e" footnote="O_o_vocative" />
-        <paradigm declension="ablauting-pl" case="N" form="s" footnote="P_plural_nominative" />
         <paradigm declension="O-pl-A" case="N" form="o:s" footnote="R_o_ablative_plural_nominative" />
-        <paradigm declension="plural" case="Ac" form="ns" footnote="P_plural_accusative" />
-        <paradigm declension="ablauting-pl" case="I" form="bhi" footnote="P_plural_instrumental" />
-        <paradigm declension="ablauting-pl" case="Da" form="mus" footnote="P_plural_dative" />
-        <paradigm declension="ablauting-pl" case="Abl" form="ios" footnote="P_plural_ablative" />
-        <paradigm declension="ablauting-pl" case="L" form="su" footnote="P_plural_locative" />
-        <paradigm declension="ablauting-pl" case="G" form="m" footnote="P_plural_genitive" />
         <paradigm declension="O-pl" case="G" form="o:m" footnote="R_o_plural_genitive" />
-        <paradigm declension="O-pl" case="Da" form="mus" footnote="P_o_plural_dative" />
-        <paradigm declension="O-pl" case="Abl" form="ios" footnote="P_o_plural_ablative" />
-        <paradigm declension="O-pl" case="L" form="isu" footnote="Q_o_plural" />
-        <paradigm declension="O-pl-B" case="N" form="i" footnote="Q_o_plural" />
         <paradigm declension="O-pl" case="I" form="o:is" footnote="R_o_plural" />
+        <paradigm declension="O-pl" case="L" continues="Q O-pl L" />
+        <paradigm declension="O-pl-B" case="N" continues="Q O-pl-B N" />
+        <paradigm declension="ablauting-pl" case="N" continues="P ablauting-pl N" />
+        <paradigm declension="plural" case="Ac" continues="P plural Ac" />
+        <paradigm declension="ablauting-pl" case="I" continues="P ablauting-pl I" /> 
+        <paradigm declension="ablauting-pl" case="Da" continues="P ablauting-pl Da" />
+        <paradigm declension="ablauting-pl" case="Abl" continues="P ablauting-pl Abl" />
+        <paradigm declension="ablauting-pl" case="L" continues="P ablauting-pl L" />
+        <paradigm declension="ablauting-pl" case="G" continues="P ablauting-pl G" />
+        <paradigm declension="O-pl" case="Da" form="mus" continues="P O-pl Da" />
+        <paradigm declension="O-pl" case="Abl" form="ios" continues="P O-pl Abl" />
+        <paradigm declension="ablauting" case="V" continues="O mobile V" />
+        <paradigm declension="O" case="V" continues="O O V" />
+        <paradigm declension="HD_A" case="L" continues="N HD_A L" />
+        <paradigm declension="HD_B" case="L" continues="N HD_B L" />
+        <paradigm declension="O" case="N" continues="M O N" />
+        <paradigm declension="O" case="L" continues="M O L" />
+        <paradigm declension="O" case="Ac" continues="M O Ac" />
+        <paradigm declension="O" case="I" continues="M O I" />
+        <paradigm declension="PD-mf" case="Ac" continues="G PD-mf Ac" />
+        <paradigm declension="PD-mf" case="N" continues="G PD-mf N" />
+        <paradigm declension="PD-n" case="N" continues="D mobile N" />
+        <paradigm declension="HD" case="N" continues="D mobile N" />
+        <paradigm declension="PD-n" case="Ac" continues="D PD Ac" />
+        <paradigm declension="HD" case="Ac" continues="D HD Ac" />
+        <paradigm declension="PD" case="L" continues="B all Abs+L" />
+        <paradigm declension="ablauting" case="Da" continues="B all Da" />
+        <paradigm declension="ablauting" case="I" continues="B all I" />
+        <paradigm declension="ablauting" case="G" continues="B all G+Abl" />
+        <paradigm declension="ablauting" case="Abl" continues="B all G+Abl" />
     </grammar_table>
     <forms>
         <form id="0">-∅</form>
