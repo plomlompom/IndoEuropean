@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="declension_tables.xsl" ?>
 <grammar_tables>
-    <grammar_table id="communis_opinio" title="original ending particles (communis opinio)">
-        <description>Tentative portrayal of the communis opinio about original particles that combined to PIE endings proper, not yet transformed by specific sound environments, not yet displaced by pronoun endings. Theories about earlier stages, more precise definitions, and a few outliers not integrated into the table are given in footnotes.</description>
+    <grammar_table id="communis_opinio" title="original endings">
+        <description>Cross section of various opinions about original PIE endings, not yet displaced by pronoun endings. Theories about earlier stages, more precise definitions, and a few outliers not integrated into the table are given in the footnotes.</description>
         <case_def id="nominative+vocative+accusative" title="direct cases">
             <case_def id="nominative+vocative" title="nominative and vocative">
                 <case_def id="nominative" title="nominative" short_title="N" />
@@ -112,7 +112,7 @@
         <case_def id="ablative" title="ablative" short_title="Abl" />
         <case_def id="instrumental" title="instrumental" short_title="I" />
         <paradigm declension="singular" case="ergative+genitive" form="os" footnote="22" />
-        <paradigm declension="singular" case="absolutive+locative" form="0" footnote="22" />
+        <paradigm declension="singular" case="absolutive+locative" form="-0" footnote="22" />
         <paradigm declension="singular" case="dative+locative" form="ei" footnote="23" />
         <paradigm declension="plural" case="dative" form="mus" footnote="24" />
         <paradigm declension="plural" case="ablative" form="ios" footnote="25" />
