@@ -48,7 +48,7 @@
         <paradigm declension="plural" case="instrumental" form="-(bʰ|m)i?(s)" footnote="19" />
     </grammar_table>
     <grammar_table id="inflection_types_Beekes" title="accent and ablaut classes (Beekes)">
-        <description>Accent and ablaut classes as calculated in <source book="Beekes2011" />. Note that this is the second edition of the often-quoted <source book="Beekes1995" /> p.175, in which the numbering of the hysterodynamic types is different: <source book="Beekes1995" /> type 1 is <source book="Beekes2011" /> type 4, and vice versa.</description>
+        <description>Accent and ablaut classes as calculated in <source book="Beekes2011" />. This is the second edition of the often-quoted <source book="Beekes1995" /> p.175, in which the numbering of the hysterodynamic types is different: <source book="Beekes1995" /> type 1 is <source book="Beekes2011" /> type 4, and vice versa.</description>
         <declension_def id="st" title="static" short_title="S" />
         <declension_def id="pd" title="proterodynamic" short_title="PD" />
         <declension_def id="hd" title="hysterodynamic" short_title="HD">
