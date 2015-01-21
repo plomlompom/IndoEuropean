@@ -284,7 +284,7 @@
         <paradigm declension="PD" case="Da" continues="A mobile L" />
         <paradigm declension="HD" case="L+I+Da" continues="A mobile L" />
     </grammar_table>
-    <grammar_table id="L" title="Stage L: hysterodynamic instrumental and dative" short_title="stage L">
+    <grammar_table id="L" title="Stage L: new hysterodynamic instrumental and dative" short_title="stage L">
         <description>The hysterodynamic dative and instrumental follow the genitive in acquiring a case marker accent, though the instrumental "perhaps not in all stem classes" (p. 203). (It's reasonable to the assume that this happened under the ergative-absolutive system, while the case marker accent of the genitive was dropped in the non-ergative proterodynamic inflection. But p. 197 also attests a relatively late stage for this change, after the vowel lengthening. In any case, the dative ending in full-grade ablauting -ei can only have moved to the o-stems after this.) The suffix-accented variant of the instrumental cannot have disappeared before the o-stems appeared and took its -h₁ ending, which would afterwards have completely changed to -eh₁. (This stage lies somewhere between stages III and V in the p. 207 table.)</description>
         <declension_def id="static" title="static" short_title="static" />
         <declension_def id="mobile" title="mobile">
