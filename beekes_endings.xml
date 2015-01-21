@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="declension_tables.xsl" ?>
 <grammar_tables title="Early endings (Beekes)">
-    <description>The early development of the PIE nominal endings as read into <source book="Beekes1985" /> (with some additions from <source book="Beekes2011" /> for late developments not depicted in <source book="Beekes1985" />). The order of tables is not strictly chronological, but rather analytical: Beekes often specifies the relative order of steps only vaguely. For reasons of clarity, I decided to introduce such steps in separate tables of a certain order, even if they may have happened in parallel, or in a slightly different order. All tables but the last two only deal with singulars.</description>
+    <description>Early development of the PIE nominal endings as read into <source book="Beekes1985" /> (with some additions from <source book="Beekes2011" /> for late developments not depicted in <source book="Beekes1985" />). The order of tables is not strictly chronological, but rather analytical: Beekes often specifies the relative order of steps only vaguely. For reasons of clarity, I decided to introduce such steps in separate tables of a certain order, even if they may have happened in parallel, or in a slightly different order. All tables but the last two only deal with singulars.</description>
     <grammar_table id="B" title="Stage B: original endings">
         <description>These particles appended to the accented or un-accented ending ablauts of the various forms. (This stage is equal to parts of stage II in the p. 207 table.)</description>
         <declension_def id="all" title="all" short_title="all" />
