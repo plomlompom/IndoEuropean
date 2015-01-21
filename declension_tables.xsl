@@ -7,9 +7,9 @@
     <xsl:template match="/grammar_tables">
         <html>
             <title><xsl:value-of select="@title" /></title>
-            <link rel="stylesheet" type="text/css" href="styleA.css" title="no colors" />
-            <link rel="alternate stylesheet" type="text/css" href="styleB.css" title="each form one color(-set)" />
-            <link rel="alternate stylesheet" type="text/css" href="styleC.css" title="colored per-stage changes" />
+            <link rel="stylesheet" type="text/css" href="style_nocolors.css" title="no colors" />
+            <link rel="alternate stylesheet" type="text/css" href="style_coloredforms.css" title="each form one color (pattern)" />
+            <link rel="alternate stylesheet" type="text/css" href="style_coloredchanges.css" title="colored per-stage changes" />
             <h1><xsl:value-of select="@title" /></h1>
             <p>
                 <xsl:apply-templates select="description" mode="source" />

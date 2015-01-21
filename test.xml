@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="test.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="declension_tables.xsl" ?>
 <grammar_tables>
     <grammar_table id="communis_opinio" title="original ending particles (communis opinio)">
         <description>Tentative portrayal of the communis opinio about original particles that combined to PIE endings proper, not yet transformed by specific sound environments, not yet displaced by pronoun endings. Theories about earlier stages, more precise definitions, and a few outliers not integrated into the table are given in footnotes.</description>
