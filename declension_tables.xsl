@@ -20,11 +20,9 @@
             <ul class="bibliography">
                 <xsl:apply-templates select="bibliography/book" />
             </ul>
-            <div id="add_style_buttons_if_JavaScript"></div>
             <script type="text/javascript">
-                var div = document.getElementById("add_style_buttons_if_JavaScript");
-                div.appendChild(document.createElement("hr"));
-                div.appendChild(document.createTextNode("table coloring: "));
+                document.documentElement.appendChild(document.createElement("hr"));
+                document.documentElement.appendChild(document.createTextNode("table coloring: "));
 
                 var button = document.createElement("span");
                 button.id = "buttonA";
@@ -39,8 +37,8 @@
                 };
                 var text = document.createTextNode("no colors")
                 button.appendChild(text);
-                div.appendChild(button);
-                div.appendChild(document.createTextNode(" / "));
+                document.documentElement.appendChild(button);
+                document.documentElement.appendChild(document.createTextNode(" / "));
 
                 var button = document.createElement("span");
                 button.id = "buttonB";
@@ -54,8 +52,8 @@
                 };
                 var text = document.createTextNode("each form one color (pattern)")
                 button.appendChild(text);
-                div.appendChild(button);
-                div.appendChild(document.createTextNode(" / "));
+                document.documentElement.appendChild(button);
+                document.documentElement.appendChild(document.createTextNode(" / "));
 
                 var button = document.createElement("span");
                 button.id = "buttonC";
@@ -69,7 +67,7 @@
                 };
                 var text = document.createTextNode("colored per-stage changes")
                 button.appendChild(text);
-                div.appendChild(button);
+                document.documentElement.appendChild(button);
             </script>
         </html>
     </xsl:template>
