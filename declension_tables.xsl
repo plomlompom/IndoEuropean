@@ -21,53 +21,33 @@
                 <xsl:apply-templates select="bibliography/book" />
             </ul>
             <script type="text/javascript">
+                function add_coloring_button(color_char, name) {
+                    var button = document.createElement("span");
+                    button.id = "button" + color_char;
+                    button.style.textDecoration = "underline";
+                    button.onclick = function() {
+                        document.getElementById("styleA").disabled = true;
+                        document.getElementById("styleB").disabled = true;
+                        document.getElementById("styleC").disabled = true;
+                        document.getElementById("style" + color_char).disabled = false;
+                        document.getElementById("buttonA").style.textDecoration = "none";
+                        document.getElementById("buttonB").style.textDecoration = "none";
+                        document.getElementById("buttonC").style.textDecoration = "none";
+                        document.getElementById("button" + color_char).style.textDecoration = "underline";
+                    };
+                    var text = document.createTextNode(name)
+                    button.appendChild(text);
+                    document.documentElement.appendChild(button);
+                }
                 document.documentElement.appendChild(document.createElement("hr"));
                 document.documentElement.appendChild(document.createTextNode("table coloring: "));
-
-                var button = document.createElement("span");
-                button.id = "buttonA";
-                button.style.textDecoration = "underline";
-                button.onclick = function() {
-                    document.getElementById("styleA").disabled = false;
-                    document.getElementById("styleB").disabled = true;
-                    document.getElementById("styleC").disabled = true;
-                    document.getElementById("buttonA").style.textDecoration = "underline";
-                    document.getElementById("buttonB").style.textDecoration = "none";
-                    document.getElementById("buttonC").style.textDecoration = "none";
-                };
-                var text = document.createTextNode("no colors")
-                button.appendChild(text);
-                document.documentElement.appendChild(button);
+                add_coloring_button("A", "no colors");
                 document.documentElement.appendChild(document.createTextNode(" / "));
-
-                var button = document.createElement("span");
-                button.id = "buttonB";
-                button.onclick = function() {
-                    document.getElementById("styleA").disabled = true;
-                    document.getElementById("styleB").disabled = false;
-                    document.getElementById("styleC").disabled = true;
-                    document.getElementById("buttonA").style.textDecoration = "none";
-                    document.getElementById("buttonB").style.textDecoration = "underline";
-                    document.getElementById("buttonC").style.textDecoration = "none";
-                };
-                var text = document.createTextNode("each form one color (pattern)")
-                button.appendChild(text);
-                document.documentElement.appendChild(button);
+                add_coloring_button("B", "each form one color (pattern)");
                 document.documentElement.appendChild(document.createTextNode(" / "));
-
-                var button = document.createElement("span");
-                button.id = "buttonC";
-                button.onclick = function() {
-                    document.getElementById("styleA").disabled = true;
-                    document.getElementById("styleB").disabled = true;
-                    document.getElementById("styleC").disabled = false;
-                    document.getElementById("buttonA").style.textDecoration = "none";
-                    document.getElementById("buttonB").style.textDecoration = "none";
-                    document.getElementById("buttonC").style.textDecoration = "underline";
-                };
-                var text = document.createTextNode("colored per-stage changes")
-                button.appendChild(text);
-                document.documentElement.appendChild(button);
+                document.getElementById("buttonB").style.textDecoration = "none";
+                add_coloring_button("C", "colored per-stage changes");
+                document.getElementById("buttonC").style.textDecoration = "none";
             </script>
         </html>
     </xsl:template>
