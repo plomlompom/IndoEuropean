@@ -408,7 +408,7 @@
 <li id="bibliography_Szemerenyi1990">Szemerényi, Oswald: Einführung in die vergleichende Sprachwissenschaft. 4., durchgesehene Auflage. Wissenschaftliche Buchgesellschaft 1990.</li>
 </ul>
 <script type="text/javascript">
-                function add_coloring_button(color_char, name) {
+                function add_coloring_button(color_char, name, css_picker) {
                     var button = document.createElement("span");
                     button.id = "button" + color_char;
                     button.style.textDecoration = "underline";
@@ -424,16 +424,26 @@
                     };
                     var text = document.createTextNode(name)
                     button.appendChild(text);
-                    document.documentElement.appendChild(button);
+                    css_picker.appendChild(button);
                 }
-                document.documentElement.appendChild(document.createElement("hr"));
-                document.documentElement.appendChild(document.createTextNode("table coloring: "));
-                add_coloring_button("A", "no colors");
-                document.documentElement.appendChild(document.createTextNode(" / "));
-                add_coloring_button("B", "each form one color (pattern)");
-                document.documentElement.appendChild(document.createTextNode(" / "));
+                var css_picker = document.createElement("div");
+                css_picker.style.position = "fixed";
+                css_picker.style.bottom = "0px";
+                css_picker.style.width = "100%";
+                css_picker.style.borderTop = "1px solid black";
+                css_picker.style.backgroundColor = "white";
+                document.documentElement.appendChild(css_picker);
+                css_picker.appendChild(document.createTextNode("table coloring: "));
+                add_coloring_button("A", "no colors", css_picker);
+                css_picker.appendChild(document.createTextNode(" / "));
+                add_coloring_button("B", "each form one color (pattern)", css_picker);
+                css_picker.appendChild(document.createTextNode(" / "));
                 document.getElementById("buttonB").style.textDecoration = "none";
-                add_coloring_button("C", "colored per-stage changes");
+                add_coloring_button("C", "colored per-stage changes", css_picker);
                 document.getElementById("buttonC").style.textDecoration = "none";
+                var pickerStyle = window.getComputedStyle(css_picker, null);
+                var picker_height = parseInt(pickerStyle.getPropertyValue("height"), 10);
+                console.log(picker_height);
+                document.getElementsByClassName('bibliography')[0].style.paddingBottom = 1.5 * picker_height + "px";
             </script>
 </html>
