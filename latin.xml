@@ -10,6 +10,13 @@
                 <declension_def id="sg-o-n" title="singular o-stem inanimate" short_title="n" />
             </declension_def>
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
+            <declension_def id="sg-c" title="singular cons. stem" short_title="cons.">
+                <declension_def id="sg-c-mf" title="singular cons. stem" short_title="mf">
+                    <declension_def id="sg-c-mf-d" title="singular cons. stem in dental" short_title="stem in -d/-t" />
+                    <declension_def id="sg-c-mf--" title="singular cons. stem in non-dental" short_title="other" />
+                </declension_def>
+                <declension_def id="sg-c-n" title="singular cons. stem" short_title="n" />
+            </declension_def>
         </declension_def>
         <declension_def id="pl" short_title="plural">
             <declension_def id="pl-o" title="plural o-stem" short_title="o">
@@ -31,6 +38,10 @@
         </case_def>
         <case_def id="G" title="genitive" short_title="G" />
         <case_def id="L" title="locative" short_title="L" />
+        <paradigm declension="sg-c-mf-d" case="NV" form="fused-ss" footnote="sg-c-mf-nv-d0"/>
+        <paradigm declension="sg-c-mf--" case="NV" form="s" footnote="sg-c-mf-nv"/>
+        <paradigm declension="sg-c-mf" case="Ac" form="em" footnote="sg-c-mf-ac"/>
+        <paradigm declension="sg-c-n" case="NVAc" form="fused-0" footnote="sg-c-n" />
         <paradigm declension="sg-a" case="N" form="a:" footnote="sg-a-n0"/>
         <paradigm declension="sg-a" case="V" form="a:" footnote="sg-a-v0"/>
         <paradigm declension="sg-a" case="Ac" form="a:?m" footnote="sg-a-ac"/>
@@ -57,7 +68,7 @@
         <paradigm declension="pl-o" case="G" form="om" footnote="pl-o-g0"/>
     </grammar_table>
     <grammar_table id="classical" title="classical">
-        <description>-o- becomes -u- before final consonants (<source book="Sihler" /> p. 66), nominative/vocative -ros/-re becomes -r after vowels and -er after consonants (<source book="Sihler" /> p. 70), vocative -ie and genitive -iī become -ī (<source book="Sihler" /> p. 256, 260), dative -ōi and ablative -ōd become -ō (<source book="Sihler" /> p. 58, 228), word-final -ns becomes -s with lengthening of preceding vocal (<source book="Sihler" /> p. 215), -ā becomes -a (<source book="Sihler" /> p. 78), introduction of singular genitive in -ī (<source book="Sihler" /> p. 260), -ois becomes -eis becomes -īs (<source book="Sihler" /> p. 263), same with -āis (<source book="Sihler" /> p. 272), o-stem genitive plural partly modeled after a-stem (<source book="Sihler" /> p. 264), o-stem nominative plural is replaced from the pronoun -oi becoming -ei becoming -ī (<source book="Sihler" /> p. 260), same with a-stem nominative plural (<source book="Sihler" /> p. 271), long vowels before -m got short (<source book="Sihler" /> p. 78), -āi shortened to -ae (<source book="Sihler" /> p. 268), loss of word-final -d after a long vowel (<source book="Sihler" /> p. 228), in a-stem plural dative-ablative –īs is replaced with -ābus where necessary to avoid homophony with o-stem plural dative-ablatives (<source book="Sihler" /> p. 272), intervocalic -s becomes -r (<source book="Sihler" /> p. 171-172). A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 only mentions it, prefixed with a "perhaps") to include in the table.</description>
+        <description>-o- becomes -u- before final consonants (<source book="Sihler" /> p. 66), nominative/vocative -ros/-re becomes -r after vowels and -er after consonants (<source book="Sihler" /> p. 70), vocative -ie and genitive -iī become -ī (<source book="Sihler" /> p. 256, 260), dative -ōi and ablative -ōd become -ō (<source book="Sihler" /> p. 58, 228), word-final -ns becomes -s with lengthening of preceding vocal (<source book="Sihler" /> p. 215), -ā becomes -a (<source book="Sihler" /> p. 78), introduction of singular genitive in -ī (<source book="Sihler" /> p. 260), -ois becomes -eis becomes -īs (<source book="Sihler" /> p. 263), same with -āis (<source book="Sihler" /> p. 272), o-stem genitive plural partly modeled after a-stem (<source book="Sihler" /> p. 264), o-stem nominative plural is replaced from the pronoun -oi becoming -ei becoming -ī (<source book="Sihler" /> p. 260), same with a-stem nominative plural (<source book="Sihler" /> p. 271), long vowels before -m got short (<source book="Sihler" /> p. 78), -āi shortened to -ae (<source book="Sihler" /> p. 268), loss of word-final -d after a long vowel (<source book="Sihler" /> p. 228), in a-stem plural dative-ablative –īs is replaced with -ābus where necessary to avoid homophony with o-stem plural dative-ablatives (<source book="Sihler" /> p. 272), intervocalic -s becomes -r (<source book="Sihler" /> p. 171-172), word-final -ss becomes -s (<source book="Sihler" /> p. 204-205), dorsal stop plus -s becomes -x (<source book="Sihler" /> p. 204). A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 only mentions it, prefixed with a "perhaps") to include in the table.</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-o" title="singular o-stem" short_title="o">
                 <declension_def id="sg-o-mf" title="singular o-stem animate" short_title="mf">
@@ -76,6 +87,14 @@
                 </declension_def>
             </declension_def>
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
+            <declension_def id="sg-c" title="singular cons. stem" short_title="cons.">
+                <declension_def id="sg-c-mf" title="singular cons. stem" short_title="mf">
+                    <declension_def id="sg-c-mf-d" title="singular cons. stem in dental" short_title="stem in -d/-t" />
+                    <declension_def id="sg-c-mf-g" title="singular cons. stem in dorsal" short_title="stem in -g/-c" />
+                    <declension_def id="sg-c-mf--" title="singular cons. stem in non-dental/dorsal" short_title="other" />
+                </declension_def>
+                <declension_def id="sg-c-n" title="singular cons. stem" short_title="n" />
+            </declension_def>
         </declension_def>
         <declension_def id="pl" short_title="plural">
             <declension_def id="pl-o" title="plural o-stem" short_title="o">
@@ -97,6 +116,11 @@
         </case_def>
         <case_def id="G" title="genitive" short_title="G" />
         <case_def id="L" title="locative" short_title="L" />
+        <paradigm declension="sg-c-mf--" case="NV" continues="proto-italic sg-c-mf-- NV" />
+        <paradigm declension="sg-c-mf-d" case="NV" form="fused-s" footnote="sg-c-mf-nv-d"/>
+        <paradigm declension="sg-c-mf-g" case="NV" form="fused-x" footnote="sg-c-mf-nv-g"/>
+        <paradigm declension="sg-c-mf" case="Ac" continues="proto-italic sg-c-mf Ac" />
+        <paradigm declension="sg-c-n" case="NVAc" continues="proto-italic sg-c-n NVAc" />
         <paradigm declension="sg-a" case="N" form="a" footnote="sg-a-n"/>
         <paradigm declension="sg-a" case="V" form="a" footnote="sg-a-v"/>
         <paradigm declension="sg-a" case="Ac" form="am" footnote="sg-a-ac"/>
@@ -131,6 +155,12 @@
         <paradigm declension="pl-o" case="G" form="(or)um" footnote="pl-o-g"/>
     </grammar_table>
     <forms>
+        <form id="fused-0">-∅ (fused with last stem cons.)</form>
+        <form id="s">-s</form>
+        <form id="fused-s">-s (fused with last stem cons.)</form>
+        <form id="fused-x">-x (fused with last stem cons.)</form>
+        <form id="fused-ss">-ss (fused with last stem cons.)</form>
+        <form id="em">-em</form>
         <form id="a:">-ā</form>
         <form id="a">-a</form>
         <form id="a:?m">-(a|ā)m</form>
@@ -156,7 +186,7 @@
         <form id="(o/e)i">-(o|e)i</form>
         <form id="ois">-ois</form>
         <form id="us">-us</form>
-        <form id="fused-er">-er (fused with last stem consonant)</form>
+        <form id="fused-er">-er (fused with last stem cons.)</form>
         <form id="fused-i">-ī (fused with last stem vowel)</form>
         <form id="0">-∅</form>
         <form id="um">-um</form>
@@ -167,6 +197,12 @@
         <form id="(or)um">-?(or)um</form>
     </forms>
     <footnotes>
+        <footnote id="sg-c-n"><source book="Sihler" /> p. 284</footnote>
+        <footnote id="sg-c-mf-nv"><source book="Sihler" /> p. 283</footnote>
+        <footnote id="sg-c-mf-nv-d0"><source book="Fortson" /> p. 277, <source book="Sihler" /> p. 204, 283</footnote>
+        <footnote id="sg-c-mf-nv-d"><source book="Sihler" /> p. 204-205, 283</footnote>
+        <footnote id="sg-c-mf-nv-g"><source book="Sihler" /> p. 204, 283</footnote>
+        <footnote id="sg-c-mf-ac"><source book="Fortson" /> p. 277, <source book="Sihler" /> p. 96, 284</footnote>
         <footnote id="sg-a-n0"><source book="Sihler" /> p. 266-267</footnote>
         <footnote id="sg-a-v0"><source book="Sihler" /> p. 267-268</footnote>
         <footnote id="sg-a-n"><source book="Sihler" /> p. 78, 266-267</footnote>
@@ -198,6 +234,7 @@
         <footnote id="pl-o-g"><source book="Sihler" /> p. 264-265</footnote>
     </footnotes>
     <bibliography>
+        <book id="Fortson" title="Fortson 2010">Fortson, Benjamin W.: Indo-European Language and Culture: an Introduction. Second Edition. Blackwell 2010.</book>
         <book id="Sihler" title="Sihler 1995">Sihler, Andrew L.: New Comparative Grammar of Greek and Latin. Oxford University Press 1995.</book>
     </bibliography>
 </grammar_tables>
