@@ -4,6 +4,9 @@
 xsltproc test.xml > test.html
 git add test.html
 
+xsltproc latin.xml > latin.html
+git add latin.html
+
 xsltproc beekes_endings.xml > beekes_endings.html
 git add beekes_endings.html
 
