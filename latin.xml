@@ -83,7 +83,7 @@
     <grammar_table id="classical" title="classical">
         <description>
 -o- becomes -u- before final consonants (<source book="Sihler" /> p. 66),
--e- becomes -i- before final non-nasal consonants (<source book="Sihler" /> p. 65),
+-e- becomes -i- before non-nasal consonants (general rule with some exception, but holds true before any final consnants) (<source book="Sihler" /> p. 65),
 nominative/vocative -ros/-re becomes -r after vowels and -er after consonants (<source book="Sihler" /> p. 70),
 vocative -ie and genitive -iī become -ī (<source book="Sihler" /> p. 256, 260),
 dative -ōi and ablative -ōd become -ō (<source book="Sihler" /> p. 58, 228),
@@ -106,7 +106,8 @@ final -i becomes -e (<source book="Sihler" /> p. 65),
 either the cons. locative or (less likely) instrumental singular becomes the cons. ablative singular (<source book="Sihler" /> p. 285),
 cons. locative singular in -ī is modeled in analogy to o-stems (<source book="Sihler" /> p. 285),
 the -bus derived from the -b- reflex to word-internal -bʰ- (<source book="Sihler" /> p. 145, 147) and got an -i- prefix (<source book="Sihler" /> p. 286),
-the i-stem plural nominative ending -ēs becomes the cons. plural nominative ending proper (<source book="Sihler" /> p. 286).
+the i-stem plural nominative ending -ēs becomes the cons. plural nominative ending proper (<source book="Sihler" /> p. 286),
+-rs becomes -rr becomes -r (<source book="Sihler" /> p. 211).
 A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 alone mentions it, prefixed with a "perhaps") to include in the table.</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
@@ -130,7 +131,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
                 <declension_def id="sg-c-mf" title="singular animate cons. stem" short_title="mf">
                     <declension_def id="sg-c-mf-d" title="singular animate cons. stem in dental" short_title="stem in -d/-t" />
                     <declension_def id="sg-c-mf-g" title="singular animate cons. stem in dorsal" short_title="stem in -g/-c" />
-                    <declension_def id="sg-c-mf--" title="singular animate cons. stem in non-dental/dorsal" short_title="other" />
+                    <declension_def id="sg-c-mf-r" title="singular animate cons. stem in -r" short_title="stem in -r" />
+                    <declension_def id="sg-c-mf--" title="singular animate cons. stem not in dental, dorsal, or -r" short_title="other" />
                 </declension_def>
                 <declension_def id="sg-c-n" title="singular inanimate cons. stem" short_title="n" />
             </declension_def>
@@ -162,6 +164,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="sg-c-mf--" case="NV" continues="proto-italic sg-c-mf-- NV" />
         <paradigm declension="sg-c-mf-d" case="NV" form="fused-s" footnote="sg-c-mf-nv-d"/>
         <paradigm declension="sg-c-mf-g" case="NV" form="fused-x" footnote="sg-c-mf-nv-g"/>
+        <paradigm declension="sg-c-mf-r" case="NV" form="0" footnote="sg-c-mf-nv-r"/>
         <paradigm declension="sg-c-mf" case="Ac" continues="proto-italic sg-c-mf Ac" />
         <paradigm declension="sg-c-n" case="NVAc" continues="proto-italic sg-c-n NVAc" />
         <paradigm declension="sg-c" case="D" form="i:" footnote="sg-c-d" />
@@ -207,6 +210,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="pl-c" case="G" form="um" footnote="pl-c-g"/>
     </grammar_table>
     <forms>
+        <form id="0">-∅</form>
         <form id="es">-es</form>
         <form id="ens">-ens</form>
         <form id="e:s">-ēs</form>
@@ -264,6 +268,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="sg-c-mf-nv"><source book="Sihler" /> p. 283</footnote>
         <footnote id="sg-c-mf-nv-d0"><source book="Fortson" /> p. 277, <source book="Sihler" /> p. 204, 283</footnote>
         <footnote id="sg-c-mf-nv-d"><source book="Sihler" /> p. 204-205, 283</footnote>
+        <footnote id="sg-c-mf-nv-r"><source book="Sihler" /> p. 211, 230</footnote>
         <footnote id="sg-c-mf-nv-g"><source book="Sihler" /> p. 204, 283</footnote>
         <footnote id="sg-c-mf-ac"><source book="Fortson" /> p. 277, <source book="Sihler" /> p. 96, 284</footnote>
         <footnote id="sg-c-d"><source book="Sihler" /> p. 70, 284</footnote>
