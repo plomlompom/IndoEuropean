@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="declension_tables.xsl" ?>
+<grammar_tables title="Latin">
+    <description>…</description>
+    <grammar_table id="proto-italic" title="proto-italic">
+        <description>…</description>
+        <declension_def id="sg" short_title="singular">
+            <declension_def id="sg-o" title="singular o-stem" short_title="o">
+                <declension_def id="sg-o-mf" title="singular o-stem animate" short_title="mf" />
+                <declension_def id="sg-o-n" title="singular o-stem inanimate" short_title="n" />
+            </declension_def>
+            <declension_def id="sg-a" title="singular a-stem" short_title="a" />
+        </declension_def>
+        <declension_def id="pl" short_title="plural">
+            <declension_def id="pl-o" title="plural o-stem" short_title="o">
+                <declension_def id="pl-o-mf" title="plural o-stem" short_title="mf" />
+                <declension_def id="pl-o-n" title="plural o-stem" short_title="n" />
+            </declension_def>
+            <declension_def id="pl-a" title="plural a-stem" short_title="a" />
+        </declension_def>
+        <case_def id="NVAc" title="nominative-vocative-accusative">
+            <case_def id="NV" title="nominative-vocative">
+                <case_def id="N" title="nominative" short_title="N" />
+                <case_def id="V" title="vocative" short_title="V" />
+            </case_def>
+            <case_def id="Ac" title="accusative" short_title="Ac" />
+        </case_def>
+        <case_def id="DAb" title="dative-ablative">
+            <case_def id="D" title="dative" short_title="D" />
+            <case_def id="Ab" title="ablative" short_title="Ab" />
+        </case_def>
+        <case_def id="G" title="genitive" short_title="G" />
+        <case_def id="L" title="locative" short_title="L" />
+        <paradigm declension="sg-a" case="N" form="a:" footnote="sg-a-n0"/>
+        <paradigm declension="sg-a" case="V" form="a:" footnote="sg-a-v0"/>
+        <paradigm declension="sg-a" case="Ac" form="a:?m" footnote="sg-a-ac"/>
+        <paradigm declension="sg-a" case="D" form="a:i" footnote="sg-a-d"/>
+        <paradigm declension="sg-a" case="Ab" form="a:d" footnote="sg-a-ab0"/>
+        <paradigm declension="sg-a" case="G" form="a:s" footnote="sg-a-g"/>
+        <paradigm declension="sg-a" case="L" form="a:i" footnote="sg-a-l"/>
+        <paradigm declension="sg-o-mf" case="N" form="os" footnote="sg-o-mf-n"/>
+        <paradigm declension="sg-o-mf" case="V" form="e" footnote="sg-o-mf-n"/>
+        <paradigm declension="sg-o-n" case="NVAc" form="om" footnote="sg-o-n-ac"/>
+        <paradigm declension="sg-o-mf" case="Ac" form="om" footnote="sg-o-n-ac"/>
+        <paradigm declension="sg-o" case="D" form="o:i" footnote="sg-o-d"/>
+        <paradigm declension="sg-o" case="Ab" form="o:d" footnote="sg-o-ab0"/>
+        <paradigm declension="sg-o" case="G" form="osio" footnote="sg-o-gA"/>
+        <paradigm declension="sg-o" case="L" form="(o/e)i" footnote="sg-o-l"/>
+        <paradigm declension="pl-a" case="NV" form="a:s" footnote="pl-a-n"/>
+        <paradigm declension="pl-a" case="Ac" form="a:ns" footnote="pl-a-ac"/>
+        <paradigm declension="pl-a" case="DAb" form="a:is" footnote="pl-a-dab"/>
+        <paradigm declension="pl-a" case="G" form="a:so:m" footnote="pl-a-g"/>
+        <paradigm declension="pl-o-mf" case="NV" form="o:s" footnote="pl-o-mf-n"/>
+        <paradigm declension="pl-o-mf" case="Ac" form="ons" footnote="pl-o-mf-ac"/>
+        <paradigm declension="pl-o-n" case="NVAc" form="a:" footnote="pl-o-n-ac"/>
+        <paradigm declension="pl-o" case="DAb" form="ois" footnote="pl-o-dab"/>
+        <paradigm declension="pl-o" case="G" form="om" footnote="pl-o-g0"/>
+    </grammar_table>
+    <grammar_table id="classical" title="classical">
+        <description>-o- becomes -u- before final consonants (<source book="Sihler" /> p. 66), nominative/vocative -ros/-re becomes -r after vowels and -er after consonants (<source book="Sihler" /> p. 70), vocative -ie and genitive -iī become -ī (<source book="Sihler" /> p. 256, 260), dative -ōi and ablative -ōd become -ō (<source book="Sihler" /> p. 58, 228), word-final -ns becomes -s with lengthening of preceding vocal (<source book="Sihler" /> p. 215), -ā becomes -a (<source book="Sihler" /> p. 78), introduction of singular genitive in -ī (<source book="Sihler" /> p. 260), -ois becomes -eis becomes -īs (<source book="Sihler" /> p. 263), same with -āis (<source book="Sihler" /> p. 272), o-stem genitive plural partly modeled after a-stem (<source book="Sihler" /> p. 264), o-stem nominative plural is replaced from the pronoun -oi becoming -ei becoming -ī (<source book="Sihler" /> p. 260), same with a-stem nominative plural (<source book="Sihler" /> p. 271), long vowels before -m got short (<source book="Sihler" /> p. 78), -āi shortened to -ae (<source book="Sihler" /> p. 268), loss of word-final -d after a long vowel (<source book="Sihler" /> p. 228), in a-stem plural dative-ablative –īs is replaced with -ābus where necessary to avoid homophony with o-stem plural dative-ablatives (<source book="Sihler" /> p. 272), intervocalic -s becomes -r (<source book="Sihler" /> p. 171-172). A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 only mentions it, prefixed with a "perhaps") to include in the table.</description>
+        <declension_def id="sg" short_title="singular">
+            <declension_def id="sg-o" title="singular o-stem" short_title="o">
+                <declension_def id="sg-o-mf" title="singular o-stem animate" short_title="mf">
+                    <declension_def id="sg-ro-mf" title="singular o-stem (in -r) animate" >
+                        <declension_def id="sg-cro-mf" title="singular o-stem (in cons. + -r) animate" short_title="stem in cons. + -r" />
+                        <declension_def id="sg-vro-mf" title="singular o-stem (in vowel + -r) animate" short_title="stem in vowel + -r" />
+                    </declension_def>
+                    <declension_def id="sg--o-mf" title="singular o-stem animate">
+                        <declension_def id="sg-io-mf" title="singular o-stem (in -i) animate" short_title="stem in -i" />
+                        <declension_def id="sg---o-mf" title="singular o-stem (not in -i) animate" short_title="other" />
+                    </declension_def>
+                </declension_def>
+                <declension_def id="sg-o-n" title="singular o-stem inanimate" short_title="n" >
+                    <declension_def id="sg-io-n" title="singular o-stem inanimate in -i" short_title="stem in -i" />
+                    <declension_def id="sg--o-n" title="singular o-stem inanimate (not in -i)" short_title="other" />
+                </declension_def>
+            </declension_def>
+            <declension_def id="sg-a" title="singular a-stem" short_title="a" />
+        </declension_def>
+        <declension_def id="pl" short_title="plural">
+            <declension_def id="pl-o" title="plural o-stem" short_title="o">
+                <declension_def id="pl-o-mf" title="plural o-stem" short_title="mf" />
+                <declension_def id="pl-o-n" title="plural o-stem" short_title="n" />
+            </declension_def>
+            <declension_def id="pl-a" title="plural a-stem" short_title="a" />
+        </declension_def>
+        <case_def id="NVAc" title="nominative-vocative-accusative">
+            <case_def id="NV" title="nominative-vocative">
+                <case_def id="N" title="nominative" short_title="N" />
+                <case_def id="V" title="vocative" short_title="V" />
+            </case_def>
+            <case_def id="Ac" title="accusative" short_title="Ac" />
+        </case_def>
+        <case_def id="DAb" title="dative-ablative">
+            <case_def id="D" title="dative" short_title="D" />
+            <case_def id="Ab" title="ablative" short_title="Ab" />
+        </case_def>
+        <case_def id="G" title="genitive" short_title="G" />
+        <case_def id="L" title="locative" short_title="L" />
+        <paradigm declension="sg-a" case="N" form="a" footnote="sg-a-n"/>
+        <paradigm declension="sg-a" case="V" form="a" footnote="sg-a-v"/>
+        <paradigm declension="sg-a" case="Ac" form="am" footnote="sg-a-ac"/>
+        <paradigm declension="sg-a" case="D" form="ae" footnote="sg-a-d"/>
+        <paradigm declension="sg-a" case="Ab" form="a:d?" footnote="sg-a-ab"/>
+        <paradigm declension="sg-a" case="G" form="a:s|ae" footnote="sg-a-g"/>
+        <paradigm declension="sg-a" case="L" form="ae" footnote="sg-a-l"/>
+        <paradigm declension="sg-io-mf" case="N" form="us" footnote="sg-o-mf-n"/>
+        <paradigm declension="sg-io-mf" case="V" form="fused-i" footnote="sg-o-mf-n"/>
+        <paradigm declension="sg-cro-mf" case="NV" form="fused-er" footnote="sg-ro-mf-n"/>
+        <paradigm declension="sg-vro-mf" case="NV" form="0" footnote="sg-ro-mf-n"/>
+        <paradigm declension="sg--o-mf" case="N" form="us" footnote="sg-o-mf-n"/>
+        <paradigm declension="sg---o-mf" case="V" continues="proto-italic sg-o-mf V" />
+        <paradigm declension="sg-o-n" case="NVAc" form="um" footnote="sg-o-n-ac"/>
+        <paradigm declension="sg-o-mf" case="Ac" form="um" footnote="sg-o-n-ac"/>
+        <paradigm declension="sg-o" case="D" form="o:" footnote="sg-o-d"/>
+        <paradigm declension="sg-o" case="Ab" form="o:" footnote="sg-o-ab"/>
+        <paradigm declension="sg-ro-mf" case="G" form="i:" footnote="sg-o-gB"/>
+        <paradigm declension="sg---o-mf" case="G" form="i:" footnote="sg-o-gB"/>
+        <paradigm declension="sg-io-mf" case="G" form="fused-i" footnote="sg-o-gB"/>
+        <paradigm declension="sg-io-n" case="G" form="fused-i" footnote="sg-o-gB"/>
+        <paradigm declension="sg--o-n" case="G" form="i:" footnote="sg-o-gB"/>
+        <paradigm declension="sg-o" case="L" form="i:" footnote="sg-o-l"/>
+        <paradigm declension="pl-a" case="NV" form="ae" footnote="pl-a-n"/>
+        <paradigm declension="pl-a" case="Ac" form="a:s" footnote="pl-a-ac"/>
+        <paradigm declension="pl-a" case="DAb" form="i:s|a:bus" footnote="pl-a-dab"/>
+        <paradigm declension="pl-a" case="G" form="a:rum" footnote="pl-a-g"/>
+        <paradigm declension="pl-o-mf" case="NV" form="i:" footnote="pl-o-mf-n"/>
+        <paradigm declension="pl-o-mf" case="Ac" form="o:s" footnote="pl-o-mf-ac"/>
+        <paradigm declension="pl-o-n" case="NVAc" form="a" footnote="pl-o-n-ac"/>
+        <paradigm declension="pl-o" case="DAb" form="i:s" footnote="pl-o-dab"/>
+        <paradigm declension="pl-o" case="G" form="(or)um" footnote="pl-o-g"/>
+    </grammar_table>
+    <forms>
+        <form id="a:">-ā</form>
+        <form id="a">-a</form>
+        <form id="a:?m">-(a|ā)m</form>
+        <form id="am">-am</form>
+        <form id="a:i">-āi</form>
+        <form id="a:d">-ād</form>
+        <form id="a:d?">-ā?(d)</form>
+        <form id="a:s">-ās</form>
+        <form id="a:ns">-āns</form>
+        <form id="a:is">-āis</form>
+        <form id="a:so:m">-āsōm</form>
+        <form id="a:s|ae">-(ās|ae)</form>
+        <form id="i:s|a:bus">-(īs|ābus)</form>
+        <form id="a:rum">-ārum</form>
+        <form id="ae">-ae</form>
+        <form id="e">-e</form>
+        <form id="os">-os</form>
+        <form id="om">-om</form>
+        <form id="o:i">-ōi</form>
+        <form id="o:">-ō</form>
+        <form id="o:d">-ōd</form>
+        <form id="osio">-osio</form>
+        <form id="(o/e)i">-(o|e)i</form>
+        <form id="ois">-ois</form>
+        <form id="us">-us</form>
+        <form id="fused-er">-er (fused with last stem consonant)</form>
+        <form id="fused-i">-ī (fused with last stem vowel)</form>
+        <form id="0">-∅</form>
+        <form id="um">-um</form>
+        <form id="i:">-ī</form>
+        <form id="ons">-ons</form>
+        <form id="o:s">-ōs</form>
+        <form id="i:s">-īs</form>
+        <form id="(or)um">-?(or)um</form>
+    </forms>
+    <footnotes>
+        <footnote id="sg-a-n0"><source book="Sihler" /> p. 266-267</footnote>
+        <footnote id="sg-a-v0"><source book="Sihler" /> p. 267-268</footnote>
+        <footnote id="sg-a-n"><source book="Sihler" /> p. 78, 266-267</footnote>
+        <footnote id="sg-a-v"><source book="Sihler" /> p. 78, 267-268</footnote>
+        <footnote id="sg-a-ac"><source book="Sihler" /> p. 78, 267-268</footnote>
+        <footnote id="sg-a-d"><source book="Sihler" /> p. 70, 267-268</footnote>
+        <footnote id="sg-a-ab0"><source book="Sihler" /> p. 258, 267, 269</footnote>
+        <footnote id="sg-a-ab"><source book="Sihler" /> p. 228, 267, 269</footnote>
+        <footnote id="sg-a-g"><source book="Sihler" /> p. 267, 269</footnote>
+        <footnote id="sg-a-l"><source book="Sihler" /> p. 270</footnote>
+        <footnote id="sg-o-mf-n"><source book="Sihler" /> p. 250, 256</footnote>
+        <footnote id="sg-ro-mf-n"><source book="Sihler" /> p. 70, 256</footnote>
+        <footnote id="sg-o-n-ac"><source book="Sihler" /> p. 250, 258</footnote>
+        <footnote id="sg-o-d"><source book="Sihler" /> p. 58-59, 258</footnote>
+        <footnote id="sg-o-ab0"><source book="Sihler" /> p. 228, 250-251, 258</footnote>
+        <footnote id="sg-o-ab"><source book="Sihler" /> p. 228, 258</footnote>
+        <footnote id="sg-o-gA"><source book="Sihler" /> p. 259</footnote>
+        <footnote id="sg-o-gB"><source book="Sihler" /> p. 260</footnote>
+        <footnote id="sg-o-l"><source book="Sihler" /> p. 260</footnote>
+        <footnote id="pl-a-n"><source book="Sihler" /> p. 270-271</footnote>
+        <footnote id="pl-a-ac"><source book="Sihler" /> p. 270-271</footnote>
+        <footnote id="pl-a-dab"><source book="Sihler" /> p. 270, 272</footnote>
+        <footnote id="pl-a-g"><source book="Sihler" /> p. 270, 272</footnote>
+        <footnote id="pl-o-mf-n"><source book="Sihler" /> p. 260</footnote>
+        <footnote id="pl-o-mf-ac"><source book="Sihler" /> p. 215, 254, 263</footnote>
+        <footnote id="pl-o-n-ac"><source book="Sihler" /> p. 78, 263</footnote>
+        <footnote id="pl-o-dab"><source book="Sihler" /> p. 263</footnote>
+        <footnote id="pl-o-g0"><source book="Sihler" /> p. 264</footnote>
+        <footnote id="pl-o-g"><source book="Sihler" /> p. 264-265</footnote>
+    </footnotes>
+    <bibliography>
+        <book id="Sihler" title="Sihler 1995">Sihler, Andrew L.: New Comparative Grammar of Greek and Latin. Oxford University Press 1995.</book>
+    </bibliography>
+</grammar_tables>
