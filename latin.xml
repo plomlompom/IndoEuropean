@@ -3,7 +3,9 @@
 <grammar_tables title="Latin">
     <description>Note "(&lt;)" abbreviates "(fused with last stem sound (consonant or vowel))", "(&lt;&lt;)" abbreviates "(fused with last stem vowel + consonant)".</description>
     <grammar_table id="proto-italic" title="proto-italic">
-        <description>Note that <source book="Sihler" /> p. 286 names -fos as the Proto-Italic dative-ablative consonant stem plural ending, but this (even if reflected in all other Italic languages) is inconsistent with Early Latin's reflex of original -bʰos as -bos (<source book="Sihler" /> p. 147, 286), so the earlier form is here given.</description>
+        <description>Note that <source book="Sihler" /> p. 286 names -fos as the Proto-Italic dative-ablative consonant stem plural ending, but this (even if reflected in all other Italic languages) is inconsistent with Early Latin's reflex of original -bʰos as -bos (<source book="Sihler" /> p. 147, 286), so the earlier form is here given.
+Not depicted: neuter r/n-stems (<source book="Sihler" /> p. 298-299).
+</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
             <declension_def id="sg-o" title="singular o-stem" short_title="o">
@@ -13,12 +15,14 @@
             <declension_def id="sg-c" title="singular consonant stem" short_title="consonant">
                 <declension_def id="sg-c-mf" title="singular animate consonant stem" short_title="mf">
                     <declension_def id="sg-c-mf-d" title="singular animate consonant stem in dental" short_title="-(d|t)-" />
-                    <declension_def id="sg-c-mf-r" title="singular animate consonant stem in -r" short_title="-r-" />
+                    <declension_def id="sg-c-mf-r" title="singular animate consonant stem in -r/-l" short_title="-r-" />
                     <declension_def id="sg-c-mf-n" title="singular animate consonant stem in vowel + n" short_title="-n-" />
                     <declension_def id="sg-c-mf--" title="singular animate consonant stem not in vowel + -r/-n or dental" short_title="&amp;c" />
                 </declension_def>
                 <declension_def id="sg-c-n" title="singular inanimate consonant stem" short_title="n">
                     <declension_def id="sg-c-n-n" title="singular inanimate consonant stem in -n" short_title="-n-" />
+                    <declension_def id="sg-c-n-s" title="singular inanimate consonant stem in -s" short_title="-s-" />
+                    <declension_def id="sg-c-n-r" title="singular inanimate consonant stem in -r" short_title="-r-" />
                     <declension_def id="sg-c-n--" title="singular inanimate consonant stem not in -n" short_title="&amp;c" />
                 </declension_def>
             </declension_def>
@@ -53,6 +57,8 @@
         <paradigm declension="sg-c-mf--" case="NV" form="s" footnote="sg-c-mf-nv"/>
         <paradigm declension="sg-c-mf" case="Ac" form="em" footnote="sg-c-mf-ac"/>
         <paradigm declension="sg-c-n-n" case="NVAc" form="double-fused-en" footnote="sg-c-n-n" />
+        <paradigm declension="sg-c-n-s" case="NVAc" form="double-fused-os-0" footnote="sg-c-n-s" />
+        <paradigm declension="sg-c-n-r" case="NVAc" form="0" footnote="sg-c-n-r0" />
         <paradigm declension="sg-c-n--" case="NVAc" form="fused-0" footnote="sg-c-n--" />
         <paradigm declension="sg-c" case="D" form="ei" footnote="sg-c-d" />
         <paradigm declension="sg-c" case="Ab" form="(e:|i:)d" footnote="sg-c-ab0" />
@@ -115,13 +121,18 @@ either the consonant locative or (less likely) instrumental singular becomes the
 consonant locative singular in -ī is modeled in analogy to o-stems (<source book="Sihler" /> p. 285),
 the -bus derived from the -b- reflex to word-internal -bʰ- (<source book="Sihler" /> p. 145, 147) and got an -i- prefix (<source book="Sihler" /> p. 286),
 the i-stem plural nominative ending -ēs becomes the consonant plural nominative ending proper (<source book="Sihler" /> p. 286),
-[-rs becomes -rr becomes -r (<source book="Sihler" /> p. 211), but this is not needed due to p. 290]
-former root stems in -s whose -s- became -r- intervocalic retain -s in the nominative singular (<source book="Sihler" /> p. 310-311),
+-rs becomes -rr becomes in final position -r (<source book="Sihler" /> p. 211),
+former root stems in -s whose -s- became -r- intervocalic sometimes retain -s in the nominative singular (<source book="Sihler" /> p. 310-311),
 long vowels before final non-s consonants shorten (<source book="Sihler" /> p. 79),
+l-stems emerge from other stem-forms (-n-, -l/n-) (<source book="Sihler" /> p. 304),
+some neuter s-stems (notable exception: root nouns) analogize the rhotacized stem ending (-r-) to the nominative singular (<source book="Sihler" /> p. 306, 309)
 the -on- suffix of consonant stems is reflected as medial -in- (<source book="Sihler" /> p. 60-61, 295-296),
 certain animate n-stem nouns with nominative singular in -en emerge from gender change, compounds with the weakened root "can-", and unclear etymology (<source book="Sihler" /> p.296, 298).
 Not depicted: kinship nouns of animate consonant stems in -r with nominative singular in -er (&lt;) (like "pater"/"patris") (<source book="Sihler" /> p. 293).
 Not depicted: The consonant stems in -n- freak cases of "carō"/"carnis", "iuvenis"/"iuvenis", "sangu(i|ī)s"/"sanguinis", "liēn"/"li(e|ē)nis", "fel"/"fellis" (<source book="Sihler" /> p. 291, 295-296, 298).
+Not depicted: The consonant stems in -l- freak cases of "sāl"/"salis", "fel"/"fellis", "mel"/"mellis" (<source book="Sihler" /> p. 304).
+Not depicted: The root noun freak cases of "vīs" and "spēs"/"speī" (<source book="Sihler" /> p. 311).
+Not depicted: Neuter r/n-stems freak cases of "femur"/"feminis", "iecur"/"iocineris", "iter"/"itineris" <source book="Sihler" /> p. 298-299).
 A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 alone mentions it, prefixed with a "perhaps") to include in the table.</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
@@ -143,10 +154,10 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
             </declension_def>
             <declension_def id="sg-c" title="singular consonant stem" short_title="consonant">
                 <declension_def id="sg-c-mf" title="singular animate consonant stem" short_title="mf">
-                    <declension_def id="sg-c-mf-d+" title="singular animate consonant stem in dental or root stem in -r formerly in -s"
-                                    short_title="-(d|t)-, -(s&gt;r)-" />
+                    <declension_def id="sg-c-mf-d+" title="singular animate consonant stem in dental and some stems in -r formerly in -s"
+                                    short_title="-(d|t)-, some -(s&gt;r)-" />
                     <declension_def id="sg-c-mf-g" title="singular animate consonant stem in dorsal" short_title="-(g|c)-" />
-                    <declension_def id="sg-c-mf-r" title="singular animate consonant stem in non-ō vowel + -r" short_title="-r-" />
+                    <declension_def id="sg-c-mf-rl" title="singular animate consonant stem in -r/-l" short_title="-(r|l)-" />
                     <declension_def id="sg-c-mf-ro" title="singular animate consonant stem in -ōr" short_title="-ōr-" />
                     <declension_def id="sg-c-mf-n" title="singular animate consonant stem in -n" short_title="-n-" />
                     <declension_def id="sg-c-mf-n-freak" title="singular animate consonant stem in -in (freak cases)" short_title="some -in-" />
@@ -154,6 +165,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
                 </declension_def>
                 <declension_def id="sg-c-n" title="singular inanimate consonant stem" short_title="n">
                     <declension_def id="sg-c-n-n" title="singular inanimate consonant stem in -n" short_title="-n-" />
+                    <declension_def id="sg-c-n-s" title="singular inanimate consonant stem in -r formerly in -s" short_title="-(s&gt;r)-" />
+                    <declension_def id="sg-c-n-r" title="singular inanimate consonant stem in -r (not -rr-)" short_title="-r- not -rr-" />
                     <declension_def id="sg-c-n--" title="singular inanimate consonant stem not in -n" short_title="&amp;c" />
                 </declension_def>
             </declension_def>
@@ -164,7 +177,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
                 <declension_def id="pl-o-mf" title="plural animate o-stem" short_title="mf" />
                 <declension_def id="pl-o-n" title="plural inanimate o-stem" short_title="n" />
             </declension_def>
-            <declension_def id="pl-c" title="plural consonant stem" short_title="consonant">
+            <declension_def id="pl-c" title="plural consonant stem" short_title="cons.">
                 <declension_def id="pl-c-mf" title="plural animate consonant stem" short_title="mf" />
                 <declension_def id="pl-c-n" title="plural inanimate consonant stem" short_title="n" />
             </declension_def>
@@ -208,13 +221,15 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="sg-c-mf--" case="NV" continues="proto-italic sg-c-mf-- NV" />
         <paradigm declension="sg-c-mf-d+" case="NV" form="fused-s" footnote="sg-c-mf-nv-d+"/>
         <paradigm declension="sg-c-mf-g" case="NV" form="fused-x" footnote="sg-c-mf-nv-g"/>
-        <paradigm declension="sg-c-mf-r" case="NV" continues="proto-italic sg-c-mf-r NV" />
+        <paradigm declension="sg-c-mf-rl" case="NV" form="0" footnote="sg-c-mf-nv-rl"/>
         <paradigm declension="sg-c-mf-ro" case="NV" form="double-fused-or" footnote="sg-c-mf-ro-NV" />
         <paradigm declension="sg-c-mf-n" case="NV" continues="proto-italic sg-c-mf-n NV" />
         <paradigm declension="sg-c-mf-n-freak" case="NV" form="double-fused-en" footnote="sg-c-mf-n-freak" />
         <paradigm declension="sg-c-mf" case="Ac" continues="proto-italic sg-c-mf Ac" />
         <paradigm declension="sg-c-n--" case="NVAc" continues="proto-italic sg-c-n-- NVAc" />
         <paradigm declension="sg-c-n-n" case="NVAc" continues="proto-italic sg-c-n-n NVAc" />
+        <paradigm declension="sg-c-n-s" case="NVAc" form="double-fused-u(r|s)-fused-s" footnote="sg-c-n-s" />
+        <paradigm declension="sg-c-n-r" case="NVAc" form="0" footnote="sg-c-n-r" />
         <paradigm declension="sg-c" case="D" form="i:" footnote="sg-c-d" />
         <paradigm declension="sg-c" case="Ab" form="e" footnote="sg-c-ab" />
         <paradigm declension="sg-c" case="G" form="(i|u)s" footnote="sg-c-g" />
@@ -235,6 +250,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="pl-c" case="G" form="um" footnote="pl-c-g"/>
     </grammar_table>
     <forms>
+        <form id="double-fused-os-0">-os (&lt;&lt;), -∅</form>
+        <form id="double-fused-u(r|s)-fused-s">-u(r|s) (&lt;&lt;), -s (&lt;)</form>
         <form id="double-fused-or">-or (&lt;&lt;)</form>
         <form id="double-fused-o:">-ō (&lt;&lt;)</form>
         <form id="0">-∅</form>
@@ -294,11 +311,15 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
     <footnotes>
         <footnote id="sg-c-n--"><source book="Sihler" /> p. 284</footnote>
         <footnote id="sg-c-n-n"><source book="Sihler" /> p. 297</footnote>
+        <footnote id="sg-c-n-r0"><source book="Sihler" /> p. 293</footnote>
+        <footnote id="sg-c-n-r"><source book="Sihler" /> p. 293, 306</footnote>
+        <footnote id="sg-c-n-s"><source book="Sihler" /> p. 305-307</footnote>
         <footnote id="sg-c-mf-nv"><source book="Sihler" /> p. 283</footnote>
         <footnote id="sg-c-mf-nv-d0"><source book="Fortson" /> p. 277, <source book="Sihler" /> p. 204, 283</footnote>
-        <footnote id="sg-c-mf-nv-d+"><source book="Sihler" /> p. 204-205, 283,, 310-311</footnote>
+        <footnote id="sg-c-mf-nv-d+"><source book="Sihler" /> p. 204-205, 283,, 309-311</footnote>
         <footnote id="sg-c-mf-nv-r"><source book="Sihler" /> p. 290</footnote>
-        <footnote id="sg-c-mf-ro-NV"><source book="Sihler" /> p. 293</footnote>
+        <footnote id="sg-c-mf-nv-rl"><source book="Sihler" /> p. 290, 304</footnote>
+        <footnote id="sg-c-mf-ro-NV"><source book="Sihler" /> p. 293, 309</footnote>
         <footnote id="sg-c-mf-nv-n"><source book="Sihler" /> p. 290, 295-296</footnote>
         <footnote id="sg-c-mf-n-freak"><source book="Sihler" /> p. 296</footnote>
         <footnote id="sg-c-mf-nv-g"><source book="Sihler" /> p. 204, 283</footnote>
