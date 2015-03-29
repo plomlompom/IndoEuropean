@@ -45,6 +45,10 @@ Not depicted: neuter r/n-stems (<source book="Sihler" /> p. 298-299).
                 <declension_def id="pl-c-mf" title="plural animate consonant stem" short_title="mf" />
                 <declension_def id="pl-c-n" title="plural inanimate consonant stem" short_title="n" />
             </declension_def>
+            <declension_def id="pl-i" title="plural i-stem" short_title="i">
+                <declension_def id="pl-i-mf" title="plural animate i-stem" short_title="mf" />
+                <declension_def id="pl-i-n" title="plural inanimate i-stem" short_title="n" />
+            </declension_def>
         </declension_def>
         <case_def id="NVAc" title="nominative-vocative-accusative">
             <case_def id="NV" title="nominative-vocative">
@@ -107,6 +111,11 @@ Not depicted: neuter r/n-stems (<source book="Sihler" /> p. 298-299).
         <paradigm declension="pl-c-mf" case="Ac" form="ens" footnote="pl-c-ac"/>
         <paradigm declension="pl-c" case="DAb" form="bhos" footnote="pl-c-dab0"/>
         <paradigm declension="pl-c" case="G" form="om" footnote="pl-c-g0"/>
+        <paradigm declension="pl-i" case="DAb" form="bhos" footnote="pl-i-dab"/>
+        <paradigm declension="pl-i" case="G" form="om" footnote="pl-i-g"/>
+        <paradigm declension="pl-i-mf" case="NV" form="fused-eies" footnote="pl-i-nv"/>
+        <paradigm declension="pl-i-mf" case="Ac" form="ins" footnote="pl-i-ac"/>
+        <paradigm declension="pl-i-n" case="NVAc" form="fused-i:" footnote="pl-i-n"/>
     </grammar_table>
     <grammar_table id="classical" title="classical">
         <description>
@@ -145,7 +154,10 @@ consonant stem endings encroach on i-stem endings (<source book="Sihler" /> p. 3
 i-stems in -nd-, -nt-, -rt- end in -s (&lt;&lt;), with lengthening of preceding vowel if -ns results (<source book="Sihler" /> p. 316),
 i-stem neuter nominative/vocative singulars lost their end vowel on mono-syllabic stems (<source book="Sihler" /> p. 69),
 i-stem genitive singular -is evolves either from consonant stem encroachment or an original ending in -es (<source book="Sihler" /> p. 316-317),
-certain animate n-stem nouns with nominative singular in -en emerge from gender change, compounds with the weakened root "can-", and unclear etymology (<source book="Sihler" /> p.296, 298).
+certain animate n-stem nouns with nominative singular in -en emerge from gender change, compounds with the weakened root "can-", and unclear etymology (<source book="Sihler" /> p.296, 298),
+i-stem plural animate nominative/vocative -eies becomes -ees (loss of intervocalic -i-, <source book="Sihler" /> p. 188) becomes -ēs (<source book="Sihler" /> p. 317),
+i-stem plural inaminate nominative/vocative/accusative gets the consonant ending -a appended (<source book="Sihler" /> p. 317),
+long vowels shorten before other vowels (<source book="Sihler" /> p. 80).
 Not depicted relationship: animate i-stem nouns with accusative singular in -im always form the ablative singular to -ī (<source book="Sihler" /> p. 316).
 Not depicted: kinship nouns of animate consonant stems in -r with nominative singular in -er (&lt;) (like "pater"/"patris") (<source book="Sihler" /> p. 293).
 Not depicted: The consonant stems in -n- freak cases of "carō"/"carnis", "iuvenis"/"iuvenis", "sangu(i|ī)s"/"sanguinis", "liēn"/"li(e|ē)nis", "fel"/"fellis" (<source book="Sihler" /> p. 291, 295-296, 298).
@@ -214,6 +226,10 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
             <declension_def id="pl-c" title="plural consonant stem" short_title="cons.">
                 <declension_def id="pl-c-mf" title="plural animate consonant stem" short_title="mf" />
                 <declension_def id="pl-c-n" title="plural inanimate consonant stem" short_title="n" />
+            </declension_def>
+            <declension_def id="pl-i" title="plural i-stem" short_title="i">
+                <declension_def id="pl-i-mf" title="plural animate i-stem" short_title="mf" />
+                <declension_def id="pl-i-n" title="plural inanimate i-stem" short_title="n" />
             </declension_def>
         </declension_def>
         <case_def id="NVAc" title="nominative-vocative-accusative">
@@ -292,8 +308,14 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="pl-c-n" case="NVAc" form="a" footnote="pl-c-n"/>
         <paradigm declension="pl-c" case="DAb" form="ibus" footnote="pl-c-dab"/>
         <paradigm declension="pl-c" case="G" form="um" footnote="pl-c-g"/>
+        <paradigm declension="pl-i-mf" case="NVAc" form="fused-i:s-fused-e:s" footnote="pl-i-nvac"/>
+        <paradigm declension="pl-i-n" case="NVAc" form="a" footnote="pl-i-n"/>
+        <paradigm declension="pl-i" case="DAb" form="bus" footnote="pl-i-dab"/>
+        <paradigm declension="pl-i" case="G" form="um" footnote="pl-i-g"/>
     </grammar_table>
     <forms>
+        <form id="fused-eies">-eies (&lt;)</form>
+        <form id="fused-i:s-fused-e:s">-īs (&lt;), -ēs (&lt;)</form>
         <form id="lengthening-double-fused-s">-s (–) (&lt;&lt;)</form>
         <form id="double-fused-s">-s (&lt;&lt;)</form>
         <form id="double-fused-os-0">-os (&lt;&lt;), -∅</form>
@@ -321,6 +343,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="(e:|i:)d">-(ē|ī)d</form>
         <form id="(e|o)s">-(e|o)s</form>
         <form id="i">-i</form>
+        <form id="ins">-ins</form>
         <form id="(i|u)s">-(i|u)s</form>
         <form id="e|i:">-(e|ī)</form>
         <form id="fused-e|i:">-(e|ī) (&lt;)</form>
@@ -328,6 +351,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="a">-a</form>
         <form id="a:?m">-(a|ā)m</form>
         <form id="am">-am</form>
+        <form id="bus">-bus</form>
         <form id="a:i">-āi</form>
         <form id="a:d">-ād</form>
         <form id="a:d?">-ā?(d)</form>
@@ -430,6 +454,12 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pl-c-dab"><source book="Sihler" /> p. 286</footnote>
         <footnote id="pl-c-g0"><source book="Sihler" /> p. 78, 286</footnote>
         <footnote id="pl-c-g"><source book="Sihler" /> p. 66, 286</footnote>
+        <footnote id="pl-i-n"><source book="Sihler" /> p. 317</footnote>
+        <footnote id="pl-i-nv"><source book="Sihler" /> p. 188, 317</footnote>
+        <footnote id="pl-i-nvac"><source book="Sihler" /> p. 188, 317</footnote>
+        <footnote id="pl-i-ac"><source book="Sihler" /> p. 317</footnote>
+        <footnote id="pl-i-dab"><source book="Sihler" /> p. 318</footnote>
+        <footnote id="pl-i-g"><source book="Sihler" /> p. 318</footnote>
     </footnotes>
     <bibliography>
         <book id="ClacksonHorrocks" title="Clackson/Horrocks 2007">Clackson, James / Horrocks, Geoffrey: The Blackwell History of the Latin Language. Blackwell 2007.</book>
