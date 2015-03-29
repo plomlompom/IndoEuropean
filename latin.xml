@@ -156,7 +156,7 @@ loss of word-final -d after a long vowel (<source book="Sihler" /> p. 228),
 in a-stem plural dative-ablative –īs is replaced with -ābus where necessary to avoid homophony with o-stem plural dative-ablatives (<source book="Sihler" /> p. 272),
 intervocalic -s becomes -r (<source book="Sihler" /> p. 171-172),
 word-final -ss becomes -s (<source book="Sihler" /> p. 204-205),
-dorsal stop plus -s becomes -x (<source book="Sihler" /> p. 204),
+(former) dorsal stop plus -s becomes -x (<source book="Sihler" /> p. 204),
 -ei- in final syllable becomes -ī (<source book="Sihler" /> p. 70),
 final -i becomes -e (<source book="Sihler" /> p. 65),
 either the consonant locative or (less likely) instrumental singular becomes the consonant ablative singular (<source book="Sihler" /> p. 285),
@@ -182,7 +182,11 @@ certain animate n-stem nouns with nominative singular in -en emerge from gender 
 i-stem plural animate nominative/vocative -eies becomes -ees (loss of intervocalic -i-, <source book="Sihler" /> p. 188) becomes -ēs (<source book="Sihler" /> p. 317),
 i-stem plural inaminate nominative/vocative/accusative gets the consonant ending -a appended (<source book="Sihler" /> p. 317),
 long vowels shorten before other vowels (<source book="Sihler" /> p. 80),
-u-stem dative/ablative plurals mostly mirror the common -ibus, with -ubus (&lt;) maybe not so much an original form but a later-day practice to avoid homophony (<source book="Sihler" /> p. 326).
+u-stem dative/ablative plurals mostly mirror the common -ibus, with -ubus (&lt;) maybe not so much an original form but a later-day practice to avoid homophony (<source book="Sihler" /> p. 326),
+the 5th or ē-stem declension emerges, fusing various different paradigms into one (<source book="Sihler" /> p. 340-343).
+Not depicted: u-stem (or rather: ū-stem) freak cases "sūs" and "grūs" (<source book="Sihler" /> p. 328).
+Not depicted: Freak case "Iuppiter"/"Iovis" (<source book="Sihler" /> p. 338-339).
+Not depicted: Freak case "bōs"/"bovis" (<source book="Sihler" /> p. 334-336).
 Not depicted relationship: animate i-stem nouns with accusative singular in -im always form the ablative singular to -ī (<source book="Sihler" /> p. 316).
 Not depicted: i- and mixed-stem freak cases of "senex"/"senis", "urbs"/"urbis", "nox"/"noctis", and s-stem root nouns with genitive plural in -ium, and the opposite with nominative singular in -is and otherwise consonant-stem endings (<source book="Sihler" /> p. 319).
 Not depicted: kinship nouns of animate consonant stems in -r with nominative singular in -er (&lt;) (like "pater"/"patris") (<source book="Sihler" /> p. 293).
@@ -191,6 +195,7 @@ Not depicted: The consonant stems in -l- freak cases of "sāl"/"salis", "fel"/"
 Not depicted: The root noun freak cases of "vīs" and "spēs"/"speī" (<source book="Sihler" /> p. 311).
 Not depicted: Neuter r/n-stems freak cases of "femur"/"feminis", "iecur"/"iocineris", "iter"/"itineris" <source book="Sihler" /> p. 298-299).
 Not depcited: Nouns in -ēs nominative singular, mostly behaving like i-stem nouns (<source book="Sihler" /> p. 316).
+Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<source book="Sihler" /> p. 344-345).
 A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 alone mentions it, prefixed with a "perhaps") to include in the table.</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
@@ -214,7 +219,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
                 <declension_def id="sg-c-mf" title="singular animate consonant stem" short_title="mf">
                     <declension_def id="sg-c-mf-d+" title="singular animate consonant stem in dental and some stems in -r formerly in -s"
                                     short_title="-(d|t)-, some -(s&gt;r)-" />
-                    <declension_def id="sg-c-mf-g" title="singular animate consonant stem in dorsal" short_title="-(g|c)-" />
+                    <declension_def id="sg-c-mf-g" title="singular animate consonant stem in (former) dorsal (g, c, v, h)" short_title="-(g|c|v|h)-" />
                     <declension_def id="sg-c-mf-rl" title="singular animate consonant stem in -r/-l" short_title="-(r|l)-" />
                     <declension_def id="sg-c-mf-ro" title="singular animate consonant stem in -ōr" short_title="-ōr-" />
                     <declension_def id="sg-c-mf-n" title="singular animate consonant stem in -n" short_title="-n-" />
@@ -244,6 +249,10 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
                 <declension_def id="sg-u-mf" title="singular animate u-stem" short_title="mf" />
                 <declension_def id="sg-u-n" title="singular inanimate u-stem" short_title="n" />
             </declension_def>
+            <declension_def id="sg-e" title="singular ē-stem" short_title="ē">
+                <declension_def id="sg-e-V" title="singular ē-stem after vowel (incl. -i-)" short_title="V" />
+                <declension_def id="sg-e-C" title="singular ē-stem after consonant (excl. -i-)" short_title="C" />
+            </declension_def>
         </declension_def>
         <declension_def id="pl" short_title="plural">
             <declension_def id="pl-a" title="plural a-stem" short_title="a" />
@@ -263,6 +272,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
                 <declension_def id="pl-u-mf" title="plural animate u-stem" short_title="mf" />
                 <declension_def id="pl-u-n" title="plural inanimate u-stem" short_title="n" />
             </declension_def>
+            <declension_def id="pl-e" title="plural ē-stem" short_title="ē" />
         </declension_def>
         <case_def id="NVAc" title="nominative-vocative-accusative">
             <case_def id="NV" title="nominative-vocative">
@@ -332,6 +342,13 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="sg-u" case="Ab" form="fused-u:" footnote="sg-u-ab" />
         <paradigm declension="sg-u" case="D" form="i:-ei-fused-u:" footnote="sg-u-d" />
         <paradigm declension="sg-u" case="G" form="fused-u:s-is" footnote="sg-u-g" />
+        <paradigm declension="sg-e" case="NV" form="s" footnote="sg-e-nv" />
+        <paradigm declension="sg-e" case="Ac" form="fused-em" footnote="sg-e-ac" />
+        <paradigm declension="sg-e" case="Ab" form="0" footnote="sg-e-ab" />
+        <paradigm declension="sg-e-V" case="D" form="i:-fused-i:" footnote="sg-e-CV" />
+        <paradigm declension="sg-e-C" case="D" form="fused-ei:-fused-i:" footnote="sg-e-CV" />
+        <paradigm declension="sg-e-V" case="G" form="i:-fused-i:" footnote="sg-e-CV" />
+        <paradigm declension="sg-e-C" case="G" form="fused-ei:-fused-i:" footnote="sg-e-CV" />
         <paradigm declension="pl-a" case="NV" form="ae" footnote="pl-a-n"/>
         <paradigm declension="pl-a" case="Ac" form="a:s" footnote="pl-a-ac"/>
         <paradigm declension="pl-a" case="DAb" form="i:s|a:bus" footnote="pl-a-dab"/>
@@ -355,8 +372,14 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="pl-u-n" case="NVAc" form="a" footnote="pl-u-n"/>
         <paradigm declension="pl-u" case="G" form="um-om" footnote="pl-u-g"/>
         <paradigm declension="pl-u" case="DAb" form="bus-fused-ibus" footnote="pl-u-dab"/>
+        <paradigm declension="pl-e" case="NVAc" form="s" footnote="pl-e"/>
+        <paradigm declension="pl-e" case="G" form="rum" footnote="pl-e"/>
+        <paradigm declension="pl-e" case="DAb" form="bus" footnote="pl-e"/>
     </grammar_table>
     <forms>
+        <form id="rum">-rum</form>
+        <form id="fused-ei:-fused-i:">-eī (&lt;), -ī (&lt;)</form>
+        <form id="i:-fused-i:">-ī, -ī (&lt;)</form>
         <form id="fused-oues">-?(o)ues (&lt;)</form>
         <form id="?(o)uom">-?(o)uom (&lt;)</form>
         <form id="fused-u:a:">-ūā (&lt;)</form>
@@ -385,6 +408,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="ibus">-ibus</form>
         <form id="bhos">-bʰos</form>
         <form id="fused-e">-e (&lt;)</form>
+        <form id="fused-em">-em (&lt;)</form>
         <form id="fused-0">-∅ (&lt;)</form>
         <form id="s">-s</form>
         <form id="fused-s">-s (&lt;)</form>
@@ -476,6 +500,10 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="sg-u-d"><source book="Sihler" /> p. 323</footnote>
         <footnote id="sg-u-g"><source book="Sihler" /> p. 324</footnote>
         <footnote id="sg-u-ab"><source book="Sihler" /> p. 324</footnote>
+        <footnote id="sg-e-CV"><source book="Fortson" /> p. 342-343</footnote>
+        <footnote id="sg-e-nv"><source book="Fortson" /> p. 285</footnote>
+        <footnote id="sg-e-ac"><source book="Sihler" /> p. 343</footnote>
+        <footnote id="sg-e-ab"><source book="Sihler" /> p. 343</footnote>
         <footnote id="sg-c-ab0"><source book="Sihler" /> p. 285, <source book="Fortson" /> p. 281, <source book="ClacksonHorrocks" /> p. 15-16</footnote>
         <footnote id="sg-c-ab"><source book="Sihler" /> p. 285, <source book="ClacksonHorrocks" /> p. 15-16</footnote>
         <footnote id="sg-c-g"><source book="Sihler" /> p. 285</footnote>
@@ -529,6 +557,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pl-u-g0"><source book="Sihler" /> p. 40, 327</footnote>
         <footnote id="pl-u-g"><source book="Sihler" /> p. 327</footnote>
         <footnote id="pl-u-dab"><source book="Sihler" /> p. 326</footnote>
+        <footnote id="pl-e"><source book="Sihler" /> p. 343</footnote>
     </footnotes>
     <bibliography>
         <book id="ClacksonHorrocks" title="Clackson/Horrocks 2007">Clackson, James / Horrocks, Geoffrey: The Blackwell History of the Latin Language. Blackwell 2007.</book>
