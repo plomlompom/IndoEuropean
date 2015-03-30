@@ -2,6 +2,63 @@
 <?xml-stylesheet type="text/xsl" href="declension_tables.xsl" ?>
 <grammar_tables title="Latin">
     <description>Note "(&lt;)" abbreviates "(fused with last stem sound (consonant or vowel))", "(&lt;&lt;)" abbreviates "(fused with last stem vowel + consonant)", "(–)" abbreviates "(previous vowel is lengthened)".</description>
+    <grammar_table id="pie" title="Late Proto-Indo-European (simplified)">
+        <description>This table omits the dual number, of which the development of Latin retains few if any traces.</description>
+        <declension_def id="sg" short_title="singular">
+            <declension_def id="sg-them" title="singular thematic" short_title="them." />
+            <declension_def id="sg-athem" title="singular athematic" short_title="athem." />
+        </declension_def>
+        <declension_def id="pl" short_title="plural">
+            <declension_def id="pl-them" title="singular thematic" short_title="them." />
+            <declension_def id="pl-athem" title="singular athematic" short_title="athem." />
+        </declension_def>
+        <case_def id="NV" title="animate nominative/vocative">
+            <case_def id="N" title="animate nominative" short_title="N" />
+            <case_def id="V" title="animate vocative" short_title="V" />
+        </case_def>
+        <case_def id="Ac" title="animate accusative" short_title="Ac" />
+        <case_def id="n" title="inanimate nominative/vocative/accusative" short_title="n." />
+        <case_def id="G" title="genitive" short_title="G" />
+        <case_def id="D" title="dative" short_title="D" />
+        <case_def id="Ab" title="ablative" short_title="Ab" />
+        <case_def id="L" title="locative" short_title="L" />
+        <case_def id="I" title="instrumental" short_title="I" />
+        <paradigm declension="sg-them" case="N" form="os" footnote="pie:sg-them/N" />
+        <paradigm declension="sg-them" case="V" form="e" footnote="pie:sg-them/V" />
+        <paradigm declension="sg-them" case="Ac" form="om" footnote="pie:sg-them/Ac" />
+        <paradigm declension="sg-them" case="n" form="om" footnote="pie:sg-them/n" />
+        <paradigm declension="sg-them" case="G" form="os-os?(i)o" footnote="pie:sg-them/G" />
+        <paradigm declension="sg-them" case="D" form="o:i" footnote="pie:sg-them/D" />
+        <paradigm declension="sg-them" case="Ab" form="o:d" footnote="pie:sg-them/Ab" />
+        <paradigm declension="sg-them" case="L" form="(e|o)i" footnote="pie:sg-them/L" />
+        <paradigm declension="sg-them" case="I" form="(e|o)h1" footnote="pie:sg-them/I" />
+        <paradigm declension="sg-athem" case="N" form="?s" footnote="pie:sg-athem/N" />
+        <paradigm declension="sg-athem" case="V" form="0" footnote="pie:sg-athem/V" />
+        <paradigm declension="sg-athem" case="Ac" form="m" footnote="pie:sg-athem/Ac" />
+        <paradigm declension="sg-athem" case="n" form="0" footnote="pie:sg-athem/n" />
+        <paradigm declension="sg-athem" case="Ab" form="?(e|o)s" footnote="pie:sg-athem/GAb" />
+        <paradigm declension="sg-athem" case="G" form="?(e|o)s" footnote="pie:sg-athem/GAb" />
+        <paradigm declension="sg-athem" case="D" form="ei" footnote="pie:sg-athem/D" />
+        <paradigm declension="sg-athem" case="L" form="i-0" footnote="pie:sg-athem/L" />
+        <paradigm declension="sg-athem" case="I" form="?(e)h1-(bh|m)i" footnote="pie:sg-athem/I" />
+        <paradigm declension="pl-them" case="NV" form="o:s" footnote="pie:pl-them/NV" />
+        <paradigm declension="pl-them" case="Ac" form="ons" footnote="pie:pl-them/Ac" />
+        <paradigm declension="pl-them" case="n" form="eh2" footnote="pie:pl-them/n" />
+        <paradigm declension="pl-them" case="G" form="o:m" footnote="pie:pl-them/G" />
+        <paradigm declension="pl-them" case="D" form="o?(i)(bh?(i)|m)os" footnote="pie:pl-them/DAb" />
+        <paradigm declension="pl-them" case="Ab" form="o?(i)(bh?(i)|m)os" footnote="pie:pl-them/DAb" />
+        <paradigm declension="pl-them" case="L" form="oisu" footnote="pie:pl-them/L" />
+        <paradigm declension="pl-them" case="I" form="o:is" footnote="pie:pl-them/I" />
+        <paradigm declension="pl-athem" case="NV" form="es" footnote="pie:pl-athem/NV" />
+        <paradigm declension="pl-athem" case="Ac" form="ns" footnote="pie:pl-athem/Ac" />
+        <paradigm declension="pl-athem" case="n" form="h2" footnote="pie:pl-athem/n" />
+        <paradigm declension="pl-athem" case="Ab" form="(bh?(i)|m)os" footnote="pie:pl-athem/DAb" />
+        <paradigm declension="pl-athem" case="D" form="(bh?(i)|m)os" footnote="pie:pl-athem/DAb" />
+        <paradigm declension="pl-athem" case="G" form="(o:|o)m" footnote="pie:pl-athem/G" />
+        <paradigm declension="pl-athem" case="D" form="" footnote="pie:pl-athem/D" />
+        <paradigm declension="pl-athem" case="L" form="su" footnote="pie:pl-athem/L" />
+        <paradigm declension="pl-athem" case="I" form="(bh|m)i?(s)" footnote="pie:pl-athem/I" />
+    </grammar_table>
     <grammar_table id="proto-italic" title="proto-italic">
         <description>Note that <source book="Sihler" /> p. 286 names -fos as the Proto-Italic dative-ablative consonant stem plural ending, but this (even if reflected in all other Italic languages) is inconsistent with Early Latin's reflex of original -bʰos as -bos (<source book="Sihler" /> p. 147, 286), so the earlier form is here given.
 The dative singular is somewhat aritrarily chosen as the proto-italic starting point for the fusion of consonant and i-stem paradigms (<source book="Sihler" /> p. 316, 318), with other forms still separate. 
@@ -377,6 +434,37 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="pl-e" case="DAb" form="bus" footnote="pl-e"/>
     </grammar_table>
     <forms>
+        <form id="?(e)h1-(bh|m)i">-?(e)h¹, -(bʰ|m)i</form>
+        <form id="?(e|o)s">-s, -(e|o)s</form>
+        <form id="?s">-s, -∅</form>
+        <form id="(bh?(i)|m)os">-(bʰ?(i)|m)os)</form>
+        <form id="(bh|m)i?(s)">-(bʰ|m)i?(s)</form>
+        <form id="(e|o)h1">-(e|o)h¹</form>
+        <form id="(e|o)i">-(e|o)i</form>
+        <form id="(o:|o)m">-(ō|o)m</form>
+        <form id="0">-∅</form>
+        <form id="e">-e</form>
+        <form id="eh2">-eh₂</form>
+        <form id="ei">-ei</form>
+        <form id="es">-es</form>
+        <form id="h2">-h₂</form>
+        <form id="i-0">-i, -0</form>
+        <form id="m">-m</form>
+        <form id="ns">-ns</form>
+        <form id="o?(i)(bh?(i)|m)os">-o?(i)(bʰ?(i)|m)os)</form>
+        <form id="o:d">-ōd</form>
+        <form id="o:i">-ōi</form>
+        <form id="o:is">-ōis</form>
+        <form id="o:m">-ōm</form>
+        <form id="o:s">-ōs</form>
+        <form id="oisu">-oisu</form>
+        <form id="om">-om</form>
+        <form id="ons">-ons</form>
+        <form id="os">-os</form>
+        <form id="os-os?(i)o">-os, -os?(i)o</form>
+        <form id="su">-su</form>
+
+        <form id="(e|o)s">-(e|o)s</form>
         <form id="rum">-rum</form>
         <form id="fused-ei:-fused-i:">-eī (&lt;), -ī (&lt;)</form>
         <form id="i:-fused-i:">-ī, -ī (&lt;)</form>
@@ -400,8 +488,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="double-fused-u(r|s)-fused-s">-u(r|s) (&lt;&lt;), -s (&lt;)</form>
         <form id="double-fused-or">-or (&lt;&lt;)</form>
         <form id="double-fused-o:">-ō (&lt;&lt;)</form>
-        <form id="0">-∅</form>
-        <form id="es">-es</form>
         <form id="double-fused-en">-en (&lt;&lt;)</form>
         <form id="ens">-ens</form>
         <form id="e:s">-ēs</form>
@@ -415,14 +501,11 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="fused-x">-x (&lt;)</form>
         <form id="fused-ss">-ss (&lt;)</form>
         <form id="em">-em</form>
-        <form id="ei">-ei</form>
         <form id="fused-ei">-ei (&lt;)</form>
         <form id="fused-em-m">-em (&lt;), -m</form>
         <form id="fused-eis-es">-eis (&lt;), -es</form>
         <form id="(e:|i:)d">-(ē|ī)d</form>
-        <form id="(e|o)s">-(e|o)s</form>
         <form id="i">-i</form>
-        <form id="ns">-ns</form>
         <form id="(i|u)s">-(i|u)s</form>
         <form id="e|i:">-(e|ī)</form>
         <form id="fused-e|i:">-(e|ī) (&lt;)</form>
@@ -442,13 +525,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="i:s|a:bus">-īs, -ābus</form>
         <form id="a:rum">-ārum</form>
         <form id="ae">-ae</form>
-        <form id="e">-e</form>
-        <form id="m">-m</form>
-        <form id="os">-os</form>
-        <form id="om">-om</form>
-        <form id="o:i">-ōi</form>
         <form id="o:">-ō</form>
-        <form id="o:d">-ōd</form>
         <form id="osio">-osio</form>
         <form id="(o/e)i">-(o|e)i</form>
         <form id="ois">-ois</form>
@@ -456,16 +533,45 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="fused-er">-er (&lt;)</form>
         <form id="double-fused-er">-er (&lt;&lt;)</form>
         <form id="fused-i:">-ī (&lt;)</form>
-        <form id="0">-∅</form>
         <form id="um">-um</form>
         <form id="i:">-ī</form>
-        <form id="ons">-ons</form>
-        <form id="o:s">-ōs</form>
         <form id="i:s">-īs</form>
         <form id="fused-i:d">-īd (&lt;)</form>
         <form id="(o:r)um">-ōrum, -um</form>
     </forms>
     <footnotes>
+        <footnote id="pie:sg-them/N"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332-333; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250, 256; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-them/V"><source book="Beekes" /> p. 212; <source book="Fortson" /> p. 126; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250, 256</footnote>
+        <footnote id="pie:sg-them/Ac"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250, 258; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-them/n"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250, 258; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-them/D"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 251, 258; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-them/G"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332-333; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 259; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-them/Ab"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-128; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250-251, 258; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-them/L"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 260; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-them/I"><source book="Beekes" /> p. 212-213; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 252</footnote>
+        <footnote id="pie:sg-athem/N"><source book="Beekes" /> p. 186; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 121-122, 169</footnote>
+        <footnote id="pie:sg-athem/V"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-athem/Ac"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-athem/n"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-athem/GAb"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250-251; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-athem/D"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 251; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-athem/L"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 253; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-athem/I"><source book="Beekes" /> p. 186-187; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 252; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:pl-them/NV"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126, 128; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254, 261; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:pl-them/Ac"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126, 129; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254, 263; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:pl-them/n"><source book="Fortson" /> p. 126, 129; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254, 263</footnote>
+        <footnote id="pie:pl-them/G"><source book="Fortson" /> p. 126, 129; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254-255, 264; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:pl-them/DAb"><source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126, 129; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248</footnote>
+        <footnote id="pie:pl-them/L"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126, 129; <source book="MeierBrugger" /> p. 332-333; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 253, 263</footnote>
+        <footnote id="pie:pl-them/I"><source book="Beekes" /> p. 212-213; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 263-264; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:pl-athem/NV"><source book="Beekes" /> p. 186, 188; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 117; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254; <source book="Szemerenyi" /> p. 168-169</footnote>
+        <footnote id="pie:pl-athem/Ac"><source book="Beekes" /> p. 186, 188; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 117; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:pl-athem/n"><source book="Fortson" /> p. 118; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254</footnote>
+        <footnote id="pie:pl-athem/DAb"><source book="Beekes" /> p. 188-189; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 117-119; <source book="MeierBrugger" /> p. 330, 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:pl-athem/G"><source book="Beekes" /> p. 186, 188; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 117-118; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254-255; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:pl-athem/L"><source book="Beekes" /> p. 186, 189; <source book="Fortson" /> p. 117-118; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 253; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:pl-athem/I"><source book="Beekes" /> p. 186-187, 189; <source book="Fortson" /> p. 117-119; <source book="MeierBrugger" /> p. 330, 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248; <source book="Szemerenyi" /> p. 169</footnote>
+
         <footnote id="sg-c-n--"><source book="Sihler" /> p. 284</footnote>
         <footnote id="sg-c-n-n"><source book="Sihler" /> p. 297</footnote>
         <footnote id="sg-c-n-r0"><source book="Sihler" /> p. 293</footnote>
@@ -560,8 +666,12 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pl-e"><source book="Sihler" /> p. 343</footnote>
     </footnotes>
     <bibliography>
+        <book id="Beekes" title="Beekes 2011">Beekes, Robert S. P.: Comparative Indo-European Linguistics: an Introduction. Second Edition. John Benjamins 2011.</book>
         <book id="ClacksonHorrocks" title="Clackson/Horrocks 2007">Clackson, James / Horrocks, Geoffrey: The Blackwell History of the Latin Language. Blackwell 2007.</book>
         <book id="Fortson" title="Fortson 2010">Fortson, Benjamin W.: Indo-European Language and Culture: an Introduction. Second Edition. Blackwell 2010.</book>
+        <book id="MeierBrugger" title="Meier-Brügger 2010">Meier-Brügger, Michael: Indogermanische Sprachwissenschaft. 9. durchgesehene und ergänzte Auflage. De Gruyter 2010.</book>
+        <book id="Meiser" title="Meiser 2002">Meiser, Gerhard: Historische Laut- und Formenlehre der lateinischen Sprache. 2. Auflage. Wissenschaftliche Buchgesellschaft 2002.</book>
         <book id="Sihler" title="Sihler 1995">Sihler, Andrew L.: New Comparative Grammar of Greek and Latin. Oxford University Press 1995.</book>
+        <book id="Szemerenyi" title="Szemerényi 1990">Szemerényi, Oswald: Einführung in die vergleichende Sprachwissenschaft. 4., durchgesehene Auflage. Wissenschaftliche Buchgesellschaft 1990.</book>
     </bibliography>
 </grammar_tables>
