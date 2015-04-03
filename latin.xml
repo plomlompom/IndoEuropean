@@ -3,7 +3,7 @@
 <grammar_tables title="Latin">
     <description>Note "(&lt;)" abbreviates "(fused with last stem sound (consonant or vowel))", "(&lt;&lt;)" abbreviates "(fused with last stem vowel + consonant)", "(–)" abbreviates "(previous vowel is lengthened)".</description>
     <grammar_table id="pie" title="Late Proto-Indo-European (simplified)">
-        <description>This table omits the dual number, of which the development of Latin retains few if any traces.</description>
+        <description>This table omits the dual number, of which the development of Latin retains few if any traces. Not depicted: Pre-laryngeal e-ablauts were already laryngeally colored (i.e. phonetically eh₂ has become ah₂; <source book="Beekes" /> p 148; <source book="Fortson" /> p. 63; <source book="MeierBrugger" /> p. 244; <sorce book="Meiser" /> p. 29; <source book="Sihler" /> p. 46-50).</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-them" title="singular thematic" short_title="thematic" />
             <declension_def id="sg-athem" title="singular athematic" short_title="athematic" />
@@ -186,7 +186,7 @@
         <paradigm declension="pl-eh2" case="D" form="eh2bh?(i)os" footnote="pie+1:pl-eh2/DAb" />
         <paradigm declension="pl-eh2" case="Ab" form="eh2bh?(i)os" footnote="pie+1:pl-eh2/DAb" />
         <paradigm declension="pl-eh2" case="L" continues="pie+1 pl-eh2 L" />
-        <paradigm declension="pl-eh2" case="I" form="eh2(bh|m)is" footnote="pie+1:pl-eh2/I" />
+        <paradigm declension="pl-eh2" case="I" form="eh2bhis" footnote="pie+1:pl-eh2/I" />
         <paradigm declension="pl-them" case="NV" continues="pie pl-them NV" />
         <paradigm declension="pl-them" case="Ac" continues="pie pl-them Ac" />
         <paradigm declension="pl-them" case="n" continues="pie pl-them n" />
@@ -598,6 +598,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="eh2(bh?(i)|m)os">-eh₂(bʰ?(i)|m)os</form>
         <form id="eh2(bh|m)is">-eh₂(bʰ|m)is</form>
         <form id="eh2bh?(i)os">-eh₂bʰ?(i)os</form>
+        <form id="eh2bhis">-eh₂bʰis</form>
         <form id="eh2ei">-eh₂ei</form>
         <form id="eh2eh1-eh2(bh|m)i">-eh₂eh₁, -eh₂(bʰ|m)i</form>
         <form id="eh2eh1-eh2bhi">-eh₂eh₁, -eh₂bʰi</form>
@@ -711,7 +712,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pie:sg-them/G"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332-333; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 259; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:sg-them/Ab"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-128; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250-251, 258; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:sg-them/L"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 260; <source book="Szemerenyi" /> p. 169</footnote>
-        <footnote id="pie:sg-them/I"><source book="Beekes" /> p. 212-213; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 252</footnote>
+        <footnote id="pie:sg-them/I"><source book="Beekes" /> p. 212-213; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 258</footnote>
         <footnote id="pie:sg-athem/N"><source book="Beekes" /> p. 186; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 121-122, 169</footnote>
         <footnote id="pie:sg-athem/V"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:sg-athem/Ac"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169</footnote>
@@ -736,7 +737,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pie:pl-athem/I"><source book="Beekes" /> p. 186-187, 189; <source book="Fortson" /> p. 117-119; <source book="MeierBrugger" /> p. 330, 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248; <source book="Szemerenyi" /> p. 169</footnote>
 
         <footnote id="pie+1:sg-eh2/N"><source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 133; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 266-268</footnote>
-        <footnote id="pie+1:sg-eh2/V"><source book="Fortson" /> p. 133; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 268</footnote>
+        <footnote id="pie+1:sg-eh2/V"><source book="Fortson" /> p. 133; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 50, 248, 268</footnote>
         <footnote id="pie+1:sg-eh2/Ac"><source book="Fortson" /> p. 133; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 268</footnote>
         <footnote id="pie+1:sg-eh2/D"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 268</footnote>
         <footnote id="pie+1:sg-eh2/G"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 269</footnote>
