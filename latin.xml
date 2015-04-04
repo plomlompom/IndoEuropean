@@ -3,7 +3,7 @@
 <grammar_tables title="Latin">
     <description>Note "(&lt;)" abbreviates "(fused with last stem sound (consonant or vowel))", "(&lt;&lt;)" abbreviates "(fused with last stem vowel + consonant)", "(–)" abbreviates "(previous vowel is lengthened)".</description>
     <grammar_table id="pie" title="Late Proto-Indo-European (simplified)">
-        <description>This table omits the dual number, of which the development of Latin retains few if any traces. Not depicted: Pre-laryngeal e-ablauts were already laryngeally colored (i.e. phonetically eh₂ has become ah₂; <source book="Beekes" /> p 148; <source book="Fortson" /> p. 63; <source book="MeierBrugger" /> p. 244; <sorce book="Meiser" /> p. 29; <source book="Sihler" /> p. 46-50).</description>
+        <description>This table omits the dual number, of which the development of Latin retains few if any traces. Not depicted, but part of Italic development: Pre-laryngeal e-ablauts were already laryngeally colored (i.e. phonetically eh₂ has become ah₂, and h₂e h₂a; <source book="Fortson" /> p. 63; <source book="MeierBrugger" /> p. 244; <sorce book="Meiser" /> p. 29; <source book="Sihler" /> p. 42-50).</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-them" title="singular thematic" short_title="thematic" />
             <declension_def id="sg-athem" title="singular athematic" short_title="athematic" />
@@ -59,7 +59,7 @@
         <paradigm declension="pl-athem" case="I" form="(bh|m)i?(s)" footnote="pie:pl-athem/I" />
     </grammar_table>
     <grammar_table id="pie+1" title="Late Proto-Indo-European eh₂ (feminine) declension">
-        <description>Possibly after the split-off of the Anatolian branch, an explicitely feminine declension emerges, marked by a -eh₂- stem suffix to which athematic endings are appended (<source book="Beekes" /> p. 189; <source book="Fortson" /> p. 132-133; <source book="MeierBrugger" /> p. 323-324, 334-335, 421; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 245, 266). The singular vocative may have occured reduced from -eh₂ to -e.</description>
+        <description>Possibly after the split-off of the Anatolian branch, an explicitely feminine declension emerges, marked by a -eh₂- stem suffix to which athematic endings are appended (<source book="Beekes" /> p. 189; <source book="Fortson" /> p. 132-133; <source book="MeierBrugger" /> p. 323-324, 334-335, 421; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 245, 266). The singular vocative is a special case, with different theories about its form and the logic behind it.</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-eh2" title="singular eh₂-stem" short_title="eh₂" />
             <declension_def id="sg-them" title="singular thematic" short_title="thematic" />
@@ -82,7 +82,7 @@
         <case_def id="L" title="locative" short_title="Locative" />
         <case_def id="I" title="instrumental" short_title="Instrumental" />
         <paradigm declension="sg-eh2" case="N" form="eh2" footnote="pie+1:sg-eh2/N" />
-        <paradigm declension="sg-eh2" case="V" form="e?(h2)" footnote="pie+1:sg-eh2/V" />
+        <paradigm declension="sg-eh2" case="V" form="e?(h2)|h2" footnote="pie+1:sg-eh2/V" />
         <paradigm declension="sg-eh2" case="Ac" form="eh2m" footnote="pie+1:sg-eh2/Ac" />
         <paradigm declension="sg-eh2" case="D" form="eh2ei" footnote="pie+1:sg-eh2/D" />
         <paradigm declension="sg-eh2" case="G" form="eh2(e|o)s" footnote="pie+1:sg-eh2/G" />
@@ -204,7 +204,79 @@
         <paradigm declension="pl-athem" case="L" continues="pie pl-athem L" />
         <paradigm declension="pl-athem" case="I" form="bhi?(s)" footnote="pie:pl-athem/I" />
     </grammar_table>
-    <grammar_table id="proto-italic" title="proto-italic">
+	<grammar_table id="pit" title="Early Proto-Italic loss of laryngeals, and Proto-Indo-European laryngeal coloring">
+        <description>The laryngeals disappear. Vowels neighboring lost laryngeals are left in their phonetic laryngeal coloring (i.e. -e- as -a- when neighbor to -h₂-), and lengthened if the lost laryngeal came after and was word-final or followed by a consonant (<source book="Beekes" /> p. 149-150; <source book="ClacksonHorrocks" /> p. 9-10; <source book="Fortson" /> p. 63-64; <source book="MeierBrugger" /> p. 244; <source book="Meiser" /> p. 28-30, 56-57; <source book="Sihler" /> p. 42-50). Word-final post-consonantal laryngeals become -a (<source book="Sihler" /> p. 99; <source book="Meiser" /> p. 107). From these changes, vowel neighborships -aa- (a-stem dative singular), -āā- (a-stem instrumental singular) and (possibly with the a-stem genitive/ablative singular) -ao- emerge that contract to -ā- (<source book="Meiser" /> p. 87-88; <source book="Sihler" /> p. 83). Post-laryngeal continuation of former eh₂-stem endings -eh₂bʰi (singular instrumental) and -eh₂su (plural locative) is not directly discussed in the literature, but would have given -ābʰi and -āsu by these rules. The a-stem singular vocative form reflects no single rule path, but an uncertainty that fits the variety of theories about its original form.</description>
+        <declension_def id="sg" short_title="singular">
+            <declension_def id="sg-a" title="singular a-stem" short_title="a" />
+            <declension_def id="sg-o" title="singular o-stem" short_title="o" />
+            <declension_def id="sg-athem" title="singular athematic" short_title="athematic" />
+        </declension_def>
+        <declension_def id="pl" short_title="plural">
+            <declension_def id="pl-a" title="plural a-stem" short_title="a" />
+            <declension_def id="pl-o" title="plural o-stem" short_title="o" />
+            <declension_def id="pl-athem" title="plural athematic" short_title="athematic" />
+        </declension_def>
+        <case_def id="NV" title="animate nominative/vocative">
+            <case_def id="N" title="animate nominative" short_title="Nominative (animate)" />
+            <case_def id="V" title="animate vocative" short_title="Vocative (animate)" />
+        </case_def>
+        <case_def id="Ac" title="animate accusative" short_title="Accusative (animate)" />
+        <case_def id="n" title="inanimate nominative/vocative/accusative" short_title="Nominative/Vocative/Accusative (inanimate)" />
+        <case_def id="G" title="genitive" short_title="Genitive" />
+        <case_def id="D" title="dative" short_title="Dative" />
+        <case_def id="Ab" title="ablative" short_title="Ablative" />
+        <case_def id="L" title="locative" short_title="Locative" />
+        <case_def id="I" title="instrumental" short_title="Instrumental" />
+        <paradigm declension="sg-a" case="N" form="a:" footnote="pit:sg-a/N" />
+        <paradigm declension="sg-a" case="V" form="a|a:" footnote="pit:sg-a/V" />
+        <paradigm declension="sg-a" case="Ac" form="a:m" footnote="pit:sg-a/Ac" />
+        <paradigm declension="sg-a" case="D" form="a:i" footnote="pit:sg-a/D" />
+        <paradigm declension="sg-a" case="G" form="a:s" footnote="pit:sg-a/GAb" />
+        <paradigm declension="sg-a" case="Ab" form="a:s" footnote="pit:sg-a/GAb" />
+        <paradigm declension="sg-a" case="I" form="a:" footnote="pit:sg-a/I" />
+        <paradigm declension="sg-a" case="L" form="ai" footnote="pit:sg-a/L" />
+        <paradigm declension="sg-o" case="N" continues="pie sg-them N" />
+        <paradigm declension="sg-o" case="V" continues="pie sg-them V" />
+        <paradigm declension="sg-o" case="Ac" continues="pie sg-them Ac" />
+        <paradigm declension="sg-o" case="n" continues="pie sg-them n" />
+        <paradigm declension="sg-o" case="G" continues="pie sg-them G" />
+        <paradigm declension="sg-o" case="D" continues="pie sg-them D" />
+        <paradigm declension="sg-o" case="Ab" continues="pie sg-them Ab" />
+        <paradigm declension="sg-o" case="L" continues="pie sg-them L" />
+        <paradigm declension="sg-o" case="I" form="(e:|o:)" footnote="pit:sg-o/I" />
+        <paradigm declension="sg-athem" case="N" continues="pie sg-athem N" />
+        <paradigm declension="sg-athem" case="V" continues="pie sg-athem V" />
+        <paradigm declension="sg-athem" case="Ac" continues="pie sg-athem Ac" />
+        <paradigm declension="sg-athem" case="n" continues="pie sg-athem n" />
+        <paradigm declension="sg-athem" case="Ab" continues="pie sg-athem Ab" />
+        <paradigm declension="sg-athem" case="G" continues="pie sg-athem G" />
+        <paradigm declension="sg-athem" case="D" continues="pie sg-athem D" />
+        <paradigm declension="sg-athem" case="L" continues="pie sg-athem L" />
+        <paradigm declension="sg-athem" case="I" form="(e:|a)-bhi" footnote="pit:sg-athem/I" />
+        <paradigm declension="pl-a" case="NV" form="a:s" footnote="pit:pl-a/NV" />
+        <paradigm declension="pl-a" case="Ac" form="a:ns" footnote="pit:pl-a/Ac" />
+        <paradigm declension="pl-a" case="G" form="a(o|o:)m" footnote="pit:pl-a/G" />
+        <paradigm declension="pl-a" case="D" form="a:bh?(i)os" footnote="pit:pl-a/DAb" />
+        <paradigm declension="pl-a" case="Ab" form="a:bh?(i)os" footnote="pit:pl-a/DAb" />
+        <paradigm declension="pl-a" case="I" form="a:bhis" footnote="pit:pl-a/I" />
+        <paradigm declension="pl-o" case="NV" continues="pie pl-them NV" />
+        <paradigm declension="pl-o" case="Ac" continues="pie pl-them Ac" />
+        <paradigm declension="pl-o" case="n" form="a:" footnote="pit:pl-o/n" />
+        <paradigm declension="pl-o" case="G" continues="pie pl-them G" />
+        <paradigm declension="pl-o" case="D" continues="pie+2 pl-them D" />
+        <paradigm declension="pl-o" case="Ab" continues="pie+2 pl-them Ab" />
+        <paradigm declension="pl-o" case="L" continues="pie pl-them L" />
+        <paradigm declension="pl-o" case="I" continues="pie pl-them I" />
+        <paradigm declension="pl-athem" case="NV" continues="pie pl-athem NV" />
+        <paradigm declension="pl-athem" case="Ac" continues="pie pl-athem Ac" />
+        <paradigm declension="pl-athem" case="n" form="a" footnote="pit:pl-athem/n" />
+        <paradigm declension="pl-athem" case="Ab" continues="pie+2 pl-athem Ab" />
+        <paradigm declension="pl-athem" case="D"  continues="pie+2 pl-athem D" />
+        <paradigm declension="pl-athem" case="G" continues="pie pl-athem G" />
+        <paradigm declension="pl-athem" case="L" continues="pie pl-athem L" />
+        <paradigm declension="pl-athem" case="I" continues="pie+2 pl-athem I" />
+    </grammar_table>
+   <grammar_table id="proto-italic" title="proto-italic">
         <description>Note that <source book="Sihler" /> p. 286 names -fos as the Proto-Italic dative-ablative consonant stem plural ending, but this (even if reflected in all other Italic languages) is inconsistent with Early Latin's reflex of original -bʰos as -bos (<source book="Sihler" /> p. 147, 286), so the earlier form is here given.
 The dative singular is somewhat aritrarily chosen as the proto-italic starting point for the fusion of consonant and i-stem paradigms (<source book="Sihler" /> p. 316, 318), with other forms still separate. 
 The i-stem genitive singular is unsure, at least the one continued in Latin (<source book="Sihler" /> p. 316-317).
@@ -587,12 +659,25 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="(bh|m)i?(s)">-(bʰ|m)i?(s)</form>
         <form id="(e|o)h1">-(e|o)h₁</form>
         <form id="(e|o)i">-(e|o)i</form>
+        <form id="(e:|a)-bhi">-(ē|a), -bʰi</form>
+        <form id="(e:|o:)">-(ē|ō)</form>
         <form id="(o:|o)m">-(ō|o)m</form>
         <form id="0">-∅</form>
+        <form id="a">-a</form>
+        <form id="a(o|o:)m">-a(o|ō)m</form>
+        <form id="ai">-ai</form>
+        <form id="a:">-ā</form>
+        <form id="a|a:">-(a|ā)</form>
+        <form id="a:bh?(i)os">-ābʰ?(i)os</form>
+        <form id="a:bhis">-ābʰis</form>
+        <form id="a:i">-āi</form>
+        <form id="a:m">-ām</form>
+        <form id="a:ns">-āns</form>
+        <form id="a:s">-ās</form>
         <form id="bh?(i)os">-bʰ?(i)os</form>
         <form id="bhi?(s)">-bʰi?(s)</form>
         <form id="e">-e</form>
-        <form id="e?(h2)">-e?(h₂)</form>
+        <form id="e?(h2)|h2">-(e?(h₂)|h₂)</form>
         <form id="eh2">-eh₂</form>
         <form id="eh2(e|o)s">-eh₂(e|o)s</form>
         <form id="eh2(bh?(i)|m)os">-eh₂(bʰ?(i)|m)os</form>
@@ -673,16 +758,11 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="(i|u)s">-(i|u)s</form>
         <form id="e|i:">-(e|ī)</form>
         <form id="fused-e|i:">-(e|ī) (&lt;)</form>
-        <form id="a:">-ā</form>
-        <form id="a">-a</form>
         <form id="a:?m">-(a|ā)m</form>
         <form id="am">-am</form>
         <form id="bus">-bus</form>
-        <form id="a:i">-āi</form>
         <form id="a:d">-ād</form>
         <form id="a:d?">-ā?(d)</form>
-        <form id="a:s">-ās</form>
-        <form id="a:ns">-āns</form>
         <form id="a:is">-āis</form>
         <form id="a:so:m">-āsōm</form>
         <form id="a:s|ae">-ās, -ae</form>
@@ -728,7 +808,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pie:pl-them/DAb"><source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126, 129; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 246-248, 251-252</footnote>
         <footnote id="pie:pl-them/L"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126, 129; <source book="MeierBrugger" /> p. 332-333; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 253, 263</footnote>
         <footnote id="pie:pl-them/I"><source book="Beekes" /> p. 212-213; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 263-264; <source book="Szemerenyi" /> p. 169</footnote>
-        <footnote id="pie:pl-athem/NV"><source book="Beekes" /> p. 186, 188; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 117; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254; <source book="Szemerenyi" /> p. 168-169</footnote>
+        <footnote id="pie:pl-athem/NV"><source book="Beekes" /> p. 186, 188; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 117; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254, 286; <source book="Szemerenyi" /> p. 168-169</footnote>
         <footnote id="pie:pl-athem/Ac"><source book="Beekes" /> p. 186, 188; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 117; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:pl-athem/n"><source book="Fortson" /> p. 118; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254</footnote>
         <footnote id="pie:pl-athem/DAb"><source book="Beekes" /> p. 188-189; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 117-119; <source book="MeierBrugger" /> p. 330, 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 246-248, 251-252; <source book="Szemerenyi" /> p. 169</footnote>
@@ -736,20 +816,36 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pie:pl-athem/L"><source book="Beekes" /> p. 186, 189; <source book="Fortson" /> p. 117-118; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 253; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:pl-athem/I"><source book="Beekes" /> p. 186-187, 189; <source book="Fortson" /> p. 117-119; <source book="MeierBrugger" /> p. 330, 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248; <source book="Szemerenyi" /> p. 169</footnote>
 
-        <footnote id="pie+1:sg-eh2/N"><source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 133; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 266-268</footnote>
-        <footnote id="pie+1:sg-eh2/V"><source book="Fortson" /> p. 133; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 50, 248, 268</footnote>
-        <footnote id="pie+1:sg-eh2/Ac"><source book="Fortson" /> p. 133; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 268</footnote>
-        <footnote id="pie+1:sg-eh2/D"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 268</footnote>
-        <footnote id="pie+1:sg-eh2/G"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 269</footnote>
+        <footnote id="pie+1:sg-eh2/N"><source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 133; <source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 248, 266-268</footnote>
+        <footnote id="pie+1:sg-eh2/V"><source book="Fortson" /> p. 133; <source book="MeierBrugger" /> p. 255; <source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 50, 248, 268</footnote>
+        <footnote id="pie+1:sg-eh2/Ac"><source book="Fortson" /> p. 133; <source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 248, 268</footnote>
+        <footnote id="pie+1:sg-eh2/D"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 248, 268</footnote>
+        <footnote id="pie+1:sg-eh2/G"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 248, 269</footnote>
         <footnote id="pie+1:sg-eh2/Ab"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248</footnote>
-        <footnote id="pie+1:sg-eh2/L"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 270</footnote>
-        <footnote id="pie+1:sg-eh2/I"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248</footnote>
-        <footnote id="pie+1:pl-eh2/NV"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 271</footnote>
-        <footnote id="pie+1:pl-eh2/Ac"><source book="Fortson" /> p. 133; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 271</footnote>
-        <footnote id="pie+1:pl-eh2/G"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 272</footnote>
-        <footnote id="pie+1:pl-eh2/DAb"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248</footnote>
+        <footnote id="pie+1:sg-eh2/L"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 248, 270</footnote>
+        <footnote id="pie+1:sg-eh2/I"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 248</footnote>
+        <footnote id="pie+1:pl-eh2/NV"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 248, 271</footnote>
+        <footnote id="pie+1:pl-eh2/Ac"><source book="Fortson" /> p. 131, 133; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248, 271</footnote>
+        <footnote id="pie+1:pl-eh2/G"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 248, 272</footnote>
+        <footnote id="pie+1:pl-eh2/DAb"><source book="Meiser" /> p. 131, 133; <source book="Sihler" /> p. 248</footnote>
         <footnote id="pie+1:pl-eh2/L"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248</footnote>
         <footnote id="pie+1:pl-eh2/I"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 248</footnote>
+	<footnote id="pit:sg-a/N"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 266-267</footnote>
+	<footnote id="pit:sg-a/V"><source book="Fortson" /> p. 133; <source book="MeierBrugger" /> p. 255; <source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 50, 268</footnote>
+	<footnote id="pit:sg-a/Ac"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 267-268</footnote>
+	<footnote id="pit:sg-a/D"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 267-269</footnote>
+	<footnote id="pit:sg-a/GAb"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 267, 269</footnote>
+	<footnote id="pit:sg-a/I"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 268</footnote>
+	<footnote id="pit:sg-a/L"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 270</footnote>
+	<footnote id="pit:sg-o/I"><source book="Fortson" /> p. 126-127; <source book="Sihler" /> p. 258-259</footnote>
+	<footnote id="pit:sg-athem/I"><source book="Fortson" /> p. 116; <source book="Sihler" /> p. 285</footnote>
+	<footnote id="pit:pl-a/NV"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 270-271</footnote>
+	<footnote id="pit:pl-a/Ac"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 271</footnote>
+	<footnote id="pit:pl-a/G"><source book="Sihler" /> p. 272</footnote>
+	<footnote id="pit:pl-a/I"><source book="Meiser" /> p. 131</footnote>
+	<footnote id="pit:pl-a/DAb"><source book="Meiser" /> p. 131</footnote>
+	<footnote id="pit:pl-o/n"><source book="Meiser" /> p. 136; <source book="Sihler" /> p. 263</footnote>
+	<footnote id="pit:pl-athem/n"><source book="Meiser" /> p. 144; <source book="Sihler" /> p. 286</footnote>
 
         <footnote id="sg-c-n--"><source book="Sihler" /> p. 284</footnote>
         <footnote id="sg-c-n-n"><source book="Sihler" /> p. 297</footnote>
