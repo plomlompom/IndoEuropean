@@ -66,7 +66,7 @@
         <paradigm declension="sg-u" case="G" form="(e|o)us-fused" footnote="pie:sg-u/GAb" />
         <paradigm declension="sg-u" case="Ab" form="(e|o)us-fused" footnote="pie:sg-u/GAb" />
         <paradigm declension="sg-u" case="D" form="(e|o)u?(e)i-fused" footnote="pie:sg-u/D" />
-        <paradigm declension="sg-u" case="L" form="(e:|o:)u-fused" footnote="pie:sg-i/L" />
+        <paradigm declension="sg-u" case="L" form="(e:|o:)u-fused" footnote="pie:sg-u/L" />
         <paradigm declension="pl-them" case="NV" form="o:s" footnote="pie:pl-them/NV" />
         <paradigm declension="pl-them" case="Ac" form="ons" footnote="pie:pl-them/Ac" />
         <paradigm declension="pl-them" case="n" form="eh2" footnote="pie:pl-them/n" />
@@ -489,7 +489,7 @@
         <paradigm declension="pl-u" case="G" continues="pie pl-u G" />
     </grammar_table>
     <grammar_table id="pit+2" title="Proto-Italic fusion of ablative and instrumental"> 
-        <description>Ablative and instrumental fuse to the new ablative (<source book="ClacksonHorrocks" /> p. 14-15; <source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128; <source book="Sihler" /> p. 252-253, 258): The o-stem instrumental plural ending -ōis replaces the ablative ending. The a-stem ablative plural ending is re-shaped after the result to -āis. In the singular, the o-stem ablative ending -ōd is generalized to all other stems. (There may have been an intermediate stage where the singular instrumental endings -ā, -ē, -ī, -ū replaced the old ablative endings not as distinctive as -ōd, and were then re-shaped by mere addition of its -d.)</description>
+        <description>Ablative and instrumental fuse to the new ablative (<source book="ClacksonHorrocks" /> p. 14-15; <source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128; <source book="Sihler" /> p. 252-253, 258): The o-stem instrumental plural ending -ōis replaces the ablative ending. The a-stem ablative plural ending is re-shaped after the result to -āis. In the singular, the pattern of the o-stem ablative ending -ōd is generalized to all other stems. (There may have been an intermediate stage where the singular instrumental endings -ā, -ē, -ī, -ū replaced the old ablative endings not as distinctive as -ōd, and were then re-shaped by mere addition of its -d.)</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
             <declension_def id="sg-o" title="singular o-stem" short_title="o" />
@@ -673,7 +673,98 @@
         <paradigm declension="pl-u" case="NV" continues="pie pl-u NV" />
         <paradigm declension="pl-u" case="G" continues="pie pl-u G" />
     </grammar_table>
-    <grammar_table id="proto-italic" title="proto-italic">
+    <grammar_table id="pit+4" title="Proto-Italic o-stem singular genitive"> 
+        <description>For the o-stem singular genitive, there are no traces of Proto-Indo-European -os. Proto-Indo-European -os?(i)o is continued as -osio even into Archaic Latin. An ending -ī of uncertain origin replaces this in later Latin, but also turns up in Venetic (which, if part of the Italic family, split off from it early; <source book="Beekes" /> p. 25; <source book="Fortson" /> p. 465-466), Faliscan, and even Celtic languages. This may continue a Proto-Italic or even Proto-Italo-Celtic ending (<source book="Beekes" /> p. 212). Or it may be the result of more recent morphological borrowing between languages in close contact on the Italian Peninsula (<source book="ClacksonHorrocks" /> p. 32). The -ī ending may continue a suffix -iH that marks familial affiliation (<source book="Beekes" /> p. 212; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 135).</description>
+        <declension_def id="sg" short_title="singular">
+            <declension_def id="sg-a" title="singular a-stem" short_title="a" />
+            <declension_def id="sg-o" title="singular o-stem" short_title="o" />
+            <declension_def id="sg-athem" title="singular athematic">
+                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons." />
+                <declension_def id="sg-iu" title="singular (proterodynamic) i/u-stem" >
+                    <declension_def id="sg-i" title="singular (proterodynamic) i-stem" short_title="-i-" />
+                    <declension_def id="sg-u" title="singular (proterodynamic) u-stem" short_title="-u-" />
+                </declension_def>
+            </declension_def>
+        </declension_def>
+        <declension_def id="pl" short_title="plural">
+            <declension_def id="pl-a" title="plural a-stem" short_title="a" />
+            <declension_def id="pl-o" title="plural o-stem" short_title="o" />
+            <declension_def id="pl-athem" title="plural athematic">
+                <declension_def id="pl-cons" title="plural consonant-stem" short_title="cons." />
+                <declension_def id="pl-iu" title="plural (proterodynamic) i/u-stem">
+                    <declension_def id="pl-i" title="plural (proterodynamic) i-stem" short_title="-i-" />
+                    <declension_def id="pl-u" title="plural (proterodynamic) u-stem" short_title="-u-" />
+                </declension_def>
+            </declension_def>
+        </declension_def>
+        <case_def id="NV" title="animate nominative/vocative">
+            <case_def id="N" title="animate nominative" short_title="N"/>
+            <case_def id="V" title="animate vocative" short_title="V"/>
+        </case_def>
+        <case_def id="Ac" title="animate accusative" short_title="Ac" />
+        <case_def id="n" title="inanimate nominative/vocative/accusative" short_title="n." />
+        <case_def id="G" title="genitive" short_title="G" />
+        <case_def id="DAbL" title="dative/ablative">
+            <case_def id="DAb" title="dative/ablative">
+                <case_def id="Ab" title="ablative" short_title="Ab" />
+                <case_def id="D" title="dative" short_title="D" />
+            </case_def>
+            <case_def id="L" title="locative" short_title="L" />
+        </case_def>
+        <paradigm declension="sg-a" case="N" continues="pit sg-a N" />
+        <paradigm declension="sg-a" case="V" continues="pit sg-a V" />
+        <paradigm declension="sg-a" case="Ac" continues="pit sg-a Ac" />
+        <paradigm declension="sg-a" case="D" continues="pit sg-a D" />
+        <paradigm declension="sg-a" case="G" continues="pit sg-a G" />
+        <paradigm declension="sg-a" case="Ab" continues="pit+2 sg-a Ab" />
+        <paradigm declension="sg-a" case="L" continues="pit sg-a L" />
+        <paradigm declension="sg-o" case="N" continues="pie sg-them N" />
+        <paradigm declension="sg-o" case="V" continues="pie sg-them V" />
+        <paradigm declension="sg-o" case="Ac" continues="pie sg-them Ac" />
+        <paradigm declension="sg-o" case="n" continues="pie sg-them n" />
+        <paradigm declension="sg-o" case="G" form="osio-i:" footnote="pit+4:sg-o/G" />
+        <paradigm declension="sg-o" case="D" continues="pie sg-them D" />
+        <paradigm declension="sg-o" case="Ab" continues="pie sg-them Ab" />
+        <paradigm declension="sg-o" case="L" continues="pie sg-them L" />
+        <paradigm declension="sg-athem" case="Ac" continues="pie sg-athem Ac" />
+        <paradigm declension="sg-athem" case="n" continues="pie sg-athem n" />
+        <paradigm declension="sg-cons" case="N" continues="pie sg-cons N" />
+        <paradigm declension="sg-cons" case="V" continues="pie sg-cons V" />
+        <paradigm declension="sg-cons" case="Ab" continues="pit+2 sg-cons Ab" />
+        <paradigm declension="sg-cons" case="G" continues="pie sg-cons G" />
+        <paradigm declension="sg-cons" case="D" continues="pie sg-cons D" />
+        <paradigm declension="sg-cons" case="L" continues="pie sg-cons L" />
+        <paradigm declension="sg-iu" case="N" continues="pie sg-iu N" />
+        <paradigm declension="sg-i" case="V" continues="pie sg-i V" />
+        <paradigm declension="sg-i" case="Ab" continues="pit+2 sg-i Ab" />
+        <paradigm declension="sg-i" case="G" continues="pie sg-i G" />
+        <paradigm declension="sg-i" case="D" continues="pie sg-i D" />
+        <paradigm declension="sg-i" case="L" continues="pie sg-i L" />
+        <paradigm declension="sg-u" case="V" continues="pie sg-u V" />
+        <paradigm declension="sg-u" case="Ab" continues="pit+2 sg-u Ab" />
+        <paradigm declension="sg-u" case="G" continues="pie sg-u G" />
+        <paradigm declension="sg-u" case="D" continues="pie sg-u D" />
+        <paradigm declension="sg-u" case="L" continues="pie sg-u L" />
+        <paradigm declension="pl-a" case="NV" continues="pit pl-a NV" />
+        <paradigm declension="pl-a" case="Ac" continues="pit pl-a Ac" />
+        <paradigm declension="pl-a" case="G" continues="pit+1 pl-a G" />
+        <paradigm declension="pl-a" case="DAbL" continues="pit+3 pl-a DAbL" />
+        <paradigm declension="pl-o" case="NV" continues="pit+1 pl-o NV" />
+        <paradigm declension="pl-o" case="Ac" continues="pie pl-them Ac" />
+        <paradigm declension="pl-o" case="n" continues="pit pl-o n" />
+        <paradigm declension="pl-o" case="G" continues="pie pl-them G" />
+        <paradigm declension="pl-o" case="DAbL" continues="pit+3 pl-o DAbL" />
+        <paradigm declension="pl-athem" case="Ac" continues="pie pl-athem Ac" />
+        <paradigm declension="pl-athem" case="n" continues="pit pl-athem n" />
+        <paradigm declension="pl-athem" case="DAb"  continues="pie+2 pl-athem DAb" />
+        <paradigm declension="pl-cons" case="NV" continues="pie pl-cons NV" />
+        <paradigm declension="pl-cons" case="G" continues="pie pl-cons G" />
+        <paradigm declension="pl-i" case="NV" continues="pie pl-i NV" />
+        <paradigm declension="pl-i" case="G" continues="pie pl-i G" />
+        <paradigm declension="pl-u" case="NV" continues="pie pl-u NV" />
+        <paradigm declension="pl-u" case="G" continues="pie pl-u G" />
+    </grammar_table>
+<grammar_table id="proto-italic" title="proto-italic">
         <description>Note that <source book="Sihler" /> p. 286 names -fos as the Proto-Italic dative-ablative consonant stem plural ending, but this (even if reflected in all other Italic languages) is inconsistent with Early Latin's reflex of original -bʰos as -bos (<source book="Sihler" /> p. 147, 286), so the earlier form is here given.
 The dative singular is somewhat aritrarily chosen as the proto-italic starting point for the fusion of consonant and i-stem paradigms (<source book="Sihler" /> p. 316, 318), with other forms still separate. 
 The i-stem genitive singular is unsure, at least the one continued in Latin (<source book="Sihler" /> p. 316-317).
@@ -1128,6 +1219,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="om">-om</form>
         <form id="ons">-ons</form>
         <form id="os">-os</form>
+        <form id="osio-i:">-osio, -ī</form>
         <form id="os-os?(i)o">-os, -os?(i)o</form>
         <form id="s">-s</form>
         <form id="s-(e|o)s">-s, -(e|o)s</form>
@@ -1290,6 +1382,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit+2:pl-o/Ab"><source book="Meiser" /> p. 128, 136; <source book="Sihler" /> p. 263</footnote>
 	<footnote id="pit+3:pl-a/DAbL"><source book="ClacksonHorrocks" /> p. 16; <source book="Meiser" /> p. 133; <source book="Sihler" /> p. 272</footnote>
 	<footnote id="pit+3:pl-o/DAbL"><source book="ClacksonHorrocks" /> p. 16; <source book="Meiser" /> p. 136; <source book="Sihler" /> p. 263-264</footnote>
+        <footnote id="pit+4:sg-o/G"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16-17, 32; <source book="Fortson" /> p. 127, 466; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 135; <source book="Sihler" /> p. 259-260</footnote>
 
         <footnote id="sg-c-n--"><source book="Sihler" /> p. 284</footnote>
         <footnote id="sg-c-n-n"><source book="Sihler" /> p. 297</footnote>
