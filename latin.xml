@@ -7,7 +7,10 @@
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-them" title="singular thematic" short_title="thematic" />
             <declension_def id="sg-athem" title="singular athematic">
-                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons." />
+                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons.">
+                    <declension_def id="sg-cons-r" title="singular consonant-stem in resonant" short_title="-R-" />
+                    <declension_def id="sg-cons-non-r" title="singular consonant-stem in non-resonant" short_title="&amp;c." />
+                </declension_def>
                 <declension_def id="sg-iu" title="singular (proterodynamic) i/u-stem" >
                     <declension_def id="sg-i" title="singular (proterodynamic) i-stem" short_title="-i-" />
                     <declension_def id="sg-u" title="singular (proterodynamic) u-stem" short_title="-u-" />
@@ -48,7 +51,8 @@
         <paradigm declension="sg-them" case="I" form="(e|o)h1" footnote="pie:sg-them/I" />
         <paradigm declension="sg-athem" case="Ac" form="m" footnote="pie:sg-athem/Ac" />
         <paradigm declension="sg-athem" case="n" form="0" footnote="pie:sg-athem/n" />
-        <paradigm declension="sg-cons" case="N" form="?s" footnote="pie:sg-cons/N" />
+        <paradigm declension="sg-cons-non-r" case="N" form="?s" footnote="pie:sg-cons-non-r/N" />
+        <paradigm declension="sg-cons-r" case="N" form="0-lengthening" footnote="pie:sg-cons-r/N" />
         <paradigm declension="sg-cons" case="V" form="0" footnote="pie:sg-cons/V" />
         <paradigm declension="sg-cons" case="Ab" form="s-(e|o)s" footnote="pie:sg-cons/GAb" />
         <paradigm declension="sg-cons" case="G" form="s-(e|o)s" footnote="pie:sg-cons/GAb" />
@@ -92,7 +96,10 @@
             <declension_def id="sg-eh2" title="singular eh₂-stem" short_title="eh₂" />
             <declension_def id="sg-them" title="singular thematic" short_title="thematic" />
             <declension_def id="sg-athem" title="singular athematic">
-                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons." />
+                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons.">
+                    <declension_def id="sg-cons-r" title="singular consonant-stem in resonant" short_title="-R-" />
+                    <declension_def id="sg-cons-non-r" title="singular consonant-stem in non-resonant" short_title="&amp;c." />
+                </declension_def>
                 <declension_def id="sg-iu" title="singular (proterodynamic) i/u-stem" >
                     <declension_def id="sg-i" title="singular (proterodynamic) i-stem" short_title="-i-" />
                     <declension_def id="sg-u" title="singular (proterodynamic) u-stem" short_title="-u-" />
@@ -142,7 +149,8 @@
         <paradigm declension="sg-them" case="I" continues="pie sg-them I" />
         <paradigm declension="sg-athem" case="Ac" continues="pie sg-athem Ac" />
         <paradigm declension="sg-athem" case="n" continues="pie sg-athem n" />
-        <paradigm declension="sg-cons" case="N" continues="pie sg-cons N" />
+        <paradigm declension="sg-cons-r" case="N" continues="pie sg-cons-r N" />
+        <paradigm declension="sg-cons-non-r" case="N" continues="pie sg-cons-non-r N" />
         <paradigm declension="sg-cons" case="V" continues="pie sg-cons V" />
         <paradigm declension="sg-cons" case="Ab" continues="pie sg-cons Ab" />
         <paradigm declension="sg-cons" case="G" continues="pie sg-cons G" />
@@ -192,7 +200,10 @@
             <declension_def id="sg-eh2" title="singular eh₂-stem" short_title="eh₂" />
             <declension_def id="sg-them" title="singular thematic" short_title="thematic" />
             <declension_def id="sg-athem" title="singular athematic">
-                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons." />
+                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons.">
+                    <declension_def id="sg-cons-r" title="singular consonant-stem in resonant" short_title="-R-" />
+                    <declension_def id="sg-cons-non-r" title="singular consonant-stem in non-resonant" short_title="&amp;c." />
+                </declension_def>
                 <declension_def id="sg-iu" title="singular (proterodynamic) i/u-stem" >
                     <declension_def id="sg-i" title="singular (proterodynamic) i-stem" short_title="-i-" />
                     <declension_def id="sg-u" title="singular (proterodynamic) u-stem" short_title="-u-" />
@@ -242,7 +253,8 @@
         <paradigm declension="sg-them" case="I" continues="pie sg-them I" />
         <paradigm declension="sg-athem" case="Ac" continues="pie sg-athem Ac" />
         <paradigm declension="sg-athem" case="n" continues="pie sg-athem n" />
-        <paradigm declension="sg-cons" case="N" continues="pie sg-cons N" />
+        <paradigm declension="sg-cons-r" case="N" continues="pie sg-cons-r N" />
+        <paradigm declension="sg-cons-non-r" case="N" continues="pie sg-cons-non-r N" />
         <paradigm declension="sg-cons" case="V" continues="pie sg-cons V" />
         <paradigm declension="sg-cons" case="Ab" continues="pie sg-cons Ab" />
         <paradigm declension="sg-cons" case="G" continues="pie sg-cons G" />
@@ -292,7 +304,10 @@
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
             <declension_def id="sg-o" title="singular o-stem" short_title="o" />
             <declension_def id="sg-athem" title="singular athematic">
-                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons." />
+                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons.">
+                    <declension_def id="sg-cons-r" title="singular consonant-stem in resonant" short_title="-R-" />
+                    <declension_def id="sg-cons-non-r" title="singular consonant-stem in non-resonant" short_title="&amp;c." />
+                </declension_def>
                 <declension_def id="sg-iu" title="singular (proterodynamic) i/u-stem" >
                     <declension_def id="sg-i" title="singular (proterodynamic) i-stem" short_title="-i-" />
                     <declension_def id="sg-u" title="singular (proterodynamic) u-stem" short_title="-u-" />
@@ -342,7 +357,8 @@
         <paradigm declension="sg-o" case="I" form="(e:|o:)" footnote="pit:sg-o/I" />
         <paradigm declension="sg-athem" case="Ac" continues="pie sg-athem Ac" />
         <paradigm declension="sg-athem" case="n" continues="pie sg-athem n" />
-        <paradigm declension="sg-cons" case="N" continues="pie sg-cons N" />
+        <paradigm declension="sg-cons-r" case="N" continues="pie sg-cons-r N" />
+        <paradigm declension="sg-cons-non-r" case="N" continues="pie sg-cons-non-r N" />
         <paradigm declension="sg-cons" case="V" continues="pie sg-cons V" />
         <paradigm declension="sg-cons" case="Ab" continues="pie sg-cons Ab" />
         <paradigm declension="sg-cons" case="G" continues="pie sg-cons G" />
@@ -395,7 +411,10 @@
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
             <declension_def id="sg-o" title="singular o-stem" short_title="o" />
             <declension_def id="sg-athem" title="singular athematic">
-                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons." />
+                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons.">
+                    <declension_def id="sg-cons-r" title="singular consonant-stem in resonant" short_title="-R-" />
+                    <declension_def id="sg-cons-non-r" title="singular consonant-stem in non-resonant" short_title="&amp;c." />
+                </declension_def>
                 <declension_def id="sg-iu" title="singular (proterodynamic) i/u-stem" >
                     <declension_def id="sg-i" title="singular (proterodynamic) i-stem" short_title="-i-" />
                     <declension_def id="sg-u" title="singular (proterodynamic) u-stem" short_title="-u-" />
@@ -445,7 +464,8 @@
         <paradigm declension="sg-o" case="I" continues="pit sg-o I" />
         <paradigm declension="sg-athem" case="Ac" continues="pie sg-athem Ac" />
         <paradigm declension="sg-athem" case="n" continues="pie sg-athem n" />
-        <paradigm declension="sg-cons" case="N" continues="pie sg-cons N" />
+        <paradigm declension="sg-cons-r" case="N" continues="pie sg-cons-r N" />
+        <paradigm declension="sg-cons-non-r" case="N" continues="pie sg-cons-non-r N" />
         <paradigm declension="sg-cons" case="V" continues="pie sg-cons V" />
         <paradigm declension="sg-cons" case="Ab" continues="pie sg-cons Ab" />
         <paradigm declension="sg-cons" case="G" continues="pie sg-cons G" />
@@ -498,7 +518,10 @@
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
             <declension_def id="sg-o" title="singular o-stem" short_title="o" />
             <declension_def id="sg-athem" title="singular athematic">
-                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons." />
+                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons.">
+                    <declension_def id="sg-cons-r" title="singular consonant-stem in resonant" short_title="-R-" />
+                    <declension_def id="sg-cons-non-r" title="singular consonant-stem in non-resonant" short_title="&amp;c." />
+                </declension_def>
                 <declension_def id="sg-iu" title="singular (proterodynamic) i/u-stem" >
                     <declension_def id="sg-i" title="singular (proterodynamic) i-stem" short_title="-i-" />
                     <declension_def id="sg-u" title="singular (proterodynamic) u-stem" short_title="-u-" />
@@ -545,7 +568,8 @@
         <paradigm declension="sg-o" case="L" continues="pie sg-them L" />
         <paradigm declension="sg-athem" case="Ac" continues="pie sg-athem Ac" />
         <paradigm declension="sg-athem" case="n" continues="pie sg-athem n" />
-        <paradigm declension="sg-cons" case="N" continues="pie sg-cons N" />
+        <paradigm declension="sg-cons-r" case="N" continues="pie sg-cons-r N" />
+        <paradigm declension="sg-cons-non-r" case="N" continues="pie sg-cons-non-r N" />
         <paradigm declension="sg-cons" case="V" continues="pie sg-cons V" />
         <paradigm declension="sg-cons" case="Ab" form="e:d" footnote="pit+2:sg-athem/Ab"/>
         <paradigm declension="sg-cons" case="G" continues="pie sg-cons G" />
@@ -594,7 +618,10 @@
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
             <declension_def id="sg-o" title="singular o-stem" short_title="o" />
             <declension_def id="sg-athem" title="singular athematic">
-                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons." />
+                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons.">
+                    <declension_def id="sg-cons-r" title="singular consonant-stem in resonant" short_title="-R-" />
+                    <declension_def id="sg-cons-non-r" title="singular consonant-stem in non-resonant" short_title="&amp;c." />
+                </declension_def>
                 <declension_def id="sg-iu" title="singular (proterodynamic) i/u-stem" >
                     <declension_def id="sg-i" title="singular (proterodynamic) i-stem" short_title="-i-" />
                     <declension_def id="sg-u" title="singular (proterodynamic) u-stem" short_title="-u-" />
@@ -641,7 +668,8 @@
         <paradigm declension="sg-o" case="L" continues="pie sg-them L" />
         <paradigm declension="sg-athem" case="Ac" continues="pie sg-athem Ac" />
         <paradigm declension="sg-athem" case="n" continues="pie sg-athem n" />
-        <paradigm declension="sg-cons" case="N" continues="pie sg-cons N" />
+        <paradigm declension="sg-cons-r" case="N" continues="pie sg-cons-r N" />
+        <paradigm declension="sg-cons-non-r" case="N" continues="pie sg-cons-non-r N" />
         <paradigm declension="sg-cons" case="V" continues="pie sg-cons V" />
         <paradigm declension="sg-cons" case="Ab" continues="pit+2 sg-cons Ab" />
         <paradigm declension="sg-cons" case="G" continues="pie sg-cons G" />
@@ -690,7 +718,10 @@
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
             <declension_def id="sg-o" title="singular o-stem" short_title="o" />
             <declension_def id="sg-athem" title="singular athematic">
-                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons." />
+                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons.">
+                    <declension_def id="sg-cons-r" title="singular consonant-stem in resonant" short_title="-R-" />
+                    <declension_def id="sg-cons-non-r" title="singular consonant-stem in non-resonant" short_title="&amp;c." />
+                </declension_def>
                 <declension_def id="sg-iu" title="singular (proterodynamic) i/u-stem" >
                     <declension_def id="sg-i" title="singular (proterodynamic) i-stem" short_title="-i-" />
                     <declension_def id="sg-u" title="singular (proterodynamic) u-stem" short_title="-u-" />
@@ -739,7 +770,8 @@
         <paradigm declension="sg-o" case="L" continues="pie sg-them L" />
         <paradigm declension="sg-athem" case="Ac" continues="pie sg-athem Ac" />
         <paradigm declension="sg-athem" case="n" continues="pie sg-athem n" />
-        <paradigm declension="sg-cons" case="N" continues="pie sg-cons N" />
+        <paradigm declension="sg-cons-r" case="N" continues="pie sg-cons-r N" />
+        <paradigm declension="sg-cons-non-r" case="N" continues="pie sg-cons-non-r N" />
         <paradigm declension="sg-cons" case="V" continues="pie sg-cons V" />
         <paradigm declension="sg-cons" case="Ab" continues="pit+2 sg-cons Ab" />
         <paradigm declension="sg-cons" case="G" continues="pie sg-cons G" />
@@ -783,7 +815,10 @@
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
             <declension_def id="sg-o" title="singular o-stem" short_title="o" />
             <declension_def id="sg-athem" title="singular athematic">
-                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons." />
+                <declension_def id="sg-cons" title="singular consonant-stem" short_title="cons.">
+                    <declension_def id="sg-cons-r" title="singular consonant-stem in resonant" short_title="-R-" />
+                    <declension_def id="sg-cons-non-r" title="singular consonant-stem in non-resonant" short_title="&amp;c." />
+                </declension_def>
                 <declension_def id="sg-iu" title="singular (proterodynamic) i/u-stem" >
                     <declension_def id="sg-i" title="singular (proterodynamic) i-stem" short_title="-i-" />
                     <declension_def id="sg-u" title="singular (proterodynamic) u-stem" short_title="-u-" />
@@ -832,7 +867,8 @@
         <paradigm declension="sg-o" case="L" continues="pie sg-them L" />
         <paradigm declension="sg-athem" case="Ac" continues="pie sg-athem Ac" />
         <paradigm declension="sg-athem" case="n" continues="pie sg-athem n" />
-        <paradigm declension="sg-cons" case="N" continues="pie sg-cons N" />
+        <paradigm declension="sg-cons-r" case="N" continues="pie sg-cons-r N" />
+        <paradigm declension="sg-cons-non-r" case="N" continues="pie sg-cons-non-r N" />
         <paradigm declension="sg-cons" case="V" continues="pie sg-cons V" />
         <paradigm declension="sg-cons" case="Ab" continues="pit+2 sg-cons Ab" />
         <paradigm declension="sg-cons" case="G" continues="pie sg-cons G" />
@@ -1262,6 +1298,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="(e:|o:)u-fused">-(ē|ō)u (&lt;)</form>
         <form id="(o|o:)m">-(o|ō)m</form>
         <form id="0">-∅</form>
+        <form id="0-lengthening">-∅ (–)</form>
         <form id="a">-a</form>
         <form id="a(o|o:)m">-a(o|ō)m</form>
         <form id="ai">-ai</form>
@@ -1412,7 +1449,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pie:sg-them/Ab"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-128; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250-251, 258; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:sg-them/L"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 260; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:sg-them/I"><source book="Beekes" /> p. 212-213; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 258</footnote>
-        <footnote id="pie:sg-cons/N"><source book="Beekes" /> p. 186; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 121-122, 169</footnote>
+        <footnote id="pie:sg-cons-non-r/N"><source book="Beekes" /> p. 186; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169</footnote>
+        <footnote id="pie:sg-cons-r/N"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 70, 116; <source book="MeierBrugger" /> p. 283, 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 130, 230, 248, 290; <source book="Szemerenyi" /> p. 121-122, 169</footnote>
         <footnote id="pie:sg-cons/V"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:sg-athem/Ac"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:sg-athem/n"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169</footnote>
