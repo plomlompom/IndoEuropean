@@ -406,7 +406,7 @@
         <paradigm declension="pl-u" case="G" continues="pie pl-u G" />
    </grammar_table>
     <grammar_table id="pit+1" title="Proto-Italic pronoun influence">
-        <description>The a-stem genitive plural and o-stem nominative/vocative plural are replaced by the respective pronoun endings (<source books="ClacksonHorrocks" /> p. 15, 17). <source book="Sihler" /> p. 270 gives -āsōm for the Proto-Italic a-stem genitive plural, but this form with -ō- is nowhere else to be found or explained.</description>
+        <description>The a-stem genitive plural and o-stem nominative/vocative plural are replaced by the respective pronoun endings (<source book="ClacksonHorrocks" /> p. 15, 17). <source book="Sihler" /> p. 270 gives -āsōm for the Proto-Italic a-stem genitive plural, but this form with -ō- is nowhere else to be found or explained.</description>
        <declension_def id="sg" short_title="singular">
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
             <declension_def id="sg-o" title="singular o-stem" short_title="o" />
