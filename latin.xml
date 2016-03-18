@@ -3,7 +3,7 @@
 <grammar_tables title="Development of nominal endings from PIE to Latin">
     <description>Note "(&lt;)" abbreviates "(fused with last stem sound (consonant or vowel))", "(&lt;&lt;)" abbreviates "(fused with last stem vowel + consonant)", "(–)" abbreviates "(previous vowel is lengthened)".</description>
     <grammar_table id="pie" title="Late Proto-Indo-European (simplified)">
-        <description>This table omits the dual number, of which the development of Latin retains few if any traces. Not depicted, but part of Italic development: Pre-laryngeal e-ablauts were already laryngeally colored (i.e. phonetically eh₂ has become ah₂, and h₂e h₂a; <source book="Fortson" /> p. 63; <source book="MeierBrugger" /> p. 244; <source book="Meiser" /> p. 29; <source book="Sihler" /> p. 42-50). Variations in athematic root/stem accent/ablaut are ignored except for i/u-stems, where stem ablauts easily fuse with the endings proper.</description>
+        <description>This table omits the dual number, of which the development of Latin retains few if any traces. Not depicted, but part of Italic development: Pre-laryngeal e-ablauts were already laryngeally colored (i.e. phonetically eh₂ has become ah₂, and h₂e h₂a; <source book="Fortson" /> p. 63; <source book="MeierBrugger" /> p. 244; <source book="Meiser" /> p. 29; <source book="Sihler" /> p. 42-50). Variations in athematic root/stem accent/ablaut are ignored except for i/u-stems, where stem ablauts easily fuse with the endings proper. An e-ablaut to the neuter plural u-stem ending is only explicitely discussed/proposed by <source book="Meiser" /> (S. 147) as one possible path to later -ua (but, strangely enough, not for the i-stem as a path to -ia).</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-them" title="singular thematic" short_title="thematic" />
             <declension_def id="sg-athem" title="singular athematic">
@@ -20,11 +20,11 @@
         <declension_def id="pl" short_title="plural">
             <declension_def id="pl-them" title="plural thematic" short_title="thematic" />
             <declension_def id="pl-athem" title="plural athematic">
-                <declension_def id="pl-cons" title="plural consonant-stem" short_title="cons." />
-                <declension_def id="pl-iu" title="plural (proterodynamic) i/u-stem">
+                <declension_def id="pl-cons-i" title="plural consonant-stem">
+                    <declension_def id="pl-cons" title="plural consonant-stem" short_title="cons." />
                     <declension_def id="pl-i" title="plural (proterodynamic) i-stem" short_title="-i-" />
-                    <declension_def id="pl-u" title="plural (proterodynamic) u-stem" short_title="-u-" />
                 </declension_def>
+                <declension_def id="pl-u" title="plural (proterodynamic) u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="NV" title="animate nominative/vocative">
@@ -79,7 +79,8 @@
         <paradigm declension="pl-them" case="L" form="oisu" footnote="pie:pl-them/L" />
         <paradigm declension="pl-them" case="I" form="o:is" footnote="pie:pl-them/I" />
         <paradigm declension="pl-athem" case="Ac" form="ns" footnote="pie:pl-athem/Ac" />
-        <paradigm declension="pl-athem" case="n" form="h2" footnote="pie:pl-athem/n" />
+        <paradigm declension="pl-cons-i" case="n" form="h2" footnote="pie:pl-cons-i/n" />
+        <paradigm declension="pl-u" case="n" form="?(e)uh2-fused" footnote="pie:pl-u/n" />
         <paradigm declension="pl-athem" case="DAb" form="(bh?(i)|m)os" footnote="pie:pl-athem/DAb" />
         <paradigm declension="pl-athem" case="L" form="su" footnote="pie:pl-athem/L" />
         <paradigm declension="pl-athem" case="I" form="(bh|m)i?(s)" footnote="pie:pl-athem/I" />
@@ -110,11 +111,11 @@
             <declension_def id="pl-eh2" title="plural eh₂-stem" short_title="eh₂" />
             <declension_def id="pl-them" title="plural thematic" short_title="thematic" />
             <declension_def id="pl-athem" title="plural athematic">
-                <declension_def id="pl-cons" title="plural consonant-stem" short_title="cons." />
-                <declension_def id="pl-iu" title="plural (proterodynamic) i/u-stem">
+                <declension_def id="pl-cons-i" title="plural consonant-stem">
+                    <declension_def id="pl-cons" title="plural consonant-stem" short_title="cons." />
                     <declension_def id="pl-i" title="plural (proterodynamic) i-stem" short_title="-i-" />
-                    <declension_def id="pl-u" title="plural (proterodynamic) u-stem" short_title="-u-" />
                 </declension_def>
+                <declension_def id="pl-u" title="plural (proterodynamic) u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="NV" title="animate nominative/vocative">
@@ -183,7 +184,8 @@
         <paradigm declension="pl-them" case="L" continues="pie pl-them L" />
         <paradigm declension="pl-them" case="I" continues="pie pl-them I" />
         <paradigm declension="pl-athem" case="Ac" continues="pie pl-athem Ac" />
-        <paradigm declension="pl-athem" case="n" continues="pie pl-athem n" />
+        <paradigm declension="pl-cons-i" case="n" continues="pie pl-cons-i n" />
+        <paradigm declension="pl-u" case="n" continues="pie pl-u n" />
         <paradigm declension="pl-athem" case="DAb" continues="pie pl-athem DAb" />
         <paradigm declension="pl-athem" case="L" continues="pie pl-athem L" />
         <paradigm declension="pl-athem" case="I" continues="pie pl-athem I" />
@@ -214,11 +216,11 @@
             <declension_def id="pl-eh2" title="plural eh₂-stem" short_title="eh₂" />
             <declension_def id="pl-them" title="plural thematic" short_title="thematic" />
             <declension_def id="pl-athem" title="plural athematic">
-                <declension_def id="pl-cons" title="plural consonant-stem" short_title="cons." />
-                <declension_def id="pl-iu" title="plural (proterodynamic) i/u-stem">
+                <declension_def id="pl-cons-i" title="plural consonant-stem">
+                    <declension_def id="pl-cons" title="plural consonant-stem" short_title="cons." />
                     <declension_def id="pl-i" title="plural (proterodynamic) i-stem" short_title="-i-" />
-                    <declension_def id="pl-u" title="plural (proterodynamic) u-stem" short_title="-u-" />
                 </declension_def>
+                <declension_def id="pl-u" title="plural (proterodynamic) u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="NV" title="animate nominative/vocative">
@@ -287,7 +289,8 @@
         <paradigm declension="pl-them" case="L" continues="pie pl-them L" />
         <paradigm declension="pl-them" case="I" continues="pie pl-them I" />
         <paradigm declension="pl-athem" case="Ac" continues="pie pl-athem Ac" />
-        <paradigm declension="pl-athem" case="n" continues="pie pl-athem n" />
+        <paradigm declension="pl-cons-i" case="n" continues="pie pl-cons-i n" />
+        <paradigm declension="pl-u" case="n" continues="pie pl-u n" />
         <paradigm declension="pl-athem" case="DAb"  form="bh?(i)os" footnote="pie:pl-athem/DAb" />
         <paradigm declension="pl-athem" case="L" continues="pie pl-athem L" />
         <paradigm declension="pl-athem" case="I" form="bhi?(s)" footnote="pie:pl-athem/I" />
@@ -402,7 +405,7 @@
         <paradigm declension="pl-i" case="n" form="i:-fused" footnote="pit:pl-i/n" />
         <paradigm declension="pl-i" case="G" continues="pie pl-i G" />
         <paradigm declension="pl-u" case="NV" continues="pie pl-u NV" />
-        <paradigm declension="pl-u" case="n" form="u:-fused" footnote="pit:pl-u/n" />
+        <paradigm declension="pl-u" case="n" form="(eua|u:)-fused" footnote="pit:pl-u/n" />
         <paradigm declension="pl-u" case="G" continues="pie pl-u G" />
    </grammar_table>
     <grammar_table id="pit+1" title="Proto-Italic pronoun influence">
@@ -1283,6 +1286,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
     <forms>
         <form id="?(e)h1-(bh|m)i">-?(e)h₁, -(bʰ|m)i</form>
         <form id="?(e)h1-bhi">-?(e)h₁, -bʰi</form>
+        <form id="?(e)uh2-fused">-?(e)uh₂ (&lt;)</form>
         <form id="?(e|i)i(o|o:)m-fused">-?(e|i)i(o|ō)m (&lt;)</form>
         <form id="?(e|u)u(o|o:)m-fused">-?(e|u)u(o|ō)m (&lt;)</form>
         <form id="?s">-s, -∅</form>
@@ -1369,10 +1373,9 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="s">-s</form>
         <form id="s-(e|o)s">-s, -(e|o)s</form>
         <form id="su">-su</form>
-        <form id="u:-fused">-ū (&lt;)</form>
+        <form id="(eua|u:)-fused">-(eua|ū) (&lt;)</form>
         <form id="u:-fused-bhi">-ū (&lt;), -bʰi</form>
         <form id="u:d-fused">-ūd (&lt;)</form>
-
         <form id="(e|o)s">-(e|o)s</form>
         <form id="rum">-rum</form>
         <form id="fused-ei:-fused-i:">-eī (&lt;), -ī (&lt;)</form>
@@ -1476,7 +1479,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pie:pl-them/L"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126, 129; <source book="MeierBrugger" /> p. 332-333; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 253, 263</footnote>
         <footnote id="pie:pl-them/I"><source book="Beekes" /> p. 212-213; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 263-264; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:pl-athem/Ac"><source book="Beekes" /> p. 186, 188; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 117; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254; <source book="Szemerenyi" /> p. 169</footnote>
-        <footnote id="pie:pl-athem/n"><source book="Fortson" /> p. 118; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254</footnote>
+        <footnote id="pie:pl-cons-i/n"><source book="Fortson" /> p. 118; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 254</footnote>
+        <footnote id="pie:pl-u/n"><source book="Fortson" /> p. 118; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34, 147; <source book="Sihler" /> p. 248, 254</footnote>
         <footnote id="pie:pl-athem/DAb"><source book="Beekes" /> p. 188-189; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 117-119; <source book="MeierBrugger" /> p. 330, 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 246-248, 251-252; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:pl-athem/L"><source book="Beekes" /> p. 186, 189; <source book="Fortson" /> p. 117-118; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 253; <source book="Szemerenyi" /> p. 169</footnote>
         <footnote id="pie:pl-athem/I"><source book="Beekes" /> p. 186-187, 189; <source book="Fortson" /> p. 117-119; <source book="MeierBrugger" /> p. 330, 332; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248; <source book="Szemerenyi" /> p. 169</footnote>
@@ -1520,7 +1524,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit:pl-o/n"><source book="Meiser" /> p. 136; <source book="Sihler" /> p. 263</footnote>
 	<footnote id="pit:pl-cons/n"><source book="Meiser" /> p. 144; <source book="Sihler" /> p. 286</footnote>
 	<footnote id="pit:pl-i/n"><source book="Sihler" /> p. 317</footnote>
-	<footnote id="pit:pl-u/n"><source book="Sihler" /> p. 326</footnote>
+	<footnote id="pit:pl-u/n"><source book="Sihler" /> p. 326, <source book="Meiser" /> S. 147</footnote>
 	<footnote id="pit+1:pl-a/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Meiser" /> p. 132; <source book="Sihler" /> p. 272</footnote>
 	<footnote id="pit+1:pl-o/NV"><source book="Meiser" /> p. 136; <source book="Sihler" /> p. 261</footnote>
 	<footnote id="pit+2:sg-a/Ab"><source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128, 132; <source book="Sihler" /> p. 258, 269</footnote>
