@@ -339,7 +339,7 @@
         <paradigm declension="sg-a" case="G" form="a:s" footnote="pit:sg-a/GAb" />
         <paradigm declension="sg-a" case="Ab" form="a:s" footnote="pit:sg-a/GAb" />
         <paradigm declension="sg-a" case="I" form="a:" footnote="pit:sg-a/I" />
-        <paradigm declension="sg-a" case="L" form="ai" footnote="pit:sg-a/L" />
+        <paradigm declension="sg-a" case="L" form="(a|a:)i" footnote="pit:sg-a/L" />
         <paradigm declension="sg-o" case="N" continues="pie sg-them N" />
         <paradigm declension="sg-o" case="V" continues="pie sg-them V" />
         <paradigm declension="sg-o" case="Ac" continues="pie sg-them Ac" />
@@ -1469,7 +1469,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="0-lengthening">-∅ (–)</form>
         <form id="a">-a</form>
         <form id="a(o|o:)m">-a(o|ō)m</form>
-        <form id="ai">-ai</form>
+        <form id="(a|a:)i">-(a|ā)i</form>
         <form id="a:">-ā</form>
         <form id="a:d">-ād</form>
         <form id="a|a:">-(a|ā)</form>
