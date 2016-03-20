@@ -1001,7 +1001,7 @@
         </declension_def>
         <declension_def id="pl" short_title="plural">
             <declension_def id="pl-a" title="plural a-stem" short_title="a" />
-            <declension_def id="pl-non-a" title="plural o-stem">
+            <declension_def id="pl-non-a" title="plural non-a-stem">
                 <declension_def id="pl-o" title="plural o-stem" short_title="o" />
                 <declension_def id="pl-athem" title="plural athematic">
                     <declension_def id="pl-cons" title="plural consonant-stem" short_title="cons." />
