@@ -1079,7 +1079,7 @@
         <paradigm declension="pl-u" case="n" continues="pit pl-u n" />
     </grammar_table>
     <grammar_table id="pit+8" title="Proto-Italic (?) singular i-stem dative ending -ei">
-        <description>The singular i-stem dative ending in -eiei is contracted to -ei, either by haplology (<source book="Meiser" /> p. 139), or by a regular Proto-Italic loss of intervocalic -i- (<source book="Sihler" /> p. 188, "arguably in [Proto-Italic]"; more safely with Meiser p. 91) shortening -eiei to -eei, which regularly becomes -ēi (Sihler p. 83, Meiser p. 87), then -ei (Sihler p. 316).</description>
+        <description>The singular i-stem dative ending in -eiei is contracted to -ei, either by haplology (<source book="Meiser" /> p. 139), or by a regular Proto-Italic loss of intervocalic -i- (<source book="Sihler" /> p. 188, "arguably in [Proto-Italic]"; more safely with Meiser p. 91) shortening -eiei to -eei, which regularly becomes -ēi (Sihler p. 83, Meiser p. 87).</description>
         <declension_def id="sg" short_title="singular">
             <declension_def id="sg-a" title="singular a-stem" short_title="a" />
             <declension_def id="sg-o" title="singular o-stem" short_title="o" />
@@ -1147,7 +1147,7 @@
         <paradigm declension="sg-i" case="V" continues="pie sg-i V" />
         <paradigm declension="sg-i" case="Ab" continues="pit+2 sg-i Ab" />
         <paradigm declension="sg-i" case="G" continues="pie sg-i G" />
-        <paradigm declension="sg-i" case="D" form="ei-fused" footnote="pit+8:sg-i/D" />
+        <paradigm declension="sg-i" case="D" form="e:i-fused" footnote="pit+8:sg-i/D" />
         <paradigm declension="sg-i" case="L" continues="pie sg-i L" />
         <paradigm declension="sg-u" case="V" continues="pit+7 sg-u V" />
         <paradigm declension="sg-u" case="Ab" continues="pit+2 sg-u Ab" />
