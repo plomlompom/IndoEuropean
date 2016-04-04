@@ -1147,7 +1147,7 @@
         <paradigm declension="sg-i" case="V" continues="pie sg-i V" />
         <paradigm declension="sg-i" case="Ab" continues="pit+2 sg-i Ab" />
         <paradigm declension="sg-i" case="G" continues="pie sg-i G" />
-        <paradigm declension="sg-i" case="D" form="ei" footnote="pit+8:sg-i/D" />
+        <paradigm declension="sg-i" case="D" form="ei-fused" footnote="pit+8:sg-i/D" />
         <paradigm declension="sg-i" case="L" continues="pie sg-i L" />
         <paradigm declension="sg-u" case="V" continues="pit+7 sg-u V" />
         <paradigm declension="sg-u" case="Ab" continues="pit+2 sg-u Ab" />
@@ -1995,7 +1995,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit+7:sg-u/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 248, 321, 324</footnote>
 	<footnote id="pit+7:sg-u/D"><source book="Sihler" /> p. 323</footnote>
 	<footnote id="pit+7:pl-u/NV"><source book="Sihler" /> p. 325; <source book="Meiser" /> p. 146</footnote>
-	<footnote id="pit+8:sg-i/D"><source book="Sihler" />p. 316; <source book="Meiser" /> p. 139</footnote>
+	<footnote id="pit+8:sg-i/D"><source book="Sihler" /> p. 316; <source book="Meiser" /> p. 139</footnote>
 	<footnote id="pit+9:sg-a/Ac"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 78, 268; <source book="Meiser" /> p. 77, 132</footnote>
 	<footnote id="pit+9:pl-a/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 272; <source book="Meiser" /> p. 132</footnote>
 	<footnote id="pit+9:pl-o/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 264; <source book="Meiser" /> p. 134</footnote>
