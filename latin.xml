@@ -57,7 +57,7 @@
         <paradigm declension="i" case="sg-Ab" form="(e|o)is-fused" footnote="pie:sg-i/GAb" />
         <paradigm declension="i" case="sg-D" form="eiei-fused" footnote="pie:sg-i/D" />
         <paradigm declension="i" case="sg-L" form="e:i-fused" footnote="pie:sg-i/L" />
-        <paradigm declension="u" case="sg-V" form="eu-fused" footnote="pie:sg-u/V" />
+        <paradigm declension="u" case="sg-V" form="(e|o)u-fused" footnote="pie:sg-u/V" />
         <paradigm declension="u" case="sg-G" form="(e|o)us-fused" footnote="pie:sg-u/GAb" />
         <paradigm declension="u" case="sg-Ab" form="(e|o)us-fused" footnote="pie:sg-u/GAb" />
         <paradigm declension="u" case="sg-D" form="(e|o)u?(e)i-fused" footnote="pie:sg-u/D" />
@@ -77,7 +77,7 @@
         <paradigm declension="athem" case="pl-G" form="(o|o:)m" footnote="pie:pl-athem/G" />
         <paradigm declension="cons" case="pl-NV" form="es" footnote="pie:pl-cons/NV" />
         <paradigm declension="i" case="pl-NV" form="eies-fused" footnote="pie:pl-i/NV" />
-        <paradigm declension="u" case="pl-NV" form="eues-fused" footnote="pie:pl-u/NV" />
+        <paradigm declension="u" case="pl-NV" form="(e|o)ues-fused" footnote="pie:pl-u/NV" />
     </grammar_table>
     <grammar_table id="pie+1" title="Late Proto-Indo-European eh₂ (feminine) declension">
         <description>Possibly after the split-off of the Anatolian branch, an explicitely feminine declension emerges, marked by a -eh₂- stem suffix to which athematic endings are appended (<source book="Beekes" /> p. 189; <source book="Fortson" /> p. 132-133; <source book="MeierBrugger" /> p. 323-324, 334-335, 421; <source book="Meiser" /> p. 131; <source book="Sihler" /> p. 245, 266). The singular vocative is a special case, with different theories about its form and the logic behind it.</description>
@@ -886,7 +886,7 @@
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
     <grammar_table id="pit+7" title="Proto-Italic assimilation of e to o before u">
-        <description>Before u, (short) e becomes o (<source book="Sihler" /> p. 40, 56; <source book="Meiser" /> p. 59). The u-stem plural nominative/locative in -oues is here depicated as the regular result, although Sihler p. 325 states: "for some reason, that is not generally regarded as likely."</description>
+        <description>Before u, (short) e becomes o (<source book="Sihler" /> p. 40, 56; <source book="Meiser" /> p. 59). The u-stem plural nominative/locative in -oues is here depicted as the regular result, although Sihler p. 325 states: "for some reason, that is not generally regarded as likely."</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -969,8 +969,8 @@
         <paradigm declension="u" case="pl-NV" form="oues-fused" footnote="pit+7:pl-u/NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
-    <grammar_table id="pit+8" title="Proto-Italic (?) singular i-stem dative ending -ei">
-        <description>The singular i-stem dative ending in -eiei is contracted to -ei, either by haplology (<source book="Meiser" /> p. 139), or by a regular Proto-Italic loss of intervocalic -i- (<source book="Sihler" /> p. 188, "arguably in [Proto-Italic]"; more safely with Meiser p. 91) shortening -eiei to -eei, which regularly becomes -ēi (Sihler p. 83, Meiser p. 87).</description>
+    <grammar_table id="pit+8" title="Proto-Italic (?) contraction of -eie- to -ē-">
+        <description>The singular i-stem dative ending in -eiei is contracted to -ei, either by haplology (<source book="Meiser" /> p. 139, <source book="Szemerenyi" /> p. 187), or by a regular Proto-Italic loss of intervocalic -i- (<source book="Sihler" /> p. 188, "arguably in [Proto-Italic]"; more safely with Meiser p. 91) shortening -eiei to -eei, which regularly becomes -ēi (Sihler p. 83, Meiser p. 87). Loss of intervocalic -i- would also explain the development of the i-stem nominative/vocative plural (<source book="ClacksonHorrocks" /> p. 102, Szemerényi p. 187).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -1048,7 +1048,7 @@
         <paradigm declension="athem" case="pl-G" continues="pie athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
-        <paradigm declension="i" case="pl-NV" continues="pie i pl-NV" />
+        <paradigm declension="i" case="pl-NV" form="e:s-fused" footnote="pit+8:pl-i/NV" />
         <paradigm declension="i" case="pl-n" continues="pit i pl-n" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
@@ -1067,7 +1067,6 @@
                 <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
-
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
         <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
         <case_def id="sg-Ac" title="singular animate accusative" short_title="sg:Ac" />
@@ -1133,7 +1132,7 @@
         <paradigm declension="athem" case="pl-G" form="om" footnote="pit+9:pl-athem/G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
-        <paradigm declension="i" case="pl-NV" continues="pie i pl-NV" />
+        <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="i" case="pl-n" continues="pit i pl-n" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
@@ -1219,7 +1218,7 @@
         <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
-        <paradigm declension="i" case="pl-NV" continues="pie i pl-NV" />
+        <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
     </grammar_table>
 <grammar_table id="proto-italic" title="proto-italic">
@@ -1657,8 +1656,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="eiei-fused">-eiei (&lt;)</form>
         <form id="eies-fused">-eies (&lt;)</form>
         <form id="es">-es</form>
-        <form id="eu-fused">-eu (&lt;)</form>
-        <form id="eues-fused">-eues (&lt;)</form>
+        <form id="(e|o)u-fused">-(e|o)u (&lt;)</form>
+        <form id="(e|o)ues-fused">-(e|o)ues (&lt;)</form>
         <form id="h2">-h₂</form>
         <form id="i-0">-i, -∅</form>
         <form id="i:-fused">-ī (&lt;)</form>
@@ -1718,6 +1717,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="double-fused-en">-en (&lt;&lt;)</form>
         <form id="ens">-ens</form>
         <form id="e:s">-ēs</form>
+        <form id="e:s-fused">-ēs (&lt;)</form>
         <form id="ibus">-ibus</form>
         <form id="bhos">-bʰos</form>
         <form id="fused-e">-e (&lt;)</form>
@@ -1856,7 +1856,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit+7:sg-u/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 248, 321, 324</footnote>
 	<footnote id="pit+7:sg-u/D"><source book="Sihler" /> p. 323</footnote>
 	<footnote id="pit+7:pl-u/NV"><source book="Sihler" /> p. 325; <source book="Meiser" /> p. 146</footnote>
-	<footnote id="pit+8:sg-i/D"><source book="Sihler" /> p. 316; <source book="Meiser" /> p. 139</footnote>
+	<footnote id="pit+8:sg-i/D"><source book="Sihler" /> p. 316; <source book="Meiser" /> p. 139; <source book="Szemerenyi" /> p. 187</footnote>
+	<footnote id="pit+8:pl-i/NV"><source book="ClacksonHorrocks" /> p. 102; <source book="Sihler" /> p. 317; <source book="Meiser" /> p. 140; <source book="Szemerenyi" /> p. 187</footnote>
 	<footnote id="pit+9:sg-a/Ac"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 78, 268; <source book="Meiser" /> p. 77, 132</footnote>
 	<footnote id="pit+9:pl-a/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 272; <source book="Meiser" /> p. 132</footnote>
 	<footnote id="pit+9:pl-o/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 264; <source book="Meiser" /> p. 134</footnote>
