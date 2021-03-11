@@ -1137,7 +1137,7 @@
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
-    <grammar_table id="pit+10" title="Proto-Italic (?) convergence of endings in -a">
+    <grammar_table id="pit+10" title="Italic convergence of endings in -a">
         <description>All previous endings in -a and -ā converge to -a, as do the plural neuter i-/u-stem endings. The paths to this differ greatly between <source book="Sihler" /> and <source book="Meiser" />. For Sihler, endings in -ā at first prevail over endings in -a (a-stem singular vocative turns to -ā under the influence of the nominative (p. 268), and the consonantic plural neuter under the influence of the o-stem (p. 263)), and later ("[r]elatively late in the history of [Latin]", but "predat[ing] the loss of final -d") all word-final -ā turn to -a, due to "iambic shortening", the influence of the shortened -am ending, or a mysteriously singular vowel shift (p. 78-79, 266-267). Meiser cannot accept such a vowel shift (p. 77) and proposes an inverse generalization of -a endings prevailing over -ā endings (p. 132, 136). Sihler (p. 317, 326) sees the plural neuter o-stem endings in -ā append to the i-/u-stem endings (with -ī- and -ū- shortening to -i- and -u-, as long vowels shorten before long ones (p. 80)) before turning to -a. Meiser (p. 144, 146-147) sees the consonant stem ending in -a replace the original i/u-stem neuter plural endings, but also proposes alternate paths for the u-stem: an ending in -a deriving from the -h₂ in a former -?(e)uh₂ (p. 147).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
@@ -1301,7 +1301,7 @@ Not depicted: neuter r/n-stems (<source book="Sihler" /> p. 298-299).
         <paradigm declension="c-n-r" case="sg-n" form="0" footnote="sg-c-n-r0" />
         <paradigm declension="c-n--" case="sg-n" form="fused-0" footnote="sg-c-n--" />
         <paradigm declension="c" case="sg-D" form="ei" footnote="sg-c-d" />
-        <paradigm declension="c" case="sg-Ab" form="(e:|i:)d" footnote="sg-c-ab0" />
+        <paradigm declension="c" case="sg-Ab" form="e:d" footnote="sg-c-ab0" />
         <paradigm declension="c" case="sg-G" form="(e|o)s" footnote="sg-c-g" />
         <paradigm declension="c" case="sg-L" form="i" footnote="sg-c-l0" />
         <paradigm declension="c-mf" case="pl-NV" form="es" footnote="pl-c-nv"/>
@@ -1326,7 +1326,7 @@ Not depicted: neuter r/n-stems (<source book="Sihler" /> p. 298-299).
         <paradigm declension="u" case="sg-Ab" form="fused-u:d" footnote="sg-u-ab" />
         <paradigm declension="u" case="sg-D" form="fused-ouei" footnote="sg-u-d0" />
         <paradigm declension="u" case="sg-G" form="fused-ous-(e|o)s" footnote="sg-u-g" />
-        <paradigm declension="u" case="pl-NV" form="fused-oues" footnote="pl-u-nv"/>
+        <paradigm declension="u" case="pl-NV" form="oues-fused" footnote="pl-u-nv"/>
         <paradigm declension="u" case="pl-Ac" form="ns" footnote="pl-u-ac"/>
         <paradigm declension="u" case="pl-n" form="fused-u:a:" footnote="pl-u-n"/>
         <paradigm declension="u" case="pl-G" form="?(o)uom" footnote="pl-u-g0"/>
@@ -1671,7 +1671,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="rum">-rum</form>
         <form id="fused-ei:-fused-i:">-eī (&lt;), -ī (&lt;)</form>
         <form id="i:-fused-i:">-ī, -ī (&lt;)</form>
-        <form id="fused-oues">-?(o)ues (&lt;)</form>
         <form id="?(o)uom">-?(o)uom (&lt;)</form>
         <form id="fused-u:a:">-ūā (&lt;)</form>
         <form id="bus-fused-ibus">-bus, -ibus (&lt;)</form>
@@ -1707,7 +1706,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="fused-ei">-ei (&lt;)</form>
         <form id="fused-em-m">-em (&lt;), -m</form>
         <form id="fused-eis-es">-eis (&lt;), -es</form>
-        <form id="(e:|i:)d">-(ē|ī)d</form>
         <form id="i">-i</form>
         <form id="(i|u)s">-(i|u)s</form>
         <form id="e|i:">-(e|ī)</form>
