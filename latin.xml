@@ -45,8 +45,8 @@
         <paradigm declension="cons-non-r" case="sg-N" form="?s" footnote="pie:sg-cons-non-r/N" />
         <paradigm declension="cons-r" case="sg-N" form="0-lengthening" footnote="pie:sg-cons-r/N" />
         <paradigm declension="cons" case="sg-V" form="0" footnote="pie:sg-cons/V" />
-        <paradigm declension="cons" case="sg-Ab" form="s-(e|o)s" footnote="pie:sg-cons/GAb" />
-        <paradigm declension="cons" case="sg-G" form="s-(e|o)s" footnote="pie:sg-cons/GAb" />
+        <paradigm declension="cons" case="sg-Ab" form="(e|o)s" footnote="pie:sg-cons/GAb" />
+        <paradigm declension="cons" case="sg-G" form="(e|o)s" footnote="pie:sg-cons/GAb" />
         <paradigm declension="cons" case="sg-D" form="ei" footnote="pie:sg-cons/D" />
         <paradigm declension="cons" case="sg-L" form="i-0" footnote="pie:sg-cons/L" />
         <paradigm declension="cons" case="sg-I" form="?(e)h1-(bh|m)i" footnote="pie:sg-cons/I" />
@@ -718,7 +718,7 @@
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
     <grammar_table id="pit+5" title="Proto-Italic o-stem singular genitive"> 
-        <description>For the o-stem singular genitive, there are no traces of Proto-Indo-European -os. Proto-Indo-European -os?(i)o is continued as -osio even into Archaic Latin. An ending -ī of uncertain origin replaces this in later Latin, but also turns up in Venetic (which, if part of the Italic family, split off from it early; <source book="Beekes" /> p. 25; <source book="Fortson" /> p. 465-466), Faliscan, and even Celtic languages. This may continue a Proto-Italic or even Proto-Italo-Celtic ending (Beekes p. 212). Or it may be the result of more recent morphological borrowing between languages in close contact on the Italian Peninsula (<source book="ClacksonHorrocks" /> p. 32). The -ī ending may continue a suffix -iH that marks familial affiliation (Beekesp. 212; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 135).</description>
+        <description>For the o-stem singular genitive, there are no traces of Proto-Indo-European -os. Proto-Indo-European -os?(i)o is continued as -osio even into Archaic Latin. An ending -ī of uncertain origin replaces this in later Latin, but also turns up in Venetic (which, if part of the Italic family, split off from it early; <source book="Beekes" /> p. 25; <source book="Fortson" /> p. 465-466), Faliscan, and even Celtic languages. This may continue a Proto-Italic or even Proto-Italo-Celtic ending (Beekes p. 212). Or it may be the result of more recent morphological borrowing between languages in close contact on the Italian Peninsula (<source book="ClacksonHorrocks" /> p. 32). The -ī ending may continue a suffix -iH that marks familial affiliation (Beekes p. 212; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 135).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -1662,7 +1662,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="oues-fused">-oues (&lt;)</form>
         <form id="ou?(e)i-fused">-ou?(e)i (&lt;)</form>
         <form id="s">-s</form>
-        <form id="s-(e|o)s">-s, -(e|o)s</form>
         <form id="su">-su</form>
         <form id="(ua|u:)-fused">-(ua|ū) (&lt;)</form>
         <form id="u:-fused-bhi">-ū (&lt;), -bʰi</form>
