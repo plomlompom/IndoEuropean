@@ -1234,13 +1234,13 @@ Not depicted: neuter r/n-stems (<source book="Sihler" /> p. 298-299).
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
             <declension_def id="c" title="consonant-stem" short_title="cons.">
-                    <declension_def id="c-mf" title="consonant-stem" short_title="mf">
+                <declension_def id="c-mf" title="consonant-stem">
                     <declension_def id="c-mf-d" title="consonant stem in dental" short_title="-(d|t)-" />
                     <declension_def id="c-mf-r" title="consonant stem in -r/-l" short_title="-r-" />
                     <declension_def id="c-mf-n" title="consonant stem in vowel + n" short_title="-n-" />
                     <declension_def id="c-mf--" title="consonant stem not in vowel + -r/-n or dental" short_title="&amp;c" />
                 </declension_def>
-                    <declension_def id="c-n" title="consonant-stem" short_title="n">
+                <declension_def id="c-n" title="consonant-stem">
                     <declension_def id="c-n-n" title="consonant stem in -n" short_title="-n-" />
                     <declension_def id="c-n-s" title="consonant stem in -s" short_title="-s-" />
                     <declension_def id="c-n-r" title="consonant stem in -r" short_title="-r-" />
@@ -1393,184 +1393,165 @@ Not depicted: Neuter r/n-stems freak cases of "femur"/"feminis", "iecur"/"iocine
 Not depcited: Nouns in -ēs nominative singular, mostly behaving like i-stem nouns (<source book="Sihler" /> p. 316).
 Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<source book="Sihler" /> p. 344-345).
 A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 alone mentions it, prefixed with a "perhaps") to include in the table.</description>
-        <declension_def id="sg" short_title="singular">
-            <declension_def id="sg-a" title="singular a-stem" short_title="a" />
-            <declension_def id="sg-o" title="singular o-stem" short_title="o">
-                <declension_def id="sg-o-mf" title="singular o-stem animate" short_title="mf">
-                    <declension_def id="sg-ro-mf" title="singular o-stem (in -r) animate" >
-                        <declension_def id="sg-cro-mf" title="singular o-stem (in consonant + -r) animate" short_title="-Cr-" />
-                        <declension_def id="sg-vro-mf" title="singular o-stem (in vowel + -r) animate" short_title="-Vr-" />
-                    </declension_def>
-                    <declension_def id="sg--o-mf" title="singular o-stem animate">
-                        <declension_def id="sg-io-mf" title="singular o-stem (in -i) animate" short_title="-i-" />
-                        <declension_def id="sg---o-mf" title="singular o-stem (not in -i) animate" short_title="&amp;c" />
-                    </declension_def>
+        <declension_def id="a" title="a-stem" short_title="a" />
+        <declension_def id="o" title="o-stem" short_title="o">
+            <declension_def id="o-mf" title="o-stem">
+                <declension_def id="ro-mf" title="o-stem (in -r)" >
+                    <declension_def id="cro-mf" title="o-stem (in consonant + -r)" short_title="-Cr-" />
+                    <declension_def id="vro-mf" title="o-stem (in vowel + -r)" short_title="-Vr-" />
                 </declension_def>
-                <declension_def id="sg-o-n" title="singular o-stem inanimate" short_title="n" >
-                    <declension_def id="sg-io-n" title="singular o-stem inanimate in -i" short_title="-i-" />
-                    <declension_def id="sg--o-n" title="singular o-stem inanimate (not in -i)" short_title="&amp;c" />
+                <declension_def id="-o-mf" title="o-stem">
+                    <declension_def id="io-mf" title="o-stem (in -i)" short_title="-i-" />
+                    <declension_def id="--o-mf" title="o-stem (not in -i)" short_title="&amp;c" />
                 </declension_def>
             </declension_def>
-            <declension_def id="sg-c" title="singular consonant stem" short_title="consonant">
-                <declension_def id="sg-c-mf" title="singular animate consonant stem" short_title="mf">
-                    <declension_def id="sg-c-mf-d+" title="singular animate consonant stem in dental and some stems in -r formerly in -s"
-                                    short_title="-(d|t)-, some -(s&gt;r)-" />
-                    <declension_def id="sg-c-mf-g" title="singular animate consonant stem in (former) dorsal (g, c, v, h)" short_title="-(g|c|v|h)-" />
-                    <declension_def id="sg-c-mf-rl" title="singular animate consonant stem in -r/-l" short_title="-(r|l)-" />
-                    <declension_def id="sg-c-mf-ro" title="singular animate consonant stem in -ōr" short_title="-ōr-" />
-                    <declension_def id="sg-c-mf-n" title="singular animate consonant stem in -n" short_title="-n-" />
-                    <declension_def id="sg-c-mf-n-freak" title="singular animate consonant stem in -in (freak cases)" short_title="some -in-" />
-                    <declension_def id="sg-c-mf--" title="singular animate consonant stem not in dental, dorsal, or -r/-n" short_title="&amp;c" />
-                </declension_def>
-                <declension_def id="sg-c-n" title="singular inanimate consonant stem" short_title="n">
-                    <declension_def id="sg-c-n-n" title="singular inanimate consonant stem in -n" short_title="-n-" />
-                    <declension_def id="sg-c-n-s" title="singular inanimate consonant stem in -r formerly in -s" short_title="-(s&gt;r)-" />
-                    <declension_def id="sg-c-n-r" title="singular inanimate consonant stem in -r (not -rr-)" short_title="-r- not -rr-" />
-                    <declension_def id="sg-c-n--" title="singular inanimate consonant stem not in -n" short_title="&amp;c" />
-                </declension_def>
-            </declension_def>
-            <declension_def id="sg-i" title="singular i-stem" short_title="i">
-                <declension_def id="sg-i-mf" title="singular animate i-stem" short_title="mf">
-                    <declension_def id="sg-i-mf-ndnt" title="singular animate i-stem in -nd-, -nt-" short_title="-n(d|t)i-" />
-                    <declension_def id="sg-i-mf-rt" title="singular animate i-stem in -rt-" short_title="-rti-" />
-                    <declension_def id="sg-i-mf-Cr" title="singular animate i-stem in consonant + -r-" short_title="-Cri-" />
-                    <declension_def id="sg-i-mf--" title="singular animate i-stem" short_title="&amp;c" />
-                </declension_def>
-                <declension_def id="sg-i-n" title="singular inanimate i-stem" short_title="n">
-                    <declension_def id="sg-i-n-mono" title="singular inanimate i-stem (mono-syllabic)" short_title="mono" />
-                    <declension_def id="sg-i-n-poly" title="singular inanimate i-stem (poly-syllabic)" short_title="poly" />
-                </declension_def>
-            </declension_def>
-            <declension_def id="sg-u" title="singular u-stem" short_title="u">
-                <declension_def id="sg-u-mf" title="singular animate u-stem" short_title="mf" />
-                <declension_def id="sg-u-n" title="singular inanimate u-stem" short_title="n" />
-            </declension_def>
-            <declension_def id="sg-e" title="singular ē-stem" short_title="ē">
-                <declension_def id="sg-e-V" title="singular ē-stem after vowel (incl. -i-)" short_title="V" />
-                <declension_def id="sg-e-C" title="singular ē-stem after consonant (excl. -i-)" short_title="C" />
+            <declension_def id="o-n" title="o-stem">
+                <declension_def id="io-n" title="o-stem in -i" short_title="-i-" />
+                <declension_def id="-o-n" title="o-stem (not in -i)" short_title="&amp;c" />
             </declension_def>
         </declension_def>
-        <declension_def id="pl" short_title="plural">
-            <declension_def id="pl-a" title="plural a-stem" short_title="a" />
-            <declension_def id="pl-o" title="plural o-stem" short_title="o">
-                <declension_def id="pl-o-mf" title="plural animate o-stem" short_title="mf" />
-                <declension_def id="pl-o-n" title="plural inanimate o-stem" short_title="n" />
+        <declension_def id="athem" title="athematic">
+            <declension_def id="c" title="consonant-stem" short_title="cons.">
+                <declension_def id="c-mf" title="consonant-stem">
+                    <declension_def id="c-mf-d+" title="consonant stem in dental and some stems in -r formerly in -s" short_title="-(d|t)-, some -(s&gt;r)-" />
+
+                    <declension_def id="c-mf-g" title="consonant stem in (former) dorsal (g, c, v, h)" short_title="-(g|c|v|h)-" />
+                    <declension_def id="c-mf-rl" title="consonant stem in -r/-l" short_title="-(r|l)-" />
+                    <declension_def id="c-mf-ro" title="consonant stem in -ōr" short_title="-ōr-" />
+                    <declension_def id="c-mf-n" title="consonant stem in -n" short_title="-n-" />
+                    <declension_def id="c-mf-n-freak" title="consonant stem in -in (freak cases)" short_title="some -in-" />
+                    <declension_def id="c-mf--" title="consonant stem not in dental, dorsal, or -r/-n" short_title="&amp;c" />
+</declension_def>
+                <declension_def id="c-n" title="consonant-stem">
+                    <declension_def id="c-n-n" title="consonant stem in -n" short_title="-n-" />
+                    <declension_def id="c-n-s" title="consonant stem in -r formerly in -s" short_title="-(s&gt;r)-" />
+                    <declension_def id="c-n-r" title="consonant stem in -r (not -rr-)" short_title="-r- not -rr-" />
+                    <declension_def id="c-n--" title="consonant stem not in -n" short_title="&amp;c" />
+                </declension_def>
             </declension_def>
-            <declension_def id="pl-c" title="plural consonant stem" short_title="cons.">
-                <declension_def id="pl-c-mf" title="plural animate consonant stem" short_title="mf" />
-                <declension_def id="pl-c-n" title="plural inanimate consonant stem" short_title="n" />
+            <declension_def id="i" title="i-stem" short_title="-i-">
+                <declension_def id="i-mf" title="i-stem">
+                    <declension_def id="i-mf-ndnt" title="i-stem in -nd-, -nt-" short_title="-n(d|t)i-" />
+                    <declension_def id="i-mf-rt" title="i-stem in -rt-" short_title="-rti-" />
+                    <declension_def id="i-mf-Cr" title="i-stem in consonant + -r-" short_title="-Cri-" />
+                    <declension_def id="i-mf--" title="i-stem" short_title="&amp;c" />
+                </declension_def>
+                <declension_def id="i-n" title="i-stem">
+                    <declension_def id="i-n-mono" title="i-stem (mono-syllabic)" short_title="mono" />
+                    <declension_def id="i-n-poly" title="i-stem (poly-syllabic)" short_title="poly" />
+                </declension_def>
             </declension_def>
-            <declension_def id="pl-i" title="plural i-stem" short_title="i">
-                <declension_def id="pl-i-mf" title="plural animate i-stem" short_title="mf" />
-                <declension_def id="pl-i-n" title="plural inanimate i-stem" short_title="n" />
+            <declension_def id="u" title="u-stem" short_title="-u-" />
+            <declension_def id="e" title="ē-stem" short_title="ē">
+                <declension_def id="e-V" title="ē-stem after vowel (incl. -i-)" short_title="V" />
+                <declension_def id="e-C" title="ē-stem after consonant (excl. -i-)" short_title="C" />
             </declension_def>
-            <declension_def id="pl-u" title="plural u-stem" short_title="u">
-                <declension_def id="pl-u-mf" title="plural animate u-stem" short_title="mf" />
-                <declension_def id="pl-u-n" title="plural inanimate u-stem" short_title="n" />
-            </declension_def>
-            <declension_def id="pl-e" title="plural ē-stem" short_title="ē" />
         </declension_def>
-        <case_def id="NVAc" title="nominative-vocative-accusative">
-            <case_def id="NV" title="nominative-vocative">
-                <case_def id="N" title="nominative" short_title="N" />
-                <case_def id="V" title="vocative" short_title="V" />
-            </case_def>
-            <case_def id="Ac" title="accusative" short_title="Ac" />
+        <case_def id="sg-NV" title="singular animate nominative/vocative">
+           <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
+           <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
         </case_def>
-        <case_def id="DAb" title="dative-ablative">
-            <case_def id="D" title="dative" short_title="D" />
-            <case_def id="Ab" title="ablative" short_title="Ab" />
+        <case_def id="sg-Ac" title="singular animate accusative" short_title="sg:Ac" />
+        <case_def id="sg-n" title="singular inanimate nominative/vocative/accusative" short_title="sg:n" />
+        <case_def id="sg-G" title="singular genitive" short_title="sg:G" />
+        <case_def id="sg-Ab" title="singular ablative" short_title="sg:Ab" />
+        <case_def id="sg-D" title="singular dative" short_title="sg:D" />
+        <case_def id="sg-L" title="singular locative" short_title="sg:L" />
+	<case_def id="pl-NVAc" title="plural animate nominative/vocative/accusative">
+            <case_def id="pl-NV" title="plural animate nominative/vocative" short_title="pl:N/V" />
+            <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         </case_def>
-        <case_def id="G" title="genitive" short_title="G" />
-        <case_def id="L" title="locative" short_title="L" />
-        <paradigm declension="sg-a" case="N" form="a" footnote="sg-a-n"/>
-        <paradigm declension="sg-a" case="V" form="a" footnote="sg-a-v"/>
-        <paradigm declension="sg-a" case="Ac" form="am" footnote="sg-a-ac"/>
-        <paradigm declension="sg-a" case="D" form="ae" footnote="sg-a-d"/>
-        <paradigm declension="sg-a" case="Ab" form="a:d?" footnote="sg-a-ab"/>
-        <paradigm declension="sg-a" case="G" form="a:s|ae" footnote="sg-a-g"/>
-        <paradigm declension="sg-a" case="L" form="ae" footnote="sg-a-l"/>
-        <paradigm declension="sg-io-mf" case="N" form="us" footnote="sg-o-mf-n"/>
-        <paradigm declension="sg-io-mf" case="V" form="fused-i:" footnote="sg-o-mf-n"/>
-        <paradigm declension="sg-cro-mf" case="NV" form="fused-er" footnote="sg-ro-mf-n"/>
-        <paradigm declension="sg-vro-mf" case="NV" form="0" footnote="sg-ro-mf-n"/>
-        <paradigm declension="sg--o-mf" case="N" form="us" footnote="sg-o-mf-n"/>
-        <paradigm declension="sg---o-mf" case="V" continues="proto-italic sg-o-mf V" />
-        <paradigm declension="sg-o-n" case="NVAc" form="um" footnote="sg-o-n-ac"/>
-        <paradigm declension="sg-o-mf" case="Ac" form="um" footnote="sg-o-n-ac"/>
-        <paradigm declension="sg-o" case="D" form="o:" footnote="sg-o-d"/>
-        <paradigm declension="sg-o" case="Ab" form="o:" footnote="sg-o-ab"/>
-        <paradigm declension="sg-ro-mf" case="G" form="i:" footnote="sg-o-gB"/>
-        <paradigm declension="sg---o-mf" case="G" form="i:" footnote="sg-o-gB"/>
-        <paradigm declension="sg-io-mf" case="G" form="fused-i:" footnote="sg-o-gB"/>
-        <paradigm declension="sg-io-n" case="G" form="fused-i:" footnote="sg-o-gB"/>
-        <paradigm declension="sg--o-n" case="G" form="i:" footnote="sg-o-gB"/>
-        <paradigm declension="sg-o" case="L" form="i:" footnote="sg-o-l"/>
-        <paradigm declension="sg-c-mf--" case="NV" continues="proto-italic sg-c-mf-- NV" />
-        <paradigm declension="sg-c-mf-d+" case="NV" form="fused-s" footnote="sg-c-mf-nv-d+"/>
-        <paradigm declension="sg-c-mf-g" case="NV" form="fused-x" footnote="sg-c-mf-nv-g"/>
-        <paradigm declension="sg-c-mf-rl" case="NV" form="0" footnote="sg-c-mf-nv-rl"/>
-        <paradigm declension="sg-c-mf-ro" case="NV" form="double-fused-or" footnote="sg-c-mf-ro-NV" />
-        <paradigm declension="sg-c-mf-n" case="NV" continues="proto-italic sg-c-mf-n NV" />
-        <paradigm declension="sg-c-mf-n-freak" case="NV" form="double-fused-en" footnote="sg-c-mf-n-freak" />
-        <paradigm declension="sg-c-mf" case="Ac" continues="proto-italic sg-c-mf Ac" />
-        <paradigm declension="sg-c-n--" case="NVAc" continues="proto-italic sg-c-n-- NVAc" />
-        <paradigm declension="sg-c-n-n" case="NVAc" continues="proto-italic sg-c-n-n NVAc" />
-        <paradigm declension="sg-c-n-s" case="NVAc" form="double-fused-u(r|s)-fused-s" footnote="sg-c-n-s" />
-        <paradigm declension="sg-c-n-r" case="NVAc" form="0" footnote="sg-c-n-r" />
-        <paradigm declension="sg-i-mf--" case="NV" continues="proto-italic sg-i-mf NV" />
-        <paradigm declension="sg-i-mf-Cr" case="NV" form="double-fused-er" footnote="sg-i-mf-Cr" />
-        <paradigm declension="sg-i-mf-ndnt" case="NV" form="lengthening-double-fused-s" footnote="sg-i-mf-ndntrt" />
-        <paradigm declension="sg-i-mf-rt" case="NV" form="double-fused-s" footnote="sg-i-mf-ndntrt" />
-        <paradigm declension="sg-i-mf" case="Ac" form="fused-em-m" footnote="sg-i-mf-ac" />
-        <paradigm declension="sg-i-n-mono" case="NVAc" form="fused-e" footnote="sg-i-n" />
-        <paradigm declension="sg-i-n-poly" case="NVAc" form="fused-0" footnote="sg-i-n-poly" />
-        <paradigm declension="sg-c" case="D" form="i:" footnote="sg-c-d" />
-        <paradigm declension="sg-i" case="D" form="fused-i:" footnote="sg-i-d" />
-        <paradigm declension="sg-c" case="Ab" form="e" footnote="sg-c-ab" />
-        <paradigm declension="sg-i" case="Ab" form="fused-e|i:" footnote="sg-i-ab" />
-        <paradigm declension="sg-c" case="G" form="(i|u)s" footnote="sg-c-g" />
-        <paradigm declension="sg-i" case="G" form="s" footnote="sg-i-g" />
-        <paradigm declension="sg-c" case="L" form="e|i:" footnote="sg-c-l" />
-        <paradigm declension="sg-u-mf" case="NV" continues="proto-italic sg-u-mf NV" />
-        <paradigm declension="sg-u-mf" case="Ac" continues="proto-italic sg-u-mf Ac" />
-        <paradigm declension="sg-u-n" case="NVAc" form="fused-u:" footnote="sg-u-n" />
-        <paradigm declension="sg-u" case="Ab" form="fused-u:" footnote="sg-u-ab" />
-        <paradigm declension="sg-u" case="D" form="i:-ei-fused-u:" footnote="sg-u-d" />
-        <paradigm declension="sg-u" case="G" form="fused-u:s-is" footnote="sg-u-g" />
-        <paradigm declension="sg-e" case="NV" form="s" footnote="sg-e-nv" />
-        <paradigm declension="sg-e" case="Ac" form="fused-em" footnote="sg-e-ac" />
-        <paradigm declension="sg-e" case="Ab" form="0" footnote="sg-e-ab" />
-        <paradigm declension="sg-e-V" case="D" form="i:-fused-i:" footnote="sg-e-CV" />
-        <paradigm declension="sg-e-C" case="D" form="fused-ei:-fused-i:" footnote="sg-e-CV" />
-        <paradigm declension="sg-e-V" case="G" form="i:-fused-i:" footnote="sg-e-CV" />
-        <paradigm declension="sg-e-C" case="G" form="fused-ei:-fused-i:" footnote="sg-e-CV" />
-        <paradigm declension="pl-a" case="NV" form="ae" footnote="pl-a-n"/>
-        <paradigm declension="pl-a" case="Ac" form="a:s" footnote="pl-a-ac"/>
-        <paradigm declension="pl-a" case="DAb" form="i:s|a:bus" footnote="pl-a-dab"/>
-        <paradigm declension="pl-a" case="G" form="a:rum" footnote="pl-a-g"/>
-        <paradigm declension="pl-o-mf" case="NV" form="i:" footnote="pl-o-mf-n"/>
-        <paradigm declension="pl-o-mf" case="Ac" form="o:s" footnote="pl-o-mf-ac"/>
-        <paradigm declension="pl-o-n" case="NVAc" form="a" footnote="pl-o-n-ac"/>
-        <paradigm declension="pl-o" case="DAb" form="i:s" footnote="pl-o-dab"/>
-        <paradigm declension="pl-o" case="G" form="(o:r)um" footnote="pl-o-g"/>
-        <paradigm declension="pl-c-mf" case="NV" form="e:s" footnote="pl-c-nv"/>
-        <paradigm declension="pl-c-mf" case="Ac" form="e:s" footnote="pl-c-ac"/>
-        <paradigm declension="pl-c-n" case="NVAc" form="a" footnote="pl-c-n"/>
-        <paradigm declension="pl-c" case="DAb" form="ibus" footnote="pl-c-dab"/>
-        <paradigm declension="pl-c" case="G" form="um" footnote="pl-c-g"/>
-        <paradigm declension="pl-i-mf" case="NVAc" form="fused-i:s-fused-e:s" footnote="pl-i-nvac"/>
-        <paradigm declension="pl-i-n" case="NVAc" form="a" footnote="pl-i-n"/>
-        <paradigm declension="pl-i" case="DAb" form="bus" footnote="pl-i-dab"/>
-        <paradigm declension="pl-i" case="G" form="um" footnote="pl-i-g"/>
-        <paradigm declension="pl-u-mf" case="NV" form="fused-u:s" footnote="pl-u-nv"/>
-        <paradigm declension="pl-u-mf" case="Ac" form="fused-u:" footnote="pl-u-ac"/>
-        <paradigm declension="pl-u-n" case="NVAc" form="a" footnote="pl-u-n"/>
-        <paradigm declension="pl-u" case="G" form="um-om" footnote="pl-u-g"/>
-        <paradigm declension="pl-u" case="DAb" form="bus-fused-ibus" footnote="pl-u-dab"/>
-        <paradigm declension="pl-e" case="NVAc" form="s" footnote="pl-e"/>
-        <paradigm declension="pl-e" case="G" form="rum" footnote="pl-e"/>
-        <paradigm declension="pl-e" case="DAb" form="bus" footnote="pl-e"/>
+        <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
+        <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
+        <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
+        <paradigm declension="a" case="sg-N" form="a" footnote="sg-a-n"/>
+        <paradigm declension="a" case="sg-V" form="a" footnote="sg-a-v"/>
+        <paradigm declension="a" case="sg-Ac" form="am" footnote="sg-a-ac"/>
+        <paradigm declension="a" case="sg-D" form="ae" footnote="sg-a-d"/>
+        <paradigm declension="a" case="sg-Ab" form="a:d?" footnote="sg-a-ab"/>
+        <paradigm declension="a" case="sg-G" form="a:s|ae" footnote="sg-a-g"/>
+        <paradigm declension="a" case="sg-L" form="ae" footnote="sg-a-l"/>
+        <paradigm declension="a" case="pl-NV" form="ae" footnote="pl-a-n"/>
+        <paradigm declension="a" case="pl-Ac" form="a:s" footnote="pl-a-ac"/>
+        <paradigm declension="a" case="pl-DAb" form="i:s|a:bus" footnote="pl-a-dab"/>
+        <paradigm declension="a" case="pl-G" form="a:rum" footnote="pl-a-g"/>
+        <paradigm declension="io-mf" case="sg-N" form="us" footnote="sg-o-mf-n"/>
+        <paradigm declension="io-mf" case="sg-V" form="fused-i:" footnote="sg-o-mf-n"/>
+        <paradigm declension="cro-mf" case="sg-NV" form="fused-er" footnote="sg-ro-mf-n"/>
+        <paradigm declension="vro-mf" case="sg-NV" form="0" footnote="sg-ro-mf-n"/>
+        <paradigm declension="-o-mf" case="sg-N" form="us" footnote="sg-o-mf-n"/>
+        <paradigm declension="--o-mf" case="sg-V" continues="proto-italic o sg-V" />
+        <paradigm declension="o-n" case="sg-n" form="um" footnote="sg-o-n-ac"/>
+        <paradigm declension="o-mf" case="sg-Ac" form="um" footnote="sg-o-n-ac"/>
+        <paradigm declension="o" case="sg-D" form="o:" footnote="sg-o-d"/>
+        <paradigm declension="o" case="sg-Ab" form="o:" footnote="sg-o-ab"/>
+        <paradigm declension="ro-mf" case="sg-G" form="i:" footnote="sg-o-gB"/>
+        <paradigm declension="--o-mf" case="sg-G" form="i:" footnote="sg-o-gB"/>
+        <paradigm declension="io-mf" case="sg-G" form="fused-i:" footnote="sg-o-gB"/>
+        <paradigm declension="io-n" case="sg-G" form="fused-i:" footnote="sg-o-gB"/>
+        <paradigm declension="-o-n" case="sg-G" form="i:" footnote="sg-o-gB"/>
+        <paradigm declension="o" case="sg-L" form="i:" footnote="sg-o-l"/>
+        <paradigm declension="o-mf" case="pl-NV" form="i:" footnote="pl-o-mf-n"/>
+        <paradigm declension="o-mf" case="pl-Ac" form="o:s" footnote="pl-o-mf-ac"/>
+        <paradigm declension="o-n" case="pl-n" form="a" footnote="pl-o-n-ac"/>
+        <paradigm declension="o" case="pl-DAb" form="i:s" footnote="pl-o-dab"/>
+        <paradigm declension="o" case="pl-G" form="(o:r)um" footnote="pl-o-g"/>
+        <paradigm declension="c-mf--" case="sg-NV" continues="proto-italic c-mf-- sg-NV" />
+        <paradigm declension="c-mf-d+" case="sg-NV" form="fused-s" footnote="sg-c-mf-nv-d+"/>
+        <paradigm declension="c-mf-g" case="sg-NV" form="fused-x" footnote="sg-c-mf-nv-g"/>
+        <paradigm declension="c-mf-rl" case="sg-NV" form="0" footnote="sg-c-mf-nv-rl"/>
+        <paradigm declension="c-mf-ro" case="sg-NV" form="double-fused-or" footnote="sg-c-mf-ro-NV" />
+        <paradigm declension="c-mf-n" case="sg-NV" continues="proto-italic c-mf-n sg-NV" />
+        <paradigm declension="c-mf-n-freak" case="sg-NV" form="double-fused-en" footnote="sg-c-mf-n-freak" />
+        <paradigm declension="c-mf" case="sg-Ac" continues="proto-italic c-mf sg-Ac" />
+        <paradigm declension="c-n--" case="sg-n" continues="proto-italic c-n-- sg-n" />
+        <paradigm declension="c-n-n" case="sg-n" continues="proto-italic c-n-n sg-n" />
+        <paradigm declension="c-n-s" case="sg-n" form="double-fused-u(r|s)-fused-s" footnote="sg-c-n-s" />
+        <paradigm declension="c-n-r" case="sg-n" form="0" footnote="sg-c-n-r" />
+        <paradigm declension="c" case="sg-D" form="i:" footnote="sg-c-d" />
+        <paradigm declension="c" case="sg-Ab" form="e" footnote="sg-c-ab" />
+        <paradigm declension="c" case="sg-G" form="(i|u)s" footnote="sg-c-g" />
+        <paradigm declension="c" case="sg-L" form="e|i:" footnote="sg-c-l" />
+        <paradigm declension="c" case="pl-NV" form="e:s" footnote="pl-c-nv"/>
+        <paradigm declension="c" case="pl-Ac" form="e:s" footnote="pl-c-ac"/>
+        <paradigm declension="c" case="pl-n" form="a" footnote="pl-c-n"/>
+        <paradigm declension="c" case="pl-DAb" form="ibus" footnote="pl-c-dab"/>
+        <paradigm declension="c" case="pl-G" form="um" footnote="pl-c-g"/>
+        <paradigm declension="i-mf--" case="sg-NV" continues="proto-italic i sg-NV" />
+        <paradigm declension="i-mf-Cr" case="sg-NV" form="double-fused-er" footnote="sg-i-mf-Cr" />
+        <paradigm declension="i-mf-ndnt" case="sg-NV" form="lengthening-double-fused-s" footnote="sg-i-mf-ndntrt" />
+        <paradigm declension="i-mf-rt" case="sg-NV" form="double-fused-s" footnote="sg-i-mf-ndntrt" />
+        <paradigm declension="i-mf" case="sg-Ac" form="fused-em-m" footnote="sg-i-mf-ac" />
+        <paradigm declension="i-n-mono" case="sg-n" form="fused-e" footnote="sg-i-n" />
+        <paradigm declension="i-n-poly" case="sg-n" form="fused-0" footnote="sg-i-n-poly" />
+        <paradigm declension="i" case="sg-D" form="fused-i:" footnote="sg-i-d" />
+        <paradigm declension="i" case="sg-Ab" form="fused-e|i:" footnote="sg-i-ab" />
+        <paradigm declension="i" case="sg-G" form="s" footnote="sg-i-g" />
+        <paradigm declension="i-mf" case="pl-NVAc" form="fused-i:s-fused-e:s" footnote="pl-i-nvac"/>
+        <paradigm declension="i-n" case="pl-n" form="a" footnote="pl-i-n"/>
+        <paradigm declension="i" case="pl-DAb" form="bus" footnote="pl-i-dab"/>
+        <paradigm declension="i" case="pl-G" form="um" footnote="pl-i-g"/>
+        <paradigm declension="u" case="sg-NV" continues="proto-italic u sg-NV" />
+        <paradigm declension="u" case="sg-Ac" continues="proto-italic u sg-Ac" />
+        <paradigm declension="u" case="sg-n" form="fused-u:" footnote="sg-u-n" />
+        <paradigm declension="u" case="sg-Ab" form="fused-u:" footnote="sg-u-ab" />
+        <paradigm declension="u" case="sg-D" form="i:-ei-fused-u:" footnote="sg-u-d" />
+        <paradigm declension="u" case="sg-G" form="fused-u:s-is" footnote="sg-u-g" />
+        <paradigm declension="u" case="pl-NV" form="fused-u:s" footnote="pl-u-nv"/>
+        <paradigm declension="u" case="pl-Ac" form="fused-u:" footnote="pl-u-ac"/>
+        <paradigm declension="u" case="pl-n" form="a" footnote="pl-u-n"/>
+        <paradigm declension="u" case="pl-G" form="um-om" footnote="pl-u-g"/>
+        <paradigm declension="u" case="pl-DAb" form="bus-fused-ibus" footnote="pl-u-dab"/>
+        <paradigm declension="e" case="sg-NV" form="s" footnote="sg-e-nv" />
+        <paradigm declension="e" case="sg-Ac" form="fused-em" footnote="sg-e-ac" />
+        <paradigm declension="e" case="sg-Ab" form="0" footnote="sg-e-ab" />
+        <paradigm declension="e-V" case="sg-D" form="i:-fused-i:" footnote="sg-e-CV" />
+        <paradigm declension="e-C" case="sg-D" form="fused-ei:-fused-i:" footnote="sg-e-CV" />
+        <paradigm declension="e-V" case="sg-G" form="i:-fused-i:" footnote="sg-e-CV" />
+        <paradigm declension="e-C" case="sg-G" form="fused-ei:-fused-i:" footnote="sg-e-CV" />
+        <paradigm declension="e" case="pl-NVAc" form="s" footnote="pl-e"/>
+        <paradigm declension="e" case="pl-G" form="rum" footnote="pl-e"/>
+        <paradigm declension="e" case="pl-DAb" form="bus" footnote="pl-e"/>
     </grammar_table>
     <forms>
         <form id="?(e)h1-(bh|m)i">-?(e)h₁, -(bʰ|m)i</form>
