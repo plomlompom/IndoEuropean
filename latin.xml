@@ -1395,20 +1395,12 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
 A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 alone mentions it, prefixed with a "perhaps") to include in the table.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o">
-            <declension_def id="o-mf" title="o-stem">
-                <declension_def id="ro-mf" title="o-stem (in -r)" >
-                    <declension_def id="cro-mf" title="o-stem (in consonant + -r)" short_title="-Cr-" />
-                    <declension_def id="vro-mf" title="o-stem (in vowel + -r)" short_title="-Vr-" />
-                </declension_def>
-                <declension_def id="-o-mf" title="o-stem">
-                    <declension_def id="io-mf" title="o-stem (in -i)" short_title="-i-" />
-                    <declension_def id="--o-mf" title="o-stem (not in -i)" short_title="&amp;c" />
-                </declension_def>
+            <declension_def id="o-not-i" title="o-stem not in -i-">
+                <declension_def id="Cr-o" title="o-stem (in consonant + -r)" short_title="-Cr-" />
+                <declension_def id="Vr-o" title="o-stem (in vowel + -r)" short_title="-Vr-" />
+                <declension_def id="o-etc" title="o-stem (most)" short_title="&amp;c" />
             </declension_def>
-            <declension_def id="o-n" title="o-stem">
-                <declension_def id="io-n" title="o-stem in -i" short_title="-i-" />
-                <declension_def id="-o-n" title="o-stem (not in -i)" short_title="&amp;c" />
-            </declension_def>
+            <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
         </declension_def>
         <declension_def id="athem" title="athematic">
             <declension_def id="c" title="consonant-stem" short_title="cons.">
@@ -1475,25 +1467,22 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="a" case="pl-Ac" form="a:s" footnote="pl-a-ac"/>
         <paradigm declension="a" case="pl-DAb" form="i:s|a:bus" footnote="pl-a-dab"/>
         <paradigm declension="a" case="pl-G" form="a:rum" footnote="pl-a-g"/>
-        <paradigm declension="io-mf" case="sg-N" form="us" footnote="sg-o-mf-n"/>
-        <paradigm declension="io-mf" case="sg-V" form="fused-i:" footnote="sg-o-mf-n"/>
-        <paradigm declension="cro-mf" case="sg-NV" form="fused-er" footnote="sg-ro-mf-n"/>
-        <paradigm declension="vro-mf" case="sg-NV" form="0" footnote="sg-ro-mf-n"/>
-        <paradigm declension="-o-mf" case="sg-N" form="us" footnote="sg-o-mf-n"/>
-        <paradigm declension="--o-mf" case="sg-V" continues="proto-italic o sg-V" />
-        <paradigm declension="o-n" case="sg-n" form="um" footnote="sg-o-n-ac"/>
-        <paradigm declension="o-mf" case="sg-Ac" form="um" footnote="sg-o-n-ac"/>
+        <paradigm declension="o-etc" case="sg-N" form="us" footnote="sg-o-mf-n"/>
+        <paradigm declension="o-i" case="sg-V" form="fused-i:" footnote="sg-o-mf-n"/>
+        <paradigm declension="Cr-o" case="sg-NV" form="fused-er" footnote="sg-ro-mf-n"/>
+        <paradigm declension="Vr-o" case="sg-NV" form="0" footnote="sg-ro-mf-n"/>
+        <paradigm declension="o-i" case="sg-N" form="us" footnote="sg-o-mf-n"/>
+        <paradigm declension="o-etc" case="sg-V" continues="proto-italic o sg-V" />
+        <paradigm declension="o" case="sg-n" form="um" footnote="sg-o-n-ac"/>
+        <paradigm declension="o" case="sg-Ac" form="um" footnote="sg-o-n-ac"/>
         <paradigm declension="o" case="sg-D" form="o:" footnote="sg-o-d"/>
         <paradigm declension="o" case="sg-Ab" form="o:" footnote="sg-o-ab"/>
-        <paradigm declension="ro-mf" case="sg-G" form="i:" footnote="sg-o-gB"/>
-        <paradigm declension="--o-mf" case="sg-G" form="i:" footnote="sg-o-gB"/>
-        <paradigm declension="io-mf" case="sg-G" form="fused-i:" footnote="sg-o-gB"/>
-        <paradigm declension="io-n" case="sg-G" form="fused-i:" footnote="sg-o-gB"/>
-        <paradigm declension="-o-n" case="sg-G" form="i:" footnote="sg-o-gB"/>
+        <paradigm declension="o-not-i" case="sg-G" form="i:" footnote="sg-o-gB"/>
+        <paradigm declension="o-i" case="sg-G" form="fused-i:" footnote="sg-o-gB"/>
         <paradigm declension="o" case="sg-L" form="i:" footnote="sg-o-l"/>
-        <paradigm declension="o-mf" case="pl-NV" form="i:" footnote="pl-o-mf-n"/>
-        <paradigm declension="o-mf" case="pl-Ac" form="o:s" footnote="pl-o-mf-ac"/>
-        <paradigm declension="o-n" case="pl-n" form="a" footnote="pl-o-n-ac"/>
+        <paradigm declension="o" case="pl-NV" form="i:" footnote="pl-o-mf-n"/>
+        <paradigm declension="o" case="pl-Ac" form="o:s" footnote="pl-o-mf-ac"/>
+        <paradigm declension="o" case="pl-n" form="a" footnote="pl-o-n-ac"/>
         <paradigm declension="o" case="pl-DAb" form="i:s" footnote="pl-o-dab"/>
         <paradigm declension="o" case="pl-G" form="(o:r)um" footnote="pl-o-g"/>
         <paradigm declension="c-mf--" case="sg-NV" continues="proto-italic c-mf-- sg-NV" />
