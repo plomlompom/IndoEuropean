@@ -473,8 +473,8 @@
         <paradigm declension="u" case="pl-NV" continues="pie u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
-    <grammar_table id="pit+2" title="Proto-Italic fusion of ablative and instrumental"> 
-        <description>Ablative and instrumental fuse to the new ablative (<source book="ClacksonHorrocks" /> p. 14-15; <source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128; <source book="Sihler" /> p. 252-253, 258): The o-stem instrumental plural ending -ōis replaces the ablative ending. The a-stem ablative plural ending is re-shaped after the result to -āis. In the singular, the pattern of the o-stem ablative ending -ōd is generalized to all other stems. (There may have been an intermediate stage where the singular instrumental endings -ā, -ē, -ī, -ū replaced the old ablative endings not as distinctive as -ōd, and were then re-shaped by mere addition of its -d.)</description>
+    <grammar_table id="pit+2" title="Proto-Italic fusion of (dative-)ablative and instrumental"> 
+	    <description>Ablative and instrumental fuse to the new ablative (<source book="ClacksonHorrocks" /> p. 14-15; <source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128; <source book="Sihler" /> p. 252-253, 258), in the plural together with the formally already identical dative (Meiser p. 128-129, Sihler p. 264): The o-stem instrumental plural ending -ōis replaces the dative/ablative ending. The a-stem dative/ablative plural ending is re-shaped after the result to -āis. In the singular, the pattern of the o-stem ablative ending -ōd is generalized to all other stems. (There may have been an intermediate stage where the singular instrumental endings -ā, -ē, -ī, -ū replaced the old ablative endings not as distinctive as -ōd, and were then re-shaped by mere addition of its -d.)</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -501,10 +501,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAb" title="plural dative/ablative">
-            <case_def id="pl-Ab" title="plural ablative" short_title="pl:Ab" />
-            <case_def id="pl-D" title="plural dative" short_title="pl:D" />
-        </case_def>
+	<case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
         <case_def id="pl-L" title="plural locative" short_title="pl:L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
@@ -546,15 +543,13 @@
         <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+1 a pl-G" />
-        <paradigm declension="a" case="pl-D" continues="pit a pl-DAb" />
-        <paradigm declension="a" case="pl-Ab" form="a:is" footnote="pit+2:pl-a/Ab" />
+        <paradigm declension="a" case="pl-DAb" form="a:is" footnote="pit+2:pl-a/DAb" />
         <paradigm declension="a" case="pl-L" continues="pit a pl-L" />
         <paradigm declension="o" case="pl-NV" continues="pit+1 o pl-NV" />
         <paradigm declension="o" case="pl-Ac" continues="pie them pl-Ac" />
         <paradigm declension="o" case="pl-n" continues="pit o pl-n" />
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
-        <paradigm declension="o" case="pl-D" continues="pie+2 them pl-DAb" />
-        <paradigm declension="o" case="pl-Ab" form="o:is" footnote="pit+2:pl-o/Ab" />
+        <paradigm declension="o" case="pl-DAb" form="o:is" footnote="pit+2:pl-o/DAb" />
         <paradigm declension="o" case="pl-L" continues="pie them pl-L" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
         <paradigm declension="athem" case="pl-DAb" continues="pie+2 athem pl-DAb" />
@@ -595,10 +590,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAb" title="plural dative/ablative">
-            <case_def id="pl-Ab" title="plural ablative" short_title="pl:Ab" />
-            <case_def id="pl-D" title="plural dative" short_title="pl:D" />
-        </case_def>
+	<case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
         <case_def id="pl-L" title="plural locative" short_title="pl:L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
@@ -640,15 +632,13 @@
         <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
         <paradigm declension="a" case="pl-Ac" form="ans" footnote="pit+3:pl-a/Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+1 a pl-G" />
-        <paradigm declension="a" case="pl-D" continues="pit a pl-DAb" />
-        <paradigm declension="a" case="pl-Ab" form="ais" footnote="pit+3:pl-a/Ab" />
+	<paradigm declension="a" case="pl-DAb" form="ais" footnote="pit+3:pl-a/DAb" />
         <paradigm declension="a" case="pl-L" continues="pit a pl-L" />
         <paradigm declension="o" case="pl-NV" continues="pit+1 o pl-NV" />
         <paradigm declension="o" case="pl-Ac" continues="pie them pl-Ac" />
         <paradigm declension="o" case="pl-n" continues="pit o pl-n" />
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
-        <paradigm declension="o" case="pl-D" continues="pie+2 them pl-DAb" />
-        <paradigm declension="o" case="pl-Ab" form="ois" footnote="pit+3:pl-o/Ab" />
+        <paradigm declension="o" case="pl-DAb" form="ois" footnote="pit+3:pl-o/DAb" />
         <paradigm declension="o" case="pl-L" continues="pie them pl-L" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
         <paradigm declension="athem" case="pl-DAb"  continues="pie+2 athem pl-DAb" />
@@ -662,7 +652,7 @@
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
     <grammar_table id="pit+4" title="Proto-Italic plural ablative/dative/locative"> 
-        <description>In the plurals, (new) ablative, dative, and locative fuse to one common form per stem. In the a/o-stems, this form is identical to the plural ablative's form. In the o-stems, the result of -ois would have been equal to the locative ending -oisu on loss of its -u (<source book="Meiser" /> p. 74), which may have happened at the same time. This formal identity between ablative and locative may have spread to the other stems. In parallel, the formal identity between ablative and dative may have spread from the consonant and i/u-stems. (Meiser p. 128-129; <source book="Sihler" /> p. 264.) The extension of the athematic dative/ablative to the locative is barely speculative (Meiser p. 129 "mag verwendet worden sein") and therefore not depicted.</description>
+	    <description>In the plurals, dative/ablative and locative fuse to one common form per stem. In the a/o-stems, this form is identical to the plural dative/ablative's original form. In the o-stems, the result of -ois would have been equal to the locative ending -oisu on loss of its -u (<source book="Meiser" /> p. 74), which may have happened at the same time. This formal identity between dative/ablative and locative may have spread to the other stems. The extension of the athematic dative/ablative to the locative is barely speculative (Meiser p. 129 "mag verwendet worden sein") and therefore not depicted.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -1854,11 +1844,11 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit+2:sg-athem/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Meiser" /> p. 128, 138; <source book="Sihler" /> p. 258-259</footnote>
 	<footnote id="pit+2:sg-i/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Meiser" /> p. 128, 132; <source book="Sihler" /> p. 317</footnote>
 	<footnote id="pit+2:sg-u/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128, 144; <source book="Sihler" /> p. 324</footnote>
-	<footnote id="pit+2:pl-a/Ab"><source book="Meiser" /> p. 128, 133; <source book="Sihler" /> p. 272</footnote>
-	<footnote id="pit+2:pl-o/Ab"><source book="Meiser" /> p. 128, 136; <source book="Sihler" /> p. 263</footnote>
+	<footnote id="pit+2:pl-a/DAb"><source book="Meiser" /> p. 128, 133; <source book="Sihler" /> p. 272</footnote>
+	<footnote id="pit+2:pl-o/DAb"><source book="Meiser" /> p. 128, 136; <source book="Sihler" /> p. 263</footnote>
 	<footnote id="pit+3:pl-a/Ac"><source book="Sihler" /> p. 254, 271</footnote>
-	<footnote id="pit+3:pl-a/Ab"><source book="ClacksonHorrocks" /> p. 16; <source book="Meiser" /> p. 133; <source book="Sihler" /> p. 272</footnote>
-	<footnote id="pit+3:pl-o/Ab"><source book="ClacksonHorrocks" /> p. 16; <source book="Meiser" /> p. 129, 136; <source book="Sihler" /> p. 263-264</footnote>
+	<footnote id="pit+3:pl-a/DAb"><source book="ClacksonHorrocks" /> p. 16; <source book="Meiser" /> p. 133; <source book="Sihler" /> p. 272</footnote>
+	<footnote id="pit+3:pl-o/DAb"><source book="ClacksonHorrocks" /> p. 16; <source book="Meiser" /> p. 129, 136; <source book="Sihler" /> p. 263-264</footnote>
         <footnote id="pit+5:sg-o/G"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16-17, 32; <source book="Fortson" /> p. 127, 466; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 135; <source book="Sihler" /> p. 259-260</footnote>
 
 	<footnote id="pit+6:pl-athem/DAb"><source book="Sihler" /> p. 286, 318</footnote>
