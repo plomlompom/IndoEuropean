@@ -907,7 +907,7 @@
         <paradigm declension="u" case="pl-NV" continues="pie u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
-    <grammar_table id="italo-celtic" title="The o-stem singular genitive from Celtic to Latino-Faliscan"> 
+    <grammar_table id="italo-celtic" title="The o-stem singular genitive from possibly Celtic to Latino-Faliscan"> 
         <description>Proto-Indo-European -os?(i)o is continued as -osio even into Archaic Latin. An ending -ī of uncertain origin replaces this in later Latin, but also turns up in Venetic (which, if part of the Italic family, split off from it early; <source book="Beekes" /> p. 25; <source book="Fortson" /> p. 127, 465-466), Faliscan, and even Celtic languages. This may continue a Proto-Italic or even Proto-Italo-Celtic ending. Or it may be the result of more recent morphological borrowing between languages in close contact on the Italian Peninsula (<source book="ClacksonHorrocks" /> p. 32). The -ī ending may continue a suffix -iH that marks familial affiliation (Beekes p. 212; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 135).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
@@ -945,7 +945,7 @@
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
         <paradigm declension="a" case="sg-G" continues="pit a sg-G" />
         <paradigm declension="a" case="sg-Ab" continues="pit+2 a sg-Ab" />
-        <paradigm declension="a" case="sg-L" continues="pit a sg-Ab" />
+        <paradigm declension="a" case="sg-L" continues="pit a sg-L" />
         <paradigm declension="o" case="sg-N" continues="pie them sg-N" />
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
@@ -953,7 +953,7 @@
         <paradigm declension="o" case="sg-G" form="osio-i:" footnote="pit+5:sg-o/G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
-        <paradigm declension="o" case="sg-L" continues="pit o sg-Ab" />
+        <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
         <paradigm declension="athem" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="athem" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-kp" case="sg-N" continues="pie cons-kp sg-N" />
@@ -964,27 +964,27 @@
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
-        <paradigm declension="cons" case="sg-L" continues="pie cons sg-Ab" />
+        <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
         <paradigm declension="iu" case="sg-N" continues="pie iu sg-N" />
         <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
         <paradigm declension="i" case="sg-D" continues="pie i sg-D" />
-        <paradigm declension="i" case="sg-L" continues="pie i sg-Ab" />
+        <paradigm declension="i" case="sg-L" continues="pie i sg-L" />
         <paradigm declension="u" case="sg-V" continues="pie u sg-V" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
         <paradigm declension="u" case="sg-G" continues="pie u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pie u sg-D" />
-        <paradigm declension="u" case="sg-L" continues="pie u sg-Ab" />
+        <paradigm declension="u" case="sg-L" continues="pie u sg-L" />
         <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit a pl-G" />
-        <paradigm declension="a" case="pl-DAbL" continues="pit+x a pl-DAbL" />
+        <paradigm declension="a" case="pl-DAbL" form="ais" footnote="pit+x:pl-a/DAbL" />
         <paradigm declension="o" case="pl-NV" continues="pie them pl-NV" />
         <paradigm declension="o" case="pl-Ac" continues="pie them pl-Ac" />
         <paradigm declension="o" case="pl-n" continues="pit o pl-n" />
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
-        <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
+        <paradigm declension="o" case="pl-DAbL" form="ois" footnote="pit+x:pl-o/DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
         <paradigm declension="athem" case="pl-DAb"  continues="pie+2 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
@@ -1083,8 +1083,8 @@
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
-    <grammar_table id="pit+10" title="Italic convergence of endings in -a">
-        <description>All previous endings in -a and -ā converge to -a, as do the plural neuter i-/u-stem endings. The paths to this differ greatly between <source book="Sihler" /> and <source book="Meiser" />. For Sihler, endings in -ā at first prevail over endings in -a (a-stem singular vocative turns to -ā under the influence of the nominative (p. 268), and the consonantic plural neuter under the influence of the o-stem (p. 263)), and later ("[r]elatively late in the history of [Latin]", but "predat[ing] the loss of final -d") all word-final -ā turn to -a, due to "iambic shortening", the influence of the shortened -am ending, or a mysteriously singular vowel shift (p. 78-79, 266-267). Meiser cannot accept such a vowel shift (p. 77) and proposes an inverse generalization of -a endings prevailing over -ā endings (p. 132, 136). Sihler (p. 317, 326) sees the plural neuter o-stem endings in -ā append to the i-/u-stem endings (with -ī- and -ū- shortening to -i- and -u-, as long vowels shorten before long ones (p. 80)) before turning to -a. Meiser (p. 144, 146-147) sees the consonant stem ending in -a replace the original i/u-stem neuter plural endings, but also proposes alternate paths for the u-stem: an ending in -a deriving from the -h₂ in a former -?(e)uh₂ (p. 147).</description>
+    <grammar_table id="pit+10" title="Proto-Italic and Latino-Faliscan(?) convergence of endings in -a">
+        <description>All previous endings in -a and -ā converge to -a, as do the plural neuter i-/u-stem endings. The paths to this differ greatly between <source book="Sihler" /> and <source book="Meiser" />. For Sihler, endings in -ā at first prevail over endings in -a (a-stem singular vocative turns to -ā under the influence of the nominative (p. 268), and the consonantic plural neuter under the influence of the o-stem (p. 263)), and later ("[r]elatively late in the history of [Latin]", but "predat[ing] the loss of final -d") all word-final -ā turn to -a, due to "iambic shortening", the influence of the shortened -am ending, or a mysteriously singular vowel shift (p. 78-79, 266-267). Meiser cannot accept such a vowel shift (p. 77) and proposes an inverse generalization of -a endings prevailing over -ā endings (p. 132, 136). Sihler (p. 317, 326) sees the plural neuter o-stem endings in -ā append to the i-/u-stem endings (with -ī- and -ū- shortening to -i- and -u-, as long vowels shorten before long ones (p. 80)) before turning to -a. Meiser (p. 144, 146-147) sees the consonant stem ending in -a replace the original i/u-stem neuter plural endings, but also proposes alternate paths for the u-stem: an ending in -a deriving from the -h₂ in a former -?(e)uh₂ (p. 147). Sabellic keeps -ā for both the a-stem singular nominative, and the o-stem plural neuter.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o" />
