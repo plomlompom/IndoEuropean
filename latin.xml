@@ -3,7 +3,7 @@
 <grammar_tables title="Development of nominal endings from PIE to Latin">
     <description>Note "(&lt;)" abbreviates "(fused with last stem sound (consonant or vowel))", "(&lt;&lt;)" abbreviates "(fused with last stem vowel + consonant)", "(–)" abbreviates "(previous vowel is lengthened)", "?(x)" means "possibly x", "(x|y)" means "either x or y".</description>
     <grammar_table id="pie" title="Late Proto-Indo-European (simplified)">
-	    <description>This table omits the dual number, of which the development of Latin retains few if any traces. Not depicted, but part of Italic development: Pre-laryngeal e-ablauts were already laryngeally colored (i.e. phonetically eh₂ has become ah₂, and h₂e h₂a; <source book="Fortson" /> p. 63; <source book="MeierBrugger" /> p. 244; <source book="Meiser" /> p. 29; <source book="Sihler" /> p. 42-50). Variations in athematic root/stem accent/ablaut are ignored except for a few cases where stem ablauts easily fuse with the endings proper. Regarding nominative singular consonant-stems nouns, most scholars assume an -s ending, and for that -s ending to be dropped (with compensatory lengthening of the preceding vowel) after non-stops. <source book="Beekes" /> p. 186 though assumes the opposite, consonant-stem nouns originally ending in -∅, with -s only copied over later from the o-stem nouns. For stems ending in -n- and -(d|t)-, the stem-final consonant may have dropped too, with any subsequent -s only kept in the latter (example *kwō from *kwon-: Beekes p. 194, Sihler p. 100, 230; example *pōs from *pod-: Sihler p. 130, 280; not depicted: Sihler p. 280 assumes for *pod- that the dental stop was later analogically restored, with the lengthened vowel kept: *pōts .) The accusative plural endings in -ns probably result from suffixing the plural nominative -s to the accusative singular -m (<source book="KleinJosephFritz" /> p. 2084; Meier-Brügger p. 295). Not depicted: a thematic singular genitive in -os, only to be found in the Anatolian brnach (Klein/Joseph/Fritz p. 2086), with -os?(i)o probably an early import from the pronouns (Beekes p. 213)..</description>
+	    <description>This table omits the dual number, of which the development of Latin retains few if any traces. Not depicted, but part of Italic development: Pre-laryngeal e-ablauts were already laryngeally colored (i.e. phonetically eh₂ has become ah₂, and h₂e h₂a; <source book="Fortson" /> p. 63; <source book="MeierBrugger" /> p. 244; <source book="Meiser" /> p. 29; <source book="Sihler" /> p. 42-50). Variations in athematic root/stem accent/ablaut are ignored except for a few cases where stem ablauts easily fuse with the endings proper. Regarding nominative singular consonant-stems nouns, most scholars assume an -s ending, and for that -s ending to be dropped (with compensatory lengthening of the preceding vowel) after non-stops. <source book="Beekes" /> p. 186 though assumes the opposite, consonant-stem nouns originally ending in -∅, with -s only copied over later from the o-stem nouns. For stems ending in -n- and -(d|t)-, the stem-final consonant may have dropped too, with any subsequent -s only kept in the latter (example *kwō from *kwon-: Beekes p. 194, Sihler p. 100, 230; example *pōs from *pod-: Sihler p. 130, 280; not depicted: Sihler p. 280 assumes for *pod- that the dental stop was later analogically restored, with the lengthened vowel kept: *pōts .) The accusative plural endings in -ns probably result from suffixing the plural nominative -s to the accusative singular -m (<source book="KleinJosephFritz" /> p. 2084; Meier-Brügger p. 295). Not depicted: a thematic singular genitive in -os, only to be found in the Anatolian brnach (Klein/Joseph/Fritz p. 2086), with -os?(i)o probably an early import from the pronouns (Beekes p. 213). Not depicted: an alternate athematic singular locative without ending (Sihler p. 248, 253).</description>
         <declension_def id="them" title="thematic" short_title="thematic" />
         <declension_def id="athem" title="athematic">
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
@@ -52,7 +52,7 @@
         <paradigm declension="cons" case="sg-Ab" form="?(e|o)s" footnote="pie:sg-cons/GAb" />
         <paradigm declension="cons" case="sg-G" form="?(e|o)s" footnote="pie:sg-cons/GAb" />
         <paradigm declension="cons" case="sg-D" form="ei" footnote="pie:sg-cons/D" />
-        <paradigm declension="cons" case="sg-L" form="i-0" footnote="pie:sg-cons/L" />
+        <paradigm declension="cons" case="sg-L" form="i" footnote="pie:sg-cons/L" />
         <paradigm declension="cons" case="sg-I" form="?(e)h1-(bh|m)i" footnote="pie:sg-cons/I" />
         <paradigm declension="iu" case="sg-N" form="s" footnote="pie:sg-iu/N" />
         <paradigm declension="iu" case="sg-I" form="?(e)h1-(bh|m)i" footnote="pie:sg-iu/I" />
@@ -980,12 +980,12 @@
         <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit a pl-G" />
-        <paradigm declension="a" case="pl-DAbL" form="ais" footnote="pit+x:pl-a/DAbL" />
+        <paradigm declension="a" case="pl-DAbL" continues="pit+x a pl-DAbL" />
         <paradigm declension="o" case="pl-NV" continues="pie them pl-NV" />
         <paradigm declension="o" case="pl-Ac" continues="pie them pl-Ac" />
         <paradigm declension="o" case="pl-n" continues="pit o pl-n" />
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
-        <paradigm declension="o" case="pl-DAbL" form="ois" footnote="pit+x:pl-o/DAbL" />
+        <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
         <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
@@ -1262,7 +1262,7 @@
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
     </grammar_table>
     <grammar_table id="lf-sylnas" title="Latino-Faliscan addition of -e- before syllabic nasals">
-        <description>Syllabic nasals turn into nasals prefixed with an -e- (in Sabellic maybe with an -a-: <source book="Meiser" /> p. 65; <source book="Fortson" /> p. 277; <source book="Sihler" /> p. 96)</description>
+        <description>Syllabic nasals turn into nasals prefixed with an -e- (in Sabellic maybe with an -a-: <source book="Meiser" /> p. 65; <source book="Fortson" /> p. 277; <source book="Sihler" /> p. 96; <source book="Weiss" /> p. 94-95).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o" />
@@ -1351,7 +1351,7 @@
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
     </grammar_table>
-<grammar_table id="proto-italic" title="proto-italic">
+<grammar_table id="proto-italic" title="WIP: proto-italic">
         <description>Note that <source book="Sihler" /> p. 286 names -fos as the Proto-Italic dative-ablative consonant stem plural ending, but this (even if reflected in all other Italic languages) is inconsistent with Early Latin's reflex of original -bʰos as -bos (<source book="Sihler" /> p. 147, 286), so the earlier form is here given.
 The dative singular is somewhat aritrarily chosen as the proto-italic starting point for the fusion of consonant and i-stem paradigms (<source book="Sihler" /> p. 316, 318), with other forms still separate. 
 The i-stem genitive singular is unsure, at least the one continued in Latin (<source book="Sihler" /> p. 316-317).
@@ -1462,7 +1462,7 @@ Not depicted: neuter r/n-stems (<source book="Sihler" /> p. 298-299).
         <paradigm declension="u" case="pl-G" form="?(o)uom" footnote="pl-u-g0"/>
         <paradigm declension="u" case="pl-DAb" form="bhos" footnote="pl-u-dab"/>
     </grammar_table>
-    <grammar_table id="classical" title="classical">
+    <grammar_table id="classical" title="WIP: classical">
         <description>
 -o- becomes -u- before final consonants (<source book="Sihler" /> p. 66),
 -e- becomes -i- before non-nasal consonants (general rule with some exception, but holds true before any final consonants) (<source book="Sihler" /> p. 65),
@@ -1738,7 +1738,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="(e|o)u-fused">-(e|o)u (&lt;)</form>
         <form id="(e|o)ues-fused">-(e|o)ues (&lt;)</form>
         <form id="h2">-h₂</form>
-        <form id="i-0">-i, -∅</form>
         <form id="i:-fused">-ī (&lt;)</form>
         <form id="i:-fused-bhi">-ī (&lt;), -bʰi</form>
         <form id="i:d-fused">-īd (&lt;)</form>
