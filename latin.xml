@@ -1351,7 +1351,7 @@
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
     </grammar_table>
-<grammar_table id="proto-italic" title="WIP: proto-italic">
+<grammar_table id="proto-italic" title="WIP: some state of proto-italic">
         <description>Note that <source book="Sihler" /> p. 286 names -fos as the Proto-Italic dative-ablative consonant stem plural ending, but this (even if reflected in all other Italic languages) is inconsistent with Early Latin's reflex of original -bʰos as -bos (<source book="Sihler" /> p. 147, 286), so the earlier form is here given.
 The dative singular is somewhat aritrarily chosen as the proto-italic starting point for the fusion of consonant and i-stem paradigms (<source book="Sihler" /> p. 316, 318), with other forms still separate. 
 The i-stem genitive singular is unsure, at least the one continued in Latin (<source book="Sihler" /> p. 316-317).
@@ -1586,9 +1586,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
         <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-        <paradigm declension="a" case="sg-N" form="a" footnote="sg-a-n"/>
-        <paradigm declension="a" case="sg-V" form="a" footnote="sg-a-v"/>
-        <paradigm declension="a" case="sg-Ac" form="am" footnote="sg-a-ac"/>
+	<paradigm declension="a" case="sg-NV" continues="pit+10 a sg-NV" />
+        <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac"/>
         <paradigm declension="a" case="sg-D" form="ae" footnote="sg-a-d"/>
         <paradigm declension="a" case="sg-Ab" form="a:d?" footnote="sg-a-ab"/>
         <paradigm declension="a" case="sg-G" form="a:s|ae" footnote="sg-a-g"/>
@@ -1602,7 +1601,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="Cr-o" case="sg-NV" form="fused-er" footnote="sg-ro-mf-n"/>
         <paradigm declension="Vr-o" case="sg-NV" form="0" footnote="sg-ro-mf-n"/>
         <paradigm declension="o-i" case="sg-N" form="us" footnote="sg-o-mf-n"/>
-        <paradigm declension="o-etc" case="sg-V" continues="proto-italic o sg-V" />
+        <paradigm declension="o-etc" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-n" form="um" footnote="sg-o-n-ac"/>
         <paradigm declension="o" case="sg-Ac" form="um" footnote="sg-o-n-ac"/>
         <paradigm declension="o" case="sg-D" form="o:" footnote="sg-o-d"/>
@@ -1613,7 +1612,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="o-i" case="sg-L" form="fused-i:" footnote="sg-o-l"/>
         <paradigm declension="o" case="pl-NV" form="i:" footnote="pl-o-mf-n"/>
         <paradigm declension="o" case="pl-Ac" form="o:s" footnote="pl-o-mf-ac"/>
-        <paradigm declension="o" case="pl-n" form="a" footnote="pl-o-n-ac"/>
+        <paradigm declension="o" case="pl-n" continues="pit+10 non-a pl-n"/>
         <paradigm declension="o" case="pl-DAb" form="i:s" footnote="pl-o-dab"/>
         <paradigm declension="o" case="pl-G" form="(o:r)um" footnote="pl-o-g"/>
         <paradigm declension="c-mf--" case="sg-NV" continues="proto-italic c-mf-- sg-NV" />
@@ -1623,7 +1622,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="c-mf-ro" case="sg-NV" form="double-fused-or" footnote="sg-c-mf-ro-NV" />
         <paradigm declension="c-mf-n" case="sg-NV" continues="proto-italic c-mf-n sg-NV" />
         <paradigm declension="c-mf-n-freak" case="sg-NV" form="double-fused-en" footnote="sg-c-mf-n-freak" />
-        <paradigm declension="c-mf" case="sg-Ac" continues="proto-italic c-mf sg-Ac" />
+        <paradigm declension="c-mf" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="c-n--" case="sg-n" continues="proto-italic c-n-- sg-n" />
         <paradigm declension="c-n-n" case="sg-n" continues="proto-italic c-n-n sg-n" />
         <paradigm declension="c-n-s" case="sg-n" form="double-fused-u(r|s)-fused-s" footnote="sg-c-n-s" />
@@ -1634,7 +1633,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="c" case="sg-L" form="e|i:" footnote="sg-c-l" />
         <paradigm declension="c" case="pl-NV" form="e:s" footnote="pl-c-nv"/>
         <paradigm declension="c" case="pl-Ac" form="e:s" footnote="pl-c-ac"/>
-        <paradigm declension="c" case="pl-n" form="a" footnote="pl-c-n"/>
+        <paradigm declension="c" case="pl-n" continues="pit cons pl-n"/>
         <paradigm declension="c" case="pl-DAb" form="ibus" footnote="pl-c-dab"/>
         <paradigm declension="c" case="pl-G" form="um" footnote="pl-c-g"/>
         <paradigm declension="i-mf--" case="sg-NV" continues="proto-italic i sg-NV" />
@@ -1648,18 +1647,18 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="i" case="sg-Ab" form="fused-e|i:" footnote="sg-i-ab" />
         <paradigm declension="i" case="sg-G" form="s" footnote="sg-i-g" />
         <paradigm declension="i-mf" case="pl-NVAc" form="fused-i:s-fused-e:s" footnote="pl-i-nvac"/>
-        <paradigm declension="i-n" case="pl-n" form="a" footnote="pl-i-n"/>
+        <paradigm declension="i-n" case="pl-n" continues="pit+10 non-a pl-n"/>
         <paradigm declension="i" case="pl-DAb" form="bus" footnote="pl-i-dab"/>
         <paradigm declension="i" case="pl-G" form="um" footnote="pl-i-g"/>
         <paradigm declension="u" case="sg-NV" continues="proto-italic u sg-NV" />
-        <paradigm declension="u" case="sg-Ac" continues="proto-italic u sg-Ac" />
+        <paradigm declension="u" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="u" case="sg-n" form="fused-u:" footnote="sg-u-n" />
         <paradigm declension="u" case="sg-Ab" form="fused-u:" footnote="sg-u-ab" />
         <paradigm declension="u" case="sg-D" form="i:-ei-fused-u:" footnote="sg-u-d" />
         <paradigm declension="u" case="sg-G" form="fused-u:s-is" footnote="sg-u-g" />
         <paradigm declension="u" case="pl-NV" form="fused-u:s" footnote="pl-u-nv"/>
         <paradigm declension="u" case="pl-Ac" form="fused-u:" footnote="pl-u-ac"/>
-        <paradigm declension="u" case="pl-n" form="a" footnote="pl-u-n"/>
+        <paradigm declension="u" case="pl-n" continues="pit+10 non-a pl-n"/>
         <paradigm declension="u" case="pl-G" form="um-om" footnote="pl-u-g"/>
         <paradigm declension="u" case="pl-DAb" form="bus-fused-ibus" footnote="pl-u-dab"/>
         <paradigm declension="e" case="sg-NV" form="s" footnote="sg-e-nv" />
