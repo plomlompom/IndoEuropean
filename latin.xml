@@ -881,12 +881,12 @@
         <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
-        <paradigm declension="i" case="sg-D" continues="pie i sg-D" />
+	<paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="i" case="sg-L" continues="pie i sg-L" />
-        <paradigm declension="u" case="sg-V" continues="pie u sg-V" />
+        <paradigm declension="u" case="sg-V" continues="pit+7 u sg-V" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
-        <paradigm declension="u" case="sg-G" continues="pie u sg-G" />
-        <paradigm declension="u" case="sg-D" continues="pie u sg-D" />
+        <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
+        <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
         <paradigm declension="u" case="sg-L" continues="pie u sg-L" />
         <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
@@ -898,13 +898,14 @@
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
         <paradigm declension="o" case="pl-DAbL" form="ois" footnote="pit+x:pl-o/DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pie+2 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
+        <paradigm declension="athem" case="pl-L" continues="pie athem pl-L" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
-        <paradigm declension="i" case="pl-NV" continues="pie i pl-NV" />
+        <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="i" case="pl-n" continues="pit i pl-n" />
-        <paradigm declension="u" case="pl-NV" continues="pie u pl-NV" />
+        <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
     <grammar_table id="italo-celtic" title="The o-stem singular genitive from possibly Celtic to Latino-Faliscan"> 
@@ -969,12 +970,12 @@
         <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
-        <paradigm declension="i" case="sg-D" continues="pie i sg-D" />
+	<paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="i" case="sg-L" continues="pie i sg-L" />
-        <paradigm declension="u" case="sg-V" continues="pie u sg-V" />
+        <paradigm declension="u" case="sg-V" continues="pit+7 u sg-V" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
-        <paradigm declension="u" case="sg-G" continues="pie u sg-G" />
-        <paradigm declension="u" case="sg-D" continues="pie u sg-D" />
+        <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
+        <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
         <paradigm declension="u" case="sg-L" continues="pie u sg-L" />
         <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
@@ -986,13 +987,14 @@
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
         <paradigm declension="o" case="pl-DAbL" form="ois" footnote="pit+x:pl-o/DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pie+2 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
+        <paradigm declension="athem" case="pl-L" continues="pie athem pl-L" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
-        <paradigm declension="i" case="pl-NV" continues="pie i pl-NV" />
+        <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="i" case="pl-n" continues="pit i pl-n" />
-        <paradigm declension="u" case="pl-NV" continues="pie u pl-NV" />
+        <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
     <grammar_table id="pit+9" title="Proto-Italic (?) vowel shortening before -m">
