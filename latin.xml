@@ -3,7 +3,7 @@
 <grammar_tables title="Development of nominal endings from PIE to Latin">
     <description>Note "(&lt;)" abbreviates "(fused with last stem sound (consonant or vowel))", "(&lt;&lt;)" abbreviates "(fused with last stem vowel + consonant)", "(–)" abbreviates "(previous vowel is lengthened)", "?(x)" means "possibly x", "(x|y)" means "either x or y".</description>
     <grammar_table id="pie" title="Late Proto-Indo-European (simplified)">
-	    <description>This table omits the dual number, of which the development of Latin retains few if any traces. Not depicted, but part of Italic development: Pre-laryngeal e-ablauts were already laryngeally colored (i.e. phonetically eh₂ has become ah₂, and h₂e h₂a; <source book="Fortson" /> p. 63; <source book="MeierBrugger" /> p. 244; <source book="Meiser" /> p. 29; <source book="Sihler" /> p. 42-50). Variations in athematic root/stem accent/ablaut are ignored except for a few cases where stem ablauts easily fuse with the endings proper. Regarding nominative singular consonant-stems nouns, most scholars assume an -s ending, and for that -s ending to be dropped (with compensatory lengthening of the preceding vowel) after non-stops. <source book="Beekes" /> p. 186 though assumes the opposite, consonant-stem nouns originally ending in -∅, with -s only copied over later from the o-stem nouns. For stems ending in -n- and -(d|t)-, the stem-final consonant may have dropped too, with any subsequent -s only kept in the latter (example *kwō from *kwon-: Beekes p. 194, Sihler p. 100, 230; example *pōs from *pod-: Sihler p. 130, 280; not depicted: Sihler p. 280 assumes for *pod- that the dental stop was later analogically restored, with the lengthened vowel kept: *pōts .) The accusative plural endings in -ns probably result from suffixing the plural nominative -s to the accusative singular -m (<source book="KleinJosephFritz" /> p. 2084; Meier-Brügger p. 295). Not depicted: a thematic singular genitive in -os, only to be found in the Anatolian brnach (Klein/Joseph/Fritz p. 2086), with -os?(i)o probably an early import from the pronouns (Beekes p. 213). Not depicted: an alternate athematic singular locative without ending (Sihler p. 248, 253).</description>
+	    <description>This table omits the dual number, of which the development of Latin retains few if any traces. Not depicted, but part of Italic development: Pre-laryngeal e-ablauts were already laryngeally colored (i.e. phonetically eh₂ has become ah₂, and h₂e h₂a; <source book="Fortson" /> p. 63; <source book="MeierBrugger" /> p. 244; <source book="Meiser" /> p. 29; <source book="Sihler" /> p. 42-50). Variations in athematic root/stem accent/ablaut are mostly ignored except for a few cases where stem ablauts easily fuse with the endings proper (i.e. i- and u-stems). Regarding consonant-stem singular nominatives, most scholars assume an -s ending, and for that -s ending to be dropped (with compensatory lengthening of the preceding vowel) after non-stops. <source book="Beekes" /> p. 186 though assumes the opposite, consonant-stem nouns originally ending in -∅, with -s only copied over later from the o-stem nouns. For stems ending in -n- and -(d|t)-, the stem-final consonant may have dropped too, with any subsequent -s only kept in the latter (example *kwō from *kwon-: Beekes p. 194, Sihler p. 100, 230; example *pōs from *pod-: Sihler p. 130, 280; not depicted: Sihler p. 280 assumes for *pod- that the dental stop was later analogically restored, with the lengthened vowel kept: *pōts .) The accusative plural endings in -ns probably result from suffixing the plural nominative -s to the accusative singular -m (<source book="KleinJosephFritz" /> p. 2084; Meier-Brügger p. 295). Not depicted: a thematic singular genitive in -os, only to be found in the Anatolian brnach (Klein/Joseph/Fritz p. 2086), with -os?(i)o probably an early import from the pronouns (Beekes p. 213). Not depicted: an alternate athematic singular locative without ending (Sihler p. 248, 253).</description>
         <declension_def id="them" title="thematic" short_title="thematic" />
         <declension_def id="athem" title="athematic">
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
@@ -12,9 +12,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n-" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -94,9 +94,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -190,9 +190,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -286,9 +286,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -385,9 +385,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -474,9 +474,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -563,9 +563,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -652,9 +652,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -741,9 +741,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -830,9 +830,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -919,9 +919,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -1008,9 +1008,9 @@
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
-            <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
         <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
@@ -1097,9 +1097,9 @@
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                     <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
                 </declension_def>
-                <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                    <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                    <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+                <declension_def id="iu" title="i/u-stem" >
+                    <declension_def id="i" title="i-stem" short_title="-i-" />
+                    <declension_def id="u" title="u-stem" short_title="-u-" />
                 </declension_def>
             </declension_def>
         </declension_def>
@@ -1185,9 +1185,9 @@
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                     <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
                 </declension_def>
-                <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                    <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                    <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+                <declension_def id="iu" title="i/u-stem" >
+                    <declension_def id="i" title="i-stem" short_title="-i-" />
+                    <declension_def id="u" title="u-stem" short_title="-u-" />
                 </declension_def>
             </declension_def>
         </declension_def>
@@ -1273,9 +1273,9 @@
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                     <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
                 </declension_def>
-                <declension_def id="iu" title="(proterodynamic) i/u-stem" >
-                    <declension_def id="i" title="(proterodynamic) i-stem" short_title="-i-" />
-                    <declension_def id="u" title="(proterodynamic) u-stem" short_title="-u-" />
+                <declension_def id="iu" title="i/u-stem" >
+                    <declension_def id="i" title="i-stem" short_title="-i-" />
+                    <declension_def id="u" title="u-stem" short_title="-u-" />
                 </declension_def>
             </declension_def>
         </declension_def>
@@ -1358,24 +1358,17 @@ The i-stem genitive singular is unsure, at least the one continued in Latin (<so
 The u-stem nominative/vocative/accusative neuter singular is unsure, the table uses what <source book="Sihler" /> p. 323 describes as the PIE ending, and <source book="ClacksonHorrocks" /> p. 16 describes as one possible Early Latin form.
 The u-stem dative/ablative plural is assumed to be the same as for consonant and i-stems, although <source book="Sihler" /> p. 326 only securely names it for PIE.
 Not depicted: neuter r/n-stems (<source book="Sihler" /> p. 298-299).
+Not depicted: ablaut gradations in …
 </description>
 
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
             <declension_def id="c" title="consonant-stem" short_title="cons.">
-                <declension_def id="c-mf" title="consonant-stem">
-                    <declension_def id="c-mf-d" title="consonant stem in dental" short_title="-(d|t)-" />
-                    <declension_def id="c-mf-r" title="consonant stem in -r/-l" short_title="-r-" />
-                    <declension_def id="c-mf-n" title="consonant stem in vowel + n" short_title="-n-" />
-                    <declension_def id="c-mf--" title="consonant stem not in vowel + -r/-n or dental" short_title="&amp;c" />
-                </declension_def>
-                <declension_def id="c-n" title="consonant-stem">
-                    <declension_def id="c-n-n" title="consonant stem in -n" short_title="-n-" />
-                    <declension_def id="c-n-s" title="consonant stem in -s" short_title="-s-" />
-                    <declension_def id="c-n-r" title="consonant stem in -r" short_title="-r-" />
-                    <declension_def id="c-n--" title="consonant stem not in -n, -s or -r" short_title="&amp;c" />
-                </declension_def>
+                <declension_def id="c-d" title="consonant stem in dental" short_title="-(d|t)-" />
+                <declension_def id="c-r" title="consonant stem in -r/-l" short_title="-r-" />
+                <declension_def id="c-n" title="consonant stem in vowel + n" short_title="-n-" />
+                <declension_def id="c--" title="consonant stem not in vowel + -r/-n or dental" short_title="&amp;c" />
             </declension_def>
             <declension_def id="iu" title="i/u-stem" >
                 <declension_def id="i" title="i-stem" short_title="-i-" />
@@ -1421,22 +1414,19 @@ Not depicted: neuter r/n-stems (<source book="Sihler" /> p. 298-299).
         <paradigm declension="o" case="pl-n" form="a:" footnote="pl-o-n-ac"/>
         <paradigm declension="o" case="pl-DAb" form="ois" footnote="pl-o-dab"/>
         <paradigm declension="o" case="pl-G" form="om" footnote="pl-o-g0"/>
-        <paradigm declension="c-mf-d" case="sg-NV" form="fused-ss" footnote="sg-c-mf-nv-d0"/>
-        <paradigm declension="c-mf-r" case="sg-NV" form="0" footnote="sg-c-mf-nv-r"/>
-        <paradigm declension="c-mf-n" case="sg-NV" form="double-fused-o:" footnote="sg-c-mf-nv-n"/>
-        <paradigm declension="c-mf--" case="sg-NV" form="s" footnote="sg-c-mf-nv"/>
-        <paradigm declension="c-mf" case="sg-Ac" form="em" footnote="sg-c-mf-ac"/>
-        <paradigm declension="c-n-n" case="sg-n" form="double-fused-en" footnote="sg-c-n-n" />
-        <paradigm declension="c-n-s" case="sg-n" form="double-fused-os-0" footnote="sg-c-n-s" />
-        <paradigm declension="c-n-r" case="sg-n" form="0" footnote="sg-c-n-r0" />
-        <paradigm declension="c-n--" case="sg-n" form="fused-0" footnote="sg-c-n--" />
+        <paradigm declension="c-d" case="sg-NV" form="fused-ss" footnote="sg-c-mf-nv-d0"/>
+        <paradigm declension="c-r" case="sg-NV" form="0" footnote="sg-c-mf-nv-r"/>
+        <paradigm declension="c-n" case="sg-NV" form="double-fused-o:" footnote="sg-c-mf-nv-n"/>
+        <paradigm declension="c--" case="sg-NV" form="s" footnote="sg-c-mf-nv"/>
+        <paradigm declension="c" case="sg-Ac" form="em" footnote="sg-c-mf-ac"/>
+        <paradigm declension="c" case="sg-n" form="0" footnote="sg-c-n--" />
         <paradigm declension="c" case="sg-D" form="ei" footnote="sg-c-d" />
         <paradigm declension="c" case="sg-Ab" form="e:d" footnote="sg-c-ab0" />
         <paradigm declension="c" case="sg-G" form="(e|o)s" footnote="sg-c-g" />
         <paradigm declension="c" case="sg-L" form="i" footnote="sg-c-l0" />
-        <paradigm declension="c-mf" case="pl-NV" form="es" footnote="pl-c-nv"/>
-        <paradigm declension="c-mf" case="pl-Ac" form="ens" footnote="pl-c-ac"/>
-        <paradigm declension="c-n" case="pl-n" form="a:" footnote="pl-c-n"/>
+        <paradigm declension="c" case="pl-NV" form="es" footnote="pl-c-nv"/>
+        <paradigm declension="c" case="pl-Ac" form="ens" footnote="pl-c-ac"/>
+        <paradigm declension="c" case="pl-n" form="a:" footnote="pl-c-n"/>
         <paradigm declension="c" case="pl-DAb" form="bhos" footnote="pl-c-dab0"/>
         <paradigm declension="c" case="pl-G" form="om" footnote="pl-c-g0"/>
         <paradigm declension="i" case="sg-NV" form="s" footnote="sg-i-mf--" />
@@ -1623,8 +1613,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="c-mf-n" case="sg-NV" continues="proto-italic c-mf-n sg-NV" />
         <paradigm declension="c-mf-n-freak" case="sg-NV" form="double-fused-en" footnote="sg-c-mf-n-freak" />
         <paradigm declension="c-mf" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
-        <paradigm declension="c-n--" case="sg-n" continues="proto-italic c-n-- sg-n" />
-        <paradigm declension="c-n-n" case="sg-n" continues="proto-italic c-n-n sg-n" />
+        <paradigm declension="c-n--" case="sg-n" form="fused-0" footnote="sg-c-n--i" />
+	<paradigm declension="c-n-n" case="sg-n" form="double-fused-en" footnote="sg-c-n-n" />
         <paradigm declension="c-n-s" case="sg-n" form="double-fused-u(r|s)-fused-s" footnote="sg-c-n-s" />
         <paradigm declension="c-n-r" case="sg-n" form="0" footnote="sg-c-n-r" />
         <paradigm declension="c" case="sg-D" form="i:" footnote="sg-c-d" />
@@ -1851,7 +1841,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pie:sg-cons-etc/N"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 70, 116; <source book="MeierBrugger" /> p. 283, 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 130, 248, 290; <source book="Szemerenyi" /> p. 121-122, 169; <source book="KleinJosephFritz" /> p. 2083</footnote>
         <footnote id="pie:sg-cons/V"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2089</footnote>
         <footnote id="pie:sg-athem/Ac"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083-2084</footnote>
-        <footnote id="pie:sg-athem/n"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083-2084</footnote>
+        <footnote id="pie:sg-athem/n"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250, 284; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083-2084</footnote>
         <footnote id="pie:sg-cons/GAb"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250-251; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2087</footnote>
         <footnote id="pie:sg-cons/D"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 251; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2085</footnote>
         <footnote id="pie:sg-cons/L"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 253; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2085</footnote>
@@ -1952,9 +1942,9 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit+9000:pl-o/NV"><source book="Meiser" /> p. 136; <source book="Sihler" /> p. 261; <source book="KleinJosephFritz" /> p. 754</footnote>
 	<footnote id="lf-sylnas:sg-cons/Ac"><source book="Fortson" /> p. 277; <source book="Sihler" /> p. 284</footnote>
 	<footnote id="lf-sylnas:pl-cons/Ac"><source book="Fortson" /> p. 277; <source book="Sihler" /> p. 286</footnote>
-        <footnote id="sg-c-n--"><source book="Sihler" /> p. 284</footnote>
+        <footnote id="sg-c-n--"><source book="Sihler" /> p. 284, 293, 306</footnote>
+        <footnote id="sg-c-n--i"><source book="Sihler" /> p. 284</footnote>
         <footnote id="sg-c-n-n"><source book="Sihler" /> p. 297</footnote>
-        <footnote id="sg-c-n-r0"><source book="Sihler" /> p. 293</footnote>
         <footnote id="sg-c-n-r"><source book="Sihler" /> p. 293, 306</footnote>
         <footnote id="sg-c-n-s"><source book="Sihler" /> p. 305-307</footnote>
         <footnote id="sg-c-mf-nv"><source book="Sihler" /> p. 283</footnote>
