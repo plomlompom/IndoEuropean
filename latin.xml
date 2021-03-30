@@ -1351,7 +1351,7 @@
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
     </grammar_table>
-<grammar_table id="proto-italic" title="WIP: some state of proto-italic">
+<grammar_table id="proto-italic" title="WIP: some stage of proto-italic">
         <description>Note that <source book="Sihler" /> p. 286 names -fos as the Proto-Italic dative-ablative consonant stem plural ending, but this (even if reflected in all other Italic languages) is inconsistent with Early Latin's reflex of original -bʰos as -bos (<source book="Sihler" /> p. 147, 286), so the earlier form is here given.
 The dative singular is somewhat aritrarily chosen as the proto-italic starting point for the fusion of consonant and i-stem paradigms (<source book="Sihler" /> p. 316, 318), with other forms still separate. 
 The i-stem genitive singular is unsure, at least the one continued in Latin (<source book="Sihler" /> p. 316-317).
@@ -1390,45 +1390,45 @@ Not depicted: ablaut gradations in …
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
         <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-        <paradigm declension="a" case="sg-N" form="a:" footnote="sg-a-n0"/>
-        <paradigm declension="a" case="sg-V" form="a:" footnote="sg-a-v0"/>
-        <paradigm declension="a" case="sg-Ac" form="a:?m" footnote="sg-a-ac"/>
-        <paradigm declension="a" case="sg-D" form="a:i" footnote="sg-a-d"/>
-        <paradigm declension="a" case="sg-Ab" form="a:d" footnote="sg-a-ab0"/>
-        <paradigm declension="a" case="sg-G" form="a:s" footnote="sg-a-g"/>
-        <paradigm declension="a" case="sg-L" form="a:i" footnote="sg-a-l"/>
-        <paradigm declension="a" case="pl-NV" form="a:s" footnote="pl-a-n"/>
-        <paradigm declension="a" case="pl-Ac" form="a:ns" footnote="pl-a-ac"/>
-        <paradigm declension="a" case="pl-DAb" form="a:is" footnote="pl-a-dab"/>
-        <paradigm declension="a" case="pl-G" form="a:so:m" footnote="pl-a-g"/>
-        <paradigm declension="o" case="sg-N" form="os" footnote="sg-o-mf-n"/>
-        <paradigm declension="o" case="sg-V" form="e" footnote="sg-o-mf-n"/>
-        <paradigm declension="o" case="sg-Ac" form="om" footnote="sg-o-n-ac"/>
-        <paradigm declension="o" case="sg-n" form="om" footnote="sg-o-n-ac"/>
-        <paradigm declension="o" case="sg-D" form="o:i" footnote="sg-o-d"/>
-        <paradigm declension="o" case="sg-Ab" form="o:d" footnote="sg-o-ab0"/>
+	<paradigm declension="a" case="sg-N" continues="pit a sg-N" />
+	<paradigm declension="a" case="sg-V" continues="pit a sg-V" />
+	<paradigm declension="a" case="sg-Ac" continues="pit a sg-Ac" />
+	<paradigm declension="a" case="sg-G" continues="pit a sg-G" />
+	<paradigm declension="a" case="sg-D" continues="pit a sg-D" />
+	<paradigm declension="a" case="sg-Ab" continues="pit+2 a sg-Ab" />
+	<paradigm declension="a" case="sg-L" continues="pit a sg-L" />
+	<paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+	<paradigm declension="a" case="pl-Ac" continues="pit a pl-Ac" />
+	<paradigm declension="a" case="pl-DAb" continues="pit+2 a pl-DAb" />
+	<paradigm declension="a" case="pl-G" continues="pit+9000 a pl-G" />
+	<paradigm declension="o" case="sg-N" continues="pie them sg-N" />
+	<paradigm declension="o" case="sg-V" continues="pie them sg-V" />
+	<paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
+	<paradigm declension="o" case="sg-n" continues="pie them sg-n" />
+	<paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
+	<paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-G" form="osio" footnote="sg-o-gA"/>
-        <paradigm declension="o" case="sg-L" form="(o/e)i" footnote="sg-o-l"/>
-        <paradigm declension="o" case="pl-NV" form="o:s" footnote="pl-o-mf-n"/>
-        <paradigm declension="o" case="pl-Ac" form="ons" footnote="pl-o-mf-ac"/>
-        <paradigm declension="o" case="pl-n" form="a:" footnote="pl-o-n-ac"/>
-        <paradigm declension="o" case="pl-DAb" form="ois" footnote="pl-o-dab"/>
-        <paradigm declension="o" case="pl-G" form="om" footnote="pl-o-g0"/>
+	<paradigm declension="o" case="sg-L" continues="pie them sg-L" />
+	<paradigm declension="o" case="pl-NV" continues="pie them pl-NV" />
+	<paradigm declension="o" case="pl-Ac" continues="pie them pl-Ac" />
+	<paradigm declension="o" case="pl-n" continues="pit o pl-n" />
+	<paradigm declension="o" case="pl-G" continues="pit+9 o pl-G" />
+	<paradigm declension="o" case="pl-DAb" continues="pit+x o pl-DAbL" />
         <paradigm declension="c-d" case="sg-NV" form="fused-ss" footnote="sg-c-mf-nv-d0"/>
         <paradigm declension="c-r" case="sg-NV" form="0" footnote="sg-c-mf-nv-r"/>
         <paradigm declension="c-n" case="sg-NV" form="double-fused-o:" footnote="sg-c-mf-nv-n"/>
         <paradigm declension="c--" case="sg-NV" form="s" footnote="sg-c-mf-nv"/>
-        <paradigm declension="c" case="sg-Ac" form="em" footnote="sg-c-mf-ac"/>
-        <paradigm declension="c" case="sg-n" form="0" footnote="sg-c-n--" />
-        <paradigm declension="c" case="sg-D" form="ei" footnote="sg-c-d" />
-        <paradigm declension="c" case="sg-Ab" form="e:d" footnote="sg-c-ab0" />
+        <paradigm declension="c" case="sg-Ac" continues="lf-sylnas cons sg-Ac" form="em" footnote="sg-c-mf-ac"/>
+	<paradigm declension="c" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="c" case="sg-D" continues="pie cons sg-D" />
+	<paradigm declension="c" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="c" case="sg-G" form="(e|o)s" footnote="sg-c-g" />
-        <paradigm declension="c" case="sg-L" form="i" footnote="sg-c-l0" />
-        <paradigm declension="c" case="pl-NV" form="es" footnote="pl-c-nv"/>
-        <paradigm declension="c" case="pl-Ac" form="ens" footnote="pl-c-ac"/>
-        <paradigm declension="c" case="pl-n" form="a:" footnote="pl-c-n"/>
-        <paradigm declension="c" case="pl-DAb" form="bhos" footnote="pl-c-dab0"/>
-        <paradigm declension="c" case="pl-G" form="om" footnote="pl-c-g0"/>
+	<paradigm declension="c" case="sg-L" continues="pie cons sg-L" />
+	<paradigm declension="c" case="pl-NV" continues="pie cons pl-NV" />
+	<paradigm declension="c" case="pl-Ac" continues="lf-sylnas cons pl-Ac" />
+	<paradigm declension="c" case="pl-n" continues="pit+10 non-a pl-n" />
+	<paradigm declension="c" case="pl-DAb" continues="pie+2 athem pl-DAb" />
+	<paradigm declension="c" case="pl-G" continues="pit+9 athem pl-G" />
         <paradigm declension="i" case="sg-NV" form="s" footnote="sg-i-mf--" />
         <paradigm declension="i" case="sg-Ac" form="m" footnote="sg-i-mf-ac" />
         <paradigm declension="i" case="sg-n" form="0" footnote="sg-i-n" />
@@ -1806,7 +1806,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="am">-am</form>
         <form id="bus">-bus</form>
         <form id="a:d?">-ā?(d)</form>
-        <form id="a:so:m">-āsōm</form>
         <form id="a:s|ae">-ās, -ae</form>
         <form id="i:s|a:bus">-īs, -ābus</form>
         <form id="a:rum">-ārum</form>
@@ -1841,9 +1840,9 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pie:sg-cons-etc/N"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 70, 116; <source book="MeierBrugger" /> p. 283, 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 130, 248, 290; <source book="Szemerenyi" /> p. 121-122, 169; <source book="KleinJosephFritz" /> p. 2083</footnote>
         <footnote id="pie:sg-cons/V"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2089</footnote>
         <footnote id="pie:sg-athem/Ac"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083-2084</footnote>
-        <footnote id="pie:sg-athem/n"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250, 284; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083-2084</footnote>
+        <footnote id="pie:sg-athem/n"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250, 284, 293, 306; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083-2084</footnote>
         <footnote id="pie:sg-cons/GAb"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250-251; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2087</footnote>
-        <footnote id="pie:sg-cons/D"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 251; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2085</footnote>
+        <footnote id="pie:sg-cons/D"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 251, 284; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2085</footnote>
         <footnote id="pie:sg-cons/L"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 253; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2085</footnote>
         <footnote id="pie:sg-cons/I"><source book="Beekes" /> p. 186-187; <source book="Fortson" /> p. 115-116; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 246-248, 251-252; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2085</footnote>
         <footnote id="pie:sg-iu/N"><source book="Beekes" /> p. 203; <source book="MeierBrugger" /> p. 342; <source book="Meiser" /> p. 141-142; <source book="Sihler" /> p. 248, 311, 315-316, 321-322; <source book="Szemerenyi" /> p. 186-187</footnote>
@@ -1893,7 +1892,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit:sg-a/GAb"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 267, 269</footnote>
 	<footnote id="pit:sg-a/I"><source book="Meiser" /> p. 131-132; <source book="Sihler" /> p. 268</footnote>
 	<footnote id="pit:sg-a/L"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 270</footnote>
-	<footnote id="pit:sg-o/Ab"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-128; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34;  <source book="Sihler" /> p. 248, 250-251, 258; <source book="KleinJosephFritz" /> p. 2087</footnote>
+	<footnote id="pit:sg-o/Ab"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-128; <source book="MeierBrugger" /> p. 332; <source book="Meiser" /> p. 34;  <source book="Sihler" /> p. 228, 248, 250-251, 258; <source book="KleinJosephFritz" /> p. 2087</footnote>
 	<footnote id="pit:sg-o/I"><source book="Fortson" /> p. 126-127; <source book="Sihler" /> p. 258-259</footnote>
 	<footnote id="pit:sg-cons/I"><source book="Fortson" /> p. 116; <source book="Sihler" /> p. 248, 285</footnote>
         <footnote id="pit:sg-i/I"><source book="Fortson" /> p. 116; <source book="Sihler" /> p. 248, 312</footnote>
@@ -1942,7 +1941,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit+9000:pl-o/NV"><source book="Meiser" /> p. 136; <source book="Sihler" /> p. 261; <source book="KleinJosephFritz" /> p. 754</footnote>
 	<footnote id="lf-sylnas:sg-cons/Ac"><source book="Fortson" /> p. 277; <source book="Sihler" /> p. 284</footnote>
 	<footnote id="lf-sylnas:pl-cons/Ac"><source book="Fortson" /> p. 277; <source book="Sihler" /> p. 286</footnote>
-        <footnote id="sg-c-n--"><source book="Sihler" /> p. 284, 293, 306</footnote>
         <footnote id="sg-c-n--i"><source book="Sihler" /> p. 284</footnote>
         <footnote id="sg-c-n-n"><source book="Sihler" /> p. 297</footnote>
         <footnote id="sg-c-n-r"><source book="Sihler" /> p. 293, 306</footnote>
@@ -1956,7 +1954,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="sg-c-mf-nv-n"><source book="Sihler" /> p. 290, 295-296</footnote>
         <footnote id="sg-c-mf-n-freak"><source book="Sihler" /> p. 296</footnote>
         <footnote id="sg-c-mf-nv-g"><source book="Sihler" /> p. 204, 283</footnote>
-        <footnote id="sg-c-mf-ac"><source book="Fortson" /> p. 277, <source book="Sihler" /> p. 96, 284</footnote>
         <footnote id="sg-i-mf--"><source book="Sihler" /> p. 315-316</footnote>
         <footnote id="sg-i-mf-Cr"><source book="Sihler" /> p. 70, 315</footnote>
         <footnote id="sg-i-mf-ndntrt"><source book="Sihler" /> p. 316</footnote>
@@ -1980,18 +1977,12 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="sg-e-nv"><source book="Fortson" /> p. 285</footnote>
         <footnote id="sg-e-ac"><source book="Sihler" /> p. 343</footnote>
         <footnote id="sg-e-ab"><source book="Sihler" /> p. 343</footnote>
-        <footnote id="sg-c-ab0"><source book="Sihler" /> p. 285, <source book="Fortson" /> p. 281, <source book="ClacksonHorrocks" /> p. 15-16</footnote>
         <footnote id="sg-c-ab"><source book="Sihler" /> p. 285, <source book="ClacksonHorrocks" /> p. 15-16</footnote>
         <footnote id="sg-c-g"><source book="Sihler" /> p. 285</footnote>
-        <footnote id="sg-c-l0"><source book="Sihler" /> p. 253, 285, <source book="ClacksonHorrocks" /> p. 14-16</footnote>
         <footnote id="sg-c-l"><source book="Sihler" /> p. 253, 285, <source book="Fortson" /> p. 281, 286, <source book="ClacksonHorrocks" /> p. 14-16</footnote>
-        <footnote id="sg-a-n0"><source book="Sihler" /> p. 266-267</footnote>
-        <footnote id="sg-a-v0"><source book="Sihler" /> p. 267-268</footnote>
         <footnote id="sg-a-n"><source book="Sihler" /> p. 78, 266-267</footnote>
         <footnote id="sg-a-v"><source book="Sihler" /> p. 78, 267-268</footnote>
-        <footnote id="sg-a-ac"><source book="Sihler" /> p. 78, 267-268</footnote>
         <footnote id="sg-a-d"><source book="Sihler" /> p. 70, 267-268</footnote>
-        <footnote id="sg-a-ab0"><source book="Sihler" /> p. 258, 267, 269</footnote>
         <footnote id="sg-a-ab"><source book="Sihler" /> p. 228, 267, 269</footnote>
         <footnote id="sg-a-g"><source book="Sihler" /> p. 267, 269</footnote>
         <footnote id="sg-a-l"><source book="Sihler" /> p. 270</footnote>
@@ -2010,16 +2001,11 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pl-a-g"><source book="Sihler" /> p. 270, 272</footnote>
         <footnote id="pl-o-mf-n"><source book="Sihler" /> p. 260</footnote>
         <footnote id="pl-o-mf-ac"><source book="Sihler" /> p. 215, 254, 263</footnote>
-        <footnote id="pl-o-n-ac"><source book="Sihler" /> p. 78, 263</footnote>
         <footnote id="pl-o-dab"><source book="Sihler" /> p. 263</footnote>
-        <footnote id="pl-o-g0"><source book="Sihler" /> p. 264</footnote>
         <footnote id="pl-o-g"><source book="Sihler" /> p. 264-265</footnote>
         <footnote id="pl-c-ac"><source book="Sihler" /> p. 286</footnote>
         <footnote id="pl-c-nv"><source book="Sihler" /> p. 286</footnote>
-        <footnote id="pl-c-n"><source book="Sihler" /> p. 286</footnote>
-        <footnote id="pl-c-dab0"><source book="Sihler" /> p. 145, 147, 286</footnote>
         <footnote id="pl-c-dab"><source book="Sihler" /> p. 286</footnote>
-        <footnote id="pl-c-g0"><source book="Sihler" /> p. 78, 286</footnote>
         <footnote id="pl-c-g"><source book="Sihler" /> p. 66, 286</footnote>
         <footnote id="pl-i-n"><source book="Sihler" /> p. 317</footnote>
         <footnote id="pl-i-nv"><source book="Sihler" /> p. 188, 317</footnote>
