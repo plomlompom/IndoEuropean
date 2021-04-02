@@ -641,8 +641,8 @@
         <paradigm declension="u" case="pl-NV" continues="pie u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
-    <grammar_table id="pit+7" title="Proto-Italic assimilation of e to o before u">
-        <description>Before u, (short) e becomes o (<source book="Sihler" /> p. 40, 56; <source book="Meiser" /> p. 59). The u-stem plural nominative/locative in -oues is here depicted as the regular result, although Sihler p. 325 states: "for some reason, that is not generally regarded as likely."</description>
+    <grammar_table id="pit+6.5" title="Proto-Italic vocative losses/merges">
+        <description>In the athematic stems, the singular vocative disappears/merges with the nominative (<source book="Sihler" /> p. 283, 316, 322; <source book="Meiser" /> p. 138-139, 147). Latin "Iuppiter" preserves a trace of the endingless u-stem singular vocative, as composite of vocative *dieu with *pāter (Meiser p. 138, 144; <source book="Weiss" /> p. 200).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -657,8 +657,10 @@
                 <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
-        <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
-        <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+	<case_def id="sg-NV" title="singular animate nominative/vocative">
+            <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
+            <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+        </case_def>
         <case_def id="sg-Ac" title="singular animate accusative" short_title="sg:Ac" />
         <case_def id="sg-n" title="singular inanimate nominative/vocative/accusative" short_title="sg:n" />
         <case_def id="sg-G" title="singular genitive" short_title="sg:G" />
@@ -688,22 +690,107 @@
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
         <paradigm declension="athem" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="athem" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-kp" case="sg-N" continues="pie cons-kp sg-N" />
-        <paradigm declension="cons-t" case="sg-N" continues="pie cons-t sg-N" />
-        <paradigm declension="cons-n" case="sg-N" continues="pie cons-n sg-N" />
-        <paradigm declension="cons-etc" case="sg-N" continues="pie cons-etc sg-N" />
-        <paradigm declension="cons" case="sg-V" continues="pie cons sg-V" />
+        <paradigm declension="cons-kp" case="sg-NV" form="?s" footnote="pie:sg-cons-kp/N" />
+        <paradigm declension="cons-t" case="sg-NV" form="(?s|s-fused-lengthening|0-lengthening)" footnote="pie:sg-cons-t/N" />
+        <paradigm declension="cons-n" case="sg-NV" form="(0|n)-fused-lengthening" footnote="pie:sg-cons-n/N" />
+        <paradigm declension="cons-etc" case="sg-NV" form="0-lengthening" footnote="pie:sg-cons-etc/N" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
-        <paradigm declension="iu" case="sg-N" continues="pie iu sg-N" />
-        <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
+	<paradigm declension="iu" case="sg-NV"  form="s" footnote="pie:sg-iu/N" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
         <paradigm declension="i" case="sg-D" continues="pie i sg-D" />
         <paradigm declension="i" case="sg-L" continues="pie i sg-L" />
-        <paradigm declension="u" case="sg-V" form="ou-fused" footnote="pit+7:sg-u/V" />
+        <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
+        <paradigm declension="u" case="sg-G" continues="pie u sg-G" />
+        <paradigm declension="u" case="sg-D" continues="pie u sg-D" />
+        <paradigm declension="u" case="sg-L" continues="pie u sg-L" />
+        <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+        <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
+        <paradigm declension="a" case="pl-G" continues="pit a pl-G" />
+        <paradigm declension="a" case="pl-DAb" continues="pit+3 a pl-DAb" />
+        <paradigm declension="a" case="pl-L" continues="pit a pl-L" />
+        <paradigm declension="o" case="pl-NV" continues="pie them pl-NV" />
+        <paradigm declension="o" case="pl-Ac" continues="pie them pl-Ac" />
+        <paradigm declension="o" case="pl-n" continues="pit o pl-n" />
+        <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
+        <paradigm declension="o" case="pl-DAb" continues="pit+3 o pl-DAb" />
+        <paradigm declension="o" case="pl-L" continues="pie them pl-L" />
+        <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
+        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
+        <paradigm declension="athem" case="pl-L" continues="pie athem pl-L" />
+        <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
+        <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
+        <paradigm declension="i" case="pl-NV" continues="pie i pl-NV" />
+        <paradigm declension="i" case="pl-n" continues="pit i pl-n" />
+        <paradigm declension="u" case="pl-NV" continues="pie u pl-NV" />
+        <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
+    </grammar_table>
+    <grammar_table id="pit+7" title="Proto-Italic assimilation of e to o before u">
+        <description>Before u, (short) e becomes o (<source book="Sihler" /> p. 40, 56; <source book="Meiser" /> p. 59). The u-stem plural nominative/locative in -oues is here depicted as the regular result, although Sihler p. 325 states: "for some reason, that is not generally regarded as likely."</description>
+        <declension_def id="a" title="a-stem" short_title="a" />
+        <declension_def id="o" title="o-stem" short_title="o" />
+        <declension_def id="athem" title="athematic">
+            <declension_def id="cons" title="consonant-stem" short_title="cons.">
+                <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
+                <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
+                <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
+                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+            </declension_def>
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
+            </declension_def>
+        </declension_def>
+	<case_def id="sg-NV" title="singular animate nominative/vocative">
+            <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
+            <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+        </case_def>
+        <case_def id="sg-Ac" title="singular animate accusative" short_title="sg:Ac" />
+        <case_def id="sg-n" title="singular inanimate nominative/vocative/accusative" short_title="sg:n" />
+        <case_def id="sg-G" title="singular genitive" short_title="sg:G" />
+        <case_def id="sg-Ab" title="singular ablative" short_title="sg:Ab" />
+        <case_def id="sg-D" title="singular dative" short_title="sg:D" />
+        <case_def id="sg-L" title="singular locative" short_title="sg:L" />
+        <case_def id="pl-NV" title="plural animate nominative/vocative" short_title="pl:N/V" />
+        <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
+        <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
+        <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
+        <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
+        <case_def id="pl-L" title="plural locative" short_title="pl:L" />
+        <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
+        <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
+        <paradigm declension="a" case="sg-Ac" continues="pit a sg-Ac" />
+        <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
+        <paradigm declension="a" case="sg-G" continues="pit a sg-G" />
+        <paradigm declension="a" case="sg-Ab" continues="pit+2 a sg-Ab" />
+        <paradigm declension="a" case="sg-L" continues="pit a sg-L" />
+        <paradigm declension="o" case="sg-N" continues="pie them sg-N" />
+        <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
+        <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
+        <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
+        <paradigm declension="o" case="sg-G" continues="pie them sg-G" />
+        <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
+        <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
+        <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
+        <paradigm declension="athem" case="sg-Ac" continues="pie athem sg-Ac" />
+        <paradigm declension="athem" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
+        <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
+        <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
+        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
+        <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
+        <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
+        <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
+        <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
+        <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
+        <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
+        <paradigm declension="i" case="sg-D" continues="pie i sg-D" />
+        <paradigm declension="i" case="sg-L" continues="pie i sg-L" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
         <paradigm declension="u" case="sg-G" form="ous-fused-or-(e|o)s" footnote="pit+7:sg-u/G" />
         <paradigm declension="u" case="sg-D" form="ouei-fused" footnote="pit+7:sg-u/D" />
@@ -746,8 +833,10 @@
                 <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
-        <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
-        <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+	<case_def id="sg-NV" title="singular animate nominative/vocative">
+            <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
+            <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+        </case_def>
         <case_def id="sg-Ac" title="singular animate accusative" short_title="sg:Ac" />
         <case_def id="sg-n" title="singular inanimate nominative/vocative/accusative" short_title="sg:n" />
         <case_def id="sg-G" title="singular genitive" short_title="sg:G" />
@@ -777,17 +866,15 @@
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
         <paradigm declension="athem" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="athem" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-kp" case="sg-N" continues="pie cons-kp sg-N" />
-        <paradigm declension="cons-t" case="sg-N" continues="pie cons-t sg-N" />
-        <paradigm declension="cons-n" case="sg-N" continues="pie cons-n sg-N" />
-        <paradigm declension="cons-etc" case="sg-N" continues="pie cons-etc sg-N" />
-        <paradigm declension="cons" case="sg-V" continues="pie cons sg-V" />
+        <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
+        <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
+        <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
+        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
-        <paradigm declension="iu" case="sg-N" continues="pie iu sg-N" />
-        <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
+        <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
         <paradigm declension="i" case="sg-D" form="ei-fused" footnote="pit+8:sg-i/D" />
@@ -835,8 +922,10 @@
                 <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
-        <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
-        <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+	<case_def id="sg-NV" title="singular animate nominative/vocative">
+            <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
+            <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+        </case_def>
         <case_def id="sg-Ac" title="singular animate accusative" short_title="sg:Ac" />
         <case_def id="sg-n" title="singular inanimate nominative/vocative/accusative" short_title="sg:n" />
         <case_def id="sg-G" title="singular genitive" short_title="sg:G" />
@@ -868,22 +957,19 @@
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
         <paradigm declension="athem" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="athem" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-kp" case="sg-N" continues="pie cons-kp sg-N" />
-        <paradigm declension="cons-t" case="sg-N" continues="pie cons-t sg-N" />
-        <paradigm declension="cons-n" case="sg-N" continues="pie cons-n sg-N" />
-        <paradigm declension="cons-etc" case="sg-N" continues="pie cons-etc sg-N" />
-        <paradigm declension="cons" case="sg-V" continues="pie cons sg-V" />
+        <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
+        <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
+        <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
+        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
-        <paradigm declension="iu" case="sg-N" continues="pie iu sg-N" />
-        <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
+        <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
 	<paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="i" case="sg-L" continues="pit+8 i sg-L" />
-        <paradigm declension="u" case="sg-V" continues="pit+7 u sg-V" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
         <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
@@ -924,8 +1010,10 @@
                 <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
-        <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
-        <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+	<case_def id="sg-NV" title="singular animate nominative/vocative">
+            <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
+            <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+        </case_def>
         <case_def id="sg-Ac" title="singular animate accusative" short_title="sg:Ac" />
         <case_def id="sg-n" title="singular inanimate nominative/vocative/accusative" short_title="sg:n" />
         <case_def id="sg-G" title="singular genitive" short_title="sg:G" />
@@ -957,22 +1045,19 @@
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
         <paradigm declension="athem" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="athem" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-kp" case="sg-N" continues="pie cons-kp sg-N" />
-        <paradigm declension="cons-t" case="sg-N" continues="pie cons-t sg-N" />
-        <paradigm declension="cons-n" case="sg-N" continues="pie cons-n sg-N" />
-        <paradigm declension="cons-etc" case="sg-N" continues="pie cons-etc sg-N" />
-        <paradigm declension="cons" case="sg-V" continues="pie cons sg-V" />
+        <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
+        <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
+        <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
+        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
-        <paradigm declension="iu" case="sg-N" continues="pie iu sg-N" />
-        <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
+        <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
 	<paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="i" case="sg-L" continues="pit+8 i sg-L" />
-        <paradigm declension="u" case="sg-V" continues="pit+7 u sg-V" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
         <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
@@ -1013,8 +1098,10 @@
                 <declension_def id="u" title="u-stem" short_title="-u-" />
             </declension_def>
         </declension_def>
-        <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
-        <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+	<case_def id="sg-NV" title="singular animate nominative/vocative">
+            <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
+            <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+        </case_def>
         <case_def id="sg-Ac" title="singular animate accusative" short_title="sg:Ac" />
         <case_def id="sg-n" title="singular inanimate nominative/vocative/accusative" short_title="sg:n" />
         <case_def id="sg-G" title="singular genitive" short_title="sg:G" />
@@ -1046,22 +1133,19 @@
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
         <paradigm declension="athem" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="athem" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-kp" case="sg-N" continues="pie cons-kp sg-N" />
-        <paradigm declension="cons-t" case="sg-N" continues="pie cons-t sg-N" />
-        <paradigm declension="cons-n" case="sg-N" continues="pie cons-n sg-N" />
-        <paradigm declension="cons-etc" case="sg-N" continues="pie cons-etc sg-N" />
-        <paradigm declension="cons" case="sg-V" continues="pie cons sg-V" />
+        <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
+        <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
+        <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
+        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
-        <paradigm declension="iu" case="sg-N" continues="pie iu sg-N" />
-        <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
+        <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
         <paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="i" case="sg-L" continues="pit+8 i sg-L" />
-        <paradigm declension="u" case="sg-V" continues="pit+7 u sg-V" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
         <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
@@ -1137,22 +1221,19 @@
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
         <paradigm declension="athem" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="athem" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-kp" case="sg-N" continues="pie cons-kp sg-N" />
-        <paradigm declension="cons-t" case="sg-N" continues="pie cons-t sg-N" />
-        <paradigm declension="cons-n" case="sg-N" continues="pie cons-n sg-N" />
-        <paradigm declension="cons-etc" case="sg-N" continues="pie cons-etc sg-N" />
-        <paradigm declension="cons" case="sg-V" continues="pie cons sg-V" />
+        <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
+        <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
+        <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
+        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
-        <paradigm declension="iu" case="sg-N" continues="pie iu sg-N" />
-        <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
+        <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
         <paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="i" case="sg-L" continues="pit+8 i sg-L" />
-        <paradigm declension="u" case="sg-V" continues="pit+7 u sg-V" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
         <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
@@ -1225,22 +1306,19 @@
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
         <paradigm declension="athem" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="athem" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-kp" case="sg-N" continues="pie cons-kp sg-N" />
-        <paradigm declension="cons-t" case="sg-N" continues="pie cons-t sg-N" />
-        <paradigm declension="cons-n" case="sg-N" continues="pie cons-n sg-N" />
-        <paradigm declension="cons-etc" case="sg-N" continues="pie cons-etc sg-N" />
-        <paradigm declension="cons" case="sg-V" continues="pie cons sg-V" />
+        <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
+        <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
+        <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
+        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
-        <paradigm declension="iu" case="sg-N" continues="pie iu sg-N" />
-        <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
+        <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
         <paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="i" case="sg-L" continues="pit+8 i sg-L" />
-        <paradigm declension="u" case="sg-V" continues="pit+7 u sg-V" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
         <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
@@ -1312,24 +1390,21 @@
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
         <paradigm declension="athem" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-kp" case="sg-N" continues="pie cons-kp sg-N" />
-        <paradigm declension="cons-t" case="sg-N" continues="pie cons-t sg-N" />
-        <paradigm declension="cons-n" case="sg-N" continues="pie cons-n sg-N" />
-        <paradigm declension="cons-etc" case="sg-N" continues="pie cons-etc sg-N" />
-        <paradigm declension="cons" case="sg-V" continues="pie cons sg-V" />
+        <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
+        <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
+        <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
+        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" form="em" footnote="lf-sylnas:sg-cons/Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
-        <paradigm declension="iu" case="sg-N" continues="pie iu sg-N" />
+        <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
-        <paradigm declension="i" case="sg-V" continues="pie i sg-V" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
         <paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="i" case="sg-L" continues="pit+8 i sg-L" />
-        <paradigm declension="u" case="sg-V" continues="pit+7 u sg-V" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
         <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
@@ -1648,7 +1723,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="os">-os</form>
         <form id="osio-i:">-osio, -ī</form>
         <form id="os?(i)o">-os?(i)o</form>
-        <form id="ou-fused">-ou (&lt;)</form>
         <form id="ous-fused-or-(e|o)s">-ous (&lt;), ?(-(e|o)s)</form>
         <form id="oues-fused">-oues (&lt;)</form>
         <form id="ouei-fused">-ouei (&lt;)</form>
@@ -1815,7 +1889,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pit+5:sg-o/G"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16-17, 32; <source book="Fortson" /> p. 127, 466; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 135; <source book="Sihler" /> p. 259-260</footnote>
 
 	<footnote id="pit+6:pl-athem/DAb"><source book="Sihler" /> p. 286, 318</footnote>
-	<footnote id="pit+7:sg-u/V"><source book="Sihler" /> p. 321-322</footnote>
 	<footnote id="pit+7:sg-u/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 248, 321, 324; <source book="Weiss" /> p. 251; <source book="KleinJosephFritz" /> p. 761</footnote>
 	<footnote id="pit+7:sg-u/D"><source book="Sihler" /> p. 323</footnote>
 	<footnote id="pit+7:pl-u/NV"><source book="Sihler" /> p. 325; <source book="Meiser" /> p. 146</footnote>
