@@ -730,7 +730,7 @@
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
     <grammar_table id="pit+7" title="Proto-Italic assimilation of e to o before u">
-        <description>Before u, (short) e becomes o (<source book="Sihler" /> p. 40, 56; <source book="Meiser" /> p. 59). The u-stem plural nominative/locative in -oues is here depicted as the regular result, although Sihler p. 325 states: "for some reason, that is not generally regarded as likely."</description>
+        <description>Before u, (short) e becomes o (<source book="Sihler" /> p. 40, 56; <source book="Meiser" /> p. 59; <source book="KleinJosephFritz" /> p. 746). The u-stem plural nominative/locative in -oues is here depicted as the regular result, although Sihler p. 325 states: "for some reason, that is not generally regarded as likely."</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -817,8 +817,8 @@
         <paradigm declension="u" case="pl-NV" form="oues-fused" footnote="pit+7:pl-u/NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
-    <grammar_table id="pit+8" title="Proto-Italic (?) contraction of -eie- to -ē-, and -ēi to -ei-">
-        <description>The singular i-stem dative ending in -eiei is contracted to -ei, either by haplology (<source book="Meiser" /> p. 139, <source book="Szemerenyi" /> p. 187), or by a regular Proto-Italic loss of intervocalic -i- (<source book="Sihler" /> p. 188, "arguably in [Proto-Italic]"; more safely with Meiser p. 91) shortening -eiei to -eei, which regularly becomes -ēi (Sihler p. 83, Meiser p. 87), then -ei. Loss of intervocalic -i- would also explain the development of the i-stem nominative/vocative plural (<source book="ClacksonHorrocks" /> p. 102, Szemerényi p. 187).</description>
+    <grammar_table id="pit+8" title="Proto-Italic contraction of -eie- to -ē-, and -ēi to -ei-">
+        <description>The singular i-stem dative ending in -eiei is contracted to -ei, either by haplology (<source book="Meiser" /> p. 139, <source book="Szemerenyi" /> p. 187), or by a regular Proto-Italic loss of intervocalic -i- (<source book="Sihler" /> p. 188; Meiser p. 91; <source book="KleinJosephFritz" /> p. 747) shortening -eiei to -eei, which regularly becomes -ēi (Sihler p. 83, Meiser p. 87), then -ei. Loss of intervocalic -i- would also explain the development of the i-stem nominative/vocative plural (<source book="ClacksonHorrocks" /> p. 102, Szemerényi p. 187).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -986,7 +986,6 @@
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
         <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
-        <paradigm declension="athem" case="pl-L" continues="pie athem pl-L" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
@@ -1074,7 +1073,6 @@
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
         <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
-        <paradigm declension="athem" case="pl-L" continues="pie athem pl-L" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
@@ -1082,8 +1080,8 @@
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
-    <grammar_table id="pit+9" title="Proto-Italic (?) vowel shortening before -m">
-        <description>Long vowels before -m are shortened (<source book="Sihler" /> p. 78, <source book="Meiser" /> p. 77). The chronology is disputed. The shortening is shared with Celtic and Slavic, so might be early; but regular sound change would then have turned endings in -am into -em (Sihler p. 65). There is also evidence for -ām in Italic Oscan. Meiser opts for a late change, while Sihler explains away outliers to the expected development from an early change by leveling / influence from other endings that contain -a- (in Latin) or -ā- (in Oscan).</description>
+    <grammar_table id="pit+9" title="Proto-Italic or Latino-Faliscan vowel shortening before -m">
+    <description>Long vowels before -m are shortened (<source book="Sihler" /> p. 78, <source book="Meiser" /> p. 77). The chronology is disputed. The shortening is shared with Celtic and Slavic, so might be early; but regular sound change would then have turned endings in -am into -em (Sihler p. 65). There is also evidence for -ām in Italic Oscan. Meiser (as do <source book="Weiss" /> p. 233; <source book="KleinJosephFritz" /> p. 755-757) opts for a late change, while Sihler explains away outliers to the expected development from an early change by leveling / influence from other endings that contain -a- (in Latin) or -ā- (in Oscan). Weiss p. 224 proposes a later shortening happening independently in Sabellic.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -1169,7 +1167,7 @@
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
         <paradigm declension="u" case="pl-n" continues="pit u pl-n" />
     </grammar_table>
-    <grammar_table id="pit+10" title="Proto-Italic and Latino-Faliscan(?) convergence of endings in -a">
+    <grammar_table id="pit+10" title="Proto-Italic or Latino-Faliscan convergence of endings in -a">
         <description>All previous endings in -a and -ā converge to -a, as do the plural neuter i-/u-stem endings. The paths to this differ greatly between <source book="Sihler" /> and <source book="Meiser" />. For Sihler, endings in -ā at first prevail over endings in -a (a-stem singular vocative turns to -ā under the influence of the nominative (p. 268), and the consonantic plural neuter under the influence of the o-stem (p. 263)), and later ("[r]elatively late in the history of [Latin]", but "predat[ing] the loss of final -d") all word-final -ā turn to -a, due to "iambic shortening", the influence of the shortened -am ending, or a mysteriously singular vowel shift (p. 78-79, 266-267). Meiser cannot accept such a vowel shift (p. 77) and proposes an inverse generalization of -a endings prevailing over -ā endings (p. 132, 136). Sihler (p. 317, 326) sees the plural neuter o-stem endings in -ā append to the i-/u-stem endings (with -ī- and -ū- shortening to -i- and -u-, as long vowels shorten before long ones (p. 80)) before turning to -a. Meiser (p. 144, 146-147) sees the consonant stem ending in -a replace the original i/u-stem neuter plural endings, but also proposes alternate paths for the u-stem: an ending in -a deriving from the -h₂ in a former -?(e)uh₂ (p. 147). Sabellic keeps -ā for both the a-stem singular nominative, and the o-stem plural neuter.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
@@ -1979,7 +1977,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pie:sg-cons-kp/N"><source book="Beekes" /> p. 186, 208-209; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083</footnote>
 	<footnote id="pie:sg-cons-t/N"><source book="Beekes" /> p. 186, 196-197, 208-209; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 130, 248, 250, 280; <source book="Szemerenyi" /> p. 122, 169, 173; <source book="KleinJosephFritz" /> p. 2083</footnote>
 	<footnote id="pie:sg-cons-n/N"><source book="Beekes" /> p. 194; <source book="Fortson" /> p. 70; <source book="Sihler" /> p. 100, 230, 290; <source book="KleinJosephFritz" /> p. 2083</footnote>
-	<footnote id="pie:sg-cons-etc/N"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 70, 116; <source book="MeierBrugger" /> p. 283, 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 130, 248, 290; <source book="Szemerenyi" /> p. 121-122, 169; <source book="KleinJosephFritz" /> p. 2083</footnote>
+	<footnote id="pie:sg-cons-etc/N"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 70, 116; <source book="MeierBrugger" /> p. 283, 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 130, 248, 290, 308; <source book="Szemerenyi" /> p. 121-122, 169; <source book="KleinJosephFritz" /> p. 2083</footnote>
         <footnote id="pie:sg-cons/V"><source book="Beekes" /> p. 186; <source book="Fortson" /> p. 116; <source book="MeierBrugger" /> p. 330; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083, 2089</footnote>
         <footnote id="pie:sg-athem/Ac"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 330-331; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083-2084</footnote>
         <footnote id="pie:sg-athem/n"><source book="Beekes" /> p. 186-187; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 115; <source book="MeierBrugger" /> p. 335; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250, 284, 293, 306; <source book="Szemerenyi" /> p. 169; <source book="KleinJosephFritz" /> p. 2083-2084</footnote>
@@ -2052,8 +2050,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit:pl-i/n"><source book="Sihler" /> p. 317</footnote>
 	<footnote id="pit:pl-u/n"><source book="Sihler" /> p. 326, <source book="Meiser" /> p. 147</footnote>
 	<footnote id="pit+2:sg-a/Ab"><source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128, 132; <source book="Sihler" /> p. 258, 269</footnote>
-	<footnote id="pit+2:sg-athem/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Meiser" /> p. 128, 138; <source book="Sihler" /> p. 258-259</footnote>
-	<footnote id="pit+2:sg-i/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Meiser" /> p. 128, 132; <source book="Sihler" /> p. 317</footnote>
+	<footnote id="pit+2:sg-athem/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Meiser" /> p. 128, 138, 144; <source book="Sihler" /> p. 258-259</footnote>
+	<footnote id="pit+2:sg-i/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Meiser" /> p. 128, 132, 144; <source book="Sihler" /> p. 317</footnote>
 	<footnote id="pit+2:sg-u/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128, 144; <source book="Sihler" /> p. 324</footnote>
 	<footnote id="pit+2:pl-a/DAb"><source book="Meiser" /> p. 128, 133; <source book="Sihler" /> p. 272</footnote>
 	<footnote id="pit+2:pl-o/DAb"><source book="Meiser" /> p. 128, 136; <source book="Sihler" /> p. 263</footnote>
@@ -2071,10 +2069,10 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit+8:pl-i/NV"><source book="ClacksonHorrocks" /> p. 102; <source book="Sihler" /> p. 317; <source book="Meiser" /> p. 140; <source book="Szemerenyi" /> p. 187</footnote>
 	<footnote id="pit+x:pl-a/DAbL"><source book="ClacksonHorrocks" /> p. 16; <source book="Meiser" /> p. 133; <source book="Sihler" /> p. 272</footnote>
 	<footnote id="pit+x:pl-o/DAbL"><source book="ClacksonHorrocks" /> p. 16; <source book="Meiser" /> p. 129, 136; <source book="Sihler" /> p. 263-264</footnote>
-        <footnote id="italo-celtic:sg-o/G"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16-17, 32; <source book="Fortson" /> p. 127, 466; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 135; <source book="Sihler" /> p. 259-260</footnote>
-	<footnote id="pit+9:sg-a/Ac"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 78, 268; <source book="Meiser" /> p. 77, 132</footnote>
+        <footnote id="italo-celtic:sg-o/G"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16-17, 32; <source book="Fortson" /> p. 127, 281, 466; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 135; <source book="Sihler" /> p. 259-260</footnote>
+	<footnote id="pit+9:sg-a/Ac"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 78, 268; <source book="Meiser" /> p. 77, 132; <source book="KleinJosephFritz" /> p. 756; <source book="Weiss" /> p. 233</footnote>
 	<footnote id="pit+9:pl-a/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 272; <source book="Meiser" /> p. 132</footnote>
-	<footnote id="pit+9:pl-o/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 264; <source book="Meiser" /> p. 134</footnote>
+	<footnote id="pit+9:pl-o/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 264; <source book="Meiser" /> p. 134; <source book="KleinJosephFritz" /> p. 755; <source book="Weiss" /> p. 224</footnote>
 	<footnote id="pit+9:pl-athem/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 286, 318, 327; <source book="Meiser" /> p. 138, 144-145</footnote>
 	<footnote id="pit+10:sg-a/NV"><source book="Sihler" /> p. 78, 266-268; <source book="Meiser" /> p. 131-132</footnote>
 	<footnote id="pit+10:pl-non-a/n"><source book="Sihler" /> p. 263, 317, 326; <source book="Meiser" /> p. 107, 136, 144, 146-147</footnote>
