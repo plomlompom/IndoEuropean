@@ -1339,8 +1339,8 @@
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
     </grammar_table>
-    <grammar_table id="pit+9000" title="Proto-Latino-Faliscan o-stem plural animate nominative/vocative">
-       <description>The o-stem plural animate nominative is replaced by the respective pronoun ending (contrast with Sabellic, which went the opposite way: <source book="Sihler" /> p. 261).</description>
+    <grammar_table id="pit+9000" title="Proto-Latino-Faliscan thematic plural animate nominatives/vocatives">
+	    <description>The o-stem plural animate nominative is replaced by the respective pronoun ending (contrast with Sabellic, which went the opposite way: <source book="Sihler" /> p. 261). The a-stem plural animate nominative is re-modelled after this influence, although the -ās form is still used rarely in later centuries. Sihler p. 271 calls these usages "inherited", but they only seem to show up relatively late and might therefore be (<source book="Weiss" /> p. 235) Sabellisms or even mere confusions with the accusative.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o" />
@@ -1409,7 +1409,7 @@
         <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
         <paradigm declension="u" case="sg-L" continues="pie u sg-L" />
-        <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+	<paradigm declension="a" case="pl-NV" form="ai-or-a:s" footnote="pit+9000:pl-a/NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+9 a pl-G" />
         <paradigm declension="a" case="pl-DAbL" continues="pit+x a pl-DAbL" />
@@ -1498,7 +1498,7 @@
         <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
         <paradigm declension="u" case="sg-L" continues="pie u sg-L" />
-        <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+        <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+9 a pl-G" />
         <paradigm declension="a" case="pl-DAbL" continues="pit+x a pl-DAbL" />
@@ -1588,7 +1588,7 @@
 	<paradigm declension="u" case="sg-G" form="ous-fused-or-(e|o)s" footnote="lf-iu-s-g:sg-u/G" /> 
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
         <paradigm declension="u" case="sg-L" continues="pie u sg-L" />
-        <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+        <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+9 a pl-G" />
         <paradigm declension="a" case="pl-DAbL" continues="pit+x a pl-DAbL" />
@@ -1677,7 +1677,7 @@
 	<paradigm declension="u" case="sg-G" continues="lf-iu-s-g u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
         <paradigm declension="u" case="sg-L" continues="pie u sg-L" />
-        <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+        <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+9 a pl-G" />
         <paradigm declension="a" case="pl-DAbL" continues="pit+x a pl-DAbL" />
@@ -1762,7 +1762,7 @@
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
 	<paradigm declension="u" case="sg-G" continues="lf-iu-s-g u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
-        <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+        <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+9 a pl-G" />
         <paradigm declension="a" case="pl-DAbL" continues="pit+x a pl-DAbL" />
@@ -1847,7 +1847,7 @@
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
 	<paradigm declension="u" case="sg-G" continues="lf-iu-s-g u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
-        <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+        <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+9 a pl-G" />
         <paradigm declension="a" case="pl-DAbL" continues="pit+x a pl-DAbL" />
@@ -1932,7 +1932,7 @@
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
 	<paradigm declension="u" case="sg-G" continues="lf-iu-s-g u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
-        <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+        <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+9 a pl-G" />
         <paradigm declension="a" case="pl-DAbL" continues="pit+x a pl-DAbL" />
@@ -2018,7 +2018,7 @@
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
 	<paradigm declension="u" case="sg-G" continues="lf-iu-s-g u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
-        <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+        <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
         <paradigm declension="a" case="pl-Ac" continues="pit+3 a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+9 a pl-G" />
 	<paradigm declension="a" case="pl-DAbL" form="eis" footnote="el-ei:pl-a/DAbL" />
@@ -2104,7 +2104,7 @@
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
 	<paradigm declension="u" case="sg-G" continues="lf-iu-s-g u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+7 u sg-D" />
-        <paradigm declension="a" case="pl-NV" continues="pit a pl-NV" />
+        <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
 	<paradigm declension="a" case="pl-Ac" form="a:s" footnote="el-pl-acc:pl-a/Ac" />
         <paradigm declension="a" case="pl-G" continues="pit+9 a pl-G" />
 	<paradigm declension="a" case="pl-DAbL" continues="el-ei a pl-DAbL" />
@@ -2485,6 +2485,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="(o:r)um">-ōrum, -um</form>
         <form id="(F|B)os">-(f|β)os</form>
         <form id="bos">-bos</form>
+        <form id="ai-or-a:s">-ai, ?(-ās)</form>
     </forms>
     <footnotes>
         <footnote id="pie:sg-them/N"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332-333; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250, 256; <source book="Szemerenyi" /> p. 194, 197; <source book="KleinJosephFritz" /> p. 2083</footnote>
@@ -2600,7 +2601,8 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit+9:pl-athem/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 286, 318, 327; <source book="Meiser" /> p. 138, 144-145</footnote>
 	<footnote id="plf-a-endings:sg-a/NV"><source book="Sihler" /> p. 78, 266-268; <source book="Meiser" /> p. 131-132; <source book="KleinJosephFritz" /> p. 756; <source book="Weiss" /> p. 232</footnote>
 	<footnote id="plf-a-endings:pl-non-a/n"><source book="Sihler" /> p. 263, 317, 326; <source book="Meiser" /> p. 107, 136, 144, 146-147; <source book="KleinJosephFritz" /> p. 754, 758, 761; <source book="Weiss" /> p. 225, 246, 252</footnote>
-	<footnote id="pit+9000:pl-o/NV"><source book="Meiser" /> p. 136; <source book="Sihler" /> p. 261; <source book="KleinJosephFritz" /> p. 754</footnote>
+	<footnote id="pit+9000:pl-o/NV"><source book="Meiser" /> p. 136; <source book="Sihler" /> p. 261; <source book="KleinJosephFritz" /> p. 754; <source book="Bakkum" /> p. 128</footnote>
+	<footnote id="pit+9000:pl-a/NV"><source book="Meiser" /> p. 132; <source book="Sihler" /> p. 271; <source book="KleinJosephFritz" /> p. 756; <source book="Weiss" /> p. 235; <source book="Bakkum" /> p. 124</footnote>
 	<footnote id="lf-sylnas:sg-cons/Ac"><source book="Fortson" /> p. 277; <source book="Sihler" /> p. 284</footnote>
 	<footnote id="lf-sylnas:pl-cons/Ac"><source book="Fortson" /> p. 277; <source book="Sihler" /> p. 286</footnote>
 	<footnote id="lf-iu-s-g:sg-i/G"><source book="Meiser" /> p. 139; <source book="Sihler" /> p. 316-317; <source book="Weiss" /> p. 245; <source book="KleinJosephFritz" /> p. 759</footnote>
@@ -2678,6 +2680,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="pl-e"><source book="Sihler" /> p. 343</footnote>
     </footnotes>
     <bibliography>
+	<book id="Bakkum" title="Bakkum">Bakkum, Gabriel C. L. M.: The Latin Dialect of the Ager Faliscus. Amsterdam University Press 2009.</book> 
         <book id="Beekes" title="Beekes">Beekes, Robert S. P.: Comparative Indo-European Linguistics: an Introduction. Second Edition. John Benjamins 2011.</book>
         <book id="ClacksonHorrocks" title="Clackson/Horrocks">Clackson, James / Horrocks, Geoffrey: The Blackwell History of the Latin Language. Blackwell 2007.</book>
         <book id="Fortson" title="Fortson">Fortson, Benjamin W.: Indo-European Language and Culture: an Introduction. Second Edition. Blackwell 2010.</book>
