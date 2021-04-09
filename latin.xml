@@ -375,7 +375,7 @@
         <paradigm declension="u" case="pl-n" form="(ua|u:)-fused" footnote="pit:pl-u/n" />
    </grammar_table>
     <grammar_table id="pit+2" title="Proto-Italic fusion of (dative-)ablative and instrumental"> 
-	    <description>Ablative and instrumental fuse to the new ablative (<source book="ClacksonHorrocks" /> p. 14-15; <source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128; <source book="Sihler" /> p. 252-253, 258), in the plural together with the formally already identical dative (Meiser p. 128-129, Sihler p. 264): The o-stem instrumental plural ending -ōis replaces the dative/ablative ending. The a-stem dative/ablative plural ending is re-shaped after the result to -āis. In the singular, the pattern of the o-stem ablative ending -ōd is generalized to all other stems. (There may have been an intermediate stage where the singular instrumental endings -ā, -ē, -ī, -ū replaced the old ablative endings not as distinctive as -ōd, and were then re-shaped by mere addition of its -d.)</description>
+	    <description>Ablative and instrumental fuse to the new ablative (<source book="ClacksonHorrocks" /> p. 14-15; <source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128; <source book="Sihler" /> p. 252-253, 258), in the plural together with the formally already identical dative (Meiser p. 128-129, Sihler p. 264): The o-stem instrumental plural ending -ōis replaces the dative/ablative ending. The a-stem dative/ablative plural ending is re-shaped after the result to -āis. In the singular, the pattern of the o-stem ablative ending -ōd is generalized to most other stems. (There may have been an intermediate stage where the singular instrumental endings -ā, -ī, -ū replaced the old ablative endings not as distinctive as -ōd, and were then re-shaped by mere addition of its -d.) Whether this pattern extended to the consonantal stems as -ēd is questionable (<source book="Weiss" /> p. 202, 238 vs. Meiser p. 138; Sihler p. 285 tentatively proposes the possibility of a continuation in mere instrumental -ē without final -d).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -426,7 +426,7 @@
         <paradigm declension="cons-n" case="sg-N" continues="pie cons-n sg-N" />
         <paradigm declension="cons-etc" case="sg-N" continues="pie cons-etc sg-N" />
         <paradigm declension="cons" case="sg-V" continues="pie cons sg-V" />
-        <paradigm declension="cons" case="sg-Ab" form="e:d" footnote="pit+2:sg-athem/Ab"/>
+        <paradigm declension="cons" case="sg-Ab" form="(e|o)s-or-e:d-or-e:" footnote="pit+2:sg-athem/Ab"/>
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
@@ -2013,7 +2013,7 @@
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
-	<paradigm declension="i" case="sg-G" continues="el-i-fusion" />
+	<paradigm declension="i" case="sg-G" continues="el-i-fusion i sg-G" />
         <paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
 	<paradigm declension="u" case="sg-G" continues="lf-iu-s-g u sg-G" />
@@ -2030,7 +2030,7 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="lf-sylnas cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion" />
+	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
         <paradigm declension="iu" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
         <paradigm declension="iu" case="pl-Ac" continues="pie athem pl-Ac" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
@@ -2099,7 +2099,7 @@
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
-	<paradigm declension="i" case="sg-G" continues="el-i-fusion" />
+	<paradigm declension="i" case="sg-G" continues="el-i-fusion i sg-G" />
         <paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
 	<paradigm declension="u" case="sg-G" continues="lf-iu-s-g u sg-G" />
@@ -2116,7 +2116,7 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" form="e:s" footnote="el-pl-acc:pl-cons/Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion" />
+	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
         <paradigm declension="iu" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" form="i:s-fused" footnote="el-pl-acc:pl-i/Ac" />
@@ -2366,7 +2366,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="bhi?(s)">-bʰi?(s)</form>
         <form id="e">-e</form>
         <form id="e:i-fused">-ēi (&lt;)</form>
-        <form id="e:d">-ēd</form>
+        <form id="(e|o)s-or-e:d-or-e:">?(-(e|o)s), ?(-ēd), ?(-ē)</form>
         <form id="e?(h2)|h2">-(e?(h₂)|h₂)</form>
         <form id="eh2">-eh₂</form>
         <form id="eh2(e|o)s">-eh₂(e|o)s</form>
@@ -2573,7 +2573,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="pit:pl-i/n"><source book="Sihler" /> p. 317</footnote>
 	<footnote id="pit:pl-u/n"><source book="Sihler" /> p. 326, <source book="Meiser" /> p. 147</footnote>
 	<footnote id="pit+2:sg-a/Ab"><source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128, 132; <source book="Sihler" /> p. 258, 269</footnote>
-	<footnote id="pit+2:sg-athem/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Meiser" /> p. 128, 138, 144; <source book="Sihler" /> p. 258-259</footnote>
+	<footnote id="pit+2:sg-athem/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Meiser" /> p. 128, 138, 144; <source book="Sihler" /> p. 285; <source book="Weiss" /> p. 202</footnote>
 	<footnote id="pit+2:sg-i/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Meiser" /> p. 128, 132, 144; <source book="Sihler" /> p. 317</footnote>
 	<footnote id="pit+2:sg-u/Ab"><source book="ClacksonHorrocks" /> p. 15-16; <source book="Fortson" /> p. 281; <source book="Meiser" /> p. 128, 144; <source book="Sihler" /> p. 324</footnote>
 	<footnote id="pit+2:pl-a/DAb"><source book="Meiser" /> p. 128, 133; <source book="Sihler" /> p. 272</footnote>
