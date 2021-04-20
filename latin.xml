@@ -1232,7 +1232,7 @@
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
 	<paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
         <paradigm declension="i" case="sg-L" continues="pit+8 i sg-L" />
-	<paradigm declension="u" case="sg-n" form="0-or-fused-u:" footnote="pit+iu:n:sg-u/n" />
+	<paradigm declension="u" case="sg-n" form="0-or-fused-u:" footnote="pit+iu-n:sg-u/n" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
         <paradigm declension="u" case="sg-G" continues="pit+7 u sg-G" />
         <paradigm declension="u" case="sg-D" continues="pit+u-sg-d u sg-D" />
@@ -2293,42 +2293,40 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
             </declension_def>
             <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
         </declension_def>
-        <declension_def id="athem" title="athematic">
-            <declension_def id="c" title="consonant-stem" short_title="cons.">
-                <declension_def id="c-mf" title="consonant-stem">
-                    <declension_def id="c-mf-d+" title="consonant stem in dental and some stems in -r formerly in -s" short_title="-(d|t)-, some -(s&gt;r)-" />
+        <declension_def id="c" title="consonant-stem" short_title="cons.">
+            <declension_def id="c-mf" title="consonant-stem">
+                <declension_def id="c-mf-d+" title="consonant stem in dental and some stems in -r formerly in -s" short_title="-(d|t)-, some -(s&gt;r)-" />
 
-                    <declension_def id="c-mf-g" title="consonant stem in (former) dorsal (g, c, v, h)" short_title="-(g|c|v|h)-" />
-                    <declension_def id="c-mf-rl" title="consonant stem in -r/-l" short_title="-(r|l)-" />
-                    <declension_def id="c-mf-ro" title="consonant stem in -ōr" short_title="-ōr-" />
-                    <declension_def id="c-mf-n" title="consonant stem in -n" short_title="-n-" />
-                    <declension_def id="c-mf-n-freak" title="consonant stem in -in (freak cases)" short_title="some -in-" />
-                    <declension_def id="c-mf--" title="consonant stem not in dental, dorsal, or -r/-n" short_title="&amp;c" />
-</declension_def>
-                <declension_def id="c-n" title="consonant-stem">
-                    <declension_def id="c-n-n" title="consonant stem in -n" short_title="-n-" />
-                    <declension_def id="c-n-s" title="consonant stem in -r formerly in -s" short_title="-(s&gt;r)-" />
-                    <declension_def id="c-n-r" title="consonant stem in -r (not -rr-)" short_title="-r- not -rr-" />
-                    <declension_def id="c-n--" title="consonant stem not in -n" short_title="&amp;c" />
-                </declension_def>
+                <declension_def id="c-mf-g" title="consonant stem in (former) dorsal (g, c, v, h)" short_title="-(g|c|v|h)-" />
+                <declension_def id="c-mf-rl" title="consonant stem in -r/-l" short_title="-(r|l)-" />
+                <declension_def id="c-mf-ro" title="consonant stem in -ōr" short_title="-ōr-" />
+                <declension_def id="c-mf-n" title="consonant stem in -n" short_title="-n-" />
+                <declension_def id="c-mf-n-freak" title="consonant stem in -in (freak cases)" short_title="some -in-" />
+                <declension_def id="c-mf--" title="consonant stem not in dental, dorsal, or -r/-n" short_title="&amp;c" />
             </declension_def>
-            <declension_def id="i" title="i-stem" short_title="-i-">
-                <declension_def id="i-mf" title="i-stem">
-                    <declension_def id="i-mf-ndnt" title="i-stem in -nd-, -nt-" short_title="-n(d|t)i-" />
-                    <declension_def id="i-mf-rt" title="i-stem in -rt-" short_title="-rti-" />
-                    <declension_def id="i-mf-Cr" title="i-stem in consonant + -r-" short_title="-Cri-" />
-                    <declension_def id="i-mf--" title="i-stem" short_title="&amp;c" />
-                </declension_def>
-                <declension_def id="i-n" title="i-stem">
-                    <declension_def id="i-n-mono" title="i-stem (mono-syllabic)" short_title="mono" />
-                    <declension_def id="i-n-poly" title="i-stem (poly-syllabic)" short_title="poly" />
-                </declension_def>
+            <declension_def id="c-n" title="consonant-stem">
+                <declension_def id="c-n-n" title="consonant stem in -n" short_title="-n-" />
+                <declension_def id="c-n-s" title="consonant stem in -r formerly in -s" short_title="-(s&gt;r)-" />
+                <declension_def id="c-n-r" title="consonant stem in -r (not -rr-)" short_title="-r- not -rr-" />
+                <declension_def id="c-n--" title="consonant stem not in -n" short_title="&amp;c" />
             </declension_def>
-            <declension_def id="u" title="u-stem" short_title="-u-" />
-            <declension_def id="e" title="ē-stem" short_title="ē">
-                <declension_def id="e-V" title="ē-stem after vowel (incl. -i-)" short_title="V" />
-                <declension_def id="e-C" title="ē-stem after consonant (excl. -i-)" short_title="C" />
+        </declension_def>
+        <declension_def id="i" title="i-stem" short_title="-i-">
+            <declension_def id="i-mf" title="i-stem">
+                <declension_def id="i-mf-ndnt" title="i-stem in -nd-, -nt-" short_title="-n(d|t)i-" />
+                <declension_def id="i-mf-rt" title="i-stem in -rt-" short_title="-rti-" />
+                <declension_def id="i-mf-Cr" title="i-stem in consonant + -r-" short_title="-Cri-" />
+                <declension_def id="i-mf--" title="i-stem" short_title="&amp;c" />
             </declension_def>
+            <declension_def id="i-n" title="i-stem">
+                <declension_def id="i-n-mono" title="i-stem (mono-syllabic)" short_title="mono" />
+                <declension_def id="i-n-poly" title="i-stem (poly-syllabic)" short_title="poly" />
+            </declension_def>
+        </declension_def>
+        <declension_def id="u" title="u-stem" short_title="-u-" />
+        <declension_def id="e" title="ē-stem" short_title="ē">
+            <declension_def id="e-V" title="ē-stem after vowel (incl. -i-)" short_title="V" />
+            <declension_def id="e-C" title="ē-stem after consonant (excl. -i-)" short_title="C" />
         </declension_def>
         <case_def id="sg-NV" title="singular animate nominative/vocative">
            <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
