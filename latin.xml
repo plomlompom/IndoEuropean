@@ -2322,6 +2322,95 @@
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
     </grammar_table>
+    <grammar_table id="rhotacism" title="Old Latin rhotacism">
+	    <description>By the 4th century BCE, intervocalic -s- becomes -r- (<source book="Meiser" /> p. p. 95; <source book="Sihler" /> p. 171-173).</description>
+        <declension_def id="a" title="a-stem" short_title="a" />
+        <declension_def id="non-a" title="non-a-stem">
+            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="athem" title="athematic">
+                <declension_def id="cons" title="consonant-stem" short_title="cons.">
+                <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
+                <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
+                    <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
+                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                </declension_def>
+                <declension_def id="iu" title="i/u-stem" >
+                    <declension_def id="i" title="i-stem" short_title="-i-" />
+                    <declension_def id="u" title="u-stem" short_title="-u-" />
+                </declension_def>
+            </declension_def>
+        </declension_def>
+        <case_def id="sg-NV" title="singular animate nominative/vocative">
+            <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
+            <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+        </case_def>
+        <case_def id="sg-Ac" title="singular animate accusative" short_title="sg:Ac" />
+        <case_def id="sg-n" title="singular inanimate nominative/vocative/accusative" short_title="sg:n" />
+        <case_def id="sg-G" title="singular genitive" short_title="sg:G" />
+        <case_def id="sg-Ab" title="singular ablative" short_title="sg:Ab" />
+        <case_def id="sg-D" title="singular dative" short_title="sg:D" />
+        <case_def id="sg-L" title="singular locative" short_title="sg:L" />
+        <case_def id="pl-NV" title="plural animate nominative/vocative" short_title="pl:N/V" />
+        <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
+        <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
+        <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
+        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
+            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
+            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
+        </case_def>
+        <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
+        <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
+        <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
+        <paradigm declension="a" case="sg-G" continues="pit a sg-G" />
+        <paradigm declension="a" case="sg-Ab" continues="pit+2 a sg-Ab" />
+        <paradigm declension="a" case="sg-L" continues="pit a sg-L" />
+        <paradigm declension="o" case="sg-N" continues="pie them sg-N" />
+        <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
+        <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
+        <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
+	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+        <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
+        <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
+	<paradigm declension="o" case="sg-L" continues="el-ei o sg-L" />
+        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
+        <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
+        <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
+        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
+        <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
+        <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
+        <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
+        <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
+        <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
+        <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
+        <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
+	<paradigm declension="i" case="sg-G" continues="el-i-fusion i sg-G" />
+        <paradigm declension="i" case="sg-D" continues="pit+8 i sg-D" />
+        <paradigm declension="u" case="sg-n" continues="pit+iu-n u sg-n" />
+        <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
+	<paradigm declension="u" case="sg-G" continues="lf-iu-s-g u sg-G" />
+        <paradigm declension="u" case="sg-D" continues="pit+u-sg-d u sg-D" />
+        <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
+	<paradigm declension="a" case="pl-Ac" continues="el-pl-acc a pl-Ac" />
+        <paradigm declension="a" case="pl-G" form="a:rom" footnote="rhotacism" />
+	<paradigm declension="a" case="pl-DAbL" continues="el-ei a pl-DAbL" />
+        <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
+        <paradigm declension="o" case="pl-NV" continues="pit+9000 o pl-NV" />
+	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
+        <paradigm declension="o" case="pl-G" continues="pit+9 o pl-G" />
+        <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
+        <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
+	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
+	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
+	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
+        <paradigm declension="iu" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+        <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
+	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
+        <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
+	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
+    </grammar_table>
     <grammar_table id="classical" title="WIP: classical">
         <description>
 -o- becomes -u- before final consonants (<source book="Sihler" /> p. 66),
@@ -2336,7 +2425,6 @@ same with a-stem nominative plural (<source book="Sihler" /> p. 271),
 -āi shortened to -ae (<source book="Sihler" /> p. 268),
 loss of word-final -d after a long vowel (<source book="Sihler" /> p. 228),
 in a-stem plural dative-ablative –īs is replaced with -ābus where necessary to avoid homophony with o-stem plural dative-ablatives (<source book="Sihler" /> p. 272),
-intervocalic -s becomes -r (<source book="Sihler" /> p. 171-172),
 word-final -ss becomes -s (<source book="Sihler" /> p. 204-205),
 (former) dorsal stop plus -s becomes -x (<source book="Sihler" /> p. 204),
 -ei- in final syllable becomes -ī (<source book="Sihler" /> p. 70),
@@ -2555,6 +2643,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="a:s">-ās</form>
         <form id="a:su">-āsu</form>
         <form id="a:som">-āsom</form>
+        <form id="a:rom">-ārom</form>
         <form id="a:s(o|o:)m">-ās(o|ō)m</form>
         <form id="eis">-eis</form>
         <form id="ais">-ais</form>
@@ -2820,6 +2909,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="el-pl-acc:pl-i/Ac"><source book="Meiser" /> p. 138, 144; <source book="Sihler" /> p. 317; <source book="Weiss" /> p. 245</footnote>
 	<footnote id="el-pl-acc:pl-u/Ac"><source book="Meiser" /> p. 145; <source book="Sihler" /> p. 326; <source book="Weiss" /> p. 252</footnote>
 	<footnote id="ol-o-sg-g"><source book="Meiser" /> p. 135; <source book="Sihler" /> p. 260; <source book="Weiss" /> p. 222; <source book="Bakkum" /> p. 132</footnote>
+	<footnote id="rhotacism"><source book="Meiser" /> p. 132; <source book="Sihler" /> p. 272; <source book="Weiss" /> p. 236</footnote>
         <footnote id="sg-c-n--i"><source book="Sihler" /> p. 284</footnote>
         <footnote id="sg-c-n-n"><source book="Sihler" /> p. 297</footnote>
         <footnote id="sg-c-n-r"><source book="Sihler" /> p. 293, 306</footnote>
