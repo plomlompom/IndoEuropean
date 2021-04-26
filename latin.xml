@@ -1968,8 +1968,8 @@
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
     </grammar_table>
-    <grammar_table id="el-i-fusion" title="Earliest Latin partial fusion of consonantal and i-stem endings">
-	    <description>The suffix-ending combination -i-bos from the plural dative/ablative from the plural dative/ablative encroaches upon the consonantal stem (<source book="Sihler" /> p. 286 argues that the new ending could just as well be an import from the u-stem though); so does the nominative/vocative plural ending -ēs. The i-stem-specific previously co-existing -(e|o)is singular genitive ending is completely pushed out by the -(e|i)s ending that is similar to the consonantal ending.</description>
+    <grammar_table id="el-i-fusion" title="Earliest Latin partial fusion of athematic endings">
+	    <description>The suffix-ending combination -i-bos, previously found in the plural dative/ablative of i-stems, encroaches upon the consonantal stems (and the u-stems, see below), probably as an import from there. <source book="Sihler" /> p. 286 though argues that the new ending could just as well be an import from the u-stem: Both -i- and -u- here weakened early to an in-between sound that would only in writing be locked into either -i- or -u- again. In any case, this sound change is deemed the main reason -i-bos now also turns up for u-stems, with -u-bos attested rarely and not particularly early, therefore probably by later analogy or need for differentiation rather than as continuation of original -u-bos (<source book="Sihler" /> p. 326; <source book="Weiss" /> p. 252). More securly, the i-stem nominative/vocative plural ending -ēs encroaches upon the consontal stem, and the previous i-stem singular genitive ending -(e|o)is is completely pushed out by the -(e|i)s ending that is similar to the consonantal ending.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o" />
@@ -2051,10 +2051,11 @@
 	<paradigm declension="cons" case="pl-NV" form="e:s" footnote="el-i-fusion:pl-cons/NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="lf-sylnas cons pl-Ac" />
 	<paradigm declension="cons" case="pl-DAb" form="ibos" footnote="el-i-fusion:pl-cons/DAb" />
-        <paradigm declension="iu" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
         <paradigm declension="iu" case="pl-Ac" continues="pie athem pl-Ac" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
+	<paradigm declension="u" case="pl-DAb" form="ibos-fused-or-bos" footnote="el-i-fusion:pl-u/DAb" />
     </grammar_table>
     <grammar_table id="el-pl-acc" title="Earliest Latin plural accusatives">
         <description>The various accusative plural -ns endings transform to -s with the preceding vowel lengthened (<source book="Sihler" /> p. 215). For the a-stem, this may have happened much earlier – in Proto-Indo-European even, see <source book="Weiss" /> p. 235-236, <source book="Meiser" /> p. 133. For a similar interpretation regarding the o-stems, see Meiser p. 136, Weiss p. 206, and <source book="KleinJosephFritz" /> p. 2084. On both suggestions, also consider Sihler p. 229, 254.</description>
@@ -2139,11 +2140,12 @@
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" form="e:s" footnote="el-pl-acc:pl-cons/Ac" />
 	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="iu" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" form="i:s-fused" footnote="el-pl-acc:pl-i/Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" form="fused-u:s" footnote="el-pl-acc:pl-u/Ac" />
+	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
     </grammar_table>
     <grammar_table id="ol-o-sg-g" title="Old Latin loss of -osio genitive">
 	<description>The o-stem singular genitive in -osio is barely found in pre-literary Latin (least controversial would be the sparse Lapis Satricanus inscription from the 6th or 5th century BCE), and by the 3rd century BCE seems to be replaced completely by -ī.</description>
@@ -2228,11 +2230,12 @@
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
 	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="iu" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
+	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
     </grammar_table>
     <grammar_table id="rhotacism" title="Old Latin rhotacism">
 	    <description>By the 4th century BCE, any older intervocalic -s- has become -r- (<source book="Meiser" /> p. 95; <source book="Sihler" /> p. 171-173; <source book="Weiss" /> p. 150-152; <source book="KleinJosephFritz" /> p. 750).</description>
@@ -2317,11 +2320,12 @@
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
 	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="iu" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
+	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
     </grammar_table>
     <grammar_table id="ol-ei" title="Old Latin weakening and early monophthongization of diphthongs">
         <description>By the 3rd century BCE, former dipththongs -ai- and -oi- of short length have weakened to -ei- in various inscriptions. The previous state is attested only for the o-stem plural nominative/vocative and ablative/dative – in an old inscription from the 6th century BCE, and the probably similarly ancient Carmen Saliare. That the a-stem diphthongs in the singular locative and the plural nominative/vocative survive this stage (to turn to Classical -ae) seems to affirm their greater length – see <source book="Weiss" /> p. 235 for a discussion. (Regular PIE outcome for the a-stem singular locative would have been a short -ai at least before some initial sounds of the following words, thus -āi here may have been a generalized sandhi variant; but Weiss also points to an alternate theory by Francisco Villar whereby short -ai may have survived weakening too). Also by the 3rd century BCE, the former o-stem singular dative in -ōi (attested for the 6th century BCE) has lost its final glide, possibly (<source book="Meiser" /> p. 72-73) due to a generalized Sandhi mechanism.</description>
@@ -2406,11 +2410,12 @@
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
 	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="iu" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
+	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
     </grammar_table>
     <grammar_table id="classical" title="WIP: classical">
         <description>
@@ -2737,6 +2742,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<form id="(e|i)s-fused">-(e|i)s (&lt;)</form>
         <form id="e:s-fused">-ēs (&lt;)</form>
         <form id="ibos">-ibos</form>
+        <form id="ibos-fused-or-bos">-ibos (&lt;), ?(-bos)</form>
         <form id="ibus">-ibus</form>
         <form id="bhos">-bʰos</form>
         <form id="fused-e">-e (&lt;)</form>
@@ -2901,6 +2907,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="el-dabl-b"><source book="Sihler" /> p. 286, 318; <source book="Meiser" /> p. 145</footnote>
 	<footnote id="el-i-fusion:pl-cons/NV"><source book="Sihler" /> p. 286, 318; <source book="Meiser" /> p. 138-140; <source book="KleinJosephFritz" /> p. 759; <source book="Weiss" /> p. 245</footnote>
 	<footnote id="el-i-fusion:pl-cons/DAb"><source book="Sihler" /> p. 286, 318; <source book="KleinJosephFritz" /> p. 759; <source book="Weiss" /> p. 246</footnote>
+	<footnote id="el-i-fusion:pl-u/DAb"><source book="Sihler" /> p. 326; <source book="KleinJosephFritz" /> p. 761; <source book="Weiss" /> p. 252; <source book="Meiser" /> p. 145</footnote>
 	<footnote id="el-i-fusion:sg-i/G"><source book="Sihler" /> p. 316-318; <source book="Meiser" /> p. 139-140; <source book="KleinJosephFritz" /> p. 759; <source book="Weiss" /> p. 245</footnote>
 	<footnote id="ol-ei:sg-o/D"><source book="Sihler" /> p. 258; <source book="Meiser" /> p. 72-73, 134-135; <source book="KleinJosephFritz" /> p. 754; <source book="Weiss" /> p. 222</footnote>
 	<footnote id="ol-ei:sg-o/L"><source book="Sihler" /> p. 260; <source book="Weiss" /> p. 223; <source book="KleinJosephFritz" /> p. 754</footnote>
