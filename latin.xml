@@ -2688,7 +2688,7 @@
 	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
     </grammar_table>
     <grammar_table id="ol-vowel-red" title="Old Latin vowel reductions I">
-	<description>By the 3rd century BCE, in closed final syllables, short -o- becomes -u-, except after -(u|v)- (<source book="Meiser" /> p. 71, 84; <source book="Sihler" /> p. 66-67), and around the same time, short -e- in final closed syllables becomes -i- (Meiser p. 71; Sihler p. 65; <source book="Weiss" /> p. 138).</description>
+	<description>By the 3rd century BCE, in closed final syllables, short -o- becomes -u-, except after -(u|v)- (<source book="Meiser" /> p. 71, 84; <source book="Sihler" /> p. 66-67), and around the same time, short -e- in final closed syllables becomes -i-, except before nasals (Meiser p. 71; Sihler p. 65; <source book="Weiss" /> p. 138).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o">
@@ -2787,11 +2787,9 @@
     <grammar_table id="classical" title="WIP: classical">
         <description>
 -o- becomes -u- before final consonants (<source book="Sihler" /> p. 66),
--e- becomes -i- before non-nasal consonants (general rule with some exception, but holds true before any final consonants) (<source book="Sihler" /> p. 65),
 nominative/vocative -ros/-re/-ris becomes -r after vowels (not for i-stems) and -er after consonants (<source book="Sihler" /> p. 70),
 vocative -ie and genitive -iī become -ī (<source book="Sihler" /> p. 256, 260),
 dative -ōi and ablative -ōd become -ō (<source book="Sihler" /> p. 58, 228),
-o-stem genitive plural partly modeled after a-stem (<source book="Sihler" /> p. 264),
 o-stem nominative plural is replaced from the pronoun -oi becoming -ei becoming -ī (<source book="Sihler" /> p. 260),
 same with a-stem nominative plural (<source book="Sihler" /> p. 271),
 -āi shortened to -ae (<source book="Sihler" /> p. 268),
