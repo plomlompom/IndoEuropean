@@ -2327,8 +2327,8 @@
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
 	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
     </grammar_table>
-    <grammar_table id="ol-ei" title="Old Latin weakening and early monophthongization of diphthongs">
-        <description>By the 3rd century BCE, former dipththongs -ai- and -oi- of short length have weakened to -ei- in various inscriptions. The previous state is attested only for the o-stem plural nominative/vocative and ablative/dative – in an old inscription from the 6th century BCE, and the probably similarly ancient Carmen Saliare. That the a-stem diphthongs in the singular locative and the plural nominative/vocative survive this stage (to turn to Classical -ae) seems to affirm their greater length – see <source book="Weiss" /> p. 235 for a discussion. (Regular PIE outcome for the a-stem singular locative would have been a short -ai at least before some initial sounds of the following words, thus -āi here may have been a generalized sandhi variant; but Weiss also points to an alternate theory by Francisco Villar whereby short -ai may have survived weakening too). Also by the 3rd century BCE, the former o-stem singular dative in -ōi (attested for the 6th century BCE) has lost its final glide, possibly (<source book="Meiser" /> p. 72-73) due to a generalized Sandhi mechanism.</description>
+    <grammar_table id="ol-ei" title="Old Latin weakening of diphthongs">
+        <description>By the 3rd century BCE, former dipththongs -ai- and -oi- of short length have weakened to -ei- in various inscriptions. The previous state is attested only for the o-stem plural nominative/vocative and ablative/dative – in an old inscription from the 6th century BCE, and the probably similarly ancient Carmen Saliare. That the a-stem diphthongs in the singular locative and the plural nominative/vocative survive this stage (to turn to Classical -ae) seems to affirm their greater length – see <source book="Weiss" /> p. 235 for a discussion. (Regular PIE outcome for the a-stem singular locative would have been a short -ai at least before some initial sounds of the following words, thus -āi here may have been a generalized sandhi variant; but Weiss also points to an alternate theory by Francisco Villar whereby short -ai may have survived weakening too).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o" />
@@ -2374,7 +2374,7 @@
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
 	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
-	<paradigm declension="o" case="sg-D" form="o:" footnote="ol-ei:sg-o/D" />
+        <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
 	<paradigm declension="o" case="sg-L" form="ei" footnote="ol-ei:sg-o/L" />
         <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
@@ -2464,7 +2464,7 @@
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
 	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
-	<paradigm declension="o" case="sg-D" continues="ol-ei o sg-D" />
+        <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-ei o sg-L" />
         <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
@@ -2507,8 +2507,8 @@
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
 	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
     </grammar_table>
-    <grammar_table id="ol-cl-mono" title="Monophthongization from Old to Classical Latin">
-	<description>Short diphthongs -ei- and -ou- monophthongize to -ī- and -ū-. An immediate stage between -ei- and -ī- was probably -ē- (<source book="Meiser" /> p. 72; <source book="Weiss" /> p. 101, 143), which seems epigraphically attested in endings as -E, but <source book="Sihler" /> p. 53 seems to argue for -EI and -E (and later -I) to be more a variety in spelling than in sound complexity. The u-stem plural nominative/vocative ending -ūs may emerge from this with questionable syncope of a previous e-ablaut ending (from -ou-es); an alternate theory is that the accusative ending was used here in analogy to the nominative-accusative similarity among consonantal stems (Meiser p. 146; Sihler p. 325-326; Weiss p. 124, 252). TODO: split into more steps, at least one for -ē-.</description>
+    <grammar_table id="ol-mono1" title="Old Latin initial stage of monophthongization of diphthongs">
+        <description>By the 3rd century BCE, short diphthong -ei- probably monophthongizes to a somehwat higher -ē- (<source book="Meiser" /> p. 58, 70-72 and <source book="Weiss" /> p. 101, 143 argue for this; <source book="Sihler" /> p. 53 allows for it, but calls the evidence "not rigorous"). Less epigraphic evidence is found for a monophthongization of -ou- to -ō- (Meiser p. 49; Weiss p. 103; not argued by Sihler). For quite a while, -EI- and -E- are found to interchangeably represent both the diphthong and the single vowel its monophthongization points to, i.e. EI is even found where -ē- (or later -ī-) would have no ancestry in -ei-; the situation seems to be similar with -OU- and -O-. Furthermore, by the 3rd century BCE at latest, the long diphthong ending -ōi of the o-stem singular dative (still attested for the 6th century BCE) has lost its final glide, possibly (Meiser p. 72-73) due to a generalized Sandhi mechanism.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o" />
@@ -2554,9 +2554,9 @@
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
 	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
-	<paradigm declension="o" case="sg-D" continues="ol-ei o sg-D" />
+	<paradigm declension="o" case="sg-D" form="o:" footnote="ol-mono1:sg-o/D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
-	<paradigm declension="o" case="sg-L" form="i:" footnote="ol-cl-mono:sg-o/L" />
+	<paradigm declension="o" case="sg-L" form="e:" footnote="ol-mono1:sg-o/L" />
         <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
@@ -2565,27 +2565,27 @@
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
-	<paradigm declension="cons" case="sg-D" form="i:" footnote="ol-cl-mono:sg-cons/D" />
+	<paradigm declension="cons" case="sg-D" form="e:" footnote="ol-mono1:sg-cons/D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
 	<paradigm declension="i" case="sg-G" continues="el-i-fusion i sg-G" />
-	<paradigm declension="i" case="sg-D" form="i:-fused" footnote="ol-cl-mono:sg-i/D" />
+	<paradigm declension="i" case="sg-D" form="e:-fused" footnote="ol-mono1:sg-i/D" />
         <paradigm declension="u" case="sg-n" continues="pit+iu-n u sg-n" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
-	<paradigm declension="u" case="sg-G" form="i:-or-u:s-fused-or-os-or-is" footnote="ol-cl-mono:sg-u/G" />
-	<paradigm declension="u" case="sg-D" form="u:i:-fused-or-u:-fused" footnote="ol-cl-mono:sg-u-/D" />
+	<paradigm declension="u" case="sg-G" form="i:-or-(ou|o:)s-fused-or-os-or-is" footnote="ol-mono1:sg-u/G" />
+	<paradigm declension="u" case="sg-D" form="(ou|o:)i:-fused-or-(ou|o:)-fused" footnote="ol-mono1:sg-u/D" />
         <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
 	<paradigm declension="a" case="pl-Ac" continues="el-pl-acc a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="rhotacism a pl-G" />
-	<paradigm declension="a" case="pl-DAbL" form="i:s" footnote="ol-cl-mono:pl-a/DAbL" />
+	<paradigm declension="a" case="pl-DAbL" form="e:s" footnote="ol-mono1:pl-a/DAbL" />
         <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
-	<paradigm declension="o" case="pl-NV" form="i:" footnote="ol-cl-mono:pl-o/NV" />
+	<paradigm declension="o" case="pl-NV" form="e:" footnote="ol-mono1:pl-o/NV" />
 	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
         <paradigm declension="o" case="pl-G" continues="pit+9 o pl-G" />
-	<paradigm declension="o" case="pl-DAbL" form="i:s" footnote="ol-cl-mono:pl-o/DAbL" />
+	<paradigm declension="o" case="pl-DAbL" form="e:s" footnote="ol-mono1:pl-o/DAbL" />
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
@@ -2593,7 +2593,7 @@
         <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
-	<paradigm declension="u" case="pl-NV" form="fused-u:s" footnote="ol-u-cl-mono:pl-u/NV" />
+	<paradigm declension="u" case="pl-NV" form="fused-(ou|o:)es" footnote="ol-mono1:pl-u/NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
 	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
     </grammar_table>
@@ -2644,9 +2644,9 @@
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
 	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
-	<paradigm declension="o" case="sg-D" continues="ol-ei o sg-D" />
+	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
-	<paradigm declension="o" case="sg-L" continues="ol-cl-mono o sg-L" />
+	<paradigm declension="o" case="sg-L" continues="ol-mono1 o sg-L" />
         <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
@@ -2655,27 +2655,27 @@
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
-	<paradigm declension="cons" case="sg-D" continues="ol-cl-mono cons sg-D" />
+	<paradigm declension="cons" case="sg-D" continues="ol-mono1 cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
 	<paradigm declension="i" case="sg-G" continues="el-i-fusion i sg-G" />
-	<paradigm declension="i" case="sg-D" continues="ol-cl-mono i sg-D" />
+	<paradigm declension="i" case="sg-D" continues="ol-mono1 i sg-D" />
         <paradigm declension="u" case="sg-n" continues="pit+iu-n u sg-n" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
-	<paradigm declension="u" case="sg-G" continues="ol-cl-mono u sg-G" />
-	<paradigm declension="u" case="sg-D" continues="ol-cl-mono u sg-D" />
+	<paradigm declension="u" case="sg-G" continues="ol-mono1 u sg-G" />
+	<paradigm declension="u" case="sg-D" continues="ol-mono1 u sg-D" />
         <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
 	<paradigm declension="a" case="pl-Ac" continues="el-pl-acc a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="rhotacism a pl-G" />
-	<paradigm declension="a" case="pl-DAbL" continues="ol-cl-mono a pl-DAbL" />
+	<paradigm declension="a" case="pl-DAbL" continues="ol-mono1 a pl-DAbL" />
         <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
-	<paradigm declension="o" case="pl-NV" continues="ol-cl-mono o pl-NV" />
+	<paradigm declension="o" case="pl-NV" continues="ol-mono1 o pl-NV" />
 	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
         <paradigm declension="o" case="pl-G" form="o:rom-or-om" footnote="ol-o-pl-g" />
-	<paradigm declension="o" case="pl-DAbL" continues="ol-cl-mono o pl-DAbL" />
+	<paradigm declension="o" case="pl-DAbL" continues="ol-mono1 o pl-DAbL" />
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
@@ -2683,12 +2683,12 @@
         <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
-	<paradigm declension="u" case="pl-NV" continues="ol-cl-mono u pl-NV" />
+	<paradigm declension="u" case="pl-NV" continues="ol-mono1 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
 	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
     </grammar_table>
     <grammar_table id="ol-vowel-red" title="Old Latin vowel reductions I">
-	<description>By the 3rd century BCE, in closed final syllables, short -o- becomes -u-, except after -(u|v)- (<source book="Meiser" /> p. 71, 84; <source book="Sihler" /> p. 66-67), and around the same time, short -e- in final closed syllables becomes -i-, except before nasals (Meiser p. 71; Sihler p. 65; <source book="Weiss" /> p. 138).</description>
+	<description>By the 3rd century BCE, in closed final syllables, short -o- becomes -u-, except after -(u|v)- (<source book="Meiser" /> p. 71, 84; <source book="Sihler" /> p. 66), and around the same time, short -e- in final closed syllables becomes -i-, except before nasals (Meiser p. 71; Sihler p. 65; <source book="Weiss" /> p. 138 sees an early example around 350 BCE already).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o">
@@ -2738,9 +2738,9 @@
         <paradigm declension="u-o" case="sg-n" continues="pie them sg-n" />
 	<paradigm declension="o-etc" case="sg-n" form="um" footnote="ol-vowel-red:sg-o/n" />
 	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
-	<paradigm declension="o" case="sg-D" continues="ol-ei o sg-D" />
+	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
-	<paradigm declension="o" case="sg-L" continues="ol-cl-mono o sg-L" />
+	<paradigm declension="o" case="sg-L" continues="ol-mono1 o sg-L" />
         <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
@@ -2749,28 +2749,28 @@
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
 	<paradigm declension="cons" case="sg-G" form="(i|u)s" footnote="ol-vowel-red:sg-cons/G" />
-	<paradigm declension="cons" case="sg-D" continues="ol-cl-mono cons sg-D" />
+	<paradigm declension="cons" case="sg-D" continues="ol-mono1 cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
 	<paradigm declension="i" case="sg-G" form="s" footnote="ol-vowel-red:sg-i/G" />
-	<paradigm declension="i" case="sg-D" continues="ol-cl-mono i sg-D"  />
+	<paradigm declension="i" case="sg-D" continues="ol-mono1 i sg-D"  />
         <paradigm declension="u" case="sg-n" continues="pit+iu-n u sg-n" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
-	<paradigm declension="u" case="sg-G" continues="ol-cl-mono u sg-G" />
-	<paradigm declension="u" case="sg-D" continues="ol-cl-mono u sg-D"  />
+	<paradigm declension="u" case="sg-G" continues="ol-mono1 u sg-G" />
+	<paradigm declension="u" case="sg-D" continues="ol-mono1 u sg-D"  />
         <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
 	<paradigm declension="a" case="pl-Ac" continues="el-pl-acc a pl-Ac" />
 	<paradigm declension="a" case="pl-G" form="a:rum" footnote="ol-vowel-red:pl-a/G" />
-	<paradigm declension="a" case="pl-DAbL" continues="ol-cl-mono a pl-DAbL"  />
+	<paradigm declension="a" case="pl-DAbL" continues="ol-mono1 a pl-DAbL"  />
         <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
-	<paradigm declension="o" case="pl-NV" continues="ol-cl-mono o pl-NV" />
+	<paradigm declension="o" case="pl-NV" continues="ol-mono1 o pl-NV" />
 	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
         <paradigm declension="u-o" case="pl-G" continues="ol-o-pl-g o pl-G" />
 	<paradigm declension="o-etc" case="pl-G" form="(o:r)um" footnote="ol-vowel-red:pl-o/G" />
-	<paradigm declension="o" case="pl-DAbL" continues="ol-cl-mono o pl-DAbL" />
+	<paradigm declension="o" case="pl-DAbL" continues="ol-mono1 o pl-DAbL" />
         <paradigm declension="u" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-G" form="um" footnote="ol-vowel-red:pl-cons/G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
@@ -2780,9 +2780,106 @@
 	<paradigm declension="i" case="pl-DAb" form="bus" footnote="ol-vowel-red:pl-i/DAb" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
-	<paradigm declension="u" case="pl-NV" continues="ol-cl-mono u pl-NV" />
+	<paradigm declension="u" case="pl-NV" continues="ol-mono1 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
 	<paradigm declension="u" case="pl-DAb" form="ibus-fused-or-bus" footnote="ol-vowel-red:pl-u/DAb"  />
+    </grammar_table>
+    <grammar_table id="ol-mono2" title="Old Latin later stage of monophthongization of diphthongs ">
+	    <description>Between the end of the 3rd century and the middle of the 2nd century BCE, the monophthongization of former -ei- has (after the possible intermediate stage of -ē-) developed to -ī-, and that of former -ou- to -ū- (after the possible intermediate stage of -ō-). The u-stem plural nominative/vocative ending -ūs may emerge from this with questionable syncope of a previous e-ablaut ending (from -ou-es); an alternate theory is that the accusative ending was used here in analogy to the nominative-accusative similarity among consonantal stems (<source book="Meiser" /> p. 146; <source book="Sihler" /> p. 325-326; <source book="Weiss" /> p. 124, 252).</description>
+        <declension_def id="a" title="a-stem" short_title="a" />
+        <declension_def id="non-a" title="non-a-stem">
+            <declension_def id="o" title="o-stem" short_title="o">
+                <declension_def id="u-o" title="o-stem (in u)" short_title="-u-" />
+                <declension_def id="o-etc" title="o-stem (most)" short_title="&amp;c" />
+	    </declension_def>
+            <declension_def id="cons" title="consonant-stem" short_title="cons.">
+            <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
+            <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
+                <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
+                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+            </declension_def>
+            <declension_def id="iu" title="i/u-stem" >
+                <declension_def id="i" title="i-stem" short_title="-i-" />
+                <declension_def id="u" title="u-stem" short_title="-u-" />
+            </declension_def>
+        </declension_def>
+        <case_def id="sg-NV" title="singular animate nominative/vocative">
+            <case_def id="sg-N" title="singular animate nominative" short_title="sg:N" />
+            <case_def id="sg-V" title="singular animate vocative" short_title="sg:V" />
+        </case_def>
+        <case_def id="sg-Ac" title="singular animate accusative" short_title="sg:Ac" />
+        <case_def id="sg-n" title="singular inanimate nominative/vocative/accusative" short_title="sg:n" />
+        <case_def id="sg-G" title="singular genitive" short_title="sg:G" />
+        <case_def id="sg-Ab" title="singular ablative" short_title="sg:Ab" />
+        <case_def id="sg-D" title="singular dative" short_title="sg:D" />
+        <case_def id="sg-L" title="singular locative" short_title="sg:L" />
+        <case_def id="pl-NV" title="plural animate nominative/vocative" short_title="pl:N/V" />
+        <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
+        <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
+        <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
+        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
+            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
+            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
+        </case_def>
+        <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
+        <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
+        <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
+        <paradigm declension="a" case="sg-G" continues="pit a sg-G" />
+        <paradigm declension="a" case="sg-Ab" continues="pit+2 a sg-Ab" />
+        <paradigm declension="a" case="sg-L" continues="pit a sg-L" />
+        <paradigm declension="u-o" case="sg-N" continues="pie them sg-N" />
+        <paradigm declension="o-etc" case="sg-N" continues="ol-vowel-red o-etc sg-N" />
+        <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
+        <paradigm declension="u-o" case="sg-Ac" continues="pie them sg-Ac" />
+        <paradigm declension="o-etc" case="sg-Ac" continues="ol-vowel-red o-etc sg-Ac" />
+        <paradigm declension="u-o" case="sg-n" continues="pie them sg-n" />
+        <paradigm declension="o-etc" case="sg-n" continues="ol-vowel-red o-etc sg-n" />
+	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
+        <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
+	<paradigm declension="o" case="sg-L" form="i:" footnote="ol-mono2:sg-o/L" />
+        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-kp" case="sg-NV" continues="pit+6.5 cons-kp sg-NV" />
+        <paradigm declension="cons-t" case="sg-NV" continues="pit+6.5 cons-t sg-NV" />
+        <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
+        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
+        <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
+        <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
+	<paradigm declension="cons" case="sg-D" form="i:" footnote="ol-mono2:sg-cons/D" />
+        <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
+        <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
+        <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
+        <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
+	<paradigm declension="i" case="sg-G" continues="ol-vowel-red i sg-G" />
+	<paradigm declension="i" case="sg-D" form="i:-fused" footnote="ol-mono2:sg-i/D" />
+        <paradigm declension="u" case="sg-n" continues="pit+iu-n u sg-n" />
+        <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
+	<paradigm declension="u" case="sg-G" form="i:-or-u:s-fused-or-os-or-is" footnote="ol-mono2:sg-u/G" />
+	<paradigm declension="u" case="sg-D" form="u:i:-fused-or-u:-fused" footnote="ol-mono2:sg-u/D" />
+        <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
+	<paradigm declension="a" case="pl-Ac" continues="el-pl-acc a pl-Ac" />
+        <paradigm declension="a" case="pl-G" continues="ol-vowel-red a pl-G" />
+	<paradigm declension="a" case="pl-DAbL" form="i:s" footnote="ol-mono2:pl-a/DAbL" />
+        <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
+	<paradigm declension="o" case="pl-NV" form="i:" footnote="ol-mono2:pl-o/NV" />
+	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
+        <paradigm declension="u-o" case="pl-G" continues="ol-o-pl-g o pl-G" />
+        <paradigm declension="o-etc" case="pl-G" continues="ol-vowel-red o-etc pl-G" />
+	<paradigm declension="o" case="pl-DAbL" form="i:s" footnote="ol-mono2:pl-o/DAbL" />
+	<paradigm declension="cons" case="pl-G" continues="ol-vowel-red cons pl-G" />
+	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
+	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
+	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
+        <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
+	<paradigm declension="i" case="pl-G" continues="ol-vowel-red i pl-G" />
+        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
+	<paradigm declension="u" case="pl-NV" form="fused-u:s" footnote="ol-mono2:pl-u/NV" />
+	<paradigm declension="u" case="pl-G" continues="pit+9 athem pl-G" />
+	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
+	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
     </grammar_table>
     <grammar_table id="classical" title="WIP: classical">
         <description>
@@ -2905,16 +3002,16 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="o-etc" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-n" form="um" footnote="sg-o-n-ac"/>
         <paradigm declension="o" case="sg-Ac" form="um" footnote="sg-o-n-ac"/>
-        <paradigm declension="o" case="sg-D" continues="ol-ei o sg-D" />
+        <paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" form="o:" footnote="sg-o-ab"/>
         <paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o sg-G" />
         <paradigm declension="o-i" case="sg-G" form="fused-i:" footnote="sg-o-gB"/>
-        <paradigm declension="o-not-i" case="sg-L" continues="ol-cl-mono o sg-L" />
+        <paradigm declension="o-not-i" case="sg-L" continues="ol-mono2 o sg-L" />
         <paradigm declension="o-i" case="sg-L" form="fused-i:" footnote="sg-o-l"/>
-        <paradigm declension="o" case="pl-NV" form="i:" continues="ol-cl-mono o pl-NV" />
+        <paradigm declension="o" case="pl-NV" form="i:" continues="ol-mono2 o pl-NV" />
         <paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
         <paradigm declension="o" case="pl-n" continues="plf-a-endings non-a pl-n"/>
-        <paradigm declension="o" case="pl-DAb" form="i:s" continues="ol-cl-mono o pl-DAbL" footnote="pl-o-dab"/>
+        <paradigm declension="o" case="pl-DAb" form="i:s" continues="ol-mono2 o pl-DAbL" />
         <paradigm declension="o" case="pl-G" form="(o:r)um" footnote="pl-o-g"/>
 	<paradigm declension="c-mf--" case="sg-NV"  form="s" footnote="sg-c-mf-nv" />
         <paradigm declension="c-mf-d+" case="sg-NV" form="fused-s" footnote="sg-c-mf-nv-d+"/>
@@ -2928,7 +3025,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<paradigm declension="c-n-n" case="sg-n" form="double-fused-en" footnote="sg-c-n-n" />
         <paradigm declension="c-n-s" case="sg-n" form="double-fused-u(r|s)-fused-s" footnote="sg-c-n-s" />
         <paradigm declension="c-n-r" case="sg-n" form="0" footnote="sg-c-n-r" />
-        <paradigm declension="c" case="sg-D" continues="ol-cl-mono cons sg-D" />
+        <paradigm declension="c" case="sg-D" continues="ol-mono2 cons sg-D" />
         <paradigm declension="c" case="sg-Ab" form="e" footnote="sg-c-ab" />
         <paradigm declension="c" case="sg-G" continues="ol-vowel-red cons sg-G" />
         <paradigm declension="c" case="sg-L" form="e|i:" footnote="sg-c-l" />
@@ -2944,7 +3041,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="i-mf" case="sg-Ac" form="fused-em-m" footnote="sg-i-mf-ac" />
         <paradigm declension="i-n-mono" case="sg-n" form="fused-e" footnote="sg-i-n" />
         <paradigm declension="i-n-poly" case="sg-n" form="fused-0" footnote="sg-i-n-poly" />
-        <paradigm declension="i" case="sg-D" continues="ol-cl-mono i sg-D" />
+        <paradigm declension="i" case="sg-D" continues="ol-mono2 i sg-D" />
         <paradigm declension="i" case="sg-Ab" form="fused-e|i:" footnote="sg-i-ab" />
         <paradigm declension="i" case="sg-G" continues="ol-vowel-red i sg-G" />
         <paradigm declension="i-mf" case="pl-NVAc" form="fused-i:s-fused-e:s" footnote="pl-i-nvac"/>
@@ -2957,7 +3054,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="u" case="sg-Ab" form="fused-u:" footnote="sg-u-ab" />
         <paradigm declension="u" case="sg-D" form="i:-ei-fused-u:" footnote="sg-u-d" />
         <paradigm declension="u" case="sg-G" form="fused-u:s-is" footnote="sg-u-g" />
-        <paradigm declension="u" case="pl-NV" continues="ol-cl-mono u pl-NV" />
+        <paradigm declension="u" case="pl-NV" continues="ol-mono2 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
         <paradigm declension="u" case="pl-n" continues="plf-a-endings non-a pl-n"/>
         <paradigm declension="u" case="pl-G" form="um-om" footnote="pl-u-g"/>
@@ -2988,6 +3085,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="(e|o)uei-fused">-(e|o)uei (&lt;)</form>
         <form id="(e|o)us-fused-or-(e|o)s">-(e|o)us (&lt;), ?(-(e|o)s)</form>
         <form id="(e:|a)-bhi">-(ē|a), -bʰi</form>
+        <form id="e:">-ē</form>
         <form id="(e:|o:)">-(ē|ō)</form>
         <form id="(e:|o:)u-fused">-(ē|ō)u (&lt;)</form>
         <form id="0">-∅</form>
@@ -3043,6 +3141,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="(e|o)ues-fused">-(e|o)ues (&lt;)</form>
         <form id="h2">-h₂</form>
         <form id="i:-fused">-ī (&lt;)</form>
+        <form id="e:-fused">-ē (&lt;)</form>
         <form id="i:-fused-bhi">-ī (&lt;), -bʰi</form>
         <form id="i:d-fused">-īd (&lt;)</form>
         <form id="m">-m</form>
@@ -3083,6 +3182,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="fused-u:s-is">-ūs (&lt;), -is</form>
         <form id="fused-u:d">-ūd (&lt;)</form>
         <form id="fused-u:s">-ūs (&lt;)</form>
+        <form id="fused-(ou|o:)es">-(ou|ō)es (&lt;)</form>
         <form id="fused-u:">-ū (&lt;)</form>
         <form id="0-or-fused-u:">(-∅)|(-ū (&lt;))</form>
         <form id="um-om">-um, -om</form>
@@ -3142,7 +3242,9 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="bos">-bos</form>
         <form id="(a|a:)i-or-a:s">-(a|ā)i, ?(-ās)</form>
 	<form id="i:-or-ous-fused-or-os-or-is">-ī, -ous (&lt;), -os, -is</form>
+	<form id="i:-or-(ou|o:)s-fused-or-os-or-is">-ī, -(ou|ō)s (&lt;), -os, -is</form>
 	<form id="i:-or-u:s-fused-or-os-or-is">-ī, -ūs (&lt;), -os, -is</form>
+	<form id="(ou|o:)i:-fused-or-(ou|o:)-fused">-(ou|ō)ī (&lt;), -(ou|ō) (&lt;)</form>
 	<form id="u:i:-fused-or-u:-fused">-ūī (&lt;), -ū (&lt;)</form>
 	<form id="o:rom-or-om">-ōrom, -om</form>
     </forms>
@@ -3273,7 +3375,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="el-i-fusion:pl-cons/DAb"><source book="Sihler" /> p. 286, 318; <source book="KleinJosephFritz" /> p. 759; <source book="Weiss" /> p. 246</footnote>
 	<footnote id="el-i-fusion:pl-u/DAb"><source book="Sihler" /> p. 326; <source book="KleinJosephFritz" /> p. 761; <source book="Weiss" /> p. 252; <source book="Meiser" /> p. 145</footnote>
 	<footnote id="el-i-fusion:sg-i/G"><source book="Sihler" /> p. 316-318; <source book="Meiser" /> p. 139-140; <source book="KleinJosephFritz" /> p. 759; <source book="Weiss" /> p. 245</footnote>
-	<footnote id="ol-ei:sg-o/D"><source book="Sihler" /> p. 258; <source book="Meiser" /> p. 72-73, 134-135; <source book="KleinJosephFritz" /> p. 754; <source book="Weiss" /> p. 222</footnote>
 	<footnote id="ol-ei:sg-o/L"><source book="Sihler" /> p. 260; <source book="Weiss" /> p. 223; <source book="KleinJosephFritz" /> p. 754</footnote>
 	<footnote id="ol-ei:pl-a/DAbL"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 272; <source book="Weiss" /> p. 236; <source book="KleinJosephFritz" /> p. 756</footnote>
 	<footnote id="ol-ei:pl-o/NV"><source book="Meiser" /> p. 134; <source book="Sihler" /> p. 261; <source book="Weiss" /> p. 223</footnote>
@@ -3286,15 +3387,25 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="ol-o-sg-g"><source book="Meiser" /> p. 135; <source book="Sihler" /> p. 260; <source book="Weiss" /> p. 222; <source book="Bakkum" /> p. 132</footnote>
 	<footnote id="rhotacism"><source book="Meiser" /> p. 132; <source book="Sihler" /> p. 272; <source book="Weiss" /> p. 236</footnote>
 	<footnote id="ol-u-sg-g"><source book="Meiser" /> p. 145; <source book="Sihler" /> p. 324; <source book="Weiss" /> p. 251</footnote>
-	<footnote id="ol-cl-mono:sg-u/G"><source book="Meiser" /> p. 145; <source book="Sihler" /> p. 324; <source book="Weiss" /> p. 251</footnote>
-	<footnote id="ol-cl-mono:sg-cons/D"><source book="Meiser" /> p. 138; <source book="Sihler" /> p. 70, 284; <source book="Weiss" /> p. 201</footnote>
-	<footnote id="ol-cl-mono:sg-i/D"><source book="Meiser" /> p. 138; <source book="Sihler" /> p. 316; <source book="Weiss" /> p. 244</footnote>
-	<footnote id="ol-cl-mono:sg-u/D"><source book="Meiser" /> p. 145; <source book="Sihler" /> p. 323; <source book="Weiss" /> p. 251</footnote>
-	<footnote id="ol-cl-mono:sg-o/L"><source book="Meiser" /> p. 134-135; <source book="Sihler" /> p. 260; <source book="Weiss" /> p. 223</footnote>
-	<footnote id="ol-cl-mono:pl-u/NV"><source book="Meiser" /> p. 146; <source book="Sihler" /> p. 325; <source book="Weiss" /> p. 252</footnote>
-	<footnote id="ol-cl-mono:pl-o/NV"><source book="Meiser" /> p. 134; <source book="Sihler" /> p. 261; <source book="Weiss" /> p. 223</footnote>
-	<footnote id="ol-cl-mono:pl-a/DAbL"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 272; <source book="Weiss" /> p. 236</footnote>
-	<footnote id="ol-cl-mono:pl-o/DAbL"><source book="Meiser" /> p. 134; <source book="Sihler" /> p. 263; <source book="Weiss" /> p. 224</footnote>
+	<footnote id="ol-mono1:sg-o/D"><source book="Sihler" /> p. 258; <source book="Meiser" /> p. 72-73, 134-135; <source book="KleinJosephFritz" /> p. 754; <source book="Weiss" /> p. 222</footnote>
+	<footnote id="ol-mono1:pl-a/DAbL"><source book="Meiser" /> p. 131; <source book="Weiss" /> p. 236</footnote>
+	<footnote id="ol-mono1:sg-o/L"><source book="Meiser" /> p. 49, 135</footnote>
+	<footnote id="ol-mono1:pl-o/NV"><source book="Meiser" /> p. 134; <source book="Weiss" /> p. 223</footnote>
+	<footnote id="ol-mono1:pl-o/DAbL"><source book="Meiser" /> p. 134</footnote>
+	<footnote id="ol-mono1:sg-cons/D"><source book="Meiser" /> p. 138; <source book="Sihler" /> p. 284</footnote>
+	<footnote id="ol-mono1:sg-i/D"><source book="Meiser" /> p. 138; <source book="Sihler" /> p. 316</footnote>
+	<footnote id="ol-mono1:sg-u/G"><source book="Meiser" /> p. 145; <source book="Sihler" /> p. 324; <source book="Weiss" /> p. 251</footnote>
+	<footnote id="ol-mono1:sg-u/D"><source book="Meiser" /> p. 145-146; <source book="Sihler" /> p. 323; <source book="Weiss" /> p. 251</footnote>
+	<footnote id="ol-mono1:pl-u/NV"><source book="Meiser" /> p. 146; <source book="Sihler" /> p. 325; <source book="Weiss" /> p. 252</footnote>
+	<footnote id="ol-mono2:sg-u/G"><source book="Meiser" /> p. 145; <source book="Sihler" /> p. 324; <source book="Weiss" /> p. 251</footnote>
+	<footnote id="ol-mono2:sg-cons/D"><source book="Meiser" /> p. 138; <source book="Sihler" /> p. 70, 284; <source book="Weiss" /> p. 201</footnote>
+	<footnote id="ol-mono2:sg-i/D"><source book="Meiser" /> p. 138; <source book="Sihler" /> p. 316; <source book="Weiss" /> p. 244</footnote>
+	<footnote id="ol-mono2:sg-u/D"><source book="Meiser" /> p. 145; <source book="Sihler" /> p. 323; <source book="Weiss" /> p. 251</footnote>
+	<footnote id="ol-mono2:sg-o/L"><source book="Meiser" /> p. 134-135; <source book="Sihler" /> p. 260; <source book="Weiss" /> p. 223</footnote>
+	<footnote id="ol-mono2:pl-u/NV"><source book="Meiser" /> p. 146; <source book="Sihler" /> p. 325; <source book="Weiss" /> p. 252</footnote>
+	<footnote id="ol-mono2:pl-o/NV"><source book="Meiser" /> p. 134; <source book="Sihler" /> p. 261; <source book="Weiss" /> p. 223</footnote>
+	<footnote id="ol-mono2:pl-a/DAbL"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 272; <source book="Weiss" /> p. 236</footnote>
+	<footnote id="ol-mono2:pl-o/DAbL"><source book="Meiser" /> p. 134; <source book="Sihler" /> p. 263; <source book="Weiss" /> p. 224</footnote>
 	<footnote id="ol-o-pl-g"><source book="Meiser" /> p. 134, 136; <source book="Sihler" /> p. 264-265; <source book="Weiss" /> p. 224</footnote>
 	<footnote id="ol-vowel-red:pl-a/G"><source book="Meiser" /> p. 132; <source book="Sihler" /> p. 272; <source book="Weiss" /> p. 236</footnote>
 	<footnote id="ol-vowel-red:pl-o/G"><source book="Meiser" /> p. 134, 136; <source book="Sihler" /> p. 264-265; <source book="Weiss" /> p. 224</footnote>
