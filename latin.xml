@@ -2576,7 +2576,7 @@
         <paradigm declension="u" case="sg-n" continues="pit+iu-n u sg-n" />
         <paradigm declension="u" case="sg-Ab" continues="pit+2 u sg-Ab" />
 	<paradigm declension="u" case="sg-G" form="i:-or-(ou|o:)s-fused-or-os-or-is" footnote="ol-mono1:sg-u/G" />
-	<paradigm declension="u" case="sg-D" form="(ou|o:)i:-fused-or-(ou|o:)-fused" footnote="ol-mono1:sg-u/D" />
+	<paradigm declension="u" case="sg-D" form="(ou|o:)e:-fused-or-(ou|o:)-fused" footnote="ol-mono1:sg-u/D" />
         <paradigm declension="a" case="pl-NV" continues="pit+9000 a pl-NV" />
 	<paradigm declension="a" case="pl-Ac" continues="el-pl-acc a pl-Ac" />
         <paradigm declension="a" case="pl-G" continues="rhotacism a pl-G" />
@@ -3340,7 +3340,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<form id="i:-or-ous-fused-or-os-or-is">-ī, -ous (&lt;), -os, -is</form>
 	<form id="i:-or-(ou|o:)s-fused-or-os-or-is">-ī, -(ou|ō)s (&lt;), -os, -is</form>
 	<form id="i:-or-u:s-fused-or-os-or-is">-ī, -ūs (&lt;), -os, -is</form>
-	<form id="(ou|o:)i:-fused-or-(ou|o:)-fused">-(ou|ō)ī (&lt;), -(ou|ō) (&lt;)</form>
+	<form id="(ou|o:)e:-fused-or-(ou|o:)-fused">-(ou|ō)ē (&lt;), -(ou|ō) (&lt;)</form>
 	<form id="u:i:-fused-or-u:-fused">-ūī (&lt;), -ū (&lt;)</form>
 	<form id="o:rom-or-om">-ōrom, -om</form>
     </forms>
