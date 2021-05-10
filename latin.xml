@@ -2558,7 +2558,7 @@
 	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
     </grammar_table>
     <grammar_table id="ol-ae-sg-g" title="Old Latin a- and e-declension singular genitive in -ī">
-	<description>During the 3rd century BCE (but see <source book="Weiss" /> p. 234 for a possible 4th century BCE example), except for some fossilized forms like "pater familiās", the a-declension singular genitive is re-shaped by analogy with the o-stem, with -ī appended to -ā-. The ē-declension's singular genitive, similar to and probably already in its earlier form derived from the a-declension, follows this change.</description>
+	<description>During the 3rd century BCE (but see <source book="Weiss" /> p. 234 for a possible 4th century BCE example), except for some fossilized forms like "pater familiās", the a-declension singular genitive is re-shaped by analogy with the o-stem, with -ī appended to -ā-. The ē-declension's singular genitive, similar to and probably already in its earlier form derived from the a-declension, follows this change, though in rare cases -s seems to be continued (see <source book="Leumann" /> p. 447 for disagreement).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o" />
@@ -2649,7 +2649,7 @@
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
 	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
-	<paradigm declension="e" case="sg-G" form="i:" footnote="ol-ae-sg-g:sg-e/G" />
+	<paradigm declension="e" case="sg-G" form="i:-or-s" footnote="ol-ae-sg-g:sg-e/G" />
 	<paradigm declension="e" case="sg-D" continues="e-dec e sg-D" /> 
 	<paradigm declension="e" case="sg-Ac" continues="pit+9 e sg-Ac" />
 	<paradigm declension="e" case="sg-Ab" continues="e-dec e sg-Ab" />
@@ -2861,7 +2861,7 @@
 	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
     </grammar_table>
     <grammar_table id="ol-mono1" title="Old Latin initial stage of shortening and monophthongization of diphthongs">
-     <description>By the 3rd century BCE, short diphthong -ei- probably monophthongizes to a somehwat higher -ē- (<source book="Meiser" /> p. 58, 70-72 and <source book="Weiss" /> p. 101, 143 argue for this; <source book="Sihler" /> p. 53 allows for it, but calls the evidence "not rigorous"). Less epigraphic evidence is found for a monophthongization of -ou- to -ō- (Meiser p. 49; Weiss p. 103; not argued by Sihler). For quite a while, -EI- and -E- are found to interchangeably represent both the diphthong and the single vowel its monophthongization points to, i.e. EI is even found where -ē- (or later -ī-) would have no ancestry in -ei-; the situation seems to be similar with -OU- and -O-. Furthermore, by the 3rd century BCE at latest, the long diphthong ending -ōi of the o-stem singular dative (still attested for the 6th century BCE) has lost its final glide, possibly (Meiser p. 72-73) due to a generalized Sandhi mechanism. The ē-stem singular dative may have preserved the dipththong in monosyllables ("rei").</description>
+     <description>By the 3rd century BCE, short diphthong -ei- probably monophthongizes to a somehwat higher -ē- (<source book="Meiser" /> p. 58, 70-72 and <source book="Weiss" /> p. 101, 143 argue for this; <source book="Sihler" /> p. 53 allows for it, but calls the evidence "not rigorous"). Less epigraphic evidence is found for a monophthongization of -ou- to -ō- (Meiser p. 49; Weiss p. 103; not argued by Sihler). For quite a while, -EI- and -E- are found to interchangeably represent both the diphthong and the single vowel its monophthongization points to, i.e. EI is even found where -ē- (or later -ī-) would have no ancestry in -ei-; the situation seems to be similar with -OU- and -O-. Furthermore, by the 3rd century BCE at latest, the long diphthong ending -ōi of the o-stem singular dative (still attested for the 6th century BCE) has lost its final glide, possibly (Meiser p. 72-73) due to a generalized Sandhi mechanism. The ē-declension's singular genitive and dative are depicted in possible intermediary stages between the attested outcome in Plautus, Terence etc., and their probable initial morphological construction (for the dative, either appending regular -ei to the stem's -ē-, or -ē-i by analogy with the a-declension's -ā-i; for the genitive, -ē-ī in analoge to the a-declension's -ā-ī).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o" />
@@ -2952,8 +2952,8 @@
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
 	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
-	<paradigm declension="e" case="sg-G" form="fused-e:-or-ei-or-(e|e:)i:" footnote="ol-mono1:sg-e/G" /> 
-	<paradigm declension="e" case="sg-D" form="fused-e:|(e|e:)i" footnote="ol-mono1:sg-e/D" /> 
+	<paradigm declension="e" case="sg-G" form="fused-e:-or-ei-or-(e|e:)i:-or-s" footnote="ol-mono1:sg-e/G" /> 
+	<paradigm declension="e" case="sg-D" form="fused-e:-or-(e|e:)i" footnote="ol-mono1:sg-e/D" /> 
 	<paradigm declension="e" case="sg-Ac" continues="pit+9 e sg-Ac" />
 	<paradigm declension="e" case="sg-Ab" continues="e-dec e sg-Ab" />
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
@@ -3279,7 +3279,7 @@
 	<paradigm declension="e" case="pl-DAb" continues="ol-vowel-red e pl-DAb" />
     </grammar_table>
     <grammar_table id="ol-mono2" title="Old Latin later stage of shortening and monophthongization of diphthongs ">
-	<description>Between the end of the 3rd century and the middle of the 2nd century BCE, the monophthongization of former -ei- has (after the possible intermediate stage of -ē-) developed to -ī-, and that of former -ou- to -ū- (after the possible intermediate stage of -ō-). The u-stem plural nominative/vocative ending -ūs may emerge from this with questionable syncope of a previous e-ablaut ending (from -ou-es); an alternate theory is that the accusative ending was used here in analogy to the nominative-accusative similarity among consonantal stems (<source book="Meiser" /> p. 146; <source book="Sihler" /> p. 325-326; <source book="Weiss" /> p. 124, 252). The u-stem singular dative is depicted here in its final/Classical form as having a short -u- before the glide, which fits regular shortening of vowels before other vowels in Latin (Sihler p. 80) in case -ouei might have turned to something like -ūī in between. The singular genitive of the a-declension shortens to -ai; again, its ē-declension sibling seems to follow this development, but to what distribution of -ei, -ēī etc. precisely is a bit unclear; the same confusion holds true for the singular dative (though here plausibly a short diphthong -ei was preserved in monosyllabic words like "rei"; the form in -ē is offered by Weiss p. 255 through a possible loss of the final glide).</description>
+	<description>Between the end of the 3rd century and the middle of the 2nd century BCE, the monophthongization of former -ei- has (after the possible intermediate stage of -ē-) developed to -ī-, and that of former -ou- to -ū- (after the possible intermediate stage of -ō-). The u-stem plural nominative/vocative ending -ūs may emerge from this with questionable syncope of a previous e-ablaut ending (from -ou-es); an alternate theory is that the accusative ending was used here in analogy to the nominative-accusative similarity among consonantal stems (<source book="Meiser" /> p. 146; <source book="Sihler" /> p. 325-326; <source book="Weiss" /> p. 124, 252). The u-stem singular dative is depicted here in its final/Classical form as having a short -u- before the glide, which fits regular shortening of vowels before other vowels in Latin (Sihler p. 80) in case -ouei might have turned to something like -ūī in between. The singular genitive of the a-declension shortens to -ai; again, its ē-declension sibling seems to follow this development, but to what distribution of -ei, -ēī etc. precisely is a bit unclear; the same confusion holds true for the singular dative; a short diphthong -ei was probably preserved in monosyllabic words like "rei"; the dative in -ē might through loss of final glide directly continue -ēi rather than -ei (Weiss p. 255).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o">
@@ -3377,7 +3377,7 @@
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
 	<paradigm declension="u" case="pl-DAb" continues="ol-vowel-red u pl-DAb" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
-	<paradigm declension="e" case="sg-G" form="fused-i:-or-e:-or-ei-or-(e|e:)i:" footnote="ol-mono2:sg-e/G" />
+	<paradigm declension="e" case="sg-G" form="fused-i:-or-e:-or-ei-or-(e|e:)i:-or-s" footnote="ol-mono2:sg-e/G" />
 	<paradigm declension="e" case="sg-D" form="fused-(i:|e:)-or-ei" footnote="ol-mono2:sg-e/D" /> 
 	<paradigm declension="e" case="sg-Ac" continues="pit+9 e sg-Ac" />
 	<paradigm declension="e" case="sg-Ab" continues="ol-no-d e sg-Ab" />
@@ -3794,7 +3794,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="(e|o)s">-(e|o)s</form>
         <form id="rum">-rum</form>
         <form id="fused-ei:-fused-i:">-eī (&lt;), -ī (&lt;)</form>
-	<form id="fused-i:-or-e:-or-ei-or-(e|e:)i:">-ī|ē|(ei)|((e|ē)ī) (&lt;)</form>
+	<form id="fused-i:-or-e:-or-ei-or-(e|e:)i:-or-s">-(ī|ē) (&lt;), -ei (&lt;), -(e|ē)ī (&lt;), ?(-s)</form>
         <form id="i:-fused-i:">-ī, -ī (&lt;)</form>
         <form id="fused-u:a:">-ūā (&lt;)</form>
         <form id="bus-fused-ibus">-bus, -ibus (&lt;)</form>
@@ -3872,9 +3872,12 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <form id="?((F|B)os)">?(-(f|β)os)</form>
         <form id="?(bos)">?(-bos)</form>
 	<form id="fused-e:|(e|e:)i">-ē|((e|ē)i) (&lt;)</form>
-	<form id="fused-(i:|e:)-or-ei">-ī|ē|(ei) (&lt;)</form>
+	<form id="ei-fused-or-i">?(-ei (&lt;)), ?(-i)</form>
+	<form id="fused-e:-or-(e|e:)i">?(-ē (&lt;)) ?(-(e|ē)i (&lt;))</form>
+	<form id="fused-(i:|e:)-or-ei">-(ī|ē) (&lt;), -ei (&lt;)</form>
 	<form id="ae-or-a:s">-ae, ?(-ās)</form>
-	<form id="fused-e:-or-ei-or-(e|e:)i:">-ē|(ei)|((e|ē)ī) (&lt;)</form>
+	<form id="fused-e:-or-ei-or-(e|e:)i:-or-s">?(-ē|(ei)) (&lt;)), ?(-(e|ē)ī (&lt;)), ?(-s)</form>
+        <form id="i:-or-s">-ī, ?(-s)</form>
     </forms>
     <footnotes>
         <footnote id="pie:sg-them/N"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16; <source book="Fortson" /> p. 126-127; <source book="MeierBrugger" /> p. 332-333; <source book="Meiser" /> p. 34; <source book="Sihler" /> p. 248, 250, 256; <source book="Szemerenyi" /> p. 194, 197; <source book="KleinJosephFritz" /> p. 2083</footnote>
@@ -4031,7 +4034,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<footnote id="rhotacism"><source book="Meiser" /> p. 132; <source book="Sihler" /> p. 272; <source book="Weiss" /> p. 236</footnote>
 	<footnote id="rhotacism:e"><source book="Sihler" /> p. 343</footnote>
 	<footnote id="ol-ae-sg-g:sg-a/G"><source book="Sihler" /> p. 269; <source book="Bakkum" /> p. 120-121; <source book="Meiser" /> p. 130, 132; <source book="Weiss" /> p. 234; <source book="KleinJosephFritz" /> p. 756; <source book="Leumann" /> p. 418-419</footnote>
-	<footnote id="ol-ae-sg-g:sg-e/G"><source book="Sihler" /> p. 342; <source book="Meiser" /> p. 147; <source book="Weiss" /> p. 254; <source book="Leumann" /> p. 446</footnote>
+	<footnote id="ol-ae-sg-g:sg-e/G"><source book="Sihler" /> p. 342; <source book="Meiser" /> p. 147; <source book="Weiss" /> p. 254; <source book="Leumann" /> p. 446-447</footnote>
 	<footnote id="ol-u-sg-g"><source book="Meiser" /> p. 145; <source book="Sihler" /> p. 324; <source book="Weiss" /> p. 251</footnote>
 	<footnote id="ol-mono1:sg-o/D"><source book="Sihler" /> p. 258; <source book="Meiser" /> p. 72-73, 134-135; <source book="KleinJosephFritz" /> p. 754; <source book="Weiss" /> p. 222</footnote>
 	<footnote id="ol-mono1:sg-e/D"><source book="Sihler" /> p. 342-343; <source book="Meiser" /> p. 148; <source book="Weiss" /> p. 254-255; <source book="Leumann" /> p. 446-447</footnote>
