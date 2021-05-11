@@ -907,7 +907,7 @@
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
     </grammar_table>
     <grammar_table id="pit+x" title="Proto-Italic plural ablative/dative/locative">
-	    <description>In the plurals, dative/ablative and locative fuse to one common form per stem. In the a/o-stems, this form is identical to the plural dative/ablative's original form. In the o-stems, the result of -ois would have been equal to the locative ending -oisu on loss of its -u (<source book="Meiser" /> p. 74), which may have happened at the same time. This formal identity between dative/ablative and locative may have spread to the other stems. The extension of the athematic dative/ablative to the locative is barely speculative (Meiser p. 129 "mag verwendet worden sein") and therefore not depicted.</description>
+	    <description>In the plurals, dative/ablative and locative fuse to one common form per stem. In the a/o-stems, this form is identical to the plural dative/ablative's original form. In the o-stems, the result of -ois would have been equal to the locative ending -oisu on loss of its -u (<source book="Meiser" /> p. 74), which may have happened at the same time. This formal identity between dative/ablative and locative may have spread to the other stems. The extension of the athematic dative/ablative to the locative is somewhat speculative (Meiser p. 129 "mag verwendet worden sein", offers a Sabellic example though similar to the later Latin outcome).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" />
         <declension_def id="athem" title="athematic">
@@ -936,10 +936,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
         <paradigm declension="a" case="sg-Ac" continues="pit a sg-Ac" />
@@ -984,7 +981,7 @@
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
         <paradigm declension="o" case="pl-DAbL" form="ois" footnote="pit+x:pl-o/DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL" continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
@@ -1023,10 +1020,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
         <paradigm declension="a" case="sg-Ac" continues="pit a sg-Ac" />
@@ -1071,7 +1065,7 @@
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
@@ -1110,10 +1104,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
         <paradigm declension="a" case="sg-Ac" continues="pit a sg-Ac" />
@@ -1158,7 +1149,7 @@
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
@@ -1197,10 +1188,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
         <paradigm declension="a" case="sg-Ac" continues="pit a sg-Ac" />
@@ -1247,7 +1235,7 @@
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
@@ -1286,10 +1274,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
         <paradigm declension="a" case="sg-Ac" continues="pit a sg-Ac" />
@@ -1336,7 +1321,7 @@
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
@@ -1351,7 +1336,7 @@
 	<paradigm declension="e" case="pl-NV" form="s" footnote="e-dec:e-pl/NV" />
 	<paradigm declension="e" case="pl-Ac" form="?(ns)" footnote="e-dec:e-pl/Ac" />
 	<paradigm declension="e" case="pl-G" form="?(s(o|o:)m)" footnote="e-dec:e-pl/G" />
-	<paradigm declension="e" case="pl-DAb" form="?((F|B)os)" footnote="e-dec:e-pl/DAb" />
+	<paradigm declension="e" case="pl-DAbL" form="?((F|B)os)" footnote="e-dec:e-pl/DAb" />
     </grammar_table>
     <grammar_table id="italo-celtic" title="The o-stem singular genitive from possibly Celtic to Latino-Faliscan"> 
         <description>Proto-Indo-European -os?(i)o is continued as -osio possibly even into Archaic Latin (<source book="Bakkum" /> p. 132-134; <source book="Meiser" /> p. 133-145; <source book="Weiss" /> p. 222). An ending -ī of uncertain origin replaces this in Latin, but also turns up in Venetic (which, if part of the Italic family, split off from it early; <source book="Beekes" /> p. 25; <source book="Fortson" /> p. 127, 465-466), Faliscan, and even Celtic languages. This may continue a Proto-Italic or even Proto-Italo-Celtic ending. Or it may be the result of more recent morphological borrowing between languages in close contact on the Italian Peninsula (<source book="ClacksonHorrocks" /> p. 32). The -ī ending may continue a suffix -iH that marks familial affiliation (Beekes p. 212; <source book="MeierBrugger" /> p. 333; Meiser p. 135).</description>
@@ -1384,10 +1369,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
         <paradigm declension="a" case="sg-Ac" continues="pit a sg-Ac" />
@@ -1434,7 +1416,7 @@
         <paradigm declension="o" case="pl-G" continues="pit o pl-G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
@@ -1449,7 +1431,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="e-dec e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="e-dec e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="e-dec e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="e-dec e pl-DAbL" />
     </grammar_table>
     <grammar_table id="pit+9" title="Proto-Italic or Proto-Latino-Faliscan vowel shortening before -m">
     <description>Long vowels before -m are shortened (<source book="Sihler" /> p. 78, <source book="Meiser" /> p. 77). The chronology is disputed. The shortening is shared with Celtic and Slavic, so might be early; but regular sound change would then have turned endings in -am into -em (Sihler p. 65). There is also evidence for -ām in Italic Oscan. Meiser (as do <source book="Weiss" /> p. 233; <source book="KleinJosephFritz" /> p. 755-757) opts for a late change, while Sihler explains away outliers to the expected development from an early change by leveling / influence from other endings that contain -a- (in Latin) or -ā- (in Oscan). Weiss p. 224 proposes a later shortening happening independently in Sabellic.</description>
@@ -1482,10 +1464,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
         <paradigm declension="a" case="sg-Ac" form="am" footnote="pit+9:sg-a/Ac" />
@@ -1532,7 +1511,7 @@
         <paradigm declension="o" case="pl-G" form="om" footnote="pit+9:pl-o/G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" form="om" footnote="pit+9:pl-athem/G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
@@ -1547,7 +1526,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="e-dec e pl-Ac" />
 	<paradigm declension="e" case="pl-G" form="?(som)" footnote="pit+9:pl-e/G" />
-	<paradigm declension="e" case="pl-DAb" continues="e-dec e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="e-dec e pl-DAbL" />
     </grammar_table>
     <grammar_table id="pit+9000" title="Proto-Latino-Faliscan thematic plural animate nominatives/vocatives">
 	    <description>The o-stem plural animate nominative is replaced by the respective pronoun ending (contrast with Sabellic, which went the opposite way: <source book="Sihler" /> p. 261). The a-stem plural animate nominative is re-modelled after this influence, although the -ās form is still used rarely in later centuries. Sihler p. 271 calls these usages "inherited", but they only seem to show up relatively late and might therefore be (<source book="Weiss" /> p. 235) Sabellisms or even mere confusions with the accusative.</description>
@@ -1582,10 +1561,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
@@ -1632,7 +1608,7 @@
         <paradigm declension="o" case="pl-G" continues="pit+9 o pl-G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
         <paradigm declension="athem" case="pl-Ac" continues="pie athem pl-Ac" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
         <paradigm declension="cons" case="pl-n" continues="pit cons pl-n" />
@@ -1647,7 +1623,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="e-dec e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="pit+9 e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="e-dec e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="e-dec e pl-DAbL" />
     </grammar_table>
     <grammar_table id="lf-sylnas" title="Proto-Latino-Faliscan addition of -e- before syllabic nasals">
         <description>Syllabic nasals turn into nasals prefixed with an -e- (in Sabellic maybe with an -a-: <source book="Meiser" /> p. 65; <source book="Fortson" /> p. 277; <source book="Sihler" /> p. 96; <source book="Weiss" /> p. 94-95).</description>
@@ -1682,10 +1658,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
@@ -1732,7 +1705,7 @@
         <paradigm declension="o" case="pl-n" continues="pit o pl-n" />
         <paradigm declension="o" case="pl-G" continues="pit+9 o pl-G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" form="ens" footnote="lf-sylnas:pl-cons/Ac" />
@@ -1749,7 +1722,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="e-dec e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="pit+9 e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="e-dec e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="e-dec e pl-DAbL" />
     </grammar_table>
     <grammar_table id="lf-iu-s-g" title="Proto-Latino-Faliscan and Early Latin i- and u-stem singular genitives">
 	<description>For both i- and u-stems, a singular genitive ending is found that may either continue a possible Proto-Indo-European -(e|o)s ending for these very same stems that would have existed alongside the -(e|o)is and -(e|o)us endings, or import the identical consonant-stem ending. In the u-stems, this ending is merely appended to the suffix. In the i-stems, the e-grade may either have replaced the stem-final -i- to -e-s, or (<source book="Sihler" /> p. 316-317; questioned by <source book="Weiss" /> p. 245) syncopated from an intermediary -i-(e|o)s to -i-s.</description>
@@ -1784,10 +1757,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-N" continues="pit a sg-N" />
         <paradigm declension="a" case="sg-V" continues="pit a sg-V" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
@@ -1834,7 +1804,7 @@
         <paradigm declension="o" case="pl-n" continues="pit o pl-n" />
         <paradigm declension="o" case="pl-G" continues="pit+9 o pl-G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="lf-sylnas cons pl-Ac" />
@@ -1851,7 +1821,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="e-dec e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="pit+9 e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="e-dec e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="e-dec e pl-DAbL" />
     </grammar_table>
     <grammar_table id="plf-a-endings" title="Proto-Latino-Faliscan or Latin-only convergence of endings in -a/-ā ">
         <description>All previous endings in -a and/or -ā converge to -a. The paths to this differ between <source book="Sihler" /> and <source book="Meiser" />. For Sihler, endings in -ā at first prevail over endings in -a (a-stem singular vocative turns to -ā under the influence of the nominative (p. 268), and the consonantic plural neuter under the influence of the o-stem (p. 263)), and later ("[r]elatively late in the history of [Latin]", but "predat[ing] the loss of final -d") all word-final -ā turn to -a, due to "iambic shortening", the influence of the shortened -am ending, or a mysteriously singular vowel shift (p. 78-79, 266-267). Meiser cannot accept such a vowel shift (p. 77) and proposes an inverse generalization of -a endings prevailing over -ā endings (p. 132, 136; see also <source book="KleinJosephFritz" /> p. 756; <source booK="Weiss" /> p. 232)). Whether this convergence happened to the whole Latino-Faliscan branch or only Latin is unclear due to lack of vowel-length hints in the available Faliscan texts.</description>
@@ -1886,10 +1856,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" form="a" footnote="plf-a-endings:sg-a/NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -1935,7 +1902,7 @@
         <paradigm declension="o" case="pl-Ac" continues="pie them pl-Ac" />
         <paradigm declension="o" case="pl-G" continues="pit+9 o pl-G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
-        <paradigm declension="athem" case="pl-DAb"  continues="pit+6 athem pl-DAb" />
+        <paradigm declension="athem" case="pl-DAbL"  continues="pit+6 athem pl-DAb" />
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="lf-sylnas cons pl-Ac" />
@@ -1950,7 +1917,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="e-dec e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="pit+9 e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="e-dec e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="e-dec e pl-DAbL" />
     </grammar_table>
     <grammar_table id="el-dabl-b" title="Earliest Latin sound change of athematic plural dative/ablative">
 	    <description>The -(f|β)- fricative in athematic dative/ablative endings changes to the voiced bilabial stop -b- (<source book="Sihler" /> p. 147; <source book="Fortson" /> p. 283; <source book="Meiser" /> p. 101-103; <source book="Weiss" /> p. 149).</description>
@@ -1985,10 +1952,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -2034,7 +1998,7 @@
         <paradigm declension="o" case="pl-Ac" continues="pie them pl-Ac" />
         <paradigm declension="o" case="pl-G" continues="pit+9 o pl-G" />
         <paradigm declension="o" case="pl-DAbL" continues="pit+x o pl-DAbL" />
-        <paradigm declension="athem" case="pl-DAb" form="bos" footnote="el-dabl-b" />
+        <paradigm declension="athem" case="pl-DAbL" form="bos" footnote="el-dabl-b" />
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
         <paradigm declension="cons" case="pl-NV" continues="pie cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="lf-sylnas cons pl-Ac" />
@@ -2049,7 +2013,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="e-dec e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="pit+9 e pl-G" />
-	<paradigm declension="e" case="pl-DAb" form="?(bos)" footnote="el-dabl-b:e"  />
+	<paradigm declension="e" case="pl-DAbL" form="?(bos)" footnote="el-dabl-b:e"  />
     </grammar_table>
     <grammar_table id="el-i-fusion" title="Earliest Latin partial fusion of athematic endings">
 	    <description>The suffix-ending combination -i-bos, previously found in the plural dative/ablative of i-stems, encroaches upon the consonantal stems (and the u-stems, see below), probably as an import from there. <source book="Sihler" /> p. 286 though argues that the new ending could just as well be an import from the u-stem: Both -i- and -u- here weakened early to an in-between sound that would only in writing be locked into either -i- or -u- again. In any case, this sound change is deemed the main reason -i-bos now also turns up for u-stems, with -u-bos attested rarely and not particularly early, therefore probably by later analogy or need for differentiation rather than as continuation of original -u-bos (<source book="Sihler" /> p. 326; <source book="Weiss" /> p. 252). More securly, the i-stem nominative/vocative plural ending -ēs encroaches upon the consontal stem, and the previous i-stem singular genitive ending -(e|o)is is completely pushed out by the -(e|i)s ending that is similar to the consonantal ending.</description>
@@ -2084,10 +2048,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -2136,12 +2097,12 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" form="e:s" footnote="el-i-fusion:pl-cons/NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="lf-sylnas cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" form="ibos" footnote="el-i-fusion:pl-cons/DAb" />
-        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" form="ibos" footnote="el-i-fusion:pl-cons/DAb" />
+        <paradigm declension="i" case="pl-DAbL" continues="el-dabl-b athem pl-DAbL" />
         <paradigm declension="iu" case="pl-Ac" continues="pie athem pl-Ac" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
-	<paradigm declension="u" case="pl-DAb" form="ibos-fused-or-bos" footnote="el-i-fusion:pl-u/DAb" />
+	<paradigm declension="u" case="pl-DAbL" form="ibos-fused-or-bos" footnote="el-i-fusion:pl-u/DAb" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="e-dec e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="e-dec e sg-D" /> 
@@ -2150,7 +2111,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="e-dec e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="pit+9 e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="el-pl-acc" title="Earliest Latin plural accusatives">
         <description>The various accusative plural -ns endings transform to -s with the preceding vowel lengthened (<source book="Sihler" /> p. 215). For the a-stem, this may have happened much earlier – in Proto-Indo-European even, see <source book="Weiss" /> p. 235-236, <source book="Meiser" /> p. 133. For a similar interpretation regarding the o-stems, see Meiser p. 136, Weiss p. 206, and <source book="KleinJosephFritz" /> p. 2084. On both suggestions, also consider Sihler p. 229, 254.</description>
@@ -2185,10 +2146,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -2237,13 +2195,13 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" form="e:s" footnote="el-pl-acc:pl-cons/Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="el-i-fusion cons pl-DAbL" />
+        <paradigm declension="i" case="pl-DAbL" continues="el-dabl-b athem pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" form="i:s-fused" footnote="el-pl-acc:pl-i/Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" form="fused-u:s" footnote="el-pl-acc:pl-u/Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="el-i-fusion u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="e-dec e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="e-dec e sg-D" /> 
@@ -2252,7 +2210,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" form="s" footnote="el-pl-acc:pl-e/Ac" />
 	<paradigm declension="e" case="pl-G" continues="pit+9 e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="el-l-loss" title="Earliest (?) Latin loss of athematic singular locatives">
 	<description>The athematic singular locatives seem to mostly disappear in Latin, with only a few traces either in adverbs (only "diū" for the u-stem; a few more, like "rūrī" and "temperī", for the i-stem) or the consonantal ablative later on (<source book="Meiser" /> p. 138-139, 147; <source book="Weiss" /> p. 245, 252; <source book="KleinJosephFritz" /> p. 761).</description>
@@ -2287,10 +2245,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -2338,13 +2293,13 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="el-i-fusion cons pl-DAbL" />
+        <paradigm declension="i" case="pl-DAbL" continues="el-dabl-b athem pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="el-i-fusion u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="e-dec e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="e-dec e sg-D" /> 
@@ -2353,7 +2308,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="pit+9 e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-o-sg-g" title="Old Latin loss of -osio genitive">
 	<description>The o-stem singular genitive in -osio is barely found in pre-literary Latin (least controversial would be the sparse Lapis Satricanus inscription from the 6th or 5th century BCE), and by the 3rd century BCE seems to be replaced completely by -ī.</description>
@@ -2388,10 +2343,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -2439,13 +2391,13 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="el-i-fusion cons pl-DAbL" />
+        <paradigm declension="i" case="pl-DAbL" continues="el-dabl-b athem pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="el-i-fusion u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="e-dec e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="e-dec e sg-D" /> 
@@ -2454,7 +2406,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="pit+9 e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="rhotacism" title="Old Latin rhotacism">
         <description>By the 4th century BCE, any older intervocalic -s- has become -r- (<source book="Meiser" /> p. 95; <source book="Sihler" /> p. 171-173; <source book="Weiss" /> p. 150-152; <source book="KleinJosephFritz" /> p. 750).</description>
@@ -2489,10 +2441,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -2540,13 +2489,13 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="el-i-fusion cons pl-DAbL" />
+        <paradigm declension="i" case="pl-DAbL" continues="el-dabl-b athem pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="el-i-fusion u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="e-dec e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="e-dec e sg-D" /> 
@@ -2555,7 +2504,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" form="?(rom)" footnote="rhotacism:e" />
-	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-ae-sg-g" title="Old Latin a- and e-declension singular genitive in -ī">
 	<description>During the 3rd century BCE (but see <source book="Weiss" /> p. 234 for a possible 4th century BCE example), except for some fossilized forms like "pater familiās", the a-declension singular genitive is re-shaped by analogy with the o-stem, with -ī appended to -ā-. The ē-declension's singular genitive, similar to and probably already in its earlier form derived from the a-declension, follows this change, though in rare cases -s seems to be continued (see <source book="Leumann" /> p. 447 for disagreement).</description>
@@ -2590,10 +2539,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -2641,13 +2587,13 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="el-i-fusion cons pl-DAbL" />
+        <paradigm declension="i" case="pl-DAbL" continues="el-dabl-b athem pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="el-i-fusion u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" form="i:-or-s" footnote="ol-ae-sg-g:sg-e/G" />
 	<paradigm declension="e" case="sg-D" continues="e-dec e sg-D" /> 
@@ -2656,7 +2602,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="rhotacism e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-ei" title="Old Latin weakening of diphthongs">
         <description>By the 3rd century BCE, former dipththongs -ai- and -oi- of short length have weakened to -ei- in various inscriptions. The previous state is attested only for the o-stem plural nominative/vocative and ablative/dative – in an old inscription from the 6th century BCE, and the probably similarly ancient Carmen Saliare. That the a-stem diphthongs in the singular locative and the plural nominative/vocative survive this stage (to turn to Classical -ae) seems to affirm their greater length – see <source book="Weiss" /> p. 235 for a discussion. (Regular PIE outcome for the a-stem singular locative would have been a short -ai at least before some initial sounds of the following words, thus -āi here may have been a generalized sandhi variant; but Weiss also points to an alternate theory by Francisco Villar whereby short -ai may have survived weakening too).</description>
@@ -2691,10 +2637,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -2742,13 +2685,13 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="el-i-fusion cons pl-DAbL" />
+        <paradigm declension="i" case="pl-DAbL" continues="el-dabl-b athem pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="el-i-fusion u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="ol-ae-sg-g e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="e-dec e sg-D" /> 
@@ -2757,7 +2700,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="rhotacism e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-u-sg-G" title="Old Latin u-stem genitive singular">
         <description>The u-stem singular genitive exhibits a variety of forms up until the 2nd century BCE. Some continue the u-stem-original -ous and the consonantal-stem-influenced -u(e|o)s (as -uos in the Senatus Consultum de Bacchanalibus 187 BCE, and as -uis in Terence). But in Plautus mostly, and some inscriptions, is found -ī, in analogy to the o-declension.</description>
@@ -2792,10 +2735,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -2843,13 +2783,13 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="el-i-fusion cons pl-DAbL" />
+        <paradigm declension="i" case="pl-DAbL" continues="el-dabl-b athem pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
         <paradigm declension="u" case="pl-NV" continues="pit+7 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="el-i-fusion u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="ol-ae-sg-g e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="e-dec e sg-D" /> 
@@ -2858,7 +2798,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="rhotacism e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-mono1" title="Old Latin initial stage of shortening and monophthongization of diphthongs">
      <description>By the 3rd century BCE, short diphthong -ei- probably monophthongizes to a somehwat higher -ē- (<source book="Meiser" /> p. 58, 70-72 and <source book="Weiss" /> p. 101, 143 argue for this; <source book="Sihler" /> p. 53 allows for it, but calls the evidence "not rigorous"). Less epigraphic evidence is found for a monophthongization of -ou- to -ō- (Meiser p. 49; Weiss p. 103; not argued by Sihler). For quite a while, -EI- and -E- are found to interchangeably represent both the diphthong and the single vowel its monophthongization points to, i.e. EI is even found where -ē- (or later -ī-) would have no ancestry in -ei-; the situation seems to be similar with -OU- and -O-. Furthermore, by the 3rd century BCE at latest, the long diphthong ending -ōi of the o-stem singular dative (still attested for the 6th century BCE) has lost its final glide, possibly (Meiser p. 72-73) due to a generalized Sandhi mechanism. The ē-declension's singular genitive and dative are depicted in possible intermediary stages between the attested outcome in Plautus, Terence etc., and their probable initial morphological construction (for the dative, either appending regular -ei to the stem's -ē-, or -ē-i by analogy with the a-declension's -ā-i; for the genitive, -ē-ī in analoge to the a-declension's -ā-ī).</description>
@@ -2893,10 +2833,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -2944,13 +2881,13 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="el-i-fusion cons pl-DAbL" />
+        <paradigm declension="i" case="pl-DAbL" continues="el-dabl-b athem pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
 	<paradigm declension="u" case="pl-NV" form="fused-(ou|o:)es" footnote="ol-mono1:pl-u/NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="el-i-fusion u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" form="fused-e:-or-ei-or-(e|e:)i:-or-s" footnote="ol-mono1:sg-e/G" /> 
 	<paradigm declension="e" case="sg-D" form="fused-e:-or-(e|e:)i" footnote="ol-mono1:sg-e/D" /> 
@@ -2959,7 +2896,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="rhotacism e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-o-pl-g" title="Old Latin o-stem plural genitive">
 	<description>From the 3rd century BCE on, an o-stem plural genitive in -ōrom (later -ōrum) is attested, which will more and more (but never completely) supplant original -om (later -um). It most probably derives from analogy with the a-declension.</description>
@@ -2994,10 +2931,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -3045,13 +2979,13 @@
         <paradigm declension="athem" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="el-i-fusion cons pl-DAb" />
-        <paradigm declension="i" case="pl-DAb" continues="el-dabl-b athem pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="el-i-fusion cons pl-DAbL" />
+        <paradigm declension="i" case="pl-DAbL" continues="el-dabl-b athem pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
 	<paradigm declension="u" case="pl-NV" continues="ol-mono1 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="el-i-fusion u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="el-i-fusion u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="ol-mono1 e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="ol-mono1 e sg-D" /> 
@@ -3060,7 +2994,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="rhotacism e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="el-dabl-b e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-vowel-red" title="Old Latin vowel reductions">
 	<description>By the 3rd century BCE, in closed final syllables, short -o- becomes -u-, except after -(u|v)- (<source book="Meiser" /> p. 71, 84; <source book="Sihler" /> p. 66), and around the same time, short -e- in final closed syllables becomes -i-, except before nasals (Meiser p. 71; Sihler p. 65; <source book="Weiss" /> p. 138 sees an early example around 350 BCE already).</description>
@@ -3096,10 +3030,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -3152,14 +3083,14 @@
 	<paradigm declension="cons" case="pl-G" form="um" footnote="ol-vowel-red:pl-cons/G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" form="ibus" footnote="ol-vowel-red:pl-cons/DAb"  />
+	<paradigm declension="cons" case="pl-DAbL" form="ibus" footnote="ol-vowel-red:pl-cons/DAb"  />
 	<paradigm declension="i" case="pl-G" form="um" footnote="ol-vowel-red:pl-i/G" />
-	<paradigm declension="i" case="pl-DAb" form="bus" footnote="ol-vowel-red:pl-i/DAb" />
+	<paradigm declension="i" case="pl-DAbL" form="bus" footnote="ol-vowel-red:pl-i/DAb" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
 	<paradigm declension="u" case="pl-NV" continues="ol-mono1 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" form="ibus-fused-or-bus" footnote="ol-vowel-red:pl-u/DAb"  />
+	<paradigm declension="u" case="pl-DAbL" form="ibus-fused-or-bus" footnote="ol-vowel-red:pl-u/DAb"  />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="ol-mono1 e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="ol-mono1 e sg-D" /> 
@@ -3168,7 +3099,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" form="rum" footnote="ol-vowel-red:pl-e/GDAb" />
-	<paradigm declension="e" case="pl-DAb" form="bus" footnote="ol-vowel-red:pl-e/GDAb" />
+	<paradigm declension="e" case="pl-DAbL" form="bus" footnote="ol-vowel-red:pl-e/GDAb" />
     </grammar_table>
     <grammar_table id="ol-no-d" title="Old Latin singular ablative and the loss of -d">
 	    <description>During the 3rd century BCE, word-final -d after long vowels is lost in speech, though still used in writing until the 2nd century BCE (<source book="Meiser" /> p. 100; <source book="Weiss" /> p. 155; <source book="Sihler" /> p. 228). This accounts for most singular ablatives of Classical Latin, except for the consonant-stem ending in short -e. A consonant-stem ending -ED is attested epigraphically in the 3rd century BCE, but may be a false archaism (Weiss p. 238), and no continuation in -ē is found (unless one follows Sihler p. 285 arguing for the possibility that Classical -e might be a shortened -ē, but with that -ē deriving straight from the PIE instrumental); Classical Latin -e instead is thought to derive from the locative ending in -i, but how and when that might have become the ablative ending remains unclear (Sihler p. 285).</description>
@@ -3204,10 +3135,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -3260,14 +3188,14 @@
 	<paradigm declension="cons" case="pl-G" continues="ol-vowel-red cons pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="ol-vowel-red cons pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="ol-vowel-red cons pl-DAbL" />
 	<paradigm declension="i" case="pl-G" continues="ol-vowel-red i pl-G" />
-        <paradigm declension="i" case="pl-DAb" continues="ol-vowel-red i pl-DAb" />
+        <paradigm declension="i" case="pl-DAbL" continues="ol-vowel-red i pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
 	<paradigm declension="u" case="pl-NV" continues="ol-mono1 u pl-NV" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="ol-vowel-red u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="ol-vowel-red u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="ol-mono1 e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="ol-mono1 e sg-D" /> 
@@ -3276,7 +3204,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="ol-vowel-red e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="ol-vowel-red e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="ol-vowel-red e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-mono2" title="Old Latin later stage of shortening and monophthongization of diphthongs ">
 	<description>Between the end of the 3rd century and the middle of the 2nd century BCE, the monophthongization of former -ei- has (after the possible intermediate stage of -ē-) developed to -ī-, and that of former -ou- to -ū- (after the possible intermediate stage of -ō-). The u-stem plural nominative/vocative ending -ūs may emerge from this with questionable syncope of a previous e-ablaut ending (from -ou-es); an alternate theory is that the accusative ending was used here in analogy to the nominative-accusative similarity among consonantal stems (<source book="Meiser" /> p. 146; <source book="Sihler" /> p. 325-326; <source book="Weiss" /> p. 124, 252). The u-stem singular dative is depicted here in its final/Classical form as having a short -u- before the glide, which fits regular shortening of vowels before other vowels in Latin (Sihler p. 80) in case -ouei might have turned to something like -ūī in between. The singular genitive of the a-declension shortens to -ai; again, its ē-declension sibling seems to follow this development, but to what distribution of -ei, -ēī etc. precisely is a bit unclear; the same confusion holds true for the singular dative; a short diphthong -ei was probably preserved in monosyllabic words like "rei"; the dative in -ē might through loss of final glide directly continue -ēi rather than -ei (Weiss p. 255).</description>
@@ -3312,10 +3240,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
         <paradigm declension="a" case="sg-D" continues="pit a sg-D" />
@@ -3367,15 +3292,15 @@
 	<paradigm declension="cons" case="pl-G" continues="ol-vowel-red cons pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="ol-vowel-red cons pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="ol-vowel-red cons pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-G" continues="ol-vowel-red i pl-G" />
-        <paradigm declension="i" case="pl-DAb" continues="ol-vowel-red i pl-DAb" />
+        <paradigm declension="i" case="pl-DAbL" continues="ol-vowel-red i pl-DAbL" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
 	<paradigm declension="u" case="pl-NV" form="fused-u:s" footnote="ol-mono2:pl-u/NV" />
 	<paradigm declension="u" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="ol-vowel-red u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="ol-vowel-red u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" form="fused-i:-or-e:-or-ei-or-(e|e:)i:-or-s" footnote="ol-mono2:sg-e/G" />
 	<paradigm declension="e" case="sg-D" form="fused-(i:|e:)-or-ei" footnote="ol-mono2:sg-e/D" /> 
@@ -3384,7 +3309,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="ol-vowel-red e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="ol-vowel-red e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="ol-vowel-red e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-endings-e-ae" title="2nd century BCE endings in -e or -ae">
 	<description>By the 2nd century BCE, word final short -i has become -e (<source book="Sihler" /> p. 65; <source book="Meiser" /> p. 72; <source book="Weiss" /> p. 146), and even in the a-stem diphthong endings, where the final glide is now written as such (Weiss p. 103 for how this might indicate not just an epigraphic but a phonetic change). There is no indication for the -AE that emerges to describe a long diphthong -āe, and regularly any vowel would have shortened before another in Latin (Sihler p. 80, so Classical -ae is assumed from here on. The consonant-stem ablative in -e most plausibly continues an -i derived from the locative, but see Sihler p. 285 for alternate interpretations.</description>
@@ -3420,10 +3345,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
 	<paradigm declension="a" case="sg-D" form="ae" footnote="ol-endings-e-ae:sg-a/D" />
@@ -3475,15 +3397,15 @@
 	<paradigm declension="cons" case="pl-G" continues="ol-vowel-red cons pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="ol-vowel-red cons pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="ol-vowel-red cons pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-G" continues="ol-vowel-red i pl-G" />
-        <paradigm declension="i" case="pl-DAb" continues="ol-vowel-red i pl-DAb" />
+        <paradigm declension="i" case="pl-DAbL" continues="ol-vowel-red i pl-DAbL" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
 	<paradigm declension="u" case="pl-NV" continues="ol-mono2 u pl-NV" />
 	<paradigm declension="u" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="ol-vowel-red u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="ol-vowel-red u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="ol-mono2 e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="ol-mono2 e sg-D" /> 
@@ -3492,7 +3414,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="ol-vowel-red e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="ol-vowel-red e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="ol-vowel-red e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-abus" title="2nd to 1st century BCE -ābus and ubus endings">
 	    <description>From the 2nd century BCE on, analogical a-stem plural dative/ablative forms in -ābus are found next to regular -īs, plausibly to differentiate a-stem forms from o-stem ones. Similarly, a u-stem plural dative/ablative occasionally appears besides regular -ibus, which may continue an ancient regular form in -u-bus, or be a more recent analogy to differentiate the otherwise identical plural dative-ablatives of words like "arx" and "arcus"; in any case, it is safely attested from the 1st century BCE on.</description>
@@ -3528,10 +3450,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
 	<paradigm declension="a" case="sg-D" continues="ol-endings-e-ae a sg-D" />
@@ -3583,15 +3502,15 @@
 	<paradigm declension="cons" case="pl-G" continues="ol-vowel-red cons pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="ol-vowel-red cons pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="ol-vowel-red cons pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-G" continues="ol-vowel-red i pl-G" />
-        <paradigm declension="i" case="pl-DAb" continues="ol-vowel-red i pl-DAb" />
+        <paradigm declension="i" case="pl-DAbL" continues="ol-vowel-red i pl-DAbL" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
 	<paradigm declension="u" case="pl-NV" continues="ol-mono2 u pl-NV" />
 	<paradigm declension="u" case="pl-G" continues="pit+9 athem pl-G" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" form="bus-fused-ibus" footnote="ol-abus:pl-u/DAb" />
+	<paradigm declension="u" case="pl-DAbL" form="bus-fused-ibus" footnote="ol-abus:pl-u/DAb" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="ol-mono2 e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="ol-mono2 e sg-D" /> 
@@ -3600,7 +3519,7 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="ol-vowel-red e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="ol-vowel-red e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="ol-vowel-red e pl-DAbL" />
     </grammar_table>
     <grammar_table id="cl-u" title="1st century BCE vowel reductions">
 	<description>Around the end of the Republic, from the second half of the 1st century BCE on, earlier -o- becomes -u- even after -(u|v)- (<source book="Sihler" /> p. 66, <source book="Meiser" /> p. 84).</description>
@@ -3633,10 +3552,7 @@
         <case_def id="pl-Ac" title="plural animate accusative" short_title="pl:Ac" />
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAbL" title="plural dative/ablative/locative">
-            <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
-            <case_def id="pl-L" title="plural locative" short_title="pl:L" />
-        </case_def>
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
         <paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac" />
 	<paradigm declension="a" case="sg-D" continues="ol-endings-e-ae a sg-D" />
@@ -3684,15 +3600,15 @@
 	<paradigm declension="cons" case="pl-G" continues="ol-vowel-red cons pl-G" />
 	<paradigm declension="cons" case="pl-NV" continues="el-i-fusion cons pl-NV" />
 	<paradigm declension="cons" case="pl-Ac" continues="el-pl-acc cons pl-Ac" />
-	<paradigm declension="cons" case="pl-DAb" continues="ol-vowel-red cons pl-DAb" />
+	<paradigm declension="cons" case="pl-DAbL" continues="ol-vowel-red cons pl-DAbL" />
         <paradigm declension="i" case="pl-NV" continues="pit+8 i pl-NV" />
 	<paradigm declension="i" case="pl-G" continues="ol-vowel-red i pl-G" />
-        <paradigm declension="i" case="pl-DAb" continues="ol-vowel-red i pl-DAb" />
+        <paradigm declension="i" case="pl-DAbL" continues="ol-vowel-red i pl-DAbL" />
 	<paradigm declension="i" case="pl-Ac" continues="el-pl-acc i pl-Ac" />
 	<paradigm declension="u" case="pl-NV" continues="ol-mono2 u pl-NV" />
 	<paradigm declension="u" case="pl-G" form="um" footnote="cl-u:pl-u/G" />
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
-	<paradigm declension="u" case="pl-DAb" continues="ol-abus u pl-DAb" />
+	<paradigm declension="u" case="pl-DAbL" continues="ol-abus u pl-DAbL" />
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-G" continues="ol-mono2 e sg-G" /> 
 	<paradigm declension="e" case="sg-D" continues="ol-mono2 e sg-D" /> 
@@ -3701,16 +3617,13 @@
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="ol-vowel-red e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="ol-vowel-red e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="ol-vowel-red e pl-DAbL" />
     </grammar_table>
     <grammar_table id="classical" title="WIP: classical">
         <description>
 -o- becomes -u- before final consonants (<source book="Sihler" /> p. 66),
 nominative/vocative -ros/-re/-ris becomes -r after vowels (not for i-stems) and -er after consonants (<source book="Sihler" /> p. 70),
 vocative -ie and genitive -iī become -ī (<source book="Sihler" /> p. 256, 260),
-o-stem nominative plural is replaced from the pronoun -oi becoming -ei becoming -ī (<source book="Sihler" /> p. 260),
-same with a-stem nominative plural (<source book="Sihler" /> p. 271),
-in a-stem plural dative-ablative –īs is replaced with -ābus where necessary to avoid homophony with o-stem plural dative-ablatives (<source book="Sihler" /> p. 272),
 word-final -ss becomes -s (<source book="Sihler" /> p. 204-205),
 (former) dorsal stop plus -s becomes -x (<source book="Sihler" /> p. 204),
 consonant locative singular in -ī is modeled in analogy to o-stems (<source book="Sihler" /> p. 285),
@@ -3723,8 +3636,6 @@ the -on- suffix of consonant stems is reflected as medial -in- (<source book="Si
 consonant stem endings encroach on i-stem endings (<source book="Sihler" /> p. 318),
 i-stems in -nd-, -nt-, -rt- end in -s (&lt;&lt;), with lengthening of preceding vowel if -ns results (<source book="Sihler" /> p. 316),
 i-stem neuter nominative/vocative singulars lost their end vowel on mono-syllabic stems (<source book="Sihler" /> p. 69),
-u-stem singular nominative/vocative/accusative emerges somehow (<source book="Sihler" /> p. 323),
-u-stem plural animate nominative/vocative emerges from unknown etymology (<source book="Sihler" /> p. 325),
 certain animate n-stem nouns with nominative singular in -en emerge from gender change, compounds with the weakened root "can-", and unclear etymology (<source book="Sihler" /> p.296, 298),
 Not depicted: u-stem (or rather: ū-stem) freak cases "sūs" and "grūs" (<source book="Sihler" /> p. 328).
 Not depicted: Freak case "Iuppiter"/"Iovis" (<source book="Sihler" /> p. 338-339).
@@ -3799,7 +3710,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         </case_def>
         <case_def id="pl-n" title="plural inanimate nominative/vocative/accusative" short_title="pl:n" />
         <case_def id="pl-G" title="plural genitive" short_title="pl:G" />
-        <case_def id="pl-DAb" title="plural dative/ablative" short_title="pl:D/Ab" />
+	<case_def id="pl-DAbL" title="plural dative/ablative/locative" short_title="pl:D/Ab/L" />
 	<paradigm declension="a" case="sg-NV" continues="plf-a-endings a sg-NV" />
         <paradigm declension="a" case="sg-Ac" continues="pit+9 a sg-Ac"/>
         <paradigm declension="a" case="sg-D" continues="ol-endings-e-ae a sg-D" />
@@ -3808,7 +3719,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="a" case="sg-L" continues="ol-endings-e-ae a sg-L" />
         <paradigm declension="a" case="pl-NV" continues="ol-endings-e-ae a pl-NV" />
         <paradigm declension="a" case="pl-Ac" form="a:s" continues="el-pl-acc a pl-Ac" />
-        <paradigm declension="a" case="pl-DAb" form="i:s|a:bus" footnote="pl-a-dab"/>
+        <paradigm declension="a" case="pl-DAbL" continues="ol-abus a pl-DAbL" />
         <paradigm declension="a" case="pl-G" continues="ol-vowel-red a pl-G"/>
         <paradigm declension="o-etc" case="sg-N" continues="ol-vowel-red o-etc sg-N" />
         <paradigm declension="o-i" case="sg-V" form="fused-i:" footnote="sg-o-mf-n"/>
@@ -3827,7 +3738,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="o" case="pl-NV" form="i:" continues="ol-mono2 o pl-NV" />
         <paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
         <paradigm declension="o" case="pl-n" continues="plf-a-endings non-a pl-n"/>
-        <paradigm declension="o" case="pl-DAb" form="i:s" continues="ol-mono2 o pl-DAbL" />
+        <paradigm declension="o" case="pl-DAbL" form="i:s" continues="ol-mono2 o pl-DAbL" />
         <paradigm declension="o" case="pl-G" form="o:rum" footnote="pl-o-g"/>
 	<paradigm declension="c-mf--" case="sg-NV"  form="s" footnote="sg-c-mf-nv" />
         <paradigm declension="c-mf-d+" case="sg-NV" form="fused-s" footnote="sg-c-mf-nv-d+"/>
@@ -3849,7 +3760,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <paradigm declension="c" case="pl-Ac" form="e:s" continues="el-pl-acc cons pl-Ac" />
         <paradigm declension="c" case="pl-n" continues="pit cons pl-n"/>
         <paradigm declension="c" case="pl-G" continues="ol-vowel-red cons pl-G" />
-        <paradigm declension="c" case="pl-DAb" continues="ol-vowel-red cons pl-DAb" />
+        <paradigm declension="c" case="pl-DAbL" continues="ol-vowel-red cons pl-DAbL" />
 	<paradigm declension="i-mf--" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="i-mf-Cr" case="sg-NV" form="double-fused-er" footnote="sg-i-mf-Cr" />
         <paradigm declension="i-mf-ndnt" case="sg-NV" form="lengthening-double-fused-s" footnote="sg-i-mf-ndntrt" />
@@ -3863,7 +3774,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<paradigm declension="i" case="sg-L" continues="ol-mono2 i sg-L" />
         <paradigm declension="i-mf" case="pl-NVAc" form="fused-i:s-fused-e:s" footnote="pl-i-nvac"/>
         <paradigm declension="i-n" case="pl-n" continues="plf-a-endings non-a pl-n"/>
-        <paradigm declension="i" case="pl-DAb" continues="ol-vowel-red i pl-DAb" />
+        <paradigm declension="i" case="pl-DAbL" continues="ol-vowel-red i pl-DAbL" />
         <paradigm declension="i" case="pl-G" continues="ol-vowel-red i pl-G" />
 	<paradigm declension="u" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="u" case="sg-Ac" continues="pie athem sg-Ac" />
@@ -3875,7 +3786,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<paradigm declension="u" case="pl-Ac" continues="el-pl-acc u pl-Ac" />
         <paradigm declension="u" case="pl-n" continues="plf-a-endings non-a pl-n"/>
         <paradigm declension="u" case="pl-G" continues="cl-u u pl-G"/>
-        <paradigm declension="u" case="pl-DAb" continues="ol-abus u pl-DAb"/>
+        <paradigm declension="u" case="pl-DAbL" continues="ol-abus u pl-DAbL"/>
 	<paradigm declension="e" case="sg-NV" continues="e-dec e sg-NV" />
 	<paradigm declension="e" case="sg-Ac" continues="pit+9 e sg-Ac" />
 	<paradigm declension="e" case="sg-Ab" continues="ol-no-d e sg-Ab" />
@@ -3886,7 +3797,7 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
 	<paradigm declension="e" case="pl-NV" continues="e-dec e pl-NV" />
 	<paradigm declension="e" case="pl-Ac" continues="el-pl-acc e pl-Ac" />
 	<paradigm declension="e" case="pl-G" continues="ol-vowel-red e pl-G" />
-	<paradigm declension="e" case="pl-DAb" continues="ol-vowel-red e pl-DAb" />
+	<paradigm declension="e" case="pl-DAbL" continues="ol-vowel-red e pl-DAbL" />
     </grammar_table>
     <forms>
         <form id="(0|n)-fused-lengthening">-?n (&lt;,–)</form>
@@ -4323,7 +4234,6 @@ A locative plural in -īs is too speculative (<source book="Sihler" /> p. 253 a
         <footnote id="sg-o-mf-n"><source book="Sihler" /> p. 250, 256</footnote>
         <footnote id="sg-ro-mf-n"><source book="Sihler" /> p. 70, 256</footnote>
         <footnote id="sg-o-gB"><source book="Sihler" /> p. 260</footnote>
-        <footnote id="pl-a-dab"><source book="Sihler" /> p. 270, 272</footnote>
         <footnote id="pl-o-g"><source book="Sihler" /> p. 264-265</footnote>
         <footnote id="pl-i-nvac"><source book="Sihler" /> p. 188, 317</footnote>
     </footnotes>
