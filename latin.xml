@@ -1339,9 +1339,12 @@
 	<paradigm declension="e" case="pl-DAbL" form="?((F|B)os)" footnote="e-dec:e-pl/DAb" />
     </grammar_table>
     <grammar_table id="italo-celtic" title="The o-stem singular genitive from possibly Celtic to Latino-Faliscan"> 
-        <description>Proto-Indo-European -os?(i)o is continued as -osio possibly even into Archaic Latin (<source book="Bakkum" /> p. 132-134; <source book="Meiser" /> p. 133-145; <source book="Weiss" /> p. 222). An ending -ī of uncertain origin replaces this in Latin, but also turns up in Venetic (which, if part of the Italic family, split off from it early; <source book="Beekes" /> p. 25; <source book="Fortson" /> p. 127, 465-466), Faliscan, and even Celtic languages. This may continue a Proto-Italic or even Proto-Italo-Celtic ending. Or it may be the result of more recent morphological borrowing between languages in close contact on the Italian Peninsula (<source book="ClacksonHorrocks" /> p. 32). The -ī ending may continue a suffix -iH that marks familial affiliation (Beekes p. 212; <source book="MeierBrugger" /> p. 333; Meiser p. 135).</description>
+        <description>Proto-Indo-European -os?(i)o is continued as -osio possibly even into Archaic Latin (<source book="Bakkum" /> p. 132-134; <source book="Meiser" /> p. 133-145; <source book="Weiss" /> p. 222). An ending -ī of uncertain origin replaces this in Latin, but also turns up in Venetic (which, if part of the Italic family, split off from it early; <source book="Beekes" /> p. 25; <source book="Fortson" /> p. 127, 465-466), Faliscan, and even Celtic languages. This may continue a Proto-Italic or even Proto-Italo-Celtic ending. Or it may be the result of more recent morphological borrowing between languages in close contact on the Italian Peninsula (<source book="ClacksonHorrocks" /> p. 32). The -ī ending may continue a suffix -iH that marks familial affiliation (Beekes p. 212; <source book="MeierBrugger" /> p. 333; Meiser p. 135). After -i-, the new ending contracted with the preceding vowel.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
-        <declension_def id="o" title="o-stem" short_title="o" />
+        <declension_def id="o" title="o-stem" short_title="o" >
+	    <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c." />
+            <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+        </declension_def>
         <declension_def id="athem" title="athematic">
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -1381,7 +1384,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-        <paradigm declension="o" case="sg-G" form="osio-i:" footnote="pit+5:sg-o/G" />
+        <paradigm declension="o-not-i" case="sg-G" form="osio-i:" footnote="pit+5:sg-o/G" />
+        <paradigm declension="o-i" case="sg-G" form="osio-i:-fused" footnote="pit+5:sg-o/G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -1436,7 +1440,10 @@
     <grammar_table id="pit+9" title="Proto-Italic or Proto-Latino-Faliscan vowel shortening before -m">
     <description>Long vowels before -m are shortened (<source book="Sihler" /> p. 78, <source book="Meiser" /> p. 77). The chronology is disputed. The shortening is shared with Celtic and Slavic, so might be early; but regular sound change would then have turned endings in -am into -em (Sihler p. 65). There is also evidence for -ām in Italic Oscan. Meiser (as do <source book="Weiss" /> p. 233; <source book="KleinJosephFritz" /> p. 755-757) opts for a late change, while Sihler explains away outliers to the expected development from an early change by leveling / influence from other endings that contain -a- (in Latin) or -ā- (in Oscan). Weiss p. 224 proposes a later shortening happening independently in Sabellic.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
-        <declension_def id="o" title="o-stem" short_title="o" />
+        <declension_def id="o" title="o-stem" short_title="o" >
+            <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+            <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+        </declension_def>
         <declension_def id="athem" title="athematic">
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -1476,7 +1483,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-        <paradigm declension="o" case="sg-G" continues="italo-celtic o sg-G" />
+        <paradigm declension="o-not-i" case="sg-G" continues="italo-celtic o-not-i sg-G" />
+        <paradigm declension="o-i" case="sg-G" continues="italo-celtic o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -1532,7 +1540,10 @@
 	    <description>The o-stem plural animate nominative is replaced by the respective pronoun ending (contrast with Sabellic, which went the opposite way: <source book="Sihler" /> p. 261). The a-stem plural animate nominative is re-modelled after this influence, although the -ās form is still used rarely in later centuries. Sihler p. 271 calls these usages "inherited", but they only seem to show up relatively late and might therefore be (<source book="Weiss" /> p. 235) Sabellisms or even mere confusions with the accusative.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -1573,7 +1584,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-        <paradigm declension="o" case="sg-G" continues="italo-celtic o sg-G" />
+        <paradigm declension="o-not-i" case="sg-G" continues="italo-celtic o-not-i sg-G" />
+        <paradigm declension="o-i" case="sg-G" continues="italo-celtic o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -1629,7 +1641,10 @@
         <description>Syllabic nasals turn into nasals prefixed with an -e- (in Sabellic maybe with an -a-: <source book="Meiser" /> p. 65; <source book="Fortson" /> p. 277; <source book="Sihler" /> p. 96; <source book="Weiss" /> p. 94-95).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -1670,7 +1685,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-        <paradigm declension="o" case="sg-G" continues="italo-celtic o sg-G" />
+        <paradigm declension="o-not-i" case="sg-G" continues="italo-celtic o-not-i sg-G" />
+        <paradigm declension="o-i" case="sg-G" continues="italo-celtic o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -1727,7 +1743,10 @@
 	<description>For both i- and u-stems, a singular genitive ending is found that may either continue a possible Proto-Indo-European -(e|o)s ending for these very same stems that would have existed alongside the -(e|o)is and -(e|o)us endings, or import the identical consonant-stem ending. In the u-stems, this ending is merely appended to the suffix. In the i-stems, the e-grade may either have replaced the stem-final -i- to -e-s, or (<source book="Sihler" /> p. 316-317; questioned by <source book="Weiss" /> p. 245) syncopated from an intermediary -i-(e|o)s to -i-s.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -1768,7 +1787,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-        <paradigm declension="o" case="sg-G" continues="italo-celtic o sg-G" />
+        <paradigm declension="o-not-i" case="sg-G" continues="italo-celtic o-not-i sg-G" />
+        <paradigm declension="o-i" case="sg-G" continues="italo-celtic o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -1825,7 +1845,10 @@
         <description>All previous endings in -a and/or -ā converge to -a. The paths to this differ between <source book="Sihler" /> and <source book="Meiser" />. For Sihler, endings in -ā at first prevail over endings in -a (a-stem singular vocative turns to -ā under the influence of the nominative (p. 268), and the consonantic plural neuter under the influence of the o-stem (p. 263)), and later ("[r]elatively late in the history of [Latin]", but "predat[ing] the loss of final -d") all word-final -ā turn to -a, due to "iambic shortening", the influence of the shortened -am ending, or a mysteriously singular vowel shift (p. 78-79, 266-267). Meiser cannot accept such a vowel shift (p. 77) and proposes an inverse generalization of -a endings prevailing over -ā endings (p. 132, 136; see also <source book="KleinJosephFritz" /> p. 756; <source booK="Weiss" /> p. 232)). Whether this convergence happened to the whole Latino-Faliscan branch or only Latin is unclear due to lack of vowel-length hints in the available Faliscan texts.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -1865,7 +1888,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-        <paradigm declension="o" case="sg-G" continues="italo-celtic o sg-G" />
+        <paradigm declension="o-not-i" case="sg-G" continues="italo-celtic o-not-i sg-G" />
+        <paradigm declension="o-i" case="sg-G" continues="italo-celtic o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -1920,7 +1944,10 @@
 	    <description>The -(f|β)- fricative in athematic dative/ablative endings changes to the voiced bilabial stop -b- (<source book="Sihler" /> p. 147; <source book="Fortson" /> p. 283; <source book="Meiser" /> p. 101-103; <source book="Weiss" /> p. 149).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -1960,7 +1987,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-        <paradigm declension="o" case="sg-G" continues="italo-celtic o sg-G" />
+        <paradigm declension="o-not-i" case="sg-G" continues="italo-celtic o-not-i sg-G" />
+        <paradigm declension="o-i" case="sg-G" continues="italo-celtic o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -2015,7 +2043,10 @@
 	    <description>The suffix-ending combination -i-bos, previously found in the plural dative/ablative of i-stems, encroaches upon the consonantal stems (and the u-stems, see below), probably as an import from there. <source book="Sihler" /> p. 286 though argues that the new ending could just as well be an import from the u-stem: Both -i- and -u- here weakened early to an in-between sound that would only in writing be locked into either -i- or -u- again. In any case, this sound change is deemed the main reason -i-bos now also turns up for u-stems, with -u-bos attested rarely and not particularly early, therefore probably by later analogy or need for differentiation rather than as continuation of original -u-bos (<source book="Sihler" /> p. 326; <source book="Weiss" /> p. 252). More securly, the i-stem nominative/vocative plural ending -ēs encroaches upon the consontal stem, and the previous i-stem singular genitive ending -(e|o)is is completely pushed out by the -(e|i)s ending that is similar to the consonantal ending.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -2055,7 +2086,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-        <paradigm declension="o" case="sg-G" continues="italo-celtic o sg-G" />
+        <paradigm declension="o-not-i" case="sg-G" continues="italo-celtic o-not-i sg-G" />
+        <paradigm declension="o-i" case="sg-G" continues="italo-celtic o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -2114,7 +2146,10 @@
         <description>The various accusative plural -ns endings transform to -s with the preceding vowel lengthened (<source book="Sihler" /> p. 215). For the a-stem, this may have happened much earlier – in Proto-Indo-European even, see <source book="Weiss" /> p. 235-236, <source book="Meiser" /> p. 133. For a similar interpretation regarding the o-stems, see Meiser p. 136, Weiss p. 206, and <source book="KleinJosephFritz" /> p. 2084. On both suggestions, also consider Sihler p. 229, 254.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -2154,7 +2189,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-        <paradigm declension="o" case="sg-G" continues="italo-celtic o sg-G" />
+        <paradigm declension="o-not-i" case="sg-G" continues="italo-celtic o-not-i sg-G" />
+        <paradigm declension="o-i" case="sg-G" continues="italo-celtic o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -2214,7 +2250,10 @@
 	<description>The athematic singular locatives seem to mostly disappear in Latin, with only a few traces either in adverbs (only "diū" for the u-stem; a few more, like "rūrī" and "temperī", for the i-stem) or the consonantal ablative later on (<source book="Meiser" /> p. 138-139, 147; <source book="Weiss" /> p. 245, 252; <source book="KleinJosephFritz" /> p. 761).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -2254,7 +2293,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-        <paradigm declension="o" case="sg-G" continues="italo-celtic o sg-G" />
+        <paradigm declension="o-not-i" case="sg-G" continues="italo-celtic o-not-i sg-G" />
+        <paradigm declension="o-i" case="sg-G" continues="italo-celtic o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -2313,7 +2353,10 @@
 	<description>The o-stem singular genitive in -osio is barely found in pre-literary Latin (least controversial would be the sparse Lapis Satricanus inscription from the 6th or 5th century BCE), and by the 3rd century BCE seems to be replaced completely by -ī.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -2353,7 +2396,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-	<paradigm declension="o" case="sg-G" form="i:" footnote="ol-o-sg-g" />
+	<paradigm declension="o-not-i" case="sg-G" form="i:" footnote="ol-o-sg-g" />
+	<paradigm declension="o-i" case="sg-G" form="i:-fused" footnote="ol-o-sg-g" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -2412,7 +2456,10 @@
         <description>By the 4th century BCE, any older intervocalic -s- has become -r- (<source book="Meiser" /> p. 95; <source book="Sihler" /> p. 171-173; <source book="Weiss" /> p. 150-152; <source book="KleinJosephFritz" /> p. 750).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -2452,7 +2499,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -2511,7 +2559,10 @@
 	<description>During the 3rd century BCE (but see <source book="Weiss" /> p. 234 for a possible 4th century BCE example), except for some fossilized forms like "pater familiās", the a-declension singular genitive is re-shaped by analogy with the o-stem, with -ī appended to -ā-. The ē-declension's singular genitive, similar to and probably already in its earlier form derived from the a-declension, follows this change, though in rare cases -s seems to be continued (see <source book="Leumann" /> p. 447 for disagreement).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -2551,7 +2602,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
@@ -2610,7 +2662,10 @@
         <description>By the 3rd century BCE, former dipththongs -ai- and -oi- of short length have weakened to -ei- in various inscriptions. The previous state is attested only for the o-stem plural nominative/vocative and ablative/dative – in an old inscription from the 6th century BCE, and the probably similarly ancient Carmen Saliare. That the a-stem diphthongs in the singular locative and the plural nominative/vocative survive this stage (to turn to Classical -ae) seems to affirm their greater length – see <source book="Weiss" /> p. 235 for a discussion. (Regular PIE outcome for the a-stem singular locative would have been a short -ai at least before some initial sounds of the following words, thus -āi here may have been a generalized sandhi variant; but Weiss also points to an alternate theory by Francisco Villar whereby short -ai may have survived weakening too).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -2650,7 +2705,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
 	<paradigm declension="o" case="sg-L" form="ei" footnote="ol-ei:sg-o/L" />
@@ -2709,7 +2765,10 @@
         <description>The u-stem singular genitive exhibits a variety of forms up until the 2nd century BCE. Some continue the u-stem-original -ous and the consonantal-stem-influenced -u(e|o)s (as -uos in the Senatus Consultum de Bacchanalibus 187 BCE, and as -uis in Terence). But in Plautus mostly, and some inscriptions, is found -ī, in analogy to the o-declension.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -2749,7 +2808,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-ei o sg-L" />
@@ -2808,7 +2868,10 @@
      <description>By the 3rd century BCE, short diphthong -ei- probably monophthongizes to a somehwat higher -ē- (<source book="Meiser" /> p. 58, 70-72 and <source book="Weiss" /> p. 101, 143 argue for this; <source book="Sihler" /> p. 53 allows for it, but calls the evidence "not rigorous"). Less epigraphic evidence is found for a monophthongization of -ou- to -ō- (Meiser p. 49; Weiss p. 103; not argued by Sihler). For quite a while, -EI- and -E- are found to interchangeably represent both the diphthong and the single vowel its monophthongization points to, i.e. EI is even found where -ē- (or later -ī-) would have no ancestry in -ei-; the situation seems to be similar with -OU- and -O-. Furthermore, by the 3rd century BCE at latest, the long diphthong ending -ōi of the o-stem singular dative (still attested for the 6th century BCE) has lost its final glide, possibly (Meiser p. 72-73) due to a generalized Sandhi mechanism. The ē-declension's singular genitive and dative are depicted in possible intermediary stages between the attested outcome in Plautus, Terence etc., and their probable initial morphological construction (for the dative, either appending regular -ei to the stem's -ē-, or -ē-i by analogy with the a-declension's -ā-i; for the genitive, -ē-ī in analoge to the a-declension's -ā-ī).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -2848,7 +2911,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" form="o:" footnote="ol-mono1:sg-o/D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
 	<paradigm declension="o" case="sg-L" form="e:" footnote="ol-mono1:sg-o/L" />
@@ -2907,7 +2971,10 @@
 	<description>From the 3rd century BCE on, an o-stem plural genitive in -ōrom (later -ōrum) is attested, which will more and more (but never completely) supplant original -om (later -um). It most probably derives from analogy with the a-declension.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="athem" title="athematic">
                 <declension_def id="cons" title="consonant-stem" short_title="cons.">
                 <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -2947,7 +3014,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="pie them sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-mono1 o sg-L" />
@@ -3007,8 +3075,11 @@
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o">
-                <declension_def id="u-o" title="o-stem (in u)" short_title="-u-" />
-                <declension_def id="o-etc" title="o-stem (most)" short_title="&amp;c" />
+                <declension_def id="o-u" title="o-stem in -u-" short_title="-u-" />
+                <declension_def id="o-etc" title="o-stem not in -u-" >
+                    <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+                    <declension_def id="o-not-i" title="o-stem not in -u- or -i-" short_title="&amp;c" />
+	        </declension_def>
 	    </declension_def>
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
             <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -3043,14 +3114,16 @@
         <paradigm declension="a" case="sg-G" continues="ol-ae-sg-g a sg-G" />
         <paradigm declension="a" case="sg-Ab" continues="pit+2 a sg-Ab" />
         <paradigm declension="a" case="sg-L" continues="pit a sg-L" />
-        <paradigm declension="u-o" case="sg-N" continues="pie them sg-N" />
+        <paradigm declension="o-u" case="sg-N" continues="pie them sg-N" />
 	<paradigm declension="o-etc" case="sg-N" form="us" footnote="ol-vowel-red:sg-o/N"  />
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
-        <paradigm declension="u-o" case="sg-Ac" continues="pie them sg-Ac" />
+        <paradigm declension="o-u" case="sg-Ac" continues="pie them sg-Ac" />
 	<paradigm declension="o-etc" case="sg-Ac" form="um" footnote="ol-vowel-red:sg-o/Ac" />
-        <paradigm declension="u-o" case="sg-n" continues="pie them sg-n" />
+        <paradigm declension="o-u" case="sg-n" continues="pie them sg-n" />
 	<paradigm declension="o-etc" case="sg-n" form="um" footnote="ol-vowel-red:sg-o/n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-u" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-mono1 o sg-L" />
@@ -3083,7 +3156,7 @@
         <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
 	<paradigm declension="o" case="pl-NV" continues="ol-mono1 o pl-NV" />
 	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
-        <paradigm declension="u-o" case="pl-G" continues="ol-o-pl-g o pl-G" />
+        <paradigm declension="o-u" case="pl-G" continues="ol-o-pl-g o pl-G" />
 	<paradigm declension="o-etc" case="pl-G" form="(o:r)um" footnote="ol-vowel-red:pl-o/G" />
 	<paradigm declension="o" case="pl-DAbL" continues="ol-mono1 o pl-DAbL" />
         <paradigm declension="u" case="pl-G" continues="pit+9 athem pl-G" />
@@ -3113,8 +3186,11 @@
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o">
-                <declension_def id="u-o" title="o-stem (in u)" short_title="-u-" />
-                <declension_def id="o-etc" title="o-stem (most)" short_title="&amp;c" />
+                <declension_def id="o-u" title="o-stem in -u-" short_title="-u-" />
+                <declension_def id="o-etc" title="o-stem not in -u-" >
+                    <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+                    <declension_def id="o-not-i" title="o-stem not in -u- or -i-" short_title="&amp;c" />
+	        </declension_def>
 	    </declension_def>
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
             <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -3149,14 +3225,16 @@
         <paradigm declension="a" case="sg-G" continues="ol-ae-sg-g a sg-G" />
 	<paradigm declension="a" case="sg-Ab" form="a:" footnote="ol-no-d:sg-a/Ab" />
         <paradigm declension="a" case="sg-L" continues="pit a sg-L" />
-        <paradigm declension="u-o" case="sg-N" continues="pie them sg-N" />
+        <paradigm declension="o-u" case="sg-N" continues="pie them sg-N" />
         <paradigm declension="o-etc" case="sg-N" continues="ol-vowel-red o-etc sg-N" />
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
-        <paradigm declension="u-o" case="sg-Ac" continues="pie them sg-Ac" />
+        <paradigm declension="o-u" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o-etc" case="sg-Ac" continues="ol-vowel-red o-etc sg-Ac" />
-        <paradigm declension="u-o" case="sg-n" continues="pie them sg-n" />
+        <paradigm declension="o-u" case="sg-n" continues="pie them sg-n" />
         <paradigm declension="o-etc" case="sg-n" continues="ol-vowel-red o-etc sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-u" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
 	<paradigm declension="o" case="sg-Ab" form="o:" footnote="ol-no-d:sg-o/Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-mono1 o sg-L" />
@@ -3189,7 +3267,7 @@
         <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
 	<paradigm declension="o" case="pl-NV" continues="ol-mono1 o pl-NV" />
 	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
-        <paradigm declension="u-o" case="pl-G" continues="ol-o-pl-g o pl-G" />
+        <paradigm declension="o-u" case="pl-G" continues="ol-o-pl-g o pl-G" />
         <paradigm declension="o-etc" case="pl-G" continues="ol-vowel-red o-etc pl-G" />
 	<paradigm declension="o" case="pl-DAbL" continues="ol-mono1 o pl-DAbL" />
         <paradigm declension="u" case="pl-G" continues="pit+9 athem pl-G" />
@@ -3219,8 +3297,11 @@
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o">
-                <declension_def id="u-o" title="o-stem (in u)" short_title="-u-" />
-                <declension_def id="o-etc" title="o-stem (most)" short_title="&amp;c" />
+                <declension_def id="o-u" title="o-stem in -u-" short_title="-u-" />
+                <declension_def id="o-etc" title="o-stem not in -u-" >
+                    <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+                    <declension_def id="o-not-i" title="o-stem not in -u- or -i-" short_title="&amp;c" />
+	        </declension_def>
 	    </declension_def>
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
             <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -3255,14 +3336,16 @@
         <paradigm declension="a" case="sg-G" continues="ol-ae-sg-g a sg-G" />
         <paradigm declension="a" case="sg-Ab" continues="ol-no-d a sg-Ab" />
         <paradigm declension="a" case="sg-L" continues="pit a sg-L" />
-        <paradigm declension="u-o" case="sg-N" continues="pie them sg-N" />
+        <paradigm declension="o-u" case="sg-N" continues="pie them sg-N" />
         <paradigm declension="o-etc" case="sg-N" continues="ol-vowel-red o-etc sg-N" />
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
-        <paradigm declension="u-o" case="sg-Ac" continues="pie them sg-Ac" />
+        <paradigm declension="o-u" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o-etc" case="sg-Ac" continues="ol-vowel-red o-etc sg-Ac" />
-        <paradigm declension="u-o" case="sg-n" continues="pie them sg-n" />
+        <paradigm declension="o-u" case="sg-n" continues="pie them sg-n" />
         <paradigm declension="o-etc" case="sg-n" continues="ol-vowel-red o-etc sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-u" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="ol-no-d o sg-Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-mono1 o sg-L" />
@@ -3295,7 +3378,7 @@
         <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
 	<paradigm declension="o" case="pl-NV" continues="ol-mono1 o pl-NV" />
 	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
-        <paradigm declension="u-o" case="pl-G" continues="ol-o-pl-g o pl-G" />
+        <paradigm declension="o-u" case="pl-G" continues="ol-o-pl-g o pl-G" />
         <paradigm declension="o-etc" case="pl-G" continues="ol-vowel-red o-etc pl-G" />
 	<paradigm declension="o" case="pl-DAbL" continues="ol-mono1 o pl-DAbL" />
         <paradigm declension="u" case="pl-G" continues="pit+9 athem pl-G" />
@@ -3325,8 +3408,11 @@
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o">
-                <declension_def id="u-o" title="o-stem (in u)" short_title="-u-" />
-                <declension_def id="o-etc" title="o-stem (most)" short_title="&amp;c" />
+                <declension_def id="o-u" title="o-stem in -u-" short_title="-u-" />
+                <declension_def id="o-etc" title="o-stem not in -u-" >
+                    <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+                    <declension_def id="o-not-i" title="o-stem not in -u- or -i-" short_title="&amp;c" />
+	        </declension_def>
 	    </declension_def>
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
             <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -3361,14 +3447,16 @@
 	<paradigm declension="a" case="sg-G" form="ai" footnote="ol-mono2:sg-a/G" />
         <paradigm declension="a" case="sg-Ab" continues="ol-no-d a sg-Ab" />
         <paradigm declension="a" case="sg-L" continues="pit a sg-L" />
-        <paradigm declension="u-o" case="sg-N" continues="pie them sg-N" />
+        <paradigm declension="o-u" case="sg-N" continues="pie them sg-N" />
         <paradigm declension="o-etc" case="sg-N" continues="ol-vowel-red o-etc sg-N" />
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
-        <paradigm declension="u-o" case="sg-Ac" continues="pie them sg-Ac" />
+        <paradigm declension="o-u" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o-etc" case="sg-Ac" continues="ol-vowel-red o-etc sg-Ac" />
-        <paradigm declension="u-o" case="sg-n" continues="pie them sg-n" />
+        <paradigm declension="o-u" case="sg-n" continues="pie them sg-n" />
         <paradigm declension="o-etc" case="sg-n" continues="ol-vowel-red o-etc sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-u" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="ol-no-d o sg-Ab" />
 	<paradigm declension="o" case="sg-L" form="i:" footnote="ol-mono2:sg-o/L" />
@@ -3401,7 +3489,7 @@
         <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
 	<paradigm declension="o" case="pl-NV" form="i:" footnote="ol-mono2:pl-o/NV" />
 	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
-        <paradigm declension="u-o" case="pl-G" continues="ol-o-pl-g o pl-G" />
+        <paradigm declension="o-u" case="pl-G" continues="ol-o-pl-g o pl-G" />
         <paradigm declension="o-etc" case="pl-G" continues="ol-vowel-red o-etc pl-G" />
 	<paradigm declension="o" case="pl-DAbL" form="i:s" footnote="ol-mono2:pl-o/DAbL" />
 	<paradigm declension="cons" case="pl-G" continues="ol-vowel-red cons pl-G" />
@@ -3431,8 +3519,11 @@
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o">
-                <declension_def id="u-o" title="o-stem (in u)" short_title="-u-" />
-                <declension_def id="o-etc" title="o-stem (most)" short_title="&amp;c" />
+                <declension_def id="o-u" title="o-stem in -u-" short_title="-u-" />
+                <declension_def id="o-etc" title="o-stem not in -u-" >
+                    <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+                    <declension_def id="o-not-i" title="o-stem not in -u- or -i-" short_title="&amp;c" />
+	        </declension_def>
 	    </declension_def>
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
             <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -3467,14 +3558,16 @@
 	<paradigm declension="a" case="sg-G" form="ae" footnote="ol-endings-e-ae:sg-a/G" />
         <paradigm declension="a" case="sg-Ab" continues="ol-no-d a sg-Ab" />
 	<paradigm declension="a" case="sg-L" form="ae" footnote="ol-endings-e-ae:sg-a/L" />
-        <paradigm declension="u-o" case="sg-N" continues="pie them sg-N" />
+        <paradigm declension="o-u" case="sg-N" continues="pie them sg-N" />
         <paradigm declension="o-etc" case="sg-N" continues="ol-vowel-red o-etc sg-N" />
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
-        <paradigm declension="u-o" case="sg-Ac" continues="pie them sg-Ac" />
+        <paradigm declension="o-u" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o-etc" case="sg-Ac" continues="ol-vowel-red o-etc sg-Ac" />
-        <paradigm declension="u-o" case="sg-n" continues="pie them sg-n" />
+        <paradigm declension="o-u" case="sg-n" continues="pie them sg-n" />
         <paradigm declension="o-etc" case="sg-n" continues="ol-vowel-red o-etc sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-u" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="ol-no-d o sg-Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-mono2 o sg-L" />
@@ -3507,7 +3600,7 @@
         <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
 	<paradigm declension="o" case="pl-NV" continues="ol-mono2 o pl-NV" />
 	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
-        <paradigm declension="u-o" case="pl-G" continues="ol-o-pl-g o pl-G" />
+        <paradigm declension="o-u" case="pl-G" continues="ol-o-pl-g o pl-G" />
         <paradigm declension="o-etc" case="pl-G" continues="ol-vowel-red o-etc pl-G" />
 	<paradigm declension="o" case="pl-DAbL" continues="ol-mono2 o pl-DAbL" />
 	<paradigm declension="cons" case="pl-G" continues="ol-vowel-red cons pl-G" />
@@ -3537,8 +3630,11 @@
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o">
-                <declension_def id="u-o" title="o-stem (in u)" short_title="-u-" />
-                <declension_def id="o-etc" title="o-stem (most)" short_title="&amp;c" />
+                <declension_def id="o-u" title="o-stem in -u-" short_title="-u-" />
+                <declension_def id="o-etc" title="o-stem not in -u-" >
+                    <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+                    <declension_def id="o-not-i" title="o-stem not in -u- or -i-" short_title="&amp;c" />
+	        </declension_def>
 	    </declension_def>
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
             <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
@@ -3573,14 +3669,16 @@
 	<paradigm declension="a" case="sg-G" continues="ol-endings-e-ae a sg-G" />
         <paradigm declension="a" case="sg-Ab" continues="ol-no-d a sg-Ab" />
 	<paradigm declension="a" case="sg-L" continues="ol-endings-e-ae a sg-L" />
-        <paradigm declension="u-o" case="sg-N" continues="pie them sg-N" />
+        <paradigm declension="o-u" case="sg-N" continues="pie them sg-N" />
         <paradigm declension="o-etc" case="sg-N" continues="ol-vowel-red o-etc sg-N" />
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
-        <paradigm declension="u-o" case="sg-Ac" continues="pie them sg-Ac" />
+        <paradigm declension="o-u" case="sg-Ac" continues="pie them sg-Ac" />
         <paradigm declension="o-etc" case="sg-Ac" continues="ol-vowel-red o-etc sg-Ac" />
-        <paradigm declension="u-o" case="sg-n" continues="pie them sg-n" />
+        <paradigm declension="o-u" case="sg-n" continues="pie them sg-n" />
         <paradigm declension="o-etc" case="sg-n" continues="ol-vowel-red o-etc sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-u" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="ol-no-d o sg-Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-mono2 o sg-L" />
@@ -3613,7 +3711,7 @@
         <paradigm declension="non-a" case="pl-n" continues="plf-a-endings non-a pl-n" />
 	<paradigm declension="o" case="pl-NV" continues="ol-mono2 o pl-NV" />
 	<paradigm declension="o" case="pl-Ac" continues="el-pl-acc o pl-Ac" />
-        <paradigm declension="u-o" case="pl-G" continues="ol-o-pl-g o pl-G" />
+        <paradigm declension="o-u" case="pl-G" continues="ol-o-pl-g o pl-G" />
         <paradigm declension="o-etc" case="pl-G" continues="ol-vowel-red o-etc pl-G" />
 	<paradigm declension="o" case="pl-DAbL" continues="ol-mono2 o pl-DAbL" />
 	<paradigm declension="cons" case="pl-G" continues="ol-vowel-red cons pl-G" />
@@ -3642,7 +3740,10 @@
 	<description>Around the end of the Republic, from the second half of the 1st century BCE on, earlier -o- becomes -u- even after -(u|v)- (<source book="Sihler" /> p. 66, <source book="Meiser" /> p. 84).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
             <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
@@ -3680,7 +3781,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="ol-vowel-red o-etc sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="ol-vowel-red o-etc sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="ol-no-d o sg-Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-mono2 o sg-L" />
@@ -3741,7 +3843,10 @@
         <description>Around the 1st century BCE, the similarity of the ē-stem's singular dative and genitive endings levels their remaining difference, i.e. the dative now may also scan as a long diphthong ending in -ī in authors such as Lucretius and Horace. A rule whereby the diphthong would be shorter -eī after consonants (fideī) but longer -ēī after -i- (diēī) is declared by Classical grammarians later on, but may just be "an artifact of schoolmasterly prescriptivism" (<source book="Sihler" /> p. 342); except for monosyllables like "rei", the actual pronounciation of the ending was at this time probably mere -ī (from -ei) (<source book="Leumann" /> p. 446-447).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
             <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
@@ -3781,7 +3886,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="ol-vowel-red o-etc sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="ol-vowel-red o-etc sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="ol-no-d o sg-Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-mono2 o sg-L" />
@@ -3841,7 +3947,10 @@
 	<description>Various endings seem to have disappeared in Classical Latin, or only survive in fossilized forms, such as the o-stem plural genitive in -um, or some u-stem singular genitive endings.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
-            <declension_def id="o" title="o-stem" short_title="o" />
+            <declension_def id="o" title="o-stem" short_title="o" >
+                <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c" />
+                <declension_def id="o-i" title="o-stem in -i-" short_title="-i-" />
+            </declension_def>
             <declension_def id="cons" title="consonant-stem" short_title="cons.">
             <declension_def id="cons-kp" title="consonant-stem in velar or bilabial stop" short_title="-(g|k|b|p)-" />
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
@@ -3881,7 +3990,8 @@
         <paradigm declension="o" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="ol-vowel-red o-etc sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="ol-vowel-red o-etc sg-n" />
-	<paradigm declension="o" case="sg-G" continues="ol-o-sg-g o sg-G" />
+	<paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+	<paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G" />
 	<paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="ol-no-d o sg-Ab" />
 	<paradigm declension="o" case="sg-L" continues="ol-mono2 o sg-L" />
@@ -4044,8 +4154,8 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
         <paradigm declension="o" case="sg-Ac" continues="ol-vowel-red o-etc sg-Ac" />
         <paradigm declension="o" case="sg-D" continues="ol-mono1 o sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="ol-no-d o sg-Ab" />
-        <paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o sg-G" />
-        <paradigm declension="o-i" case="sg-G" form="fused-i:" footnote="sg-o-gB"/>
+        <paradigm declension="o-not-i" case="sg-G" continues="ol-o-sg-g o-not-i sg-G" />
+        <paradigm declension="o-i" case="sg-G" continues="ol-o-sg-g o-i sg-G"/>
         <paradigm declension="o-not-i" case="sg-L" continues="ol-mono2 o sg-L" />
         <paradigm declension="o-i" case="sg-L" form="fused-i:" footnote="sg-o-l"/>
         <paradigm declension="o" case="pl-NV" form="i:" continues="ol-mono2 o pl-NV" />
@@ -4211,6 +4321,7 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
         <form id="ons">-ons</form>
         <form id="os">-os</form>
         <form id="osio-i:">-osio, -ī</form>
+        <form id="osio-i:-fused">-osio, -ī (&lt;)</form>
         <form id="os?(i)o">-os?(i)o</form>
         <form id="ous-fused-or-?(e|o)s">-ous (&lt;), ?(-(e|o)s)</form>
         <form id="ous-fused-or-(e|o)s">-ous (&lt;), -(e|o)s</form>
@@ -4403,7 +4514,7 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
 	<footnote id="pit+3:pl-a/DAb"><source book="Meiser" /> p. 128, 133; <source book="Sihler" /> p. 272</footnote>
 	<footnote id="pit+3:pl-o/DAb"><source book="Meiser" /> p. 128, 136; <source book="Sihler" /> p. 263</footnote>
 	<footnote id="pit+3:pl-a/Ac"><source book="Sihler" /> p. 254, 271</footnote>
-        <footnote id="pit+5:sg-o/G"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16-17, 32; <source book="Fortson" /> p. 127, 466; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 135; <source book="Sihler" /> p. 259-260</footnote>
+	<footnote id="pit+5:sg-o/G"><source book="Beekes" /> p. 212-213; <source book="ClacksonHorrocks" /> p. 16-17, 32; <source book="Fortson" /> p. 127, 466; <source book="MeierBrugger" /> p. 333; <source book="Meiser" /> p. 133-135; <source book="Sihler" /> p. 259-260; <source book="Weiss" /> p. 222-223; <source book="Leumann" /> p. 424-425</footnote>
 
 	<footnote id="pit+6:pl-athem/DAb"><source book="Sihler" /> p. 286, 318</footnote>
 	<footnote id="pit+7:sg-u/G"><source book="ClacksonHorrocks" /> p. 16; <source book="Sihler" /> p. 248, 321, 324; <source book="Weiss" /> p. 251; <source book="KleinJosephFritz" /> p. 761</footnote>
@@ -4461,7 +4572,7 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
 	<footnote id="el-pl-acc:pl-e/Ac"><source book="Meiser" /> p. 147; <source book="Sihler" /> p. 343; <source book="Weiss" /> p. 253</footnote>
 	<footnote id="el-l-loss:sg-cons/AbL"><source book="Meiser" /> p. 138-139; <source book="Sihler" /> p. 285; <source book="Weiss" /> p. 202, 204</footnote>
 	<footnote id="el-l-loss:sg-i/L"><source book="Meiser" /> p. 139; <source book="Sihler" /> p. 285; <source book="Weiss" /> p. 245</footnote>
-	<footnote id="ol-o-sg-g"><source book="Meiser" /> p. 135; <source book="Sihler" /> p. 260; <source book="Weiss" /> p. 222; <source book="Bakkum" /> p. 132</footnote>
+	<footnote id="ol-o-sg-g"><source book="Meiser" /> p. 133-135; <source book="Sihler" /> p. 260; <source book="Weiss" /> p. 222-223; <source book="Bakkum" /> p. 132; <source book="Leumann" /> p. 424-425</footnote>
 	<footnote id="rhotacism"><source book="Meiser" /> p. 132; <source book="Sihler" /> p. 272; <source book="Weiss" /> p. 236</footnote>
 	<footnote id="rhotacism:e"><source book="Sihler" /> p. 343</footnote>
 	<footnote id="ol-ae-sg-g:sg-a/G"><source book="Sihler" /> p. 269; <source book="Bakkum" /> p. 120-121; <source book="Meiser" /> p. 130, 132; <source book="Weiss" /> p. 234; <source book="KleinJosephFritz" /> p. 756; <source book="Leumann" /> p. 418-419</footnote>
@@ -4545,7 +4656,6 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
         <footnote id="sg-a-v"><source book="Sihler" /> p. 78, 267-268</footnote>
         <footnote id="sg-o-mf-n"><source book="Sihler" /> p. 250, 256</footnote>
         <footnote id="sg-ro-mf-n"><source book="Sihler" /> p. 70, 256</footnote>
-        <footnote id="sg-o-gB"><source book="Sihler" /> p. 260</footnote>
     </footnotes>
     <bibliography>
 	<book id="Bakkum" title="Bakkum">Bakkum, Gabriel C. L. M.: The Latin Dialect of the Ager Faliscus. Amsterdam University Press 2009.</book> 
