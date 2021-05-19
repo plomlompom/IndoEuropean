@@ -4396,7 +4396,7 @@
 	<paradigm declension="o-Vr" case="sg-N" continues="ol-vowel-red o-Vr sg-N" />
 	<paradigm declension="o-etc" case="sg-N" continues="ol-vowel-red o-etc sg-N"  />
         <paradigm declension="o-i" case="sg-V" continues="pit+6.5 o-i sg-V" />
-        <paradigm declension="o-Vr" case="sg-V" continues="ol-o-nv-sync o-Vr sg-V" />
+	<paradigm declension="o-Vr" case="sg-V" form="0" footnote="cl-loss:sg-o/V" />
         <paradigm declension="o-etc" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-Ac" continues="ol-vowel-red o-not-u sg-Ac" />
         <paradigm declension="o" case="sg-n" continues="ol-vowel-red o-not-u sg-n" />
@@ -4558,7 +4558,7 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
 	<paradigm declension="o-Vr" case="sg-N" continues="ol-vowel-red o-Vr sg-N" />
 	<paradigm declension="o-etc" case="sg-N" continues="ol-vowel-red o-etc sg-N"  />
         <paradigm declension="o-i" case="sg-V" continues="pit+6.5 o-i sg-V" />
-        <paradigm declension="o-Vr" case="sg-V" continues="ol-o-nv-sync o-Vr sg-V" />
+        <paradigm declension="o-Vr" case="sg-V" continues="cl-loss o-Vr sg-V" />
         <paradigm declension="o-etc" case="sg-V" continues="pie them sg-V" />
         <paradigm declension="o" case="sg-n" continues="ol-vowel-red o-not-u sg-n" />
         <paradigm declension="o" case="sg-Ac" continues="ol-vowel-red o-not-u sg-Ac" />
@@ -5058,6 +5058,7 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
 	<footnote id="cl-i-contraction:sg-o/L"><source book="Meiser" /> p. 135; <source book="Weiss" /> p. 223; <source book="Leumann" /> p. 426-427</footnote>
 	<footnote id="cl-loss:pl-o/G"><source book="Meiser" /> p. 134; <source book="Sihler" /> p. 264-265; <source book="Weiss" /> p. 224; <source book="Leumann" /> p. 428</footnote>
 	<footnote id="cl-loss:sg-u/G"><source book="Meiser" /> p. 145; <source book="Sihler" /> p. 324; <source book="Weiss" /> p. 251; <source book="Leumann" /> p. 441-442</footnote>
+	<footnote id="cl-loss:sg-o/V"><source book="Meiser" /> p. 134; <source book="Sihler" /> p. 256; <source book="Weiss" /> p. 221; <source book="Leumann" /> p. 424</footnote>
         <footnote id="sg-c-n--i"><source book="Sihler" /> p. 284</footnote>
         <footnote id="sg-c-n-n"><source book="Sihler" /> p. 297</footnote>
         <footnote id="sg-c-n-r"><source book="Sihler" /> p. 293, 306</footnote>
