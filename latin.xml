@@ -3841,7 +3841,7 @@
 	<paradigm declension="cons" case="sg-D" continues="ol-mono2 cons sg-D" />
 	<paradigm declension="cons" case="sg-L" form="maybe-e" footnote="ol-endings-e-ae:sg-cons/L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
-        <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="i" case="sg-n" form="fused-e" footnote="ol-endings-e-ae:sg-i/n" />
 	<paradigm declension="i" case="sg-Ac" continues="el-i-fusion i sg-Ac" />
 	<paradigm declension="i" case="sg-Ab" form="fused-e|i:" footnote="ol-endings-e-ae:sg-i/Ab" />
 	<paradigm declension="i" case="sg-G" continues="ol-vowel-red i sg-G" />
@@ -3962,7 +3962,7 @@
 	<paradigm declension="cons" case="sg-D" continues="ol-mono2 cons sg-D" />
 	<paradigm declension="cons" case="sg-L" continues="ol-endings-e-ae cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
-        <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="i" case="sg-n" continues="ol-endings-e-ae i sg-n" />
 	<paradigm declension="i" case="sg-Ac" continues="el-i-fusion i sg-Ac" />
         <paradigm declension="i" case="sg-Ab" continues="ol-endings-e-ae i sg-Ab" />
 	<paradigm declension="i" case="sg-G" continues="ol-vowel-red i sg-G" />
@@ -4075,7 +4075,7 @@
 	<paradigm declension="cons" case="sg-D" continues="ol-mono2 cons sg-D" />
 	<paradigm declension="cons" case="sg-L" continues="ol-endings-e-ae cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
-        <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="i" case="sg-n" continues="ol-endings-e-ae i sg-n" />
 	<paradigm declension="i" case="sg-Ac" continues="el-i-fusion i sg-Ac" />
         <paradigm declension="i" case="sg-Ab" continues="ol-endings-e-ae i sg-Ab" />
 	<paradigm declension="i" case="sg-G" continues="ol-vowel-red i sg-G" />
@@ -4189,7 +4189,7 @@
 	<paradigm declension="cons" case="sg-D" continues="ol-mono2 cons sg-D" />
 	<paradigm declension="cons" case="sg-L" continues="ol-endings-e-ae cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
-        <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="i" case="sg-n" continues="ol-endings-e-ae i sg-n" />
 	<paradigm declension="i" case="sg-Ac" continues="el-i-fusion i sg-Ac" />
         <paradigm declension="i" case="sg-Ab" continues="ol-endings-e-ae i sg-Ab" />
 	<paradigm declension="i" case="sg-G" continues="ol-vowel-red i sg-G" />
@@ -4303,7 +4303,7 @@
 	<paradigm declension="cons" case="sg-D" continues="ol-mono2 cons sg-D" />
 	<paradigm declension="cons" case="sg-L" continues="ol-endings-e-ae cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
-        <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="i" case="sg-n" continues="ol-endings-e-ae i sg-n" />
 	<paradigm declension="i" case="sg-Ac" continues="el-i-fusion i sg-Ac" />
         <paradigm declension="i" case="sg-Ab" continues="ol-endings-e-ae i sg-Ab" />
 	<paradigm declension="i" case="sg-G" continues="ol-vowel-red i sg-G" />
@@ -4417,7 +4417,7 @@
 	<paradigm declension="cons" case="sg-D" continues="ol-mono2 cons sg-D" />
 	<paradigm declension="cons" case="sg-L" continues="ol-endings-e-ae cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
-        <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="i" case="sg-n" continues="ol-endings-e-ae i sg-n" />
 	<paradigm declension="i" case="sg-Ac" continues="el-i-fusion i sg-Ac" />
         <paradigm declension="i" case="sg-Ab" continues="ol-endings-e-ae i sg-Ab" />
 	<paradigm declension="i" case="sg-G" continues="ol-vowel-red i sg-G" />
@@ -4599,7 +4599,7 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
         <paradigm declension="i-mf-ndnt" case="sg-NV" form="lengthening-double-fused-s" footnote="sg-i-mf-ndntrt" />
         <paradigm declension="i-mf-rt" case="sg-NV" form="double-fused-s" footnote="sg-i-mf-ndntrt" />
         <paradigm declension="i-mf" case="sg-Ac" continues="el-i-fusion i sg-Ac" />
-        <paradigm declension="i-n-mono" case="sg-n" form="fused-e" footnote="sg-i-n" />
+        <paradigm declension="i-n-mono" case="sg-n" continues="ol-endings-e-ae i sg-n" />
         <paradigm declension="i-n-poly" case="sg-n" form="fused-0" footnote="sg-i-n-poly" />
         <paradigm declension="i" case="sg-D" continues="ol-mono2 i sg-D" />
         <paradigm declension="i" case="sg-Ab" continues="ol-endings-e-ae i sg-Ab" />
@@ -5049,6 +5049,7 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
 	<footnote id="ol-endings-e-ae:sg-a/L"><source book="Meiser" /> p. 131; <source book="Sihler" /> p. 270; <source book="Weiss" /> p. 235</footnote>
 	<footnote id="ol-endings-e-ae:pl-a/NV"><source book="Meiser" /> p. 130; <source book="Sihler" /> p. 271; <source book="Weiss" /> p. 235</footnote>
 	<footnote id="ol-endings-e-ae:sg-cons/Ab"><source book="Meiser" /> p. 138; <source book="Sihler" /> p. 285; <source book="Weiss" /> p. 202</footnote>
+	<footnote id="ol-endings-e-ae:sg-i/n"><source book="Meiser" /> p. 144; <source book="Sihler" /> p. 316; <source book="Leumann" /> p. 434</footnote>
 	<footnote id="ol-endings-e-ae:sg-i/Ab"><source book="Meiser" /> p. 138; <source book="Sihler" /> p. 317-318; <source book="Weiss" /> p. 245; <source book="Leumann" /> p. 440</footnote>
 	<footnote id="ol-abus:pl-a/DAbL"><source booK="Leumann" /> p. 421-422; <source book="Sihler" /> p. 272; <source book="Weiss" /> p. 236; <source book="Meiser" /> p. 131</footnote>
 	<footnote id="ol-abus:pl-u/DAb"><source book="Leumann" /> p. 443; <source book="Sihler" /> p. 326; <source book="Weiss" /> p. 252; <source book="Meiser" /> p. 145</footnote>
@@ -5072,7 +5073,6 @@ Not depicted: Heteroclitic nouns that may inflect to more than one paradigm (<so
         <footnote id="sg-c-mf-nv-g"><source book="Sihler" /> p. 204, 283</footnote>
         <footnote id="sg-i-mf-Cr"><source book="Sihler" /> p. 70, 315</footnote>
         <footnote id="sg-i-mf-ndntrt"><source book="Sihler" /> p. 316</footnote>
-        <footnote id="sg-i-n"><source book="Sihler" /> p. 316</footnote>
         <footnote id="sg-i-n-poly"><source book="Sihler" /> p. 69, 316</footnote>
         <footnote id="sg-a-n"><source book="Sihler" /> p. 78, 266-267</footnote>
         <footnote id="sg-a-v"><source book="Sihler" /> p. 78, 267-268</footnote>
