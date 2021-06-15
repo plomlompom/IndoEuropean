@@ -5131,7 +5131,6 @@
     <grammar_table id="classical" title="WIP: classical">
         <description>
 -o- becomes -u- before final consonants (<source book="Sihler" /> p. 66),
-word-final -ss becomes -s (<source book="Sihler" /> p. 204-205),
 (former) dorsal stop plus -s becomes -x (<source book="Sihler" /> p. 204),
 consonant locative singular in -ī is modeled in analogy to o-stems (<source book="Sihler" /> p. 285),
 -rs becomes -rr becomes in final position -r (<source book="Sihler" /> p. 211),
@@ -5684,7 +5683,7 @@ Not depicted: heteroclitic nouns that may inflect to more than one paradigm (<so
 	<footnote id="ol-no-d:sg-e/Ab"><source book="Meiser" /> p. 147; <source book="Sihler" /> p. 343; <source book="Weiss" /> p. 253</footnote>
 	<footnote id="ol-no-d:sg-cons/Ab"><source book="Meiser" /> p. 138; <source book="Sihler" /> p. 285; <source book="Weiss" /> p. 202</footnote>
 	<footnote id="ol-i-pl-nv-acc"><source book="Meiser" /> p. 138; <source book="Weiss" /> p. 245; <source book="Leumann" /> p. 440; <source book="Sihler" /> p. 317-318</footnote>
-	<footnote id="ol-ss-loss-ti"><source book="Sihler" /> p. 204-205, 283; <source book="Meiser" /> p. 113-114; <source book="Weiss" /> p. 170, 316; <source book="Leumann" /> p. 220, 222</footnote>
+	<footnote id="ol-ss-loss-t"><source book="Sihler" /> p. 204-205, 283; <source book="Meiser" /> p. 113-114; <source book="Weiss" /> p. 170, 316; <source book="Leumann" /> p. 220, 222</footnote>
 	<footnote id="ol-ss-loss-ti"><source book="Sihler" /> p. 204-205, 316, 318; <source book="Meiser" /> p. 73, 113-114; <source book="Weiss" /> p. 170, 316; <source book="Leumann" /> p. 98, 220, 222, 342-343, 449</footnote>
 	<footnote id="ol-mono2:sg-a/G"><source book="Meiser" /> p. 130, 132; <source book="Weiss" /> p. 234; <source book="Leumann" /> p. 418</footnote>
 	<footnote id="ol-mono2:sg-e/G"><source book="Meiser" /> p. 147; <source book="Weiss" /> p. 254; <source book="Sihler" /> p. 342; <source book="Leumann" /> p. 446-447</footnote>
