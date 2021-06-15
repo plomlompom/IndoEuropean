@@ -3812,8 +3812,8 @@
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
 	<paradigm declension="cons" case="sg-D" continues="ol-mono1 cons sg-D" />
 	<paradigm declension="cons" case="sg-L" continues="el-l-loss cons sg-L" />
-        <paradigm declension="i-ndnt" case="sg-NV" form="lengthening-double-fused-s" footnote="ol-ti-sync" />
-        <paradigm declension="i-Ct" case="sg-NV" form="double-fused-s" footnote="ol-ti-sync" />
+        <paradigm declension="i-ndnt" case="sg-NV" form="s-or-lengthening-double-fused-s" footnote="ol-ti-sync" />
+        <paradigm declension="i-Ct" case="sg-NV" form="s-or-double-fused-s" footnote="ol-ti-sync" />
         <paradigm declension="i-Cr" case="sg-NV" continues="ol-o-nv-sync i-Cr sg-NV" />
         <paradigm declension="i--" case="sg-NV" continues="pit+6.5 iu sg-NV" />
         <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
@@ -5190,8 +5190,8 @@ Not depicted: heteroclitic nouns that may inflect to more than one paradigm (<so
         <form id="0-or-fused-u:">(-∅)|(-ū (&lt;))</form>
         <form id="fused-eies">-eies (&lt;)</form>
         <form id="fused-i:s-fused-e:s">-īs (&lt;), -ēs (&lt;)</form>
-        <form id="lengthening-double-fused-s">-s (–) (&lt;&lt;)</form>
-        <form id="double-fused-s">-s (&lt;&lt;)</form>
+        <form id="s-or-lengthening-double-fused-s">-s (–) (&lt;&lt;), -s</form>
+        <form id="double-fused-s">-s (&lt;&lt;), -s</form>
         <form id="double-fused-os-0">-os (&lt;&lt;), -∅</form>
         <form id="double-fused-u(r|s)-fused-s">-u(r|s) (&lt;&lt;), -s (&lt;)</form>
         <form id="double-fused-or">-or (&lt;&lt;)</form>
