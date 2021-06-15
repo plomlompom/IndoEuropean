@@ -1737,6 +1737,7 @@
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
+        <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
         <paradigm declension="i" case="sg-G" continues="pie i sg-G" />
@@ -1840,6 +1841,7 @@
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
+        <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
 	<paradigm declension="i" case="sg-G" form="(e|o)is-fused-or-(e|i)s-fused" footnote="lf-iu-s-g:sg-i/G" />
@@ -1942,6 +1944,7 @@
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
+        <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
 	<paradigm declension="i" case="sg-G" continues="lf-iu-s-g i sg-G" />
@@ -2042,6 +2045,7 @@
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
         <paradigm declension="cons" case="sg-L" continues="pie cons sg-L" />
         <paradigm declension="iu" case="sg-NV" continues="pit+6.5 iu sg-NV" />
+        <paradigm declension="iu" case="sg-Ac" continues="pie athem sg-Ac" />
         <paradigm declension="i" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="i" case="sg-Ab" continues="pit+2 i sg-Ab" />
 	<paradigm declension="i" case="sg-G" continues="lf-iu-s-g i sg-G" />
