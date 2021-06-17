@@ -1371,7 +1371,7 @@
 	<paradigm declension="e" case="pl-DAbL" form="?((F|B)os)" footnote="e-dec:e-pl/DAb" />
     </grammar_table>
     <grammar_table id="early-nom-sg" title="Athematic nominative singulars between Proto-Italic and Early Latin"> 
-        <description>Status of the nominative singular in athematic stems somewhere between Proto-Italic and Early Latin: For stems in -t-, all further development safely points to an ending -s. For stems in -ti-, the nominative singular in -ti-s is often syncopated (probably after two mores – <source book="Meiser" /> p. 73, <source book="Leumann" /> p. 98) to -t-s (at first). Forms in -(d|t)-s like the aforementioned assimilate further to -s-s. If a stem's -ti- is preceded by -n-, the preceding vowel is probably already lengthened (similarly with -di-, as in frōns/frondis – <source book="Sihler" /> p. 316). Syncopated and unsyncopated forms of ti-stem nominative singular endings co-exist at least until Ennius and Plautus (Leumann p. 449). Nominatives with original stems in -k- ("-c-" in Latin), -g-, -gʰʰ-- and -gʷ- all end in -s, which fuses to what's written as "-x" in Latin (Meiser p. 47, 113; Sihler p. 204; Weiss p. 170); notably, -gʰ and -gʷʰ- become -h- and -u- word-internally (Sihler p. 156, 158; Weiss p. 77, 79; Meiser p. 104), so the new stems ending in these also sport a nominative in -x.</description>
+        <description>Status of the nominative singular in athematic stems somewhere between Proto-Italic and Early Latin: For stems in -t-, -g-, -k- ("c" in Latin), -gʷʰ-,-gʰ-, -kʷ-, all further development now safely points to an ending -s. For stems in -ti-, the nominative singular in -ti-s is often syncopated (probably after two mores – <source book="Meiser" /> p. 73, <source book="Leumann" /> p. 98) to -t-s (at first). Forms in -(d|t)-s like the aforementioned assimilate further to -s-s. If a stem's -ti- is preceded by -n-, the preceding vowel is probably already lengthened (similarly with -di-, as in frōns/frondis – <source book="Sihler" /> p. 316). Syncopated and unsyncopated forms of ti-stem nominative singular endings co-exist at least until Ennius and Plautus (Leumann p. 449). A stem ending in a velar fuses with the nominative ending -s to what's written as "-x" in Latin (Meiser p. 47, 113; Sihler p. 204; Weiss p. 170); notably, -gʰ and -gʷʰ- become -h- and -u- word-internally (Sihler p. 156, 158; Weiss p. 77, 79; Meiser p. 104), so the new stems ending in these also sport a nominative in -x.</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="o" title="o-stem" short_title="o" >
 	    <declension_def id="o-not-i" title="o-stem not in -i-" short_title="&amp;c." />
@@ -5211,7 +5211,6 @@
     <grammar_table id="classical" title="WIP: classical">
         <description>
 -o- becomes -u- before final consonants (<source book="Sihler" /> p. 66),
-(former) dorsal stop plus -s becomes -x (<source book="Sihler" /> p. 204),
 consonant locative singular in -ī is modeled in analogy to o-stems (<source book="Sihler" /> p. 285),
 -rs becomes -rr becomes in final position -r (<source book="Sihler" /> p. 211),
 long vowels before final non-s consonants shorten (<source book="Sihler" /> p. 79),
