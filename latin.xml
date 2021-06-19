@@ -1384,7 +1384,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                <declension_def id="cons-s" title="consonant-stem in -s-" short_title="-s-" />
             </declension_def>
             <declension_def id="iu" title="i/u-stem" >
                 <declension_def id="i" title="i-stem" short_title="-i-">
@@ -1434,7 +1434,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" form="fused-x" footnote="early-nom-sg-gcvh" />
         <paradigm declension="cons-t" case="sg-NV" form="fused-ss" footnote="early-nom-sg-t" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
@@ -1494,7 +1494,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
             </declension_def>
             <declension_def id="iu" title="i/u-stem" >
                 <declension_def id="i" title="i-stem" short_title="-i-">
@@ -1545,7 +1545,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
@@ -1605,7 +1605,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
             </declension_def>
             <declension_def id="iu" title="i/u-stem" >
                 <declension_def id="i" title="i-stem" short_title="-i-">
@@ -1656,7 +1656,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
@@ -1717,7 +1717,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                    <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
                 </declension_def>
                 <declension_def id="iu" title="i/u-stem" >
                     <declension_def id="i" title="i-stem" short_title="-i-">
@@ -1769,7 +1769,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
         <paradigm declension="cons" case="sg-D" continues="pie cons sg-D" />
@@ -1830,7 +1830,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                    <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
                 </declension_def>
                 <declension_def id="iu" title="i/u-stem" >
                     <declension_def id="i" title="i-stem" short_title="-i-">
@@ -1881,7 +1881,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" form="em" footnote="lf-sylnas:sg-cons/Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -1945,7 +1945,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                    <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
                 </declension_def>
                 <declension_def id="iu" title="i/u-stem" >
                     <declension_def id="i" title="i-stem" short_title="-i-">
@@ -1996,7 +1996,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -2060,7 +2060,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                    <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
                 </declension_def>
                 <declension_def id="iu" title="i/u-stem" >
                     <declension_def id="i" title="i-stem" short_title="-i-">
@@ -2110,7 +2110,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -2172,7 +2172,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                    <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
                 </declension_def>
                 <declension_def id="iu" title="i/u-stem" >
                     <declension_def id="i" title="i-stem" short_title="-i-">
@@ -2222,7 +2222,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -2284,7 +2284,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                    <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
                 </declension_def>
                 <declension_def id="iu" title="i/u-stem" >
                     <declension_def id="i" title="i-stem" short_title="-i-">
@@ -2334,7 +2334,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -2399,7 +2399,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                    <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
                 </declension_def>
                 <declension_def id="iu" title="i/u-stem" >
                     <declension_def id="i" title="i-stem" short_title="-i-">
@@ -2449,7 +2449,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="pit+2 cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -2515,7 +2515,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                    <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
                 </declension_def>
                 <declension_def id="iu" title="i/u-stem" >
                     <declension_def id="i" title="i-stem" short_title="-i-">
@@ -2565,7 +2565,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
 	<paradigm declension="cons" case="sg-Ab" form="e:d-or-e:-or-i" footnote="el-l-loss:sg-cons/AbL" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -2630,7 +2630,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                    <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
                 </declension_def>
                 <declension_def id="iu" title="i/u-stem" >
                     <declension_def id="i" title="i-stem" short_title="-i-">
@@ -2680,7 +2680,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="el-l-loss cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -2749,7 +2749,7 @@
                 <declension_def id="cons-gcvh" title="consonant stem in -(g|c|v|h)-" short_title="-(g|c|v|h)-" />
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                     <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
-                    <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
+                    <declension_def id="cons-s" title="consonant-stem in -s" short_title="-s-" />
                 </declension_def>
                 <declension_def id="i" title="i-stem" short_title="-i-">
                     <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -2802,7 +2802,7 @@
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
+        <paradigm declension="cons-s" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="el-l-loss cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -2873,7 +2873,6 @@
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                 <declension_def id="cons-n" title="consonant-stem in -n-" short_title="-n-" />
                 <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
                 </declension_def>
                 <declension_def id="i" title="i-stem" short_title="-i-">
                     <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -2926,14 +2925,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" form="0-or-s-fused" footnote="rhotacism:sg-cons-r/n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" form="0-lengthening-or-s-fused-lenghtening" footnote="rhotacism:sg-cons-r/NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="el-l-loss cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -3004,7 +3001,6 @@
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
                 </declension_def>
                 <declension_def id="i" title="i-stem" short_title="-i-">
                     <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -3057,14 +3053,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="el-l-loss cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -3135,7 +3129,6 @@
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
                 </declension_def>
                 <declension_def id="i" title="i-stem" short_title="-i-">
                     <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -3188,14 +3181,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="el-l-loss cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -3266,7 +3257,6 @@
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
                 </declension_def>
                 <declension_def id="i" title="i-stem" short_title="-i-">
                     <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -3319,14 +3309,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="el-l-loss cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -3397,7 +3385,6 @@
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
                 </declension_def>
                 <declension_def id="i" title="i-stem" short_title="-i-">
                     <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -3450,14 +3437,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="el-l-loss cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -3528,7 +3513,6 @@
                 <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
                 <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
                 <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-                <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
                 </declension_def>
                 <declension_def id="i" title="i-stem" short_title="-i-">
                     <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -3581,14 +3565,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="el-l-loss cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="pie cons sg-G" />
@@ -3661,7 +3643,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                     <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -3718,14 +3699,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="el-l-loss cons sg-Ab" />
 	<paradigm declension="cons" case="sg-G" form="(i|u)s" footnote="ol-vowel-red:sg-cons/G" />
@@ -3801,7 +3780,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                     <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -3858,14 +3836,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
 	<paradigm declension="cons" case="sg-Ab" form="maybe-i-maybe-e:" footnote="ol-no-d:sg-cons/Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
@@ -3941,7 +3917,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                 <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -3998,14 +3973,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="ol-no-d cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
@@ -4081,7 +4054,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                 <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -4138,14 +4110,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="cons" case="sg-Ab" continues="ol-no-d cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
@@ -4221,7 +4191,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                 <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -4278,14 +4247,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="early-nom-sg cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
 	<paradigm declension="cons" case="sg-Ab" form="e" footnote="ol-endings-e-ae:sg-cons/Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
@@ -4361,7 +4328,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                 <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -4418,14 +4384,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" form="fused-s" footnote="ol-ss-loss-t" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
 	<paradigm declension="cons" case="sg-Ab" continues="ol-endings-e-ae cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
@@ -4501,7 +4465,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                 <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -4558,14 +4521,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="ol-ss-loss cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
 	<paradigm declension="cons" case="sg-Ab" continues="ol-endings-e-ae cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
@@ -4641,7 +4602,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                 <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -4698,14 +4658,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="ol-ss-loss cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
 	<paradigm declension="cons" case="sg-Ab" continues="ol-endings-e-ae cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
@@ -4778,7 +4736,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                 <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -4830,14 +4787,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="ol-ss-loss cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
 	<paradigm declension="cons" case="sg-Ab" continues="ol-endings-e-ae cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
@@ -4909,7 +4864,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                 <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -4963,14 +4917,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="ol-ss-loss cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
 	<paradigm declension="cons" case="sg-Ab" continues="ol-endings-e-ae cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
@@ -5041,7 +4993,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                 <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -5096,14 +5047,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="ol-ss-loss cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
 	<paradigm declension="cons" case="sg-Ab" continues="ol-endings-e-ae cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
@@ -5174,7 +5123,6 @@
             <declension_def id="cons-t" title="consonant-stem in dental stop" short_title="-(d|t)-" />
             <declension_def id="cons-n" title="consonant-stem in -n--" short_title="-n-" />
             <declension_def id="cons-r" title="consonant-stem in -r-" short_title="-r-" />
-            <declension_def id="cons-etc" title="consonant-stem not in -n- or stop" short_title="&amp;c." />
             </declension_def>
             <declension_def id="i" title="i-stem" short_title="-i-">
                 <declension_def id="i-ndnt" title="some i-stems in -ndi- or -nti-" short_title="-n(d|t)i-" />
@@ -5229,14 +5177,12 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
-        <paradigm declension="cons-etc" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
         <paradigm declension="cons-t" case="sg-NV" continues="ol-ss-loss cons-t sg-NV" />
         <paradigm declension="cons-n" case="sg-NV" continues="pit+6.5 cons-n sg-NV" />
         <paradigm declension="cons-r" case="sg-NV" continues="rhotacism cons-r sg-NV" />
-        <paradigm declension="cons-etc" case="sg-NV" continues="pit+6.5 cons-etc sg-NV" />
 	<paradigm declension="cons" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
 	<paradigm declension="cons" case="sg-Ab" continues="ol-endings-e-ae cons sg-Ab" />
         <paradigm declension="cons" case="sg-G" continues="ol-vowel-red cons sg-G" />
