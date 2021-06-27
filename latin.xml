@@ -1832,7 +1832,7 @@
 	<paradigm declension="e" case="pl-DAbL" continues="e-dec e pl-DAbL" />
     </grammar_table>
     <grammar_table id="lf-sylnas" title="Proto-Latino-Faliscan addition of -e- before syllabic nasals">
-        <description>Syllabic nasals turn into nasals prefixed with an -e- (in Sabellic maybe with an -a-: <source book="Meiser" /> p. 65; <source book="Fortson" /> p. 277; <source book="Sihler" /> p. 96; <source book="Weiss" /> p. 94-95).</description>
+        <description>Syllabic nasals turn into nasals prefixed with an -e- (in Sabellic maybe with an -a-: <source book="Meiser" /> p. 65; <source book="Fortson" /> p. 277; <source book="Sihler" /> p. 96; <source book="Weiss" /> p. 94-95). In athematic n-stem neuters, the suffix was a syllabic nasal in the strong cases, while the weak cases were ablauting (to whatever later became -in- in Latin), so this accounts for the singular nominatives in -en there (Sihler p. 297-298).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o" >
@@ -1893,7 +1893,14 @@
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
-        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-p" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-b" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-gcvh" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="cons-n" case="sg-n" form="double-fused-en" footnote="lf-sylnas:sg-cons-n/n" />
+        <paradigm declension="cons-s" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
@@ -2012,7 +2019,14 @@
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
-        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-p" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-b" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-gcvh" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
+        <paradigm declension="cons-s" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
@@ -2130,7 +2144,14 @@
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
-        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-p" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-b" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-gcvh" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
+        <paradigm declension="cons-s" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
@@ -2246,7 +2267,14 @@
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
-        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-p" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-b" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-gcvh" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
+        <paradigm declension="cons-s" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
@@ -2362,7 +2390,14 @@
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
-        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-p" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-b" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-gcvh" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
+        <paradigm declension="cons-s" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
@@ -2481,7 +2516,14 @@
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
-        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-p" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-b" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-gcvh" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
+        <paradigm declension="cons-s" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
@@ -2601,7 +2643,14 @@
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
-        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-p" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-b" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-gcvh" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
+        <paradigm declension="cons-s" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
@@ -2720,7 +2769,14 @@
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
-        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-p" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-b" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-gcvh" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
+        <paradigm declension="cons-s" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
@@ -2846,7 +2902,14 @@
         <paradigm declension="o" case="sg-D" continues="pie them sg-D" />
         <paradigm declension="o" case="sg-Ab" continues="pit o sg-Ab" />
         <paradigm declension="o" case="sg-L" continues="pie them sg-L" />
-        <paradigm declension="cons" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-p" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-b" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-gcvh" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
+        <paradigm declension="cons-s" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
         <paradigm declension="cons-gcvh" case="sg-NV" continues="early-nom-sg cons-gcvh sg-NV" />
@@ -2979,7 +3042,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+	<paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" form="0-or-s-fused" footnote="rhotacism:sg-cons-r/n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -3113,7 +3176,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -3247,7 +3310,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -3381,7 +3444,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -3515,7 +3578,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -3649,7 +3712,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -3789,7 +3852,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -3932,7 +3995,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -4075,7 +4138,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -4218,7 +4281,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -4361,7 +4424,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -4504,7 +4567,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -4647,7 +4710,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -4790,7 +4853,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -4925,7 +4988,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -5061,7 +5124,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -5197,7 +5260,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -5333,7 +5396,7 @@
         <paradigm declension="cons-t" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-l" case="sg-n" continues="pie athem sg-n" />
         <paradigm declension="cons-m" case="sg-n" continues="pie athem sg-n" />
-        <paradigm declension="cons-n" case="sg-n" continues="pie athem sg-n" />
+        <paradigm declension="cons-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="cons-r" case="sg-n" continues="rhotacism cons-r sg-n" />
         <paradigm declension="cons-p" case="sg-NV" continues="early-nom-sg cons-p sg-NV" />
         <paradigm declension="cons-b" case="sg-NV" continues="early-nom-sg cons-b sg-NV" />
@@ -5504,7 +5567,7 @@ Not depicted: heteroclitic nouns that may inflect to more than one paradigm (<so
 	<paradigm declension="c-mf-n" case="sg-NV"  form="o:-fused-or-double-fused-or-double-fused-en" footnote="sg-c-mf-nv-n" />
         <paradigm declension="c-mf" case="sg-Ac" continues="lf-sylnas cons sg-Ac" />
         <paradigm declension="c-n--" case="sg-n" form="fused-0" footnote="sg-c-n--i" />
-	<paradigm declension="c-n-n" case="sg-n" form="double-fused-en" footnote="sg-c-n-n" />
+        <paradigm declension="c-n-n" case="sg-n" continues="lf-sylnas cons-n sg-n" />
         <paradigm declension="c-n-s" case="sg-n" form="double-fused-u(r|s)-fused-s" footnote="sg-c-n-s" />
         <paradigm declension="c-n-r" case="sg-n" form="0" footnote="sg-c-n-r" />
         <paradigm declension="c" case="sg-D" continues="ol-mono2 cons sg-D" />
@@ -5900,6 +5963,7 @@ Not depicted: heteroclitic nouns that may inflect to more than one paradigm (<so
 	<footnote id="plf-a-endings:pl-non-a/n"><source book="Sihler" /> p. 263, 317, 326; <source book="Meiser" /> p. 107, 136, 144, 146-147; <source book="KleinJosephFritz" /> p. 754, 758, 761; <source book="Weiss" /> p. 225, 246, 252</footnote>
 	<footnote id="pit+9000:pl-o/NV"><source book="Meiser" /> p. 136; <source book="Sihler" /> p. 261; <source book="KleinJosephFritz" /> p. 754; <source book="Bakkum" /> p. 128</footnote>
 	<footnote id="pit+9000:pl-a/NV"><source book="Meiser" /> p. 132; <source book="Sihler" /> p. 271; <source book="KleinJosephFritz" /> p. 756; <source book="Weiss" /> p. 235; <source book="Bakkum" /> p. 124</footnote>
+	<footnote id="lf-sylnas:sg-cons-n/n"><source book="Sihler" /> p. 297-298; <source book="Leumann" /> p. 369-372</footnote>
 	<footnote id="lf-sylnas:sg-cons/Ac"><source book="Fortson" /> p. 277; <source book="Sihler" /> p. 284</footnote>
 	<footnote id="lf-sylnas:pl-cons/Ac"><source book="Fortson" /> p. 277; <source book="Sihler" /> p. 286</footnote>
 	<footnote id="lf-iu-s-g:sg-i/G"><source book="Meiser" /> p. 139; <source book="Sihler" /> p. 316-317; <source book="Weiss" /> p. 245; <source book="KleinJosephFritz" /> p. 759</footnote>
@@ -6002,7 +6066,6 @@ Not depicted: heteroclitic nouns that may inflect to more than one paradigm (<so
 	<footnote id="cl-loss:sg-u/G"><source book="Meiser" /> p. 145; <source book="Sihler" /> p. 324; <source book="Weiss" /> p. 251; <source book="Leumann" /> p. 441-442</footnote>
 	<footnote id="cl-loss:sg-o/V"><source book="Meiser" /> p. 134; <source book="Sihler" /> p. 256; <source book="Weiss" /> p. 221; <source book="Leumann" /> p. 424</footnote>
         <footnote id="sg-c-n--i"><source book="Sihler" /> p. 284</footnote>
-        <footnote id="sg-c-n-n"><source book="Sihler" /> p. 297</footnote>
         <footnote id="sg-c-n-r"><source book="Sihler" /> p. 293, 306</footnote>
         <footnote id="sg-c-n-s"><source book="Sihler" /> p. 305-307</footnote>
         <footnote id="sg-c-mf-nv"><source book="Sihler" /> p. 283</footnote>
