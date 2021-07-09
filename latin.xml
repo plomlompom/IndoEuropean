@@ -2887,7 +2887,7 @@
 	<paradigm declension="e" case="pl-DAbL" continues="el-dabl-b e pl-DAbL" />
     </grammar_table>
     <grammar_table id="ol-o-nv-sync" title="Old Latin syncope of -os, -es, -e after -r-">
-	<description>The singular nominative and vocative endings -os and -e syncopate after -r- – certainly if -r- be post-consonantal, in which case -r- would become syllabic (-kros to -kr to -ker), but also in many cases if -r- be post-vocalic (see "puer", "vir", yet adjectives "ferus", "sincērus"). The timeline is vague, but a 500 BC inscription still has SAKROS, while post-vocalic -ros from earlier -sos via rhotacism never syncopates. Plautus has syncopated and un-syncopated forms, though the latter might be analogical restorations. A similar syncopic tendency is rarely expressed for -lo- stems (Ennius using "famul" instead of "famulus"; see <source book="Meiser" /> p. 133, <source book="Weiss" /> p. 221, <source book="Leumann" /> p. 92). Similarly, post-consonantal -ri-s in i-stems syncopates to -r, i.e. -er (Leumann p. 98; Meiser p. 73; Weiss p. 243; <source book="Sihler" /> p. 315). Furthermore, neuter -r(e|o)s-stem syncopates so that original *far(e|o)s- becomes *fars- (Sihler p. 306), assimilating (Meiser p. 116) to farr- (like genitive "farris", with the nominative simplifying the -rr-ending to "far").</description>
+	<description>The singular nominative and vocative endings -os and -e syncopate after -r- – certainly if -r- be post-consonantal, in which case -r- would become syllabic (-kros to -kr to -ker), but also in many cases if -r- be post-vocalic (see "puer", "vir", yet adjectives "ferus", "sincērus"). The timeline is vague, but a 500 BC inscription still has SAKROS, while post-vocalic -ros from earlier -sos via rhotacism never syncopates. Plautus has syncopated and un-syncopated forms, though the latter might be analogical restorations. A similar syncopic tendency is rarely expressed for -lo- stems (Ennius using "famul" instead of "famulus"; see <source book="Meiser" /> p. 133, <source book="Weiss" /> p. 221, <source book="Leumann" /> p. 92). Similarly, post-consonantal -ri-s in i-stems syncopates to -r, i.e. -er (Leumann p. 98; Meiser p. 73; Weiss p. 243; <source book="Sihler" /> p. 315). Furthermore, neuter -r(e|o)s-stem syncopates so that original *far(e|o)s- becomes *fars- (Sihler p. 306), assimilating (Meiser p. 116) to farr- (like genitive "farris", with the nominative simplifying the -rr-ending to "far"; Sihler p. 211).</description>
         <declension_def id="a" title="a-stem" short_title="a" />
         <declension_def id="non-a" title="non-a-stem">
             <declension_def id="o" title="o-stem" short_title="o" >
@@ -5658,12 +5658,8 @@
     <grammar_table id="classical" title="WIP: classical">
         <description>
 consonant locative singular in -ī is modeled in analogy to o-stems (<source book="Sihler" /> p. 285),
--rs becomes -rr becomes in final position -r (<source book="Sihler" /> p. 211),
-l-stems emerge from other stem-forms (-n-, -l/n-) (<source book="Sihler" /> p. 304),
-the -on- suffix of consonant stems is reflected as medial -in- (<source book="Sihler" /> p. 60-61, 295-296),
 Not depicted: u-stem (or rather: ū-stem) freak cases "sūs" and "grūs" (<source book="Sihler" /> p. 328).
 Not depicted: freak case "Iuppiter"/"Iovis" (<source book="Sihler" /> p. 338-339).
-Not depicted: freak case "bōs"/"bovis" (<source book="Sihler" /> p. 334-336).
 Not depicted: freak case "bōs"/"bovis" (<source book="Sihler" /> p. 334-336).
 Not depicted: i- and mixed-stem freak cases of "senex"/"senis", "urbs"/"urbis", "nox"/"noctis", and s-stem root nouns with genitive plural in -ium, and the opposite with nominative singular in -is and otherwise consonant-stem endings (<source book="Sihler" /> p. 319).
 Not depicted: kinship nouns of animate consonant stems in -r with nominative singular in -er (&lt;) (like "pater"/"patris") (<source book="Sihler" /> p. 293).
@@ -5685,7 +5681,6 @@ Not depicted: heteroclitic nouns that may inflect to more than one paradigm (<so
         <declension_def id="c" title="consonant-stem" short_title="cons.">
             <declension_def id="c-mf" title="consonant-stem">
                 <declension_def id="c-mf-d+" title="consonant stem in dental and some stems in -r formerly in -s" short_title="-(d|t)-, some -(s&gt;r)-" />
-
                 <declension_def id="c-mf-g" title="consonant stem in (former) dorsal (g, c, v, h)" short_title="-(g|c|v|h)-" />
                 <declension_def id="c-mf-rl" title="consonant stem in -r/-l" short_title="-(r|l)-" />
                 <declension_def id="c-mf-ro" title="consonant stem in -ōr" short_title="-ōr-" />
