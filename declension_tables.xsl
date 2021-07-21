@@ -48,10 +48,14 @@
                 document.documentElement.appendChild(css_picker);
                 css_picker.appendChild(document.createTextNode("table coloring: "));
                 add_coloring_button("A", "no colors", css_picker);
+                <xsl:if test="54>count(/grammar_tables/forms/form)">
                 css_picker.appendChild(document.createTextNode(" / "));
                 add_coloring_button("B", "each form one color (pattern)", css_picker);
+                </xsl:if>
                 css_picker.appendChild(document.createTextNode(" / "));
+                <xsl:if test="54>count(/grammar_tables/forms/form)">
                 document.getElementById("buttonB").style.textDecoration = "none";
+                </xsl:if>
                 add_coloring_button("C", "colored per-stage changes", css_picker);
                 document.getElementById("buttonC").style.textDecoration = "none";
                 var pickerStyle = window.getComputedStyle(css_picker, null);

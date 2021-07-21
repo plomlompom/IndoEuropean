@@ -1,4 +1,4 @@
-<!DOCTYPE html SYSTEM "about:legacy-compat">
+<!DOCTYPE html>
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
@@ -1514,10 +1514,14 @@
                 document.documentElement.appendChild(css_picker);
                 css_picker.appendChild(document.createTextNode("table coloring: "));
                 add_coloring_button("A", "no colors", css_picker);
+                
                 css_picker.appendChild(document.createTextNode(" / "));
                 add_coloring_button("B", "each form one color (pattern)", css_picker);
+                
                 css_picker.appendChild(document.createTextNode(" / "));
+                
                 document.getElementById("buttonB").style.textDecoration = "none";
+                
                 add_coloring_button("C", "colored per-stage changes", css_picker);
                 document.getElementById("buttonC").style.textDecoration = "none";
                 var pickerStyle = window.getComputedStyle(css_picker, null);
