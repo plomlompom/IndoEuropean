@@ -8,9 +8,9 @@
         <html>
             <meta charset="utf-8"/>
             <title><xsl:value-of select="@title" /></title>
-            <link id="styleA" rel="stylesheet" type="text/css" href="style_nocolors.css" title="no colors" />
+            <link id="styleC" rel="stylesheet" type="text/css" href="style_nocolors.css" title="no colors" />
             <link id="styleB" rel="alternate stylesheet" type="text/css" href="style_coloredforms.css" title="each form one color (pattern)" />
-            <link id="styleC" rel="alternate stylesheet" type="text/css" href="style_coloredchanges.css" title="colored per-stage changes" />
+            <link id="styleA" rel="alternate stylesheet" type="text/css" href="style_coloredchanges.css" title="colored per-stage changes" />
             <h1><xsl:value-of select="@title" /></h1>
             <p>
                 <xsl:apply-templates select="description" mode="source" />
