@@ -17899,11 +17899,9 @@
                     button.style.textDecoration = "underline";
                     button.onclick = function() {
                         document.getElementById("styleA").disabled = true;
-                        document.getElementById("styleB").disabled = true;
                         document.getElementById("styleC").disabled = true;
                         document.getElementById("style" + color_char).disabled = false;
                         document.getElementById("buttonA").style.textDecoration = "none";
-                        document.getElementById("buttonB").style.textDecoration = "none";
                         document.getElementById("buttonC").style.textDecoration = "none";
                         document.getElementById("button" + color_char).style.textDecoration = "underline";
                     };
@@ -17920,9 +17918,7 @@
                 document.documentElement.appendChild(css_picker);
                 css_picker.appendChild(document.createTextNode("table coloring: "));
                 add_coloring_button("A", "no colors", css_picker);
-                
                 css_picker.appendChild(document.createTextNode(" / "));
-                
                 add_coloring_button("C", "colored per-stage changes", css_picker);
                 document.getElementById("buttonC").style.textDecoration = "none";
                 var pickerStyle = window.getComputedStyle(css_picker, null);
